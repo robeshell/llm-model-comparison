@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T15:16:51.705Z",
+  "updatedAt": "2026-09-07T04:00:57.615Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -16,6 +16,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-fable-5-1-xhigh",
+      "name": "Claude Fable 5.1 (xhigh with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 56.2440953839192,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra (max)",
       "provider": "OpenAI",
@@ -26,6 +39,19 @@
       "intelligenceIndex": 54.6573323423926,
       "isOpenWeights": false,
       "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-fable-5-1-high",
+      "name": "Claude Fable 5.1 (high with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 54.455549030173,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -52,19 +78,6 @@
       "intelligenceIndex": 54.0539443539342,
       "isOpenWeights": false,
       "releaseDate": "2026-07-24",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-fable-5-1-xhigh",
-      "name": "Claude Fable 5.1 (xhigh with fallback)",
-      "provider": "Anthropic",
-      "creatorLogo": "anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 53.8031695908873,
-      "isOpenWeights": false,
-      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -120,6 +133,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-fable-5-1-medium",
+      "name": "Claude Fable 5.1 (medium with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 52.7647845522598,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-astra-medium",
       "name": "GPT-6 Astra (medium)",
       "provider": "OpenAI",
@@ -143,19 +169,6 @@
       "intelligenceIndex": 52.0304414837434,
       "isOpenWeights": false,
       "releaseDate": "2026-07-24",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-fable-5-1-high",
-      "name": "Claude Fable 5.1 (high with fallback)",
-      "provider": "Anthropic",
-      "creatorLogo": "anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 51.6714916304855,
-      "isOpenWeights": false,
-      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -185,6 +198,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-fable-5-1-low",
+      "name": "Claude Fable 5.1 (low with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 50.9066441310147,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-01",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "grok-4-6",
       "name": "Grok 4.6 (high)",
       "provider": "SpaceXAI",
@@ -211,16 +237,16 @@
       "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K3"
     },
     {
-      "id": "claude-fable-5-1-medium",
-      "name": "Claude Fable 5.1 (medium with fallback)",
-      "provider": "Anthropic",
-      "creatorLogo": "anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 49.8746761108501,
+      "id": "grok-4-6-xhigh",
+      "name": "Grok 4.6 (xhigh)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 49.9161668826817,
       "isOpenWeights": false,
-      "releaseDate": "2026-09-01",
+      "releaseDate": "2026-08-12",
       "huggingFaceUrl": null
     },
     {
@@ -250,19 +276,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "grok-4-6-xhigh",
-      "name": "Grok 4.6 (xhigh)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "spacexai.svg",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "intelligenceIndex": 49.3393938298214,
-      "isOpenWeights": false,
-      "releaseDate": "2026-08-12",
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-6-astra-low",
       "name": "GPT-6 Astra (low)",
       "provider": "OpenAI",
@@ -273,6 +286,19 @@
       "intelligenceIndex": 49.3199050865629,
       "isOpenWeights": false,
       "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "grok-4-6-medium",
+      "name": "Grok 4.6 (medium)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 48.8471139907434,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-12",
       "huggingFaceUrl": null
     },
     {
@@ -287,19 +313,6 @@
       "isOpenWeights": true,
       "releaseDate": "2026-08-18",
       "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.3"
-    },
-    {
-      "id": "grok-4-6-medium",
-      "name": "Grok 4.6 (medium)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "spacexai.svg",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "intelligenceIndex": 48.3903760602824,
-      "isOpenWeights": false,
-      "releaseDate": "2026-08-12",
-      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-sol-high",
@@ -325,19 +338,6 @@
       "intelligenceIndex": 47.8462356691364,
       "isOpenWeights": false,
       "releaseDate": "2026-09-03",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-fable-5-1-low",
-      "name": "Claude Fable 5.1 (low with fallback)",
-      "provider": "Anthropic",
-      "creatorLogo": "anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 47.77680274381,
-      "isOpenWeights": false,
-      "releaseDate": "2026-09-01",
       "huggingFaceUrl": null
     },
     {
@@ -549,32 +549,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "glm-5-2",
-      "name": "GLM-5.2 (max)",
-      "provider": "Z AI",
-      "creatorLogo": "zai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.4,
-      "outputPerMillion": 4.4,
-      "intelligenceIndex": 42.5399256126965,
-      "isOpenWeights": true,
-      "releaseDate": "2026-06-16",
-      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.2"
-    },
-    {
-      "id": "gemini-3-8-flash-low",
-      "name": "Gemini 3.8 Flash (low)",
-      "provider": "Google",
-      "creatorLogo": "google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 3.75,
-      "intelligenceIndex": 42.3702394141345,
-      "isOpenWeights": false,
-      "releaseDate": "2026-09-02",
-      "huggingFaceUrl": null
-    },
-    {
       "id": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro 0813 (max)",
       "provider": "DeepSeek",
@@ -588,6 +562,19 @@
       "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
     },
     {
+      "id": "glm-5-2",
+      "name": "GLM-5.2 (max)",
+      "provider": "Z AI",
+      "creatorLogo": "zai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1.4,
+      "outputPerMillion": 4.4,
+      "intelligenceIndex": 42.0811692114129,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-16",
+      "huggingFaceUrl": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    {
       "id": "grok-4-6-low",
       "name": "Grok 4.6 (low)",
       "provider": "SpaceXAI",
@@ -595,7 +582,7 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 41.7977987447331,
+      "intelligenceIndex": 41.6074013981571,
       "isOpenWeights": false,
       "releaseDate": "2026-08-12",
       "huggingFaceUrl": null
@@ -611,19 +598,6 @@
       "intelligenceIndex": 41.5752269630656,
       "isOpenWeights": false,
       "releaseDate": "2026-07-09",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "deepseek-v4-flash-vision",
-      "name": "DeepSeek V4 Flash Vision (max)",
-      "provider": "DeepSeek",
-      "creatorLogo": "deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.44,
-      "outputPerMillion": 1.32,
-      "intelligenceIndex": 41.5421141494258,
-      "isOpenWeights": false,
-      "releaseDate": "2026-08-21",
       "huggingFaceUrl": null
     },
     {
@@ -666,6 +640,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gemini-3-8-flash-low",
+      "name": "Gemini 3.8 Flash (low)",
+      "provider": "Google",
+      "creatorLogo": "google_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 3.75,
+      "intelligenceIndex": 40.9508399850751,
+      "isOpenWeights": false,
+      "releaseDate": "2026-09-02",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-6-sol-low",
       "name": "GPT-5.6 Sol (low)",
       "provider": "OpenAI",
@@ -692,6 +679,19 @@
       "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
     },
     {
+      "id": "deepseek-v4-flash-vision",
+      "name": "DeepSeek V4 Flash Vision (max)",
+      "provider": "DeepSeek",
+      "creatorLogo": "deepseek_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.44,
+      "outputPerMillion": 1.32,
+      "intelligenceIndex": 40.6857998002609,
+      "isOpenWeights": false,
+      "releaseDate": "2026-08-21",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemini-3-6-flash",
       "name": "Gemini 3.6 Flash",
       "provider": "Google",
@@ -716,19 +716,6 @@
       "isOpenWeights": false,
       "releaseDate": "2026-08-26",
       "huggingFaceUrl": null
-    },
-    {
-      "id": "kimi-k3-low",
-      "name": "Kimi K3 (low)",
-      "provider": "Kimi",
-      "creatorLogo": "kimi.jpg",
-      "contextLength": 1048576,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "intelligenceIndex": 38.8112888101035,
-      "isOpenWeights": true,
-      "releaseDate": "2026-07-16",
-      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K3"
     },
     {
       "id": "gemini-3-5-flash-medium",
@@ -770,6 +757,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "kimi-k3-low",
+      "name": "Kimi K3 (low)",
+      "provider": "Kimi",
+      "creatorLogo": "kimi.jpg",
+      "contextLength": 1048576,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 37.1023819670112,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-16",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K3"
+    },
+    {
       "id": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex (xhigh)",
       "provider": "OpenAI",
@@ -794,19 +794,6 @@
       "isOpenWeights": false,
       "releaseDate": "2026-02-19",
       "huggingFaceUrl": null
-    },
-    {
-      "id": "deepseek-v4-pro-0424",
-      "name": "DeepSeek V4 Pro (max)",
-      "provider": "DeepSeek",
-      "creatorLogo": "deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.435,
-      "outputPerMillion": 0.87,
-      "intelligenceIndex": 35.752264605813,
-      "isOpenWeights": true,
-      "releaseDate": "2026-04-24",
-      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
     {
       "id": "minimax-m3",
@@ -861,6 +848,19 @@
       "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
     {
+      "id": "deepseek-v4-pro-0424",
+      "name": "DeepSeek V4 Pro (max)",
+      "provider": "DeepSeek",
+      "creatorLogo": "deepseek_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.435,
+      "outputPerMillion": 0.87,
+      "intelligenceIndex": 34.5458284093865,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-24",
+      "huggingFaceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    {
       "id": "quasar-438b",
       "name": "Quasar 438B (max)",
       "provider": "Multiverse Computing",
@@ -868,7 +868,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.6,
       "outputPerMillion": 1.8,
-      "intelligenceIndex": 33.9250344264797,
+      "intelligenceIndex": 34.2182002221041,
       "isOpenWeights": false,
       "releaseDate": "2026-08-10",
       "huggingFaceUrl": null
@@ -911,19 +911,6 @@
       "isOpenWeights": false,
       "releaseDate": "2026-06-30",
       "huggingFaceUrl": null
-    },
-    {
-      "id": "hy3",
-      "name": "Hy3",
-      "provider": "Tencent",
-      "creatorLogo": "tencent_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.136,
-      "outputPerMillion": 0.554,
-      "intelligenceIndex": 33.2451220391876,
-      "isOpenWeights": true,
-      "releaseDate": "2026-07-06",
-      "huggingFaceUrl": "https://huggingface.co/tencent/Hy3"
     },
     {
       "id": "gpt-5-6-sol-non-reasoning",
@@ -978,6 +965,19 @@
       "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
     },
     {
+      "id": "hy3",
+      "name": "Hy3",
+      "provider": "Tencent",
+      "creatorLogo": "tencent_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.136,
+      "outputPerMillion": 0.554,
+      "intelligenceIndex": 32.4074185665438,
+      "isOpenWeights": true,
+      "releaseDate": "2026-07-06",
+      "huggingFaceUrl": "https://huggingface.co/tencent/Hy3"
+    },
+    {
       "id": "gpt-5-6-terra-low",
       "name": "GPT-5.6 Terra (low)",
       "provider": "OpenAI",
@@ -998,7 +998,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 32.2963924499236,
+      "intelligenceIndex": 32.2275242718466,
       "isOpenWeights": true,
       "releaseDate": "2026-07-30",
       "huggingFaceUrl": "https://huggingface.co/thinkingmachines/Inkling-Small"
@@ -1017,6 +1017,19 @@
       "huggingFaceUrl": "https://huggingface.co/thinkingmachines/Inkling"
     },
     {
+      "id": "qwen3-7-plus",
+      "name": "Qwen3.7 Plus",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.4,
+      "outputPerMillion": 1.6,
+      "intelligenceIndex": 31.8583330058391,
+      "isOpenWeights": false,
+      "releaseDate": "2026-06-01",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "agnes-2-5-pro-alpha",
       "name": "Agnes 2.5 Pro Alpha",
       "provider": "Sapiens AI",
@@ -1028,19 +1041,6 @@
       "isOpenWeights": true,
       "releaseDate": "2026-07-24",
       "huggingFaceUrl": "https://huggingface.co/Agnes-AI/Agnes-2.5-Pro-Alpha"
-    },
-    {
-      "id": "qwen3-7-plus",
-      "name": "Qwen3.7 Plus",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.4,
-      "outputPerMillion": 1.6,
-      "intelligenceIndex": 30.8083865582658,
-      "isOpenWeights": false,
-      "releaseDate": "2026-06-01",
-      "huggingFaceUrl": null
     },
     {
       "id": "gpt-5-6-luna-medium",
@@ -1056,19 +1056,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "nvidia-nemotron-3-ultra-550b-a55b",
-      "name": "Nemotron 3 Ultra",
-      "provider": "NVIDIA",
-      "creatorLogo": "nvidia_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.6,
-      "outputPerMillion": 2.6,
-      "intelligenceIndex": 29.5512201741193,
-      "isOpenWeights": true,
-      "releaseDate": "2026-06-04",
-      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
-    },
-    {
       "id": "mimo-v2-5-0424",
       "name": "MiMo-V2.5",
       "provider": "Xiaomi",
@@ -1080,6 +1067,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-04-22",
       "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
+    },
+    {
+      "id": "nvidia-nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra",
+      "provider": "NVIDIA",
+      "creatorLogo": "nvidia_small.svg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.6,
+      "outputPerMillion": 2.6,
+      "intelligenceIndex": 29.3344634478529,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-04",
+      "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
     },
     {
       "id": "grok-4-3-medium",
@@ -2148,6 +2148,19 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
     },
     {
+      "id": "celeris-1",
+      "name": "Celeris-1",
+      "provider": "Celeris",
+      "creatorLogo": "celeris.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 0.7,
+      "intelligenceIndex": 7.64563496873197,
+      "isOpenWeights": false,
+      "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemma-4-12b-non-reasoning",
       "name": "Gemma 4 12B (Non-reasoning)",
       "provider": "Google",
@@ -2211,19 +2224,6 @@
       "isOpenWeights": true,
       "releaseDate": "2026-04-03",
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E4B-it"
-    },
-    {
-      "id": "celeris-1",
-      "name": "Celeris-1",
-      "provider": "Celeris",
-      "creatorLogo": "celeris.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 0.7,
-      "intelligenceIndex": 6.25795322458302,
-      "isOpenWeights": false,
-      "releaseDate": "2026-07-24",
-      "huggingFaceUrl": null
     },
     {
       "id": "sarvam-105b",
