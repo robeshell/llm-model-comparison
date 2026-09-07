@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T04:00:57.615Z",
+  "updatedAt": "2026-09-07T17:38:26.400Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -874,19 +874,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "kimi-k2-7-code",
-      "name": "Kimi K2.7 Code",
-      "provider": "Kimi",
-      "creatorLogo": "kimi.jpg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.95,
-      "outputPerMillion": 4,
-      "intelligenceIndex": 33.8552519144942,
-      "isOpenWeights": true,
-      "releaseDate": "2026-06-12",
-      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
-    },
-    {
       "id": "qwen3-8-27b-low",
       "name": "Qwen3.8 27B (low)",
       "provider": "Alibaba",
@@ -937,6 +924,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-06-02",
       "huggingFaceUrl": "https://huggingface.co/nex-agi/Nex-N2-Pro"
+    },
+    {
+      "id": "kimi-k2-7-code",
+      "name": "Kimi K2.7 Code",
+      "provider": "Kimi",
+      "creatorLogo": "kimi.jpg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.95,
+      "outputPerMillion": 4,
+      "intelligenceIndex": 32.722913220471,
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-12",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
     },
     {
       "id": "solar-pro4",
@@ -1056,19 +1056,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "mimo-v2-5-0424",
-      "name": "MiMo-V2.5",
-      "provider": "Xiaomi",
-      "creatorLogo": "xiaomi_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.28,
-      "intelligenceIndex": 29.5309926962183,
-      "isOpenWeights": true,
-      "releaseDate": "2026-04-22",
-      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
-    },
-    {
       "id": "nvidia-nemotron-3-ultra-550b-a55b",
       "name": "Nemotron 3 Ultra",
       "provider": "NVIDIA",
@@ -1119,6 +1106,19 @@
       "isOpenWeights": false,
       "releaseDate": "2026-04-30",
       "huggingFaceUrl": null
+    },
+    {
+      "id": "mimo-v2-5-0424",
+      "name": "MiMo-V2.5",
+      "provider": "Xiaomi",
+      "creatorLogo": "xiaomi_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.14,
+      "outputPerMillion": 0.28,
+      "intelligenceIndex": 28.2032231522167,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
     },
     {
       "id": "gemini-3-5-flash-minimal",
@@ -1745,19 +1745,6 @@
       "huggingFaceUrl": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker"
     },
     {
-      "id": "qwen3-coder-next",
-      "name": "Qwen3 Coder Next",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.35,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 14.3438161578236,
-      "isOpenWeights": true,
-      "releaseDate": "2026-02-03",
-      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
-    },
-    {
       "id": "nova-2-0-lite-reasoning",
       "name": "Nova 2.0 Lite (high)",
       "provider": "Amazon",
@@ -1782,6 +1769,19 @@
       "isOpenWeights": true,
       "releaseDate": "2026-03-02",
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
+    },
+    {
+      "id": "qwen3-coder-next",
+      "name": "Qwen3 Coder Next",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.35,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 14.1026702349474,
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-03",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
     },
     {
       "id": "granite-4-2-8b",
@@ -1849,6 +1849,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "trinity-large-thinking",
+      "name": "Trinity Large Thinking",
+      "provider": "Arcee AI",
+      "creatorLogo": "arcee_small.svg",
+      "contextLength": 512000,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.9,
+      "intelligenceIndex": 13.130176258675,
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-01",
+      "huggingFaceUrl": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
+    },
+    {
       "id": "nova-2-0-lite-reasoning-medium",
       "name": "Nova 2.0 Lite (medium)",
       "provider": "Amazon",
@@ -1901,19 +1914,6 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
     },
     {
-      "id": "trinity-large-thinking",
-      "name": "Trinity Large Thinking",
-      "provider": "Arcee AI",
-      "creatorLogo": "arcee_small.svg",
-      "contextLength": 512000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.9,
-      "intelligenceIndex": 11.9816540827048,
-      "isOpenWeights": true,
-      "releaseDate": "2026-04-01",
-      "huggingFaceUrl": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
-    },
-    {
       "id": "nova-2-0-lite-reasoning-low",
       "name": "Nova 2.0 Lite (low)",
       "provider": "Amazon",
@@ -1925,6 +1925,19 @@
       "isOpenWeights": false,
       "releaseDate": "2025-10-29",
       "huggingFaceUrl": null
+    },
+    {
+      "id": "devstral-small-2",
+      "name": "Devstral Small 2",
+      "provider": "Mistral",
+      "creatorLogo": "mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 11.7109106593282,
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-09",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
     },
     {
       "id": "hypernova-60b",
@@ -1940,19 +1953,6 @@
       "huggingFaceUrl": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605"
     },
     {
-      "id": "devstral-small-2",
-      "name": "Devstral Small 2",
-      "provider": "Mistral",
-      "creatorLogo": "mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 11.1597059704392,
-      "isOpenWeights": true,
-      "releaseDate": "2025-12-09",
-      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
-    },
-    {
       "id": "mistral-large-3",
       "name": "Mistral Large 3",
       "provider": "Mistral",
@@ -1964,6 +1964,19 @@
       "isOpenWeights": true,
       "releaseDate": "2025-12-02",
       "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "gpt-oss-20b (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.060000000000000005,
+      "outputPerMillion": 0.19,
+      "intelligenceIndex": 10.7765945866892,
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
     },
     {
       "id": "granite-4-2-3b",
@@ -2005,6 +2018,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "creatorLogo": "meta_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.26,
+      "outputPerMillion": 0.9099999999999999,
+      "intelligenceIndex": 10.260501144731,
+      "isOpenWeights": true,
+      "releaseDate": "2025-04-05",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    },
+    {
       "id": "g9v3-3b",
       "name": "G9v3-3B",
       "provider": "AI9Stars",
@@ -2031,17 +2057,17 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
     },
     {
-      "id": "gpt-oss-20b",
-      "name": "gpt-oss-20b (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.060000000000000005,
-      "outputPerMillion": 0.19,
-      "intelligenceIndex": 9.13652335490209,
-      "isOpenWeights": true,
-      "releaseDate": "2025-08-05",
-      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
+      "id": "solar-pro-3",
+      "name": "Solar Pro 3",
+      "provider": "Upstage",
+      "creatorLogo": "upstage_small.svg",
+      "contextLength": 128000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
+      "intelligenceIndex": 9.42214188739726,
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-06",
+      "huggingFaceUrl": null
     },
     {
       "id": "nemotron-3-nano-omni-30b-a3b",
@@ -2081,32 +2107,6 @@
       "isOpenWeights": true,
       "releaseDate": "2025-12-15",
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
-    },
-    {
-      "id": "solar-pro-3",
-      "name": "Solar Pro 3",
-      "provider": "Upstage",
-      "creatorLogo": "upstage_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "intelligenceIndex": 8.52585630476336,
-      "isOpenWeights": false,
-      "releaseDate": "2026-04-06",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "llama-4-maverick",
-      "name": "Llama 4 Maverick",
-      "provider": "Meta",
-      "creatorLogo": "meta_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.26,
-      "outputPerMillion": 0.9099999999999999,
-      "intelligenceIndex": 8.51054744073748,
-      "isOpenWeights": true,
-      "releaseDate": "2025-04-05",
-      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
     },
     {
       "id": "nova-2-0-pro",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T04:00:58.611Z",
+  "updatedAt": "2026-09-07T17:38:27.002Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1474,27 +1474,6 @@
     },
     {
       "rank": 71,
-      "name": "Kimi K2.7 Code",
-      "shortName": "Kimi K2.7 Code",
-      "creator": "Kimi",
-      "creatorSlug": "kimi",
-      "creatorLogo": "kimi.jpg",
-      "intelligenceIndex": 33.8552519144942,
-      "codingIndex": 60.761721459287,
-      "agenticIndex": null,
-      "gpqa": 0.895959595959596,
-      "hle": 0.35032437442076,
-      "scicode": 0.478009259259259,
-      "terminalbench": 0.674157303370786,
-      "lcr": 0.793333333333333,
-      "isReasoning": true,
-      "slug": "kimi-k2-7-code",
-      "isOpenWeights": true,
-      "releaseDate": "2026-06-12",
-      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
-    },
-    {
-      "rank": 72,
       "name": "Qwen3.8 27B (low)",
       "shortName": "Qwen3.8 27B (low)",
       "creator": "Alibaba",
@@ -1515,7 +1494,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.8-27B"
     },
     {
-      "rank": 73,
+      "rank": 72,
       "name": "Claude Sonnet 5 (Non-reasoning, High Effort)",
       "shortName": "Claude Sonnet 5 (Non-reasoning)",
       "creator": "Anthropic",
@@ -1536,7 +1515,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 74,
+      "rank": 73,
       "name": "GPT-5.6 Sol (Non-reasoning)",
       "shortName": "GPT-5.6 Sol (Non-reasoning)",
       "creator": "OpenAI",
@@ -1557,7 +1536,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 75,
+      "rank": 74,
       "name": "Nex-N2-Pro",
       "shortName": "Nex-N2-Pro",
       "creator": "Nex AGI",
@@ -1576,6 +1555,27 @@
       "isOpenWeights": true,
       "releaseDate": "2026-06-02",
       "huggingFaceUrl": "https://huggingface.co/nex-agi/Nex-N2-Pro"
+    },
+    {
+      "rank": 75,
+      "name": "Kimi K2.7 Code",
+      "shortName": "Kimi K2.7 Code",
+      "creator": "Kimi",
+      "creatorSlug": "kimi",
+      "creatorLogo": "kimi.jpg",
+      "intelligenceIndex": 32.722913220471,
+      "codingIndex": 60.761721459287,
+      "agenticIndex": 22.5784475945017,
+      "gpqa": 0.895959595959596,
+      "hle": 0.35032437442076,
+      "scicode": 0.478009259259259,
+      "terminalbench": 0.674157303370786,
+      "lcr": 0.793333333333333,
+      "isReasoning": true,
+      "slug": "kimi-k2-7-code",
+      "isOpenWeights": true,
+      "releaseDate": "2026-06-12",
+      "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
     },
     {
       "rank": 76,
@@ -1754,7 +1754,7 @@
       "creatorLogo": "sapiens.svg",
       "intelligenceIndex": 31.2481633054902,
       "codingIndex": 58.7759224580386,
-      "agenticIndex": null,
+      "agenticIndex": 29.4719390034364,
       "gpqa": 0.875757575757576,
       "hle": 0.33595922150139,
       "scicode": 0.429398148148148,
@@ -1778,7 +1778,7 @@
       "agenticIndex": 25.4915764604811,
       "gpqa": 0.858585858585859,
       "hle": 0.257645968489342,
-      "scicode": null,
+      "scicode": 0.467592592592593,
       "terminalbench": 0.531835205992509,
       "lcr": 0.75,
       "isReasoning": true,
@@ -1789,27 +1789,6 @@
     },
     {
       "rank": 86,
-      "name": "MiMo-V2.5",
-      "shortName": "MiMo-V2.5",
-      "creator": "Xiaomi",
-      "creatorSlug": "xiaomi",
-      "creatorLogo": "xiaomi_small.svg",
-      "intelligenceIndex": 29.5309926962183,
-      "codingIndex": 56.7987931751977,
-      "agenticIndex": 17.4322156357388,
-      "gpqa": 0.84949494949495,
-      "hle": 0.272011121408712,
-      "scicode": 0.438657407407407,
-      "terminalbench": 0.636704119850187,
-      "lcr": 0.73,
-      "isReasoning": true,
-      "slug": "mimo-v2-5-0424",
-      "isOpenWeights": true,
-      "releaseDate": "2026-04-22",
-      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
-    },
-    {
-      "rank": 87,
       "name": "MiMo-V2-Omni-0327",
       "shortName": "MiMo-V2-Omni-0327",
       "creator": "Xiaomi",
@@ -1830,7 +1809,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 88,
+      "rank": 87,
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "shortName": "Nemotron 3 Ultra",
       "creator": "NVIDIA",
@@ -1851,7 +1830,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
     },
     {
-      "rank": 89,
+      "rank": 88,
       "name": "Grok 4.3 (medium)",
       "shortName": "Grok 4.3 (medium)",
       "creator": "SpaceXAI",
@@ -1872,7 +1851,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 90,
+      "rank": 89,
       "name": "Solar Open2 250B",
       "shortName": "Solar Open2 250B",
       "creator": "Upstage",
@@ -1893,7 +1872,7 @@
       "huggingFaceUrl": "https://huggingface.co/upstage/Solar-Open2-250B"
     },
     {
-      "rank": 91,
+      "rank": 90,
       "name": "Qwen3.6 27B (Reasoning)",
       "shortName": "Qwen3.6 27B",
       "creator": "Alibaba",
@@ -1914,7 +1893,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.6-27B"
     },
     {
-      "rank": 92,
+      "rank": 91,
       "name": "Grok 4.3 (low)",
       "shortName": "Grok 4.3 (low)",
       "creator": "SpaceXAI",
@@ -1933,6 +1912,27 @@
       "isOpenWeights": false,
       "releaseDate": "2026-04-30",
       "huggingFaceUrl": null
+    },
+    {
+      "rank": 92,
+      "name": "MiMo-V2.5",
+      "shortName": "MiMo-V2.5",
+      "creator": "Xiaomi",
+      "creatorSlug": "xiaomi",
+      "creatorLogo": "xiaomi_small.svg",
+      "intelligenceIndex": 28.2032231522167,
+      "codingIndex": 56.7987931751977,
+      "agenticIndex": 17.4322156357388,
+      "gpqa": 0.84949494949495,
+      "hle": 0.272011121408712,
+      "scicode": 0.438657407407407,
+      "terminalbench": 0.636704119850187,
+      "lcr": 0.73,
+      "isReasoning": true,
+      "slug": "mimo-v2-5-0424",
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-22",
+      "huggingFaceUrl": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
     },
     {
       "rank": 93,
@@ -2153,7 +2153,7 @@
       "creatorLogo": "alibaba_small.svg",
       "intelligenceIndex": 26.2072276,
       "codingIndex": 41.8838431127757,
-      "agenticIndex": null,
+      "agenticIndex": 15.0891417525773,
       "gpqa": 0.841414141414142,
       "hle": 0.222428174235403,
       "scicode": null,
@@ -2384,7 +2384,7 @@
       "creatorLogo": "inclusionai_small.jpg",
       "intelligenceIndex": 23.7361933938445,
       "codingIndex": 42.8344777361631,
-      "agenticIndex": null,
+      "agenticIndex": 12.9934407216495,
       "gpqa": 0.856565656565657,
       "hle": 0.215940685820204,
       "scicode": null,
@@ -3049,6 +3049,27 @@
     },
     {
       "rank": 146,
+      "name": "MiniCPM5-2B",
+      "shortName": "MiniCPM5-2B",
+      "creator": "OpenBMB",
+      "creatorSlug": "openbmb",
+      "creatorLogo": "openbmb_small.svg",
+      "intelligenceIndex": 14.9677351270597,
+      "codingIndex": 14.5005375225413,
+      "agenticIndex": 9.01095704467353,
+      "gpqa": 0.702020202020202,
+      "hle": 0.0894346617238184,
+      "scicode": 0.262731481481481,
+      "terminalbench": 0.0861423220973783,
+      "lcr": 0.593333333333333,
+      "isReasoning": true,
+      "slug": "minicpm5-2b",
+      "isOpenWeights": true,
+      "releaseDate": "2026-09-07",
+      "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B"
+    },
+    {
+      "rank": 147,
       "name": "Mercury 2",
       "shortName": "Mercury 2",
       "creator": "Inception",
@@ -3069,7 +3090,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "Qwen3.5 9B (Reasoning)",
       "shortName": "Qwen3.5 9B",
       "creator": "Alibaba",
@@ -3090,7 +3111,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
     },
     {
-      "rank": 148,
+      "rank": 149,
       "name": "Nova 2.0 Omni (medium)",
       "shortName": "Nova 2.0 Omni (medium)",
       "creator": "Amazon",
@@ -3111,7 +3132,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 149,
+      "rank": 150,
       "name": "Apriel-v1.6-15B-Thinker",
       "shortName": "Apriel-v1.6-15B-Thinker",
       "creator": "ServiceNow",
@@ -3130,27 +3151,6 @@
       "isOpenWeights": true,
       "releaseDate": "2025-11-25",
       "huggingFaceUrl": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker"
-    },
-    {
-      "rank": 150,
-      "name": "Qwen3 Coder Next",
-      "shortName": "Qwen3 Coder Next",
-      "creator": "Alibaba",
-      "creatorSlug": "alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "intelligenceIndex": 14.3438161578236,
-      "codingIndex": 36.2320536828964,
-      "agenticIndex": 3.67963745704467,
-      "gpqa": 0.737373737373737,
-      "hle": 0.101482854494903,
-      "scicode": null,
-      "terminalbench": 0.382022471910112,
-      "lcr": 0.47,
-      "isReasoning": false,
-      "slug": "qwen3-coder-next",
-      "isOpenWeights": true,
-      "releaseDate": "2026-02-03",
-      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
     },
     {
       "rank": 151,
@@ -3196,6 +3196,27 @@
     },
     {
       "rank": 153,
+      "name": "Qwen3 Coder Next",
+      "shortName": "Qwen3 Coder Next",
+      "creator": "Alibaba",
+      "creatorSlug": "alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "intelligenceIndex": 14.1026702349474,
+      "codingIndex": 36.2320536828964,
+      "agenticIndex": 3.67963745704467,
+      "gpqa": 0.737373737373737,
+      "hle": 0.101482854494903,
+      "scicode": 0.362268518518519,
+      "terminalbench": 0.382022471910112,
+      "lcr": 0.47,
+      "isReasoning": false,
+      "slug": "qwen3-coder-next",
+      "isOpenWeights": true,
+      "releaseDate": "2026-02-03",
+      "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+    },
+    {
+      "rank": 154,
       "name": "EXAONE 4.5 33B",
       "shortName": "EXAONE 4.5 33B",
       "creator": "LG AI Research",
@@ -3216,7 +3237,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Granite 4.2 8B",
       "shortName": "Granite 4.2 8B",
       "creator": "IBM",
@@ -3237,7 +3258,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-8b"
     },
     {
-      "rank": 155,
+      "rank": 156,
       "name": "Gemma 4 26B A4B (Non-reasoning)",
       "shortName": "Gemma 4 26B A4B (Non-reasoning)",
       "creator": "Google",
@@ -3258,7 +3279,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-26B-A4B-it"
     },
     {
-      "rank": 156,
+      "rank": 157,
       "name": "Qwen3.5 4B (Reasoning)",
       "shortName": "Qwen3.5 4B",
       "creator": "Alibaba",
@@ -3279,7 +3300,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "North Mini Code",
       "shortName": "North Mini Code",
       "creator": "Cohere",
@@ -3300,7 +3321,7 @@
       "huggingFaceUrl": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
     },
     {
-      "rank": 158,
+      "rank": 159,
       "name": "Nova 2.0 Pro Preview (low)",
       "shortName": "Nova 2.0 Pro Preview (low)",
       "creator": "Amazon",
@@ -3321,7 +3342,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 159,
+      "rank": 160,
+      "name": "Trinity Large Thinking",
+      "shortName": "Trinity Large Thinking",
+      "creator": "Arcee AI",
+      "creatorSlug": "arcee",
+      "creatorLogo": "arcee_small.svg",
+      "intelligenceIndex": 13.130176258675,
+      "codingIndex": 25.7698709945901,
+      "agenticIndex": 1.20619931271478,
+      "gpqa": 0.751515151515151,
+      "hle": 0.158480074142725,
+      "scicode": 0.40625,
+      "terminalbench": 0.205992509363296,
+      "lcr": 0.38,
+      "isReasoning": true,
+      "slug": "trinity-large-thinking",
+      "isOpenWeights": true,
+      "releaseDate": "2026-04-01",
+      "huggingFaceUrl": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
+    },
+    {
+      "rank": 161,
       "name": "Nova 2.0 Lite (medium)",
       "shortName": "Nova 2.0 Lite (medium)",
       "creator": "Amazon",
@@ -3342,7 +3384,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 160,
+      "rank": 162,
       "name": "Qwen3.5 Omni Flash",
       "shortName": "Qwen3.5 Omni Flash",
       "creator": "Alibaba",
@@ -3363,7 +3405,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 161,
+      "rank": 163,
       "name": "Mistral Small 4 (Reasoning)",
       "shortName": "Mistral Small 4",
       "creator": "Mistral",
@@ -3384,7 +3426,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
     },
     {
-      "rank": 162,
+      "rank": 164,
       "name": "Devstral 2",
       "shortName": "Devstral 2",
       "creator": "Mistral",
@@ -3392,7 +3434,7 @@
       "creatorLogo": "mistral_small.png",
       "intelligenceIndex": 12.664753129049,
       "codingIndex": 31.2586697184075,
-      "agenticIndex": null,
+      "agenticIndex": 4.93757731958763,
       "gpqa": 0.593939393939394,
       "hle": 0.0356811862835959,
       "scicode": null,
@@ -3405,7 +3447,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
     },
     {
-      "rank": 163,
+      "rank": 165,
       "name": "JT-MINI",
       "shortName": "JT-MINI",
       "creator": "China Mobile",
@@ -3426,28 +3468,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 164,
-      "name": "Trinity Large Thinking",
-      "shortName": "Trinity Large Thinking",
-      "creator": "Arcee AI",
-      "creatorSlug": "arcee",
-      "creatorLogo": "arcee_small.svg",
-      "intelligenceIndex": 11.9816540827048,
-      "codingIndex": 25.7698709945901,
-      "agenticIndex": 1.20619931271478,
-      "gpqa": 0.751515151515151,
-      "hle": 0.158480074142725,
-      "scicode": null,
-      "terminalbench": 0.205992509363296,
-      "lcr": 0.38,
-      "isReasoning": true,
-      "slug": "trinity-large-thinking",
-      "isOpenWeights": true,
-      "releaseDate": "2026-04-01",
-      "huggingFaceUrl": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking"
-    },
-    {
-      "rank": 165,
+      "rank": 166,
       "name": "Magistral Medium 1.2",
       "shortName": "Magistral Medium 1.2",
       "creator": "Mistral",
@@ -3468,7 +3489,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 166,
+      "rank": 167,
       "name": "Nova 2.0 Lite (low)",
       "shortName": "Nova 2.0 Lite (low)",
       "creator": "Amazon",
@@ -3489,7 +3510,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 167,
+      "rank": 168,
+      "name": "Devstral Small 2",
+      "shortName": "Devstral Small 2",
+      "creator": "Mistral",
+      "creatorSlug": "mistral",
+      "creatorLogo": "mistral_small.png",
+      "intelligenceIndex": 11.7109106593282,
+      "codingIndex": 29.3318248023304,
+      "agenticIndex": 4.82810824742268,
+      "gpqa": 0.532323232323232,
+      "hle": 0.0347544022242817,
+      "scicode": 0.324074074074074,
+      "terminalbench": 0.295880149812734,
+      "lcr": 0.28,
+      "isReasoning": false,
+      "slug": "devstral-small-2",
+      "isOpenWeights": true,
+      "releaseDate": "2025-12-09",
+      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+    },
+    {
+      "rank": 169,
       "name": "HyperNova 60B 2605 (high, based on gpt-oss-120b)",
       "shortName": "HyperNova 60B 2605 (high)",
       "creator": "Multiverse Computing",
@@ -3510,7 +3552,7 @@
       "huggingFaceUrl": "https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605"
     },
     {
-      "rank": 168,
+      "rank": 170,
       "name": "Nemotron Cascade 2 30B A3B",
       "shortName": "Nemotron Cascade 2 30B A3B",
       "creator": "NVIDIA",
@@ -3531,7 +3573,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Nemotron-Cascade-2-30B-A3B"
     },
     {
-      "rank": 169,
+      "rank": 171,
       "name": "K2 Think V2",
       "shortName": "K2 Think V2",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -3552,7 +3594,7 @@
       "huggingFaceUrl": "https://huggingface.co/LLM360/K2-Think-V2"
     },
     {
-      "rank": 170,
+      "rank": 172,
       "name": "LongCat Flash Lite",
       "shortName": "LongCat Flash Lite",
       "creator": "LongCat",
@@ -3573,28 +3615,7 @@
       "huggingFaceUrl": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite"
     },
     {
-      "rank": 171,
-      "name": "Devstral Small 2",
-      "shortName": "Devstral Small 2",
-      "creator": "Mistral",
-      "creatorSlug": "mistral",
-      "creatorLogo": "mistral_small.png",
-      "intelligenceIndex": 11.1597059704392,
-      "codingIndex": 29.3318248023304,
-      "agenticIndex": 4.82810824742268,
-      "gpqa": 0.532323232323232,
-      "hle": 0.0347544022242817,
-      "scicode": null,
-      "terminalbench": 0.295880149812734,
-      "lcr": 0.28,
-      "isReasoning": false,
-      "slug": "devstral-small-2",
-      "isOpenWeights": true,
-      "releaseDate": "2025-12-09",
-      "huggingFaceUrl": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
-    },
-    {
-      "rank": 172,
+      "rank": 173,
       "name": "Mistral Large 3",
       "shortName": "Mistral Large 3",
       "creator": "Mistral",
@@ -3615,7 +3636,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512"
     },
     {
-      "rank": 173,
+      "rank": 174,
       "name": "HyperCLOVA X SEED Think (32B)",
       "shortName": "HyperCLOVA X SEED Think (32B)",
       "creator": "Naver",
@@ -3636,7 +3657,28 @@
       "huggingFaceUrl": "https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B"
     },
     {
-      "rank": 174,
+      "rank": 175,
+      "name": "gpt-oss-20b (high)",
+      "shortName": "gpt-oss-20b (high)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "openai_small.svg",
+      "intelligenceIndex": 10.7765945866892,
+      "codingIndex": 20.6967852684145,
+      "agenticIndex": 1.44288487972509,
+      "gpqa": 0.687878787878788,
+      "hle": 0.10982391102873,
+      "scicode": 0.388888888888889,
+      "terminalbench": 0.138576779026217,
+      "lcr": 0.346666666666667,
+      "isReasoning": true,
+      "slug": "gpt-oss-20b",
+      "isOpenWeights": true,
+      "releaseDate": "2025-08-05",
+      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    {
+      "rank": 176,
       "name": "K-EXAONE (Non-reasoning)",
       "shortName": "K-EXAONE (Non-reasoning)",
       "creator": "LG AI Research",
@@ -3657,7 +3699,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-236B-A23B"
     },
     {
-      "rank": 175,
+      "rank": 177,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -3678,7 +3720,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.2-3b"
     },
     {
-      "rank": 176,
+      "rank": 178,
       "name": "Qwen3 Next 80B A3B (Reasoning)",
       "shortName": "Qwen3 Next 80B A3B (Reasoning)",
       "creator": "Alibaba",
@@ -3699,7 +3741,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
     },
     {
-      "rank": 177,
+      "rank": 179,
       "name": "Nova 2.0 Omni (low)",
       "shortName": "Nova 2.0 Omni (low)",
       "creator": "Amazon",
@@ -3720,7 +3762,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 178,
+      "rank": 180,
       "name": "Mi:dm K 2.5 Pro",
       "shortName": "Mi:dm K 2.5 Pro",
       "creator": "Korea Telecom",
@@ -3741,7 +3783,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 179,
+      "rank": 181,
+      "name": "Llama 4 Maverick",
+      "shortName": "Llama 4 Maverick",
+      "creator": "Meta",
+      "creatorSlug": "meta",
+      "creatorLogo": "meta_small.svg",
+      "intelligenceIndex": 10.260501144731,
+      "codingIndex": 16.2773963101678,
+      "agenticIndex": 0.618556701030928,
+      "gpqa": 0.670707070707071,
+      "hle": 0.0491195551436515,
+      "scicode": 0.31712962962963,
+      "terminalbench": 0.0786516853932584,
+      "lcr": 0.5,
+      "isReasoning": false,
+      "slug": "llama-4-maverick",
+      "isOpenWeights": true,
+      "releaseDate": "2025-04-05",
+      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
+    },
+    {
+      "rank": 182,
       "name": "G9v3-3B",
       "shortName": "G9v3-3B",
       "creator": "AI9Stars",
@@ -3762,7 +3825,7 @@
       "huggingFaceUrl": "https://huggingface.co/ai9stars/G9v3-3B"
     },
     {
-      "rank": 180,
+      "rank": 183,
       "name": "Qwen3.5 4B (Non-reasoning)",
       "shortName": "Qwen3.5 4B (Non-reasoning)",
       "creator": "Alibaba",
@@ -3783,7 +3846,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-4B"
     },
     {
-      "rank": 181,
+      "rank": 184,
       "name": "INTELLECT-3",
       "shortName": "INTELLECT-3",
       "creator": "Prime Intellect",
@@ -3804,7 +3867,28 @@
       "huggingFaceUrl": "https://huggingface.co/PrimeIntellect/INTELLECT-3"
     },
     {
-      "rank": 182,
+      "rank": 185,
+      "name": "Solar Pro 3",
+      "shortName": "Solar Pro 3",
+      "creator": "Upstage",
+      "creatorSlug": "upstage",
+      "creatorLogo": "upstage_small.svg",
+      "intelligenceIndex": 9.42214188739726,
+      "codingIndex": 16.2076050769871,
+      "agenticIndex": 1.44329896907216,
+      "gpqa": 0.724242424242424,
+      "hle": 0.102873030583874,
+      "scicode": 0.25462962962963,
+      "terminalbench": 0.119850187265918,
+      "lcr": 0.323333333333333,
+      "isReasoning": true,
+      "slug": "solar-pro-3",
+      "isOpenWeights": false,
+      "releaseDate": "2026-04-06",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 186,
       "name": "Solar Open 100B (Reasoning)",
       "shortName": "Solar Open 100B",
       "creator": "Upstage",
@@ -3825,28 +3909,7 @@
       "huggingFaceUrl": "https://huggingface.co/upstage/Solar-Open-100B"
     },
     {
-      "rank": 183,
-      "name": "gpt-oss-20b (high)",
-      "shortName": "gpt-oss-20b (high)",
-      "creator": "OpenAI",
-      "creatorSlug": "openai",
-      "creatorLogo": "openai_small.svg",
-      "intelligenceIndex": 9.13652335490209,
-      "codingIndex": 20.6967852684145,
-      "agenticIndex": 1.44288487972509,
-      "gpqa": 0.687878787878788,
-      "hle": 0.10982391102873,
-      "scicode": null,
-      "terminalbench": 0.138576779026217,
-      "lcr": 0.346666666666667,
-      "isReasoning": true,
-      "slug": "gpt-oss-20b",
-      "isOpenWeights": true,
-      "releaseDate": "2025-08-05",
-      "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
-    },
-    {
-      "rank": 184,
+      "rank": 187,
       "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
       "shortName": "Nemotron 3 Nano Omni 30B A3B",
       "creator": "NVIDIA",
@@ -3867,7 +3930,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"
     },
     {
-      "rank": 185,
+      "rank": 188,
       "name": "gpt-oss-120b (low)",
       "shortName": "gpt-oss-120b (low)",
       "creator": "OpenAI",
@@ -3888,7 +3951,7 @@
       "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-120b"
     },
     {
-      "rank": 186,
+      "rank": 189,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
       "shortName": "Nemotron 3 Nano",
       "creator": "NVIDIA",
@@ -3909,49 +3972,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
     },
     {
-      "rank": 187,
-      "name": "Solar Pro 3",
-      "shortName": "Solar Pro 3",
-      "creator": "Upstage",
-      "creatorSlug": "upstage",
-      "creatorLogo": "upstage_small.svg",
-      "intelligenceIndex": 8.52585630476336,
-      "codingIndex": 16.2076050769871,
-      "agenticIndex": 1.44329896907216,
-      "gpqa": 0.724242424242424,
-      "hle": 0.102873030583874,
-      "scicode": null,
-      "terminalbench": 0.119850187265918,
-      "lcr": 0.323333333333333,
-      "isReasoning": true,
-      "slug": "solar-pro-3",
-      "isOpenWeights": false,
-      "releaseDate": "2026-04-06",
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 188,
-      "name": "Llama 4 Maverick",
-      "shortName": "Llama 4 Maverick",
-      "creator": "Meta",
-      "creatorSlug": "meta",
-      "creatorLogo": "meta_small.svg",
-      "intelligenceIndex": 8.51054744073748,
-      "codingIndex": 16.2773963101678,
-      "agenticIndex": 0.618556701030928,
-      "gpqa": 0.670707070707071,
-      "hle": 0.0491195551436515,
-      "scicode": null,
-      "terminalbench": 0.0786516853932584,
-      "lcr": 0.5,
-      "isReasoning": false,
-      "slug": "llama-4-maverick",
-      "isOpenWeights": true,
-      "releaseDate": "2025-04-05",
-      "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
-    },
-    {
-      "rank": 189,
+      "rank": 190,
       "name": "Nova 2.0 Pro Preview (Non-reasoning)",
       "shortName": "Nova 2.0 Pro Preview (Non-reasoning)",
       "creator": "Amazon",
@@ -3972,7 +3993,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 190,
+      "rank": 191,
       "name": "gpt-oss-20b (low)",
       "shortName": "gpt-oss-20b (low)",
       "creator": "OpenAI",
@@ -3993,7 +4014,7 @@
       "huggingFaceUrl": "https://huggingface.co/openai/gpt-oss-20b"
     },
     {
-      "rank": 191,
+      "rank": 192,
       "name": "K2-V2 (high)",
       "shortName": "K2-V2 (high)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4014,7 +4035,7 @@
       "huggingFaceUrl": "https://huggingface.co/LLM360/K2-V2-Instruct"
     },
     {
-      "rank": 192,
+      "rank": 193,
       "name": "Qwen3 Next 80B A3B Instruct",
       "shortName": "Qwen3 Next 80B A3B",
       "creator": "Alibaba",
@@ -4035,7 +4056,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct"
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "Celeris-1",
       "shortName": "Celeris-1",
       "creator": "Celeris",
@@ -4056,7 +4077,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 194,
+      "rank": 195,
       "name": "DiffusionGemma 26B A4B",
       "shortName": "DiffusionGemma 26B A4B",
       "creator": "Google",
@@ -4077,7 +4098,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
     },
     {
-      "rank": 195,
+      "rank": 196,
       "name": "Gemma 4 12B (Non-reasoning)",
       "shortName": "Gemma 4 12B (Non-reasoning)",
       "creator": "Google",
@@ -4098,7 +4119,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-12B-it"
     },
     {
-      "rank": 196,
+      "rank": 197,
       "name": "Motif-2-12.7B-Reasoning",
       "shortName": "Motif-2-12.7B",
       "creator": "Motif Technologies",
@@ -4119,7 +4140,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 197,
+      "rank": 198,
       "name": "Nova Premier",
       "shortName": "Nova Premier",
       "creator": "Amazon",
@@ -4140,7 +4161,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 198,
+      "rank": 199,
       "name": "K2-V2 (medium)",
       "shortName": "K2-V2 (medium)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4161,7 +4182,7 @@
       "huggingFaceUrl": "https://huggingface.co/LLM360/K2-V2-Instruct"
     },
     {
-      "rank": 199,
+      "rank": 200,
       "name": "Llama Nemotron Super 49B v1.5 (Reasoning)",
       "shortName": "Llama Nemotron Super 49B v1.5",
       "creator": "NVIDIA",
@@ -4182,7 +4203,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
     },
     {
-      "rank": 200,
+      "rank": 201,
       "name": "Mistral Small 4 (Non-reasoning)",
       "shortName": "Mistral Small 4 (Non-reasoning)",
       "creator": "Mistral",
@@ -4203,7 +4224,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
     },
     {
-      "rank": 201,
+      "rank": 202,
       "name": "Tri-21B-Think",
       "shortName": "Tri-21B-Think",
       "creator": "Trillion Labs",
@@ -4224,7 +4245,7 @@
       "huggingFaceUrl": "https://huggingface.co/trillionlabs/Tri-21B-Think"
     },
     {
-      "rank": 202,
+      "rank": 203,
       "name": "Gemma 4 E4B (Reasoning)",
       "shortName": "Gemma 4 E4B",
       "creator": "Google",
@@ -4245,7 +4266,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E4B-it"
     },
     {
-      "rank": 203,
+      "rank": 204,
       "name": "MiniCPM5-1B (Reasoning)",
       "shortName": "MiniCPM5-1B",
       "creator": "OpenBMB",
@@ -4266,7 +4287,7 @@
       "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM5-1B"
     },
     {
-      "rank": 204,
+      "rank": 205,
       "name": "Sarvam 105B (high)",
       "shortName": "Sarvam 105B (high)",
       "creator": "Sarvam",
@@ -4287,7 +4308,7 @@
       "huggingFaceUrl": "https://huggingface.co/sarvamai/sarvam-105b"
     },
     {
-      "rank": 205,
+      "rank": 206,
       "name": "Nova 2.0 Lite (Non-reasoning)",
       "shortName": "Nova 2.0 Lite (Non-reasoning)",
       "creator": "Amazon",
@@ -4308,7 +4329,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 206,
+      "rank": 207,
       "name": "MiniCPM5-1B (Non-reasoning)",
       "shortName": "MiniCPM5-1B (Non-reasoning)",
       "creator": "OpenBMB",
@@ -4329,7 +4350,7 @@
       "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM5-1B"
     },
     {
-      "rank": 207,
+      "rank": 208,
       "name": "Magistral Small 1.2",
       "shortName": "Magistral Small 1.2",
       "creator": "Mistral",
@@ -4350,7 +4371,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Magistral-Small-2509"
     },
     {
-      "rank": 208,
+      "rank": 209,
       "name": "Ministral 3 14B",
       "shortName": "Ministral 3 14B",
       "creator": "Mistral",
@@ -4371,7 +4392,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512"
     },
     {
-      "rank": 209,
+      "rank": 210,
       "name": "Nanbeige4.1-3B",
       "shortName": "Nanbeige4.1-3B",
       "creator": "Nanbeige",
@@ -4392,7 +4413,7 @@
       "huggingFaceUrl": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
     },
     {
-      "rank": 210,
+      "rank": 211,
       "name": "LFM2.5-2.6B",
       "shortName": "LFM2.5-2.6B",
       "creator": "Liquid AI",
@@ -4413,7 +4434,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
     },
     {
-      "rank": 211,
+      "rank": 212,
       "name": "EXAONE 4.0 32B (Reasoning)",
       "shortName": "EXAONE 4.0 32B",
       "creator": "LG AI Research",
@@ -4434,7 +4455,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B"
     },
     {
-      "rank": 212,
+      "rank": 213,
       "name": "Nova 2.0 Omni (Non-reasoning)",
       "shortName": "Nova 2.0 Omni (Non-reasoning)",
       "creator": "Amazon",
@@ -4455,7 +4476,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 213,
+      "rank": 214,
       "name": "Llama 4 Scout",
       "shortName": "Llama 4 Scout",
       "creator": "Meta",
@@ -4476,7 +4497,7 @@
       "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct"
     },
     {
-      "rank": 214,
+      "rank": 215,
       "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
       "shortName": "Hermes 4 70B",
       "creator": "Nous Research",
@@ -4497,7 +4518,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-70B"
     },
     {
-      "rank": 215,
+      "rank": 216,
       "name": "Falcon-H1R-7B",
       "shortName": "Falcon-H1R-7B",
       "creator": "TII UAE",
@@ -4518,7 +4539,7 @@
       "huggingFaceUrl": "https://huggingface.co/tiiuae/Falcon-H1R-7B"
     },
     {
-      "rank": 216,
+      "rank": 217,
       "name": "Gemma 4 E2B (Reasoning)",
       "shortName": "Gemma 4 E2B",
       "creator": "Google",
@@ -4539,7 +4560,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E2B-it"
     },
     {
-      "rank": 217,
+      "rank": 218,
       "name": "Qwen3 Omni 30B A3B (Reasoning)",
       "shortName": "Qwen3 Omni 30B A3B (Reasoning)",
       "creator": "Alibaba",
@@ -4560,7 +4581,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Thinking"
     },
     {
-      "rank": 218,
+      "rank": 219,
       "name": "Step3 VL 10B",
       "shortName": "Step3 VL 10B",
       "creator": "StepFun",
@@ -4581,7 +4602,7 @@
       "huggingFaceUrl": "https://huggingface.co/stepfun-ai/Step3-VL-10B"
     },
     {
-      "rank": 219,
+      "rank": 220,
       "name": "Llama 3.3 Instruct 70B",
       "shortName": "Llama 3.3 70B",
       "creator": "Meta",
@@ -4602,7 +4623,7 @@
       "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
     },
     {
-      "rank": 220,
+      "rank": 221,
       "name": "Ministral 3 8B",
       "shortName": "Ministral 3 8B",
       "creator": "Mistral",
@@ -4623,7 +4644,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512"
     },
     {
-      "rank": 221,
+      "rank": 222,
       "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
       "shortName": "Llama Nemotron Ultra",
       "creator": "NVIDIA",
@@ -4644,7 +4665,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1"
     },
     {
-      "rank": 222,
+      "rank": 223,
       "name": "ERNIE 4.5 300B A47B",
       "shortName": "ERNIE 4.5 300B A47B",
       "creator": "Baidu",
@@ -4665,7 +4686,7 @@
       "huggingFaceUrl": "https://huggingface.co/baidu/ERNIE-4.5-300B-A47B-Paddle"
     },
     {
-      "rank": 223,
+      "rank": 224,
       "name": "Hermes 4 - Llama-3.1 405B (Reasoning)",
       "shortName": "Hermes 4 405B",
       "creator": "Nous Research",
@@ -4686,7 +4707,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-405B"
     },
     {
-      "rank": 224,
+      "rank": 225,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 12B v2 VL",
       "creator": "NVIDIA",
@@ -4707,7 +4728,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     },
     {
-      "rank": 225,
+      "rank": 226,
       "name": "Gemma 4 E4B (Non-reasoning)",
       "shortName": "Gemma 4 E4B (Non-reasoning)",
       "creator": "Google",
@@ -4728,7 +4749,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E4B-it"
     },
     {
-      "rank": 226,
+      "rank": 227,
       "name": "Granite 4.1 30B",
       "shortName": "Granite 4.1 30B",
       "creator": "IBM",
@@ -4749,7 +4770,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.1-30b"
     },
     {
-      "rank": 227,
+      "rank": 228,
       "name": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2",
       "creator": "NVIDIA",
@@ -4770,7 +4791,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     },
     {
-      "rank": 228,
+      "rank": 229,
       "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
       "shortName": "Hermes 4 405B (Non-reasoning)",
       "creator": "Nous Research",
@@ -4791,7 +4812,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-405B"
     },
     {
-      "rank": 229,
+      "rank": 230,
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "shortName": "Nemotron 3 Nano 4B",
       "creator": "NVIDIA",
@@ -4812,7 +4833,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16"
     },
     {
-      "rank": 230,
+      "rank": 231,
       "name": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "shortName": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "creator": "NVIDIA",
@@ -4833,7 +4854,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5"
     },
     {
-      "rank": 231,
+      "rank": 232,
       "name": "K2-V2 (low)",
       "shortName": "K2-V2 (low)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4854,7 +4875,7 @@
       "huggingFaceUrl": "https://huggingface.co/LLM360/K2-V2-Instruct"
     },
     {
-      "rank": 232,
+      "rank": 233,
       "name": "Kimi Linear 48B A3B Instruct",
       "shortName": "Kimi Linear 48B A3B Instruct",
       "creator": "Kimi",
@@ -4875,7 +4896,7 @@
       "huggingFaceUrl": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
     },
     {
-      "rank": 233,
+      "rank": 234,
       "name": "Llama 3.1 Instruct 405B",
       "shortName": "Llama 3.1 405B",
       "creator": "Meta",
@@ -4896,7 +4917,7 @@
       "huggingFaceUrl": "https://huggingface.co/meta-llama/Meta-Llama-3.1-405B"
     },
     {
-      "rank": 234,
+      "rank": 235,
       "name": "LFM2.5-8B-A1B",
       "shortName": "LFM2.5-8B-A1B",
       "creator": "Liquid AI",
@@ -4917,7 +4938,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
     },
     {
-      "rank": 235,
+      "rank": 236,
       "name": "Ring-flash-2.0",
       "shortName": "Ring-flash-2.0",
       "creator": "InclusionAI",
@@ -4938,7 +4959,7 @@
       "huggingFaceUrl": "https://huggingface.co/inclusionAI/Ring-flash-2.0"
     },
     {
-      "rank": 236,
+      "rank": 237,
       "name": "Olmo 3.1 32B Think",
       "shortName": "Olmo 3.1 32B Think",
       "creator": "Allen Institute for AI",
@@ -4959,7 +4980,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
     },
     {
-      "rank": 237,
+      "rank": 238,
       "name": "Command A",
       "shortName": "Command A",
       "creator": "Cohere",
@@ -4980,7 +5001,7 @@
       "huggingFaceUrl": "https://huggingface.co/CohereForAI/c4ai-command-a-03-2025"
     },
     {
-      "rank": 238,
+      "rank": 239,
       "name": "Qwen3.5 2B (Reasoning)",
       "shortName": "Qwen3.5 2B",
       "creator": "Alibaba",
@@ -5001,7 +5022,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-2B"
     },
     {
-      "rank": 239,
+      "rank": 240,
       "name": "Llama 3.1 Nemotron Instruct 70B",
       "shortName": "Llama 3.1 Nemotron 70B",
       "creator": "NVIDIA",
@@ -5022,7 +5043,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF"
     },
     {
-      "rank": 240,
+      "rank": 241,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
       "shortName": "Nemotron 3 Nano (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5043,7 +5064,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
     },
     {
-      "rank": 241,
+      "rank": 242,
       "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5064,7 +5085,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-9B-v2"
     },
     {
-      "rank": 242,
+      "rank": 243,
       "name": "Ministral 3 3B",
       "shortName": "Ministral 3 3B",
       "creator": "Mistral",
@@ -5085,7 +5106,7 @@
       "huggingFaceUrl": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512"
     },
     {
-      "rank": 243,
+      "rank": 244,
       "name": "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
       "shortName": "Hermes 4 70B (Non-reasoning)",
       "creator": "Nous Research",
@@ -5106,7 +5127,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/Hermes-4-70B"
     },
     {
-      "rank": 244,
+      "rank": 245,
       "name": "Granite 4.1 8B",
       "shortName": "Granite 4.1 8B",
       "creator": "IBM",
@@ -5127,7 +5148,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.1-8b"
     },
     {
-      "rank": 245,
+      "rank": 246,
       "name": "Sarvam 30B (high)",
       "shortName": "Sarvam 30B (high)",
       "creator": "Sarvam",
@@ -5148,7 +5169,7 @@
       "huggingFaceUrl": "https://huggingface.co/sarvamai/sarvam-30b"
     },
     {
-      "rank": 246,
+      "rank": 247,
       "name": "Gemma 3 270M",
       "shortName": "Gemma 3 270M",
       "creator": "Google",
@@ -5169,7 +5190,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-3-270m"
     },
     {
-      "rank": 247,
+      "rank": 248,
       "name": "Qwen3.5 2B (Non-reasoning)",
       "shortName": "Qwen3.5 2B (Non-reasoning)",
       "creator": "Alibaba",
@@ -5190,7 +5211,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-2B"
     },
     {
-      "rank": 248,
+      "rank": 249,
       "name": "Qwen3 Omni 30B A3B Instruct",
       "shortName": "Qwen3 Omni 30B A3B",
       "creator": "Alibaba",
@@ -5211,7 +5232,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct"
     },
     {
-      "rank": 249,
+      "rank": 250,
       "name": "Granite 4.0 Micro",
       "shortName": "Granite 4.0 Micro",
       "creator": "IBM",
@@ -5232,7 +5253,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-micro"
     },
     {
-      "rank": 250,
+      "rank": 251,
       "name": "Phi-4 Multimodal Instruct",
       "shortName": "Phi-4 Multimodal",
       "creator": "Microsoft",
@@ -5253,7 +5274,7 @@
       "huggingFaceUrl": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
     },
     {
-      "rank": 251,
+      "rank": 252,
       "name": "EXAONE 4.0 32B (Non-reasoning)",
       "shortName": "EXAONE 4.0 32B (Non-reasoning)",
       "creator": "LG AI Research",
@@ -5274,7 +5295,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-32B"
     },
     {
-      "rank": 252,
+      "rank": 253,
       "name": "Olmo 3 7B Think",
       "shortName": "Olmo 3 7B Think",
       "creator": "Allen Institute for AI",
@@ -5295,7 +5316,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3-7B-Think"
     },
     {
-      "rank": 253,
+      "rank": 254,
       "name": "Nova Micro",
       "shortName": "Nova Micro",
       "creator": "Amazon",
@@ -5316,7 +5337,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 254,
+      "rank": 255,
       "name": "LFM2.5-VL-1.6B",
       "shortName": "LFM2.5-VL-1.6B",
       "creator": "Liquid AI",
@@ -5337,7 +5358,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B"
     },
     {
-      "rank": 255,
+      "rank": 256,
       "name": "Molmo2-8B",
       "shortName": "Molmo2-8B",
       "creator": "Allen Institute for AI",
@@ -5358,7 +5379,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Molmo2-8B"
     },
     {
-      "rank": 256,
+      "rank": 257,
       "name": "Qwen3.5 0.8B (Non-reasoning)",
       "shortName": "Qwen3.5 0.8B (Non-reasoning)",
       "creator": "Alibaba",
@@ -5379,7 +5400,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
     },
     {
-      "rank": 257,
+      "rank": 258,
       "name": "MiniCPM-V 4.6 1.3B",
       "shortName": "MiniCPM-V 4.6 1.3B",
       "creator": "OpenBMB",
@@ -5400,7 +5421,7 @@
       "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
     },
     {
-      "rank": 258,
+      "rank": 259,
       "name": "LFM2.5-1.2B-Instruct",
       "shortName": "LFM2.5-1.2B-Instruct",
       "creator": "Liquid AI",
@@ -5421,7 +5442,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct"
     },
     {
-      "rank": 259,
+      "rank": 260,
       "name": "Apertus 70B Instruct",
       "shortName": "Apertus 70B Instruct",
       "creator": "Swiss AI Initiative",
@@ -5442,7 +5463,7 @@
       "huggingFaceUrl": "https://huggingface.co/swiss-ai/Apertus-70B-Instruct-2509"
     },
     {
-      "rank": 260,
+      "rank": 261,
       "name": "Granite 4.0 350M",
       "shortName": "Granite 4.0 350M",
       "creator": "IBM",
@@ -5463,7 +5484,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-350m"
     },
     {
-      "rank": 261,
+      "rank": 262,
       "name": "LFM2.5-1.2B-Thinking",
       "shortName": "LFM2.5-1.2B-Thinking",
       "creator": "Liquid AI",
@@ -5484,7 +5505,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking"
     },
     {
-      "rank": 262,
+      "rank": 263,
       "name": "Granite 4.0 H Small",
       "shortName": "Granite 4.0 H Small",
       "creator": "IBM",
@@ -5505,7 +5526,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-h-small"
     },
     {
-      "rank": 263,
+      "rank": 264,
       "name": "Llama 3.2 Instruct 11B (Vision)",
       "shortName": "Llama 3.2 11B (Vision)",
       "creator": "Meta",
@@ -5526,7 +5547,7 @@
       "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.2-11B-Vision-Instruct"
     },
     {
-      "rank": 264,
+      "rank": 265,
       "name": "LFM2 8B A1B",
       "shortName": "LFM2 8B A1B",
       "creator": "Liquid AI",
@@ -5547,7 +5568,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B"
     },
     {
-      "rank": 265,
+      "rank": 266,
       "name": "LFM2 2.6B",
       "shortName": "LFM2 2.6B",
       "creator": "Liquid AI",
@@ -5568,7 +5589,7 @@
       "huggingFaceUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B"
     },
     {
-      "rank": 266,
+      "rank": 267,
       "name": "Gemma 4 E2B (Non-reasoning)",
       "shortName": "Gemma 4 E2B (Non-reasoning)",
       "creator": "Google",
@@ -5589,7 +5610,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-E2B-it"
     },
     {
-      "rank": 267,
+      "rank": 268,
       "name": "Jamba 1.7 Large",
       "shortName": "Jamba 1.7 Large",
       "creator": "AI21 Labs",
@@ -5610,7 +5631,7 @@
       "huggingFaceUrl": "https://huggingface.co/ai21labs/AI21-Jamba-Large-1.7"
     },
     {
-      "rank": 268,
+      "rank": 269,
       "name": "Tiny Aya Global",
       "shortName": "Tiny Aya Global",
       "creator": "Cohere",
@@ -5631,7 +5652,7 @@
       "huggingFaceUrl": "https://huggingface.co/CohereLabs/tiny-aya-global"
     },
     {
-      "rank": 269,
+      "rank": 270,
       "name": "Exaone 4.0 1.2B (Non-reasoning)",
       "shortName": "Exaone 4.0 1.2B (Non-reasoning)",
       "creator": "LG AI Research",
@@ -5652,7 +5673,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B"
     },
     {
-      "rank": 270,
+      "rank": 271,
       "name": "Apertus 8B Instruct",
       "shortName": "Apertus 8B Instruct",
       "creator": "Swiss AI Initiative",
@@ -5673,7 +5694,7 @@
       "huggingFaceUrl": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509"
     },
     {
-      "rank": 271,
+      "rank": 272,
       "name": "Olmo 3 7B Instruct",
       "shortName": "Olmo 3 7B",
       "creator": "Allen Institute for AI",
@@ -5694,7 +5715,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
     },
     {
-      "rank": 272,
+      "rank": 273,
       "name": "Granite 4.1 3B",
       "shortName": "Granite 4.1 3B",
       "creator": "IBM",
@@ -5715,7 +5736,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.1-3b"
     },
     {
-      "rank": 273,
+      "rank": 274,
       "name": "Olmo 3.1 32B Instruct",
       "shortName": "Olmo 3.1 32B Instruct",
       "creator": "Allen Institute for AI",
@@ -5736,7 +5757,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
     },
     {
-      "rank": 274,
+      "rank": 275,
       "name": "R1 1776",
       "shortName": "R1 1776",
       "creator": "Perplexity",
@@ -5757,7 +5778,7 @@
       "huggingFaceUrl": "https://huggingface.co/perplexity-ai/r1-1776"
     },
     {
-      "rank": 275,
+      "rank": 276,
       "name": "Llama 3.2 Instruct 90B (Vision)",
       "shortName": "Llama 3.2 90B (Vision)",
       "creator": "Meta",
@@ -5778,7 +5799,7 @@
       "huggingFaceUrl": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision"
     },
     {
-      "rank": 276,
+      "rank": 277,
       "name": "Phi-4 Mini Instruct",
       "shortName": "Phi-4 Mini",
       "creator": "Microsoft",
@@ -5799,7 +5820,7 @@
       "huggingFaceUrl": "https://huggingface.co/microsoft/Phi-4-mini-instruct"
     },
     {
-      "rank": 277,
+      "rank": 278,
       "name": "Granite 4.0 1B",
       "shortName": "Granite 4.0 1B",
       "creator": "IBM",
@@ -5820,7 +5841,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-1b"
     },
     {
-      "rank": 278,
+      "rank": 279,
       "name": "Granite 4.0 H 350M",
       "shortName": "Granite 4.0 H 350M",
       "creator": "IBM",
@@ -5841,7 +5862,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-h-350m"
     },
     {
-      "rank": 279,
+      "rank": 280,
       "name": "Qwen3.5 0.8B (Reasoning)",
       "shortName": "Qwen3.5 0.8B",
       "creator": "Alibaba",
@@ -5862,7 +5883,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-0.8B"
     },
     {
-      "rank": 280,
+      "rank": 281,
       "name": "DeepHermes 3 - Mistral 24B Preview (Non-reasoning)",
       "shortName": "DeepHermes 3 - Mistral 24B",
       "creator": "Nous Research",
@@ -5883,7 +5904,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Mistral-24B-Preview"
     },
     {
-      "rank": 281,
+      "rank": 282,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "shortName": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5904,7 +5925,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16"
     },
     {
-      "rank": 282,
+      "rank": 283,
       "name": "Molmo 7B-D",
       "shortName": "Molmo 7B-D",
       "creator": "Allen Institute for AI",
@@ -5925,7 +5946,7 @@
       "huggingFaceUrl": "https://huggingface.co/allenai/Molmo-7B-D-0924"
     },
     {
-      "rank": 283,
+      "rank": 284,
       "name": "Jamba 1.7 Mini",
       "shortName": "Jamba 1.7 Mini",
       "creator": "AI21 Labs",
@@ -5946,7 +5967,7 @@
       "huggingFaceUrl": "https://huggingface.co/ai21labs/AI21-Jamba-Mini-1.7"
     },
     {
-      "rank": 284,
+      "rank": 285,
       "name": "DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning)",
       "shortName": "DeepHermes 3 - Llama-3.1 8B",
       "creator": "Nous Research",
@@ -5967,7 +5988,7 @@
       "huggingFaceUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview"
     },
     {
-      "rank": 285,
+      "rank": 286,
       "name": "Exaone 4.0 1.2B (Reasoning)",
       "shortName": "Exaone 4.0 1.2B",
       "creator": "LG AI Research",
@@ -5988,7 +6009,7 @@
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.0-1.2B"
     },
     {
-      "rank": 286,
+      "rank": 287,
       "name": "Granite 4.0 H 1B",
       "shortName": "Granite 4.0 H 1B",
       "creator": "IBM",
@@ -6009,7 +6030,7 @@
       "huggingFaceUrl": "https://huggingface.co/ibm-granite/granite-4.0-h-1b"
     },
     {
-      "rank": 287,
+      "rank": 288,
       "name": "Reka Flash 3",
       "shortName": "Reka Flash 3",
       "creator": "Reka AI",
@@ -6030,7 +6051,7 @@
       "huggingFaceUrl": "https://huggingface.co/RekaAI/reka-flash-3"
     },
     {
-      "rank": 288,
+      "rank": 289,
       "name": "Phi-4",
       "shortName": "Phi-4",
       "creator": "Microsoft",
@@ -6051,7 +6072,7 @@
       "huggingFaceUrl": "https://huggingface.co/microsoft/phi-4"
     },
     {
-      "rank": 289,
+      "rank": 290,
       "name": "Jamba Reasoning 3B",
       "shortName": "Jamba Reasoning 3B",
       "creator": "AI21 Labs",
@@ -6072,7 +6093,7 @@
       "huggingFaceUrl": "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B"
     },
     {
-      "rank": 290,
+      "rank": 291,
       "name": "LFM2 24B A2B",
       "shortName": "LFM2 24B A2B",
       "creator": "Liquid AI",

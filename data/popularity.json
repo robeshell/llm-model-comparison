@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T04:00:59.056Z",
+  "updatedAt": "2026-09-07T17:38:27.174Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -119,8 +119,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -164,23 +164,6 @@
     },
     {
       "rank": 10,
-      "id": "z-ai/glm-5.2",
-      "canonicalSlug": "z-ai/glm-5.2-20260616",
-      "name": "GLM 5.2",
-      "provider": "Z.ai",
-      "providerSlug": "z-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.966,
-      "outputPerMillion": 3.036,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 11,
       "id": "xiaomi/mimo-v2.5",
       "canonicalSlug": "xiaomi/mimo-v2.5-20260422",
       "name": "MiMo-V2.5",
@@ -194,6 +177,23 @@
         "audio",
         "image",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 11,
+      "id": "z-ai/glm-5.2",
+      "canonicalSlug": "z-ai/glm-5.2-20260616",
+      "name": "GLM 5.2",
+      "provider": "Z.ai",
+      "providerSlug": "z-ai",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.966,
+      "outputPerMillion": 3.036,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -298,23 +298,6 @@
     },
     {
       "rank": 17,
-      "id": "poolside/laguna-s-2.1:free",
-      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
-      "name": "Laguna S 2.1 (free)",
-      "provider": "Poolside",
-      "providerSlug": "poolside",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 18,
       "id": "anthropic/claude-sonnet-5",
       "canonicalSlug": "anthropic/claude-sonnet-5-20260630",
       "name": "Claude Sonnet 5",
@@ -333,15 +316,32 @@
       ]
     },
     {
+      "rank": 18,
+      "id": "poolside/laguna-s-2.1:free",
+      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
+      "name": "Laguna S 2.1 (free)",
+      "provider": "Poolside",
+      "providerSlug": "poolside",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 19,
-      "id": "deepseek/deepseek-v4-pro",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
-      "name": "DeepSeek V4 Pro 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 1.0353,
-      "outputPerMillion": 2.0706,
+      "id": "upstage/solar-pro4",
+      "canonicalSlug": "upstage/solar-pro4-20260810",
+      "name": "Solar Pro 4",
+      "provider": "Upstage",
+      "providerSlug": "upstage",
+      "contextLength": 524288,
+      "inputPerMillion": 0.03,
+      "outputPerMillion": 0.12,
       "inputModalities": [
         "text"
       ],
@@ -351,14 +351,14 @@
     },
     {
       "rank": 20,
-      "id": "upstage/solar-pro4",
-      "canonicalSlug": "upstage/solar-pro4-20260810",
-      "name": "Solar Pro 4",
-      "provider": "Upstage",
-      "providerSlug": "upstage",
-      "contextLength": 524288,
-      "inputPerMillion": 0.03,
-      "outputPerMillion": 0.12,
+      "id": "deepseek/deepseek-v4-pro",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
+      "name": "DeepSeek V4 Pro 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.9552599999999999,
+      "outputPerMillion": 1.9105199999999998,
       "inputModalities": [
         "text"
       ],
@@ -387,23 +387,6 @@
     },
     {
       "rank": 22,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 23,
       "id": "google/gemini-3.8-flash",
       "canonicalSlug": "google/gemini-3.8-flash-20260902",
       "name": "Gemini 3.8 Flash",
@@ -424,6 +407,23 @@
       ]
     },
     {
+      "rank": 23,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 24,
       "id": "deepseek/deepseek-v4-pro-0813",
       "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
@@ -431,8 +431,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 1.12068,
-      "outputPerMillion": 3.36204,
+      "inputPerMillion": 0.66,
+      "outputPerMillion": 1.9800000000000002,
       "inputModalities": [
         "text"
       ],
@@ -501,6 +501,23 @@
     },
     {
       "rank": 28,
+      "id": "minimax/minimax-m2.7:free",
+      "canonicalSlug": "minimax/minimax-m2.7-20260318",
+      "name": "MiniMax M2.7 (free)",
+      "provider": "MiniMax",
+      "providerSlug": "minimax",
+      "contextLength": 196608,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 29,
       "id": "google/gemini-2.5-flash-lite",
       "canonicalSlug": "google/gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash Lite",
@@ -515,23 +532,6 @@
         "file",
         "audio",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 29,
-      "id": "minimax/minimax-m2.7:free",
-      "canonicalSlug": "minimax/minimax-m2.7-20260318",
-      "name": "MiniMax M2.7 (free)",
-      "provider": "MiniMax",
-      "providerSlug": "minimax",
-      "contextLength": 196608,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -585,8 +585,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.44,
-      "outputPerMillion": 1.32,
+      "inputPerMillion": 0.22,
+      "outputPerMillion": 0.66,
       "inputModalities": [
         "text",
         "image"
@@ -614,6 +614,23 @@
     },
     {
       "rank": 34,
+      "id": "deepseek/deepseek-v3.2",
+      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 163840,
+      "inputPerMillion": 0.26899999999999996,
+      "outputPerMillion": 0.39999999999999997,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 35,
       "id": "stepfun/step-3.7-flash",
       "canonicalSlug": "stepfun/step-3.7-flash-20260528",
       "name": "Step 3.7 Flash",
@@ -626,23 +643,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 35,
-      "id": "deepseek/deepseek-v3.2",
-      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
-      "name": "DeepSeek V3.2",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 163840,
-      "inputPerMillion": 0.26899999999999996,
-      "outputPerMillion": 0.39999999999999997,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -671,23 +671,6 @@
     },
     {
       "rank": 37,
-      "id": "openai/gpt-oss-20b",
-      "canonicalSlug": "openai/gpt-oss-20b",
-      "name": "gpt-oss-20b",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.03,
-      "outputPerMillion": 0.13,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 38,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -700,6 +683,23 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 38,
+      "id": "openai/gpt-oss-20b",
+      "canonicalSlug": "openai/gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.03,
+      "outputPerMillion": 0.13,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -912,20 +912,17 @@
     },
     {
       "rank": 50,
-      "id": "meta/muse-spark-1.2-contributor",
-      "canonicalSlug": "meta/muse-spark-1.2-contributor-20260805",
-      "name": "Muse Spark 1.2 Contributor",
-      "provider": "Meta",
-      "providerSlug": "meta",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.09999999999999999,
-      "outputPerMillion": 0.19999999999999998,
+      "id": "dots-studio/dots-3-note-preview:free",
+      "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
+      "name": "Dots3-Note Preview (free)",
+      "provider": "Dots Studio",
+      "providerSlug": "dots-studio",
+      "contextLength": 512000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
       "inputModalities": [
         "text",
-        "image",
-        "video",
-        "file",
-        "audio"
+        "image"
       ],
       "outputModalities": [
         "text"
