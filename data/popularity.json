@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T04:02:29.986Z",
+  "updatedAt": "2026-09-08T16:25:05.980Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -47,8 +47,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1310720,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.28,
+      "inputPerMillion": 0.065,
+      "outputPerMillion": 0.18,
       "inputModalities": [
         "text"
       ],
@@ -83,8 +83,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.088606,
-      "outputPerMillion": 0.177212,
+      "inputPerMillion": 0.08707999999999999,
+      "outputPerMillion": 0.17415999999999998,
       "inputModalities": [
         "text"
       ],
@@ -100,8 +100,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -372,23 +372,6 @@
     },
     {
       "rank": 21,
-      "id": "deepseek/deepseek-v4-pro",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
-      "name": "DeepSeek V4 Pro 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.9552599999999999,
-      "outputPerMillion": 1.9105199999999998,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 22,
       "id": "meta/muse-spark-1.3-contributor",
       "canonicalSlug": "meta/muse-spark-1.3-contributor-20260902",
       "name": "Muse Spark 1.3 Contributor",
@@ -409,15 +392,32 @@
       ]
     },
     {
+      "rank": 22,
+      "id": "deepseek/deepseek-v4-pro",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
+      "name": "DeepSeek V4 Pro 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.9552599999999999,
+      "outputPerMillion": 1.9105199999999998,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 23,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
+      "name": "DeepSeek V4 Pro 0813",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.57948,
+      "outputPerMillion": 1.73844,
       "inputModalities": [
         "text"
       ],
@@ -427,14 +427,14 @@
     },
     {
       "rank": 24,
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
-      "name": "DeepSeek V4 Pro 0813",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 1.0494,
-      "outputPerMillion": 3.1482,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
       "inputModalities": [
         "text"
       ],
@@ -528,8 +528,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.44,
-      "outputPerMillion": 1.32,
+      "inputPerMillion": 0.22,
+      "outputPerMillion": 0.66,
       "inputModalities": [
         "text",
         "image"
@@ -561,16 +561,20 @@
     },
     {
       "rank": 31,
-      "id": "deepseek/deepseek-v3.2",
-      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
-      "name": "DeepSeek V3.2",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 163840,
-      "inputPerMillion": 0.26899999999999996,
-      "outputPerMillion": 0.39999999999999997,
+      "id": "google/gemini-3.1-flash-lite",
+      "canonicalSlug": "google/gemini-3.1-flash-lite-20260507",
+      "name": "Gemini 3.1 Flash Lite",
+      "provider": "Google",
+      "providerSlug": "google",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 1.5,
       "inputModalities": [
-        "text"
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
       ],
       "outputModalities": [
         "text"
@@ -595,20 +599,16 @@
     },
     {
       "rank": 33,
-      "id": "google/gemini-3.1-flash-lite",
-      "canonicalSlug": "google/gemini-3.1-flash-lite-20260507",
-      "name": "Gemini 3.1 Flash Lite",
-      "provider": "Google",
-      "providerSlug": "google",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 1.5,
+      "id": "deepseek/deepseek-v3.2",
+      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 163840,
+      "inputPerMillion": 0.26899999999999996,
+      "outputPerMillion": 0.39999999999999997,
       "inputModalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -690,25 +690,6 @@
     },
     {
       "rank": 38,
-      "id": "google/gemma-4-26b-a4b-it",
-      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
-      "name": "Gemma 4 26B A4B",
-      "provider": "Google",
-      "providerSlug": "google",
-      "contextLength": 262144,
-      "inputPerMillion": 0.07,
-      "outputPerMillion": 0.33999999999999997,
-      "inputModalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 39,
       "id": "x-ai/grok-4.6",
       "canonicalSlug": "x-ai/grok-4.6-20260810",
       "name": "Grok 4.6",
@@ -721,6 +702,25 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 39,
+      "id": "google/gemma-4-26b-a4b-it",
+      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
+      "name": "Gemma 4 26B A4B",
+      "provider": "Google",
+      "providerSlug": "google",
+      "contextLength": 262144,
+      "inputPerMillion": 0.07,
+      "outputPerMillion": 0.33999999999999997,
+      "inputModalities": [
+        "image",
+        "text",
+        "video"
       ],
       "outputModalities": [
         "text"
@@ -802,42 +802,6 @@
     },
     {
       "rank": 44,
-      "id": "xiaomi/mimo-v2.5-pro",
-      "canonicalSlug": "xiaomi/mimo-v2.5-pro-20260422",
-      "name": "MiMo-V2.5-Pro",
-      "provider": "Xiaomi",
-      "providerSlug": "xiaomi",
-      "contextLength": 1050000,
-      "inputPerMillion": 0.435,
-      "outputPerMillion": 0.87,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 45,
-      "id": "qwen/qwen3.8-27b",
-      "canonicalSlug": "qwen/qwen3.8-27b-20260814",
-      "name": "Qwen3.8 27B",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.42,
-      "outputPerMillion": 3,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 46,
       "id": "openai/gpt-6-astra",
       "canonicalSlug": "openai/gpt-6-astra-20260903",
       "name": "GPT-6 Astra",
@@ -849,6 +813,41 @@
       "inputModalities": [
         "file",
         "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 45,
+      "id": "dots-studio/dots-3-note-preview:free",
+      "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
+      "name": "Dots3-Note Preview (free)",
+      "provider": "Dots Studio",
+      "providerSlug": "dots-studio",
+      "contextLength": 512000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 46,
+      "id": "xiaomi/mimo-v2.5-pro",
+      "canonicalSlug": "xiaomi/mimo-v2.5-pro-20260422",
+      "name": "MiMo-V2.5-Pro",
+      "provider": "Xiaomi",
+      "providerSlug": "xiaomi",
+      "contextLength": 1050000,
+      "inputPerMillion": 0.435,
+      "outputPerMillion": 0.87,
+      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -876,17 +875,18 @@
     },
     {
       "rank": 48,
-      "id": "dots-studio/dots-3-note-preview:free",
-      "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
-      "name": "Dots3-Note Preview (free)",
-      "provider": "Dots Studio",
-      "providerSlug": "dots-studio",
-      "contextLength": 512000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "id": "qwen/qwen3.8-27b",
+      "canonicalSlug": "qwen/qwen3.8-27b-20260814",
+      "name": "Qwen3.8 27B",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.42,
+      "outputPerMillion": 3,
       "inputModalities": [
         "text",
-        "image"
+        "image",
+        "video"
       ],
       "outputModalities": [
         "text"
@@ -913,14 +913,14 @@
     },
     {
       "rank": 50,
-      "id": "qwen/qwen3.8-flash",
-      "canonicalSlug": "qwen/qwen3.8-flash-20260826",
-      "name": "Qwen3.8 Flash",
+      "id": "qwen/qwen3.7-flash",
+      "canonicalSlug": "qwen/qwen3.7-flash-20260727",
+      "name": "Qwen3.7 Flash",
       "provider": "Qwen",
       "providerSlug": "qwen",
       "contextLength": 1000000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.47,
+      "inputPerMillion": 0.03,
+      "outputPerMillion": 0.13,
       "inputModalities": [
         "text",
         "image",
