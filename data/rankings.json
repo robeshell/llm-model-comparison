@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T16:25:05.543Z",
+  "updatedAt": "2026-09-09T04:10:03.197Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -2902,27 +2902,6 @@
     },
     {
       "rank": 139,
-      "name": "MiniCPM5-2B",
-      "shortName": "MiniCPM5-2B",
-      "creator": "OpenBMB",
-      "creatorSlug": "openbmb",
-      "creatorLogo": "openbmb_small.svg",
-      "intelligenceIndex": 14.2811074149788,
-      "codingIndex": 14.5005375225413,
-      "agenticIndex": 8.95079037800687,
-      "gpqa": 0.702020202020202,
-      "hle": 0.0894346617238184,
-      "scicode": 0.262731481481481,
-      "terminalbench": 0.0861423220973783,
-      "lcr": 0.593333333333333,
-      "isReasoning": true,
-      "slug": "minicpm5-2b",
-      "isOpenWeights": true,
-      "releaseDate": "2026-09-07",
-      "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B"
-    },
-    {
-      "rank": 140,
       "name": "ERNIE 5.0 Thinking Preview",
       "shortName": "ERNIE 5.0 Thinking Preview",
       "creator": "Baidu",
@@ -2943,7 +2922,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 141,
+      "rank": 140,
       "name": "Gemma 4 12B (Reasoning)",
       "shortName": "Gemma 4 12B",
       "creator": "Google",
@@ -2964,7 +2943,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-12B-it/tree/main"
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "Nova 2.0 Pro Preview (medium)",
       "shortName": "Nova 2.0 Pro Preview (medium)",
       "creator": "Amazon",
@@ -2985,7 +2964,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 143,
+      "rank": 142,
       "name": "Command A+",
       "shortName": "Command A+",
       "creator": "Cohere",
@@ -3006,7 +2985,7 @@
       "huggingFaceUrl": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16"
     },
     {
-      "rank": 144,
+      "rank": 143,
       "name": "Gemma 4 31B (Non-reasoning)",
       "shortName": "Gemma 4 31B (Non-reasoning)",
       "creator": "Google",
@@ -3027,7 +3006,7 @@
       "huggingFaceUrl": "https://huggingface.co/google/gemma-4-31B"
     },
     {
-      "rank": 145,
+      "rank": 144,
       "name": "Qwen3.5 9B (Reasoning)",
       "shortName": "Qwen3.5 9B",
       "creator": "Alibaba",
@@ -3048,7 +3027,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
     },
     {
-      "rank": 146,
+      "rank": 145,
       "name": "Nova 2.0 Omni (medium)",
       "shortName": "Nova 2.0 Omni (medium)",
       "creator": "Amazon",
@@ -3069,7 +3048,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 147,
+      "rank": 146,
       "name": "Nemotron 3.5 Lightning",
       "shortName": "Nemotron 3.5 Lightning",
       "creator": "NVIDIA",
@@ -3090,7 +3069,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 148,
+      "rank": 147,
       "name": "Nemotron 3 Super 120B A12B (Reasoning)",
       "shortName": "Nemotron 3 Super",
       "creator": "NVIDIA",
@@ -3111,7 +3090,7 @@
       "huggingFaceUrl": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16"
     },
     {
-      "rank": 149,
+      "rank": 148,
       "name": "Apriel-v1.6-15B-Thinker",
       "shortName": "Apriel-v1.6-15B-Thinker",
       "creator": "ServiceNow",
@@ -3132,7 +3111,7 @@
       "huggingFaceUrl": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker"
     },
     {
-      "rank": 150,
+      "rank": 149,
       "name": "Nova 2.0 Lite (high)",
       "shortName": "Nova 2.0 Lite (high)",
       "creator": "Amazon",
@@ -3153,7 +3132,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 151,
+      "rank": 150,
       "name": "Qwen3.5 9B (Non-reasoning)",
       "shortName": "Qwen3.5 9B (Non-reasoning)",
       "creator": "Alibaba",
@@ -3174,7 +3153,7 @@
       "huggingFaceUrl": "https://huggingface.co/Qwen/Qwen3.5-9B"
     },
     {
-      "rank": 152,
+      "rank": 151,
       "name": "EXAONE 4.5 33B",
       "shortName": "EXAONE 4.5 33B",
       "creator": "LG AI Research",
@@ -3193,6 +3172,27 @@
       "isOpenWeights": true,
       "releaseDate": "2026-04-09",
       "huggingFaceUrl": "https://huggingface.co/LGAI-EXAONE/EXAONE-4.5-33B"
+    },
+    {
+      "rank": 152,
+      "name": "MiniCPM5-2B",
+      "shortName": "MiniCPM5-2B",
+      "creator": "OpenBMB",
+      "creatorSlug": "openbmb",
+      "creatorLogo": "openbmb_small.svg",
+      "intelligenceIndex": 13.137054831996,
+      "codingIndex": 14.5005375225413,
+      "agenticIndex": 8.95079037800687,
+      "gpqa": 0.702020202020202,
+      "hle": 0.0894346617238184,
+      "scicode": 0.262731481481481,
+      "terminalbench": 0.0861423220973783,
+      "lcr": 0.593333333333333,
+      "isReasoning": true,
+      "slug": "minicpm5-2b",
+      "isOpenWeights": true,
+      "releaseDate": "2026-09-07",
+      "huggingFaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B"
     },
     {
       "rank": 153,
