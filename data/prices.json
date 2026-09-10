@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T16:20:51.416Z",
+  "updatedAt": "2026-09-10T04:07:06.323Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -211,19 +211,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-6-astra-non-reasoning",
-      "name": "GPT-6 Astra (Non-reasoning)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 45.1697751115741,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "muse-spark-1-3-xhigh",
       "name": "Muse Spark 1.3 (xhigh)",
       "provider": "Meta",
@@ -354,19 +341,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "qwen3-8-flash-next",
-      "name": "Qwen3.8-Flash-Next",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.47,
-      "intelligenceIndex": 42.239646461458,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "glm-5-3-flash",
       "name": "GLM-5.3-Flash",
       "provider": "Z AI",
@@ -428,6 +402,19 @@
       "outputPerMillion": 3.75,
       "intelligenceIndex": 39.9993187061926,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-8-flash-next",
+      "name": "Qwen3.8-Flash-Next",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.47,
+      "intelligenceIndex": 39.9140521864741,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -744,19 +731,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-high",
-      "name": "GPT-5.6 Luna (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 32.9059788719235,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-6-terra-medium",
       "name": "GPT-5.6 Terra (medium)",
       "provider": "OpenAI",
@@ -783,6 +757,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-5-6-luna-high",
+      "name": "GPT-5.6 Luna (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 32.4147953501091,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "deepseek-v4-pro-0424",
       "name": "DeepSeek V4 Pro (max)",
       "provider": "DeepSeek",
@@ -791,19 +778,6 @@
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
       "intelligenceIndex": 30.8650601315524,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-8-27b-medium",
-      "name": "Qwen3.8 27B (medium)",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 3,
-      "intelligenceIndex": 30.6564883407653,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -856,19 +830,6 @@
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 29.6125932236316,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-8-27b-low",
-      "name": "Qwen3.8 27B (low)",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 3,
-      "intelligenceIndex": 29.2201448349189,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -952,6 +913,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "qwen3-8-27b-medium",
+      "name": "Qwen3.8 27B (medium)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 27.8121478231586,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "quasar-438b",
       "name": "Quasar 438B (max)",
       "provider": "Multiverse Computing",
@@ -986,6 +960,19 @@
       "inputPerMillion": 0.45,
       "outputPerMillion": 0.9,
       "intelligenceIndex": 26.7727524271576,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-8-27b-low",
+      "name": "Qwen3.8 27B (low)",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 26.4944478189896,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1407,7 +1394,7 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "deepseek-v4-flash-non-reasoning",
+      "id": "deepseek-v4-flash-0420-non-reasoning",
       "name": "DeepSeek V4 Flash (Non-reasoning)",
       "provider": "DeepSeek",
       "creatorLogo": "deepseek_small.svg",
@@ -1836,19 +1823,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "granite-4-2-8b",
-      "name": "Granite 4.2 8B",
-      "provider": "IBM",
-      "creatorLogo": "ibm_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.06,
-      "outputPerMillion": 0.25,
-      "intelligenceIndex": 12.3971005193249,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-oss-120b",
       "name": "gpt-oss-120b (high)",
       "provider": "OpenAI",
@@ -1870,6 +1844,19 @@
       "inputPerMillion": 0,
       "outputPerMillion": 0,
       "intelligenceIndex": 11.8679233769305,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "granite-4-2-8b",
+      "name": "Granite 4.2 8B",
+      "provider": "IBM",
+      "creatorLogo": "ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.25,
+      "intelligenceIndex": 11.8124212267815,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
