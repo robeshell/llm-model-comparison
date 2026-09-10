@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T04:07:06.323Z",
+  "updatedAt": "2026-09-10T16:11:10.464Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -731,19 +731,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-terra-medium",
-      "name": "GPT-5.6 Terra (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 12,
-      "intelligenceIndex": 32.7587708276955,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex (xhigh)",
       "provider": "OpenAI",
@@ -779,6 +766,19 @@
       "outputPerMillion": 0.87,
       "intelligenceIndex": 30.8650601315524,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-5-6-terra-medium",
+      "name": "GPT-5.6 Terra (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 12,
+      "intelligenceIndex": 30.4205773419377,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -907,7 +907,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 27.8765112356137,
+      "intelligenceIndex": 27.916528401716,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1095,6 +1095,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "ling-3-0-flash-vl",
+      "name": "Ling-3.0-flash-VL",
+      "provider": "InclusionAI",
+      "creatorLogo": "inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 24.7673304077875,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "claude-sonnet-5-low",
       "name": "Claude Sonnet 5 (low)",
       "provider": "Anthropic",
@@ -1221,19 +1234,6 @@
       "outputPerMillion": 12,
       "intelligenceIndex": 22.3001011790774,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-6-35b-a3b",
-      "name": "Qwen3.6 35B A3B",
-      "provider": "Alibaba",
-      "creatorLogo": "alibaba_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.375,
-      "outputPerMillion": 2.25,
-      "intelligenceIndex": 22.2616171216771,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1402,6 +1402,19 @@
       "inputPerMillion": 0.0938,
       "outputPerMillion": 0.195,
       "intelligenceIndex": 18.8769056307071,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-6-35b-a3b",
+      "name": "Qwen3.6 35B A3B",
+      "provider": "Alibaba",
+      "creatorLogo": "alibaba_small.svg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.375,
+      "outputPerMillion": 2.25,
+      "intelligenceIndex": 18.8138400189843,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
