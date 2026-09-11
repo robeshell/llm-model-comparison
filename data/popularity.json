@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:11:11.502Z",
+  "updatedAt": "2026-09-11T04:05:23.011Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -77,23 +77,6 @@
     },
     {
       "rank": 5,
-      "id": "deepseek/deepseek-v4-flash",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-20260423",
-      "name": "DeepSeek V4 Flash 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.08707999999999999,
-      "outputPerMillion": 0.17415999999999998,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 6,
       "id": "xiaomi/mimo-v2.5",
       "canonicalSlug": "xiaomi/mimo-v2.5-20260422",
       "name": "MiMo-V2.5",
@@ -113,15 +96,32 @@
       ]
     },
     {
+      "rank": 6,
+      "id": "deepseek/deepseek-v4-flash",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-20260423",
+      "name": "DeepSeek V4 Flash 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.088606,
+      "outputPerMillion": 0.177212,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 7,
-      "id": "tencent/hy3",
-      "canonicalSlug": "tencent/hy3-20260706",
-      "name": "Hy3",
-      "provider": "Tencent",
-      "providerSlug": "tencent",
-      "contextLength": 262144,
-      "inputPerMillion": 0.0825,
-      "outputPerMillion": 0.33,
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "canonicalSlug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+      "name": "Nemotron 3 Ultra (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
       "inputModalities": [
         "text"
       ],
@@ -131,14 +131,14 @@
     },
     {
       "rank": 8,
-      "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "canonicalSlug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-      "name": "Nemotron 3 Ultra (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "id": "tencent/hy3",
+      "canonicalSlug": "tencent/hy3-20260706",
+      "name": "Hy3",
+      "provider": "Tencent",
+      "providerSlug": "tencent",
+      "contextLength": 262144,
+      "inputPerMillion": 0.13199999999999998,
+      "outputPerMillion": 0.5279999999999999,
       "inputModalities": [
         "text"
       ],
@@ -192,8 +192,8 @@
       "provider": "Z.ai",
       "providerSlug": "z-ai",
       "contextLength": 1048576,
-      "inputPerMillion": 0.28,
-      "outputPerMillion": 0.88,
+      "inputPerMillion": 0.966,
+      "outputPerMillion": 3.036,
       "inputModalities": [
         "text"
       ],
@@ -203,18 +203,20 @@
     },
     {
       "rank": 12,
-      "id": "openai/gpt-5.6-sol",
-      "canonicalSlug": "openai/gpt-5.6-sol-20260709",
-      "name": "GPT-5.6 Sol",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 1050000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
+      "id": "meta/muse-spark-1.3-contributor",
+      "canonicalSlug": "meta/muse-spark-1.3-contributor-20260902",
+      "name": "Muse Spark 1.3 Contributor",
+      "provider": "Meta",
+      "providerSlug": "meta",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.09999999999999999,
+      "outputPerMillion": 0.19999999999999998,
       "inputModalities": [
-        "file",
+        "text",
         "image",
-        "text"
+        "video",
+        "file",
+        "audio"
       ],
       "outputModalities": [
         "text"
@@ -228,8 +230,8 @@
       "provider": "MoonshotAI",
       "providerSlug": "moonshotai",
       "contextLength": 1048576,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
+      "inputPerMillion": 1.89,
+      "outputPerMillion": 9.48,
       "inputModalities": [
         "text",
         "image",
@@ -260,20 +262,18 @@
     },
     {
       "rank": 15,
-      "id": "meta/muse-spark-1.3-contributor",
-      "canonicalSlug": "meta/muse-spark-1.3-contributor-20260902",
-      "name": "Muse Spark 1.3 Contributor",
-      "provider": "Meta",
-      "providerSlug": "meta",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.09999999999999999,
-      "outputPerMillion": 0.19999999999999998,
+      "id": "openai/gpt-5.6-sol",
+      "canonicalSlug": "openai/gpt-5.6-sol-20260709",
+      "name": "GPT-5.6 Sol",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 1050000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
       "inputModalities": [
-        "text",
-        "image",
-        "video",
         "file",
-        "audio"
+        "image",
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -287,8 +287,8 @@
       "provider": "Upstage",
       "providerSlug": "upstage",
       "contextLength": 524288,
-      "inputPerMillion": 0.03,
-      "outputPerMillion": 0.12,
+      "inputPerMillion": 0.09,
+      "outputPerMillion": 0.36,
       "inputModalities": [
         "text"
       ],
@@ -336,6 +336,23 @@
     },
     {
       "rank": 19,
+      "id": "poolside/laguna-s-2.1:free",
+      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
+      "name": "Laguna S 2.1 (free)",
+      "provider": "Poolside",
+      "providerSlug": "poolside",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 20,
       "id": "anthropic/claude-sonnet-4.6",
       "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
       "name": "Claude Sonnet 4.6",
@@ -354,13 +371,47 @@
       ]
     },
     {
-      "rank": 20,
-      "id": "poolside/laguna-s-2.1:free",
-      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
-      "name": "Laguna S 2.1 (free)",
-      "provider": "Poolside",
-      "providerSlug": "poolside",
-      "contextLength": 262144,
+      "rank": 21,
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
+      "name": "DeepSeek V4 Pro 0813",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 1.0494,
+      "outputPerMillion": 3.1482,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "deepseek/deepseek-v4-pro",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
+      "name": "DeepSeek V4 Pro 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.9552599999999999,
+      "outputPerMillion": 1.9105199999999998,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
       "inputModalities": [
@@ -371,7 +422,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 24,
       "id": "google/gemini-3.7-flash",
       "canonicalSlug": "google/gemini-3.7-flash-20260813",
       "name": "Gemini 3.7 Flash",
@@ -386,57 +437,6 @@
         "video",
         "file",
         "audio"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 22,
-      "id": "deepseek/deepseek-v4-pro",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
-      "name": "DeepSeek V4 Pro 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.87,
-      "outputPerMillion": 1.74,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 23,
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
-      "name": "DeepSeek V4 Pro 0813",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.57948,
-      "outputPerMillion": 1.73844,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 24,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -461,6 +461,24 @@
     },
     {
       "rank": 26,
+      "id": "deepseek/deepseek-v4.1-flash",
+      "canonicalSlug": "deepseek/deepseek-v4.1-flash-20260910",
+      "name": "DeepSeek V4.1 Flash",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 27,
       "id": "google/gemini-3-flash-preview",
       "canonicalSlug": "google/gemini-3-flash-preview-20251217",
       "name": "Gemini 3 Flash Preview",
@@ -481,7 +499,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "id": "google/gemini-2.5-flash-lite",
       "canonicalSlug": "google/gemini-2.5-flash-lite",
       "name": "Gemini 2.5 Flash Lite",
@@ -502,44 +520,7 @@
       ]
     },
     {
-      "rank": 28,
-      "id": "openai/gpt-5.6-terra",
-      "canonicalSlug": "openai/gpt-5.6-terra-20260709",
-      "name": "GPT-5.6 Terra",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 1050000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 12,
-      "inputModalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
       "rank": 29,
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.22,
-      "outputPerMillion": 0.66,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 30,
       "id": "openai/gpt-6-astra",
       "canonicalSlug": "openai/gpt-6-astra-20260903",
       "name": "GPT-6 Astra",
@@ -558,7 +539,61 @@
       ]
     },
     {
+      "rank": 30,
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.22,
+      "outputPerMillion": 0.66,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 31,
+      "id": "openai/gpt-5.6-terra",
+      "canonicalSlug": "openai/gpt-5.6-terra-20260709",
+      "name": "GPT-5.6 Terra",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 1050000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 12,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 32,
+      "id": "openai/gpt-oss-120b",
+      "canonicalSlug": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.037,
+      "outputPerMillion": 0.16999999999999998,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 33,
       "id": "google/gemini-2.5-flash",
       "canonicalSlug": "google/gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
@@ -579,7 +614,24 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 34,
+      "id": "deepseek/deepseek-v3.2",
+      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 163840,
+      "inputPerMillion": 0.26899999999999996,
+      "outputPerMillion": 0.39999999999999997,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 35,
       "id": "google/gemini-3.1-flash-lite",
       "canonicalSlug": "google/gemini-3.1-flash-lite-20260507",
       "name": "Gemini 3.1 Flash Lite",
@@ -600,41 +652,7 @@
       ]
     },
     {
-      "rank": 33,
-      "id": "deepseek/deepseek-v3.2",
-      "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
-      "name": "DeepSeek V3.2",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 163840,
-      "inputPerMillion": 0.26899999999999996,
-      "outputPerMillion": 0.39999999999999997,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 34,
-      "id": "openai/gpt-oss-120b",
-      "canonicalSlug": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.037,
-      "outputPerMillion": 0.16999999999999998,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 35,
+      "rank": 36,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -643,25 +661,6 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 36,
-      "id": "anthropic/claude-fable-5.1",
-      "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
-      "name": "Claude Fable 5.1",
-      "provider": "Anthropic",
-      "providerSlug": "anthropic",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
       "inputModalities": [
         "text",
         "image",
@@ -692,6 +691,24 @@
     },
     {
       "rank": 38,
+      "id": "dots-studio/dots-3-note-preview:free",
+      "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
+      "name": "Dots3-Note Preview (free)",
+      "provider": "Dots Studio",
+      "providerSlug": "dots-studio",
+      "contextLength": 512000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 39,
       "id": "openai/gpt-5.6-luna-pro",
       "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
       "name": "GPT-5.6 Luna Pro",
@@ -710,35 +727,19 @@
       ]
     },
     {
-      "rank": 39,
-      "id": "dots-studio/dots-3-note-preview:free",
-      "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
-      "name": "Dots3-Note Preview (free)",
-      "provider": "Dots Studio",
-      "providerSlug": "dots-studio",
-      "contextLength": 512000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "rank": 40,
+      "id": "anthropic/claude-fable-5.1",
+      "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
+      "name": "Claude Fable 5.1",
+      "provider": "Anthropic",
+      "providerSlug": "anthropic",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
       "inputModalities": [
         "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 40,
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
-      "name": "Nemotron 3 Super (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
+        "image",
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -765,17 +766,17 @@
     },
     {
       "rank": 42,
-      "id": "google/gemma-4-26b-a4b-it",
-      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
-      "name": "Gemma 4 26B A4B",
-      "provider": "Google",
-      "providerSlug": "google",
-      "contextLength": 262144,
-      "inputPerMillion": 0.041999999999999996,
-      "outputPerMillion": 0.22,
+      "id": "qwen/qwen3.8-max-0902",
+      "canonicalSlug": "qwen/qwen3.8-max-20260902",
+      "name": "Qwen3.8 Max (0902)",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
       "inputModalities": [
-        "image",
         "text",
+        "image",
         "video"
       ],
       "outputModalities": [
@@ -803,6 +804,42 @@
     },
     {
       "rank": 44,
+      "id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+      "name": "Nemotron 3 Super (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 45,
+      "id": "google/gemma-4-26b-a4b-it",
+      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
+      "name": "Gemma 4 26B A4B",
+      "provider": "Google",
+      "providerSlug": "google",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.041999999999999996,
+      "outputPerMillion": 0.22,
+      "inputModalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 46,
       "id": "meta/muse-spark-1.3",
       "canonicalSlug": "meta/muse-spark-1.3-20260902",
       "name": "Muse Spark 1.3",
@@ -823,26 +860,24 @@
       ]
     },
     {
-      "rank": 45,
-      "id": "qwen/qwen3.8-max-0902",
-      "canonicalSlug": "qwen/qwen3.8-max-20260902",
-      "name": "Qwen3.8 Max (0902)",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
+      "rank": 47,
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
+      "name": "Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionAI",
+      "providerSlug": "inclusionai",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
       "inputModalities": [
-        "text",
-        "image",
-        "video"
+        "text"
       ],
       "outputModalities": [
         "text"
       ]
     },
     {
-      "rank": 46,
+      "rank": 48,
       "id": "openai/gpt-oss-20b",
       "canonicalSlug": "openai/gpt-oss-20b",
       "name": "gpt-oss-20b",
@@ -859,7 +894,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 49,
       "id": "stepfun/step-3.7-flash",
       "canonicalSlug": "stepfun/step-3.7-flash-20260528",
       "name": "Step 3.7 Flash",
@@ -878,24 +913,7 @@
       ]
     },
     {
-      "rank": 48,
-      "id": "inclusionai/ling-3.0-flash-sante:free",
-      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
-      "name": "Ling 3.0 Flash Sante (free)",
-      "provider": "inclusionAI",
-      "providerSlug": "inclusionai",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 49,
+      "rank": 50,
       "id": "qwen/qwen3.8-27b",
       "canonicalSlug": "qwen/qwen3.8-27b-20260814",
       "name": "Qwen3.8 27B",
@@ -908,25 +926,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 50,
-      "id": "anthropic/claude-haiku-4.5",
-      "canonicalSlug": "anthropic/claude-4.5-haiku-20251001",
-      "name": "Claude Haiku 4.5",
-      "provider": "Anthropic",
-      "providerSlug": "anthropic",
-      "contextLength": 200000,
-      "inputPerMillion": 1,
-      "outputPerMillion": 5,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
       ],
       "outputModalities": [
         "text"

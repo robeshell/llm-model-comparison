@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:11:10.464Z",
+  "updatedAt": "2026-09-11T04:05:22.030Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -458,6 +458,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash (max)",
+      "provider": "DeepSeek",
+      "creatorLogo": "deepseek_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 39.545442472527,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-6-sol-medium",
       "name": "GPT-5.6 Sol (medium)",
       "provider": "OpenAI",
@@ -752,6 +765,19 @@
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 32.4147953501091,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-high",
+      "name": "Claude Sonnet 5 (high)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 32.0283996664651,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1360,8 +1386,8 @@
       "provider": "LongCat",
       "creatorLogo": "longcat_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 2.95,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
       "intelligenceIndex": 19.6877756610623,
       "isOpenWeights": true,
       "releaseDate": null,
