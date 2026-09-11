@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T04:05:22.030Z",
+  "updatedAt": "2026-09-11T16:14:44.750Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -588,6 +588,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "agnes-3-0-flash",
+      "name": "Agnes 3.0 Flash",
+      "provider": "Sapiens AI",
+      "creatorLogo": "sapiens.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.05,
+      "outputPerMillion": 0.15,
+      "intelligenceIndex": 35.5,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "grok-4-6-low",
       "name": "Grok 4.6 (low)",
       "provider": "SpaceXAI",
@@ -635,6 +648,19 @@
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 34.772048822309,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-xhigh",
+      "name": "Claude Sonnet 5 (xhigh)",
+      "provider": "Anthropic",
+      "creatorLogo": "anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 34.707236557212,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -952,6 +978,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "agnes-2-5-pro-alpha",
+      "name": "Agnes 2.5 Pro Alpha",
+      "provider": "Sapiens AI",
+      "creatorLogo": "sapiens.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.45,
+      "outputPerMillion": 0.9,
+      "intelligenceIndex": 27.797299318772,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "quasar-438b",
       "name": "Quasar 438B (max)",
       "provider": "Multiverse Computing",
@@ -974,19 +1013,6 @@
       "outputPerMillion": 30,
       "intelligenceIndex": 26.8042923401368,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "agnes-2-5-pro-alpha",
-      "name": "Agnes 2.5 Pro Alpha",
-      "provider": "Sapiens AI",
-      "creatorLogo": "sapiens.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.45,
-      "outputPerMillion": 0.9,
-      "intelligenceIndex": 26.7727524271576,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1056,19 +1082,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-medium",
-      "name": "GPT-5.6 Luna (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 25.7828734221316,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "hy3",
       "name": "Hy3",
       "provider": "Tencent",
@@ -1091,6 +1104,19 @@
       "outputPerMillion": 4.05,
       "intelligenceIndex": 25.5423060999384,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-5-6-luna-medium",
+      "name": "GPT-5.6 Luna (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 25.4773991440784,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1277,19 +1303,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-low",
-      "name": "GPT-5.6 Luna (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 21.834227046588,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "g9v3-39a5b",
       "name": "G9v3-39A5B",
       "provider": "AI9Stars",
@@ -1311,6 +1324,19 @@
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 21.7045082420985,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-5-6-luna-low",
+      "name": "GPT-5.6 Luna (low)",
+      "provider": "OpenAI",
+      "creatorLogo": "openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 21.5456033424265,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
