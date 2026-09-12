@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:14:44.750Z",
+  "updatedAt": "2026-09-12T04:06:06.750Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -692,19 +692,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "kimi-k3-low",
-      "name": "Kimi K3 (low)",
-      "provider": "Kimi",
-      "creatorLogo": "kimi.jpg",
-      "contextLength": 1048576,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "intelligenceIndex": 34.4555282989717,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gemini-3-6-flash",
       "name": "Gemini 3.6 Flash",
       "provider": "Google",
@@ -817,6 +804,19 @@
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
       "intelligenceIndex": 30.8650601315524,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "kimi-k3-low",
+      "name": "Kimi K3 (low)",
+      "provider": "Kimi",
+      "creatorLogo": "kimi.jpg",
+      "contextLength": 1048576,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 30.4810237529068,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -2559,6 +2559,19 @@
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.195,
       "intelligenceIndex": 6.84412514839364,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "granite-4-1-8b",
+      "name": "Granite 4.1 8B",
+      "provider": "IBM",
+      "creatorLogo": "ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.05,
+      "outputPerMillion": 0.1,
+      "intelligenceIndex": 6.57208916161427,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
