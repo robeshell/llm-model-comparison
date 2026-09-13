@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:21:38.305Z",
+  "updatedAt": "2026-09-13T04:17:16.824Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -510,19 +510,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "glm-5-2",
-      "name": "GLM-5.2 (max)",
-      "provider": "Z AI",
-      "creatorLogo": "zai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.4,
-      "outputPerMillion": 4.4,
-      "intelligenceIndex": 38.6392888040106,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "claude-sonnet-5",
       "name": "Claude Sonnet 5 (max)",
       "provider": "Anthropic",
@@ -701,6 +688,19 @@
       "outputPerMillion": 3.75,
       "intelligenceIndex": 34.3395678920714,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "glm-5-2",
+      "name": "GLM-5.2 (max)",
+      "provider": "Z AI",
+      "creatorLogo": "zai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1.4,
+      "outputPerMillion": 4.4,
+      "intelligenceIndex": 34.0052322377545,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2559,19 +2559,6 @@
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.195,
       "intelligenceIndex": 6.84412514839364,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "granite-4-1-8b",
-      "name": "Granite 4.1 8B",
-      "provider": "IBM",
-      "creatorLogo": "ibm_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.05,
-      "outputPerMillion": 0.1,
-      "intelligenceIndex": 6.57208916161427,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
