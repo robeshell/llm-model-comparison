@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T04:24:10.938Z",
+  "updatedAt": "2026-09-14T17:58:26.625Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -121,8 +121,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.088606,
-      "outputPerMillion": 0.177212,
+      "inputPerMillion": 0.08399999999999999,
+      "outputPerMillion": 0.16799999999999998,
       "inputModalities": [
         "text"
       ],
@@ -138,8 +138,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -278,14 +278,14 @@
     },
     {
       "rank": 16,
-      "id": "moonshotai/kimi-k3",
-      "canonicalSlug": "moonshotai/kimi-k3-20260715",
-      "name": "Kimi K3",
-      "provider": "MoonshotAI",
-      "providerSlug": "moonshotai",
+      "id": "minimax/minimax-m3",
+      "canonicalSlug": "minimax/minimax-m3-20260531",
+      "name": "MiniMax M3",
+      "provider": "MiniMax",
+      "providerSlug": "minimax",
       "contextLength": 1048576,
-      "inputPerMillion": 2.6481380629999998,
-      "outputPerMillion": 13.282724250000001,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
       "inputModalities": [
         "text",
         "image",
@@ -297,14 +297,14 @@
     },
     {
       "rank": 17,
-      "id": "minimax/minimax-m3",
-      "canonicalSlug": "minimax/minimax-m3-20260531",
-      "name": "MiniMax M3",
-      "provider": "MiniMax",
-      "providerSlug": "minimax",
+      "id": "moonshotai/kimi-k3",
+      "canonicalSlug": "moonshotai/kimi-k3-20260715",
+      "name": "Kimi K3",
+      "provider": "MoonshotAI",
+      "providerSlug": "moonshotai",
       "contextLength": 1048576,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
+      "inputPerMillion": 2.6481380629999998,
+      "outputPerMillion": 13.282724250000001,
       "inputModalities": [
         "text",
         "image",
@@ -394,8 +394,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.9833999999999999,
-      "outputPerMillion": 2.9502,
+      "inputPerMillion": 0.57948,
+      "outputPerMillion": 1.73844,
       "inputModalities": [
         "text"
       ],
@@ -485,23 +485,6 @@
     },
     {
       "rank": 27,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 28,
       "id": "openai/gpt-6-astra",
       "canonicalSlug": "openai/gpt-6-astra-20260903",
       "name": "GPT-6 Astra",
@@ -513,6 +496,23 @@
       "inputModalities": [
         "file",
         "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 28,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -615,24 +615,6 @@
     },
     {
       "rank": 34,
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.22,
-      "outputPerMillion": 0.66,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 35,
       "id": "google/gemini-2.5-flash",
       "canonicalSlug": "google/gemini-2.5-flash",
       "name": "Gemini 2.5 Flash",
@@ -647,6 +629,24 @@
         "text",
         "audio",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 35,
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.22,
+      "outputPerMillion": 0.66,
+      "inputModalities": [
+        "text",
+        "image"
       ],
       "outputModalities": [
         "text"
@@ -766,6 +766,24 @@
     },
     {
       "rank": 42,
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
+      "name": "Nex-N2.5-Pro (free)",
+      "provider": "Nex AGI",
+      "providerSlug": "nex-agi",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 43,
       "id": "google/gemma-4-31b-it",
       "canonicalSlug": "google/gemma-4-31b-it-20260402",
       "name": "Gemma 4 31B",
@@ -784,7 +802,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 44,
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
       "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
       "name": "Nemotron 3 Super (free)",
@@ -801,7 +819,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 45,
       "id": "openai/gpt-5.6-luna-pro",
       "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
       "name": "GPT-5.6 Luna Pro",
@@ -820,7 +838,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
       "id": "inclusionai/ling-3.0-flash-sante:free",
       "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
       "name": "Ling 3.0 Flash Sante (free)",
@@ -831,24 +849,6 @@
       "outputPerMillion": 0,
       "inputModalities": [
         "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 46,
-      "id": "nex-agi/nex-n2.5-pro:free",
-      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
-      "name": "Nex-N2.5-Pro (free)",
-      "provider": "Nex AGI",
-      "providerSlug": "nex-agi",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text",
-        "image"
       ],
       "outputModalities": [
         "text"
@@ -877,25 +877,6 @@
     },
     {
       "rank": 48,
-      "id": "google/gemma-4-26b-a4b-it",
-      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
-      "name": "Gemma 4 26B A4B",
-      "provider": "Google",
-      "providerSlug": "google",
-      "contextLength": 262144,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.3,
-      "inputModalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 49,
       "id": "qwen/qwen3.8-flash",
       "canonicalSlug": "qwen/qwen3.8-flash-20260826",
       "name": "Qwen3.8 Flash",
@@ -907,6 +888,25 @@
       "inputModalities": [
         "text",
         "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 49,
+      "id": "google/gemma-4-26b-a4b-it",
+      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
+      "name": "Gemma 4 26B A4B",
+      "provider": "Google",
+      "providerSlug": "google",
+      "contextLength": 262144,
+      "inputPerMillion": 0.09,
+      "outputPerMillion": 0.3,
+      "inputModalities": [
+        "image",
+        "text",
         "video"
       ],
       "outputModalities": [
