@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:24:44.128Z",
+  "updatedAt": "2026-09-15T16:42:06.205Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -47,8 +47,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1310720,
-      "inputPerMillion": 0.049999999999999996,
-      "outputPerMillion": 0.09999999999999999,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.12,
       "inputModalities": [
         "text"
       ],
@@ -64,8 +64,8 @@
       "provider": "Z.ai",
       "providerSlug": "z-ai",
       "contextLength": 1310720,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.5,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.25,
       "inputModalities": [
         "text",
         "image",
@@ -115,14 +115,14 @@
     },
     {
       "rank": 7,
-      "id": "deepseek/deepseek-v4-flash",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-20260423",
-      "name": "DeepSeek V4 Flash 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.088606,
-      "outputPerMillion": 0.177212,
+      "id": "tencent/hy3",
+      "canonicalSlug": "tencent/hy3-20260706",
+      "name": "Hy3",
+      "provider": "Tencent",
+      "providerSlug": "tencent",
+      "contextLength": 262144,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -132,14 +132,14 @@
     },
     {
       "rank": 8,
-      "id": "tencent/hy3",
-      "canonicalSlug": "tencent/hy3-20260706",
-      "name": "Hy3",
-      "provider": "Tencent",
-      "providerSlug": "tencent",
-      "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "id": "deepseek/deepseek-v4-flash",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-20260423",
+      "name": "DeepSeek V4 Flash 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.08553999999999999,
+      "outputPerMillion": 0.17107999999999998,
       "inputModalities": [
         "text"
       ],
@@ -225,23 +225,6 @@
     },
     {
       "rank": 13,
-      "id": "upstage/solar-pro4",
-      "canonicalSlug": "upstage/solar-pro4-20260810",
-      "name": "Solar Pro 4",
-      "provider": "Upstage",
-      "providerSlug": "upstage",
-      "contextLength": 524288,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.36,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 14,
       "id": "openai/gpt-5.6-sol",
       "canonicalSlug": "openai/gpt-5.6-sol-20260709",
       "name": "GPT-5.6 Sol",
@@ -253,6 +236,23 @@
       "inputModalities": [
         "file",
         "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 14,
+      "id": "upstage/solar-pro4",
+      "canonicalSlug": "upstage/solar-pro4-20260810",
+      "name": "Solar Pro 4",
+      "provider": "Upstage",
+      "providerSlug": "upstage",
+      "contextLength": 524288,
+      "inputPerMillion": 0.09,
+      "outputPerMillion": 0.36,
+      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -297,25 +297,6 @@
     },
     {
       "rank": 17,
-      "id": "moonshotai/kimi-k3",
-      "canonicalSlug": "moonshotai/kimi-k3-20260715",
-      "name": "Kimi K3",
-      "provider": "MoonshotAI",
-      "providerSlug": "moonshotai",
-      "contextLength": 1048576,
-      "inputPerMillion": 2.6481380629999998,
-      "outputPerMillion": 13.282724250000001,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 18,
       "id": "anthropic/claude-sonnet-5",
       "canonicalSlug": "anthropic/claude-sonnet-5-20260630",
       "name": "Claude Sonnet 5",
@@ -328,6 +309,25 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 18,
+      "id": "moonshotai/kimi-k3",
+      "canonicalSlug": "moonshotai/kimi-k3-20260715",
+      "name": "Kimi K3",
+      "provider": "MoonshotAI",
+      "providerSlug": "moonshotai",
+      "contextLength": 1048576,
+      "inputPerMillion": 2.6481380629999998,
+      "outputPerMillion": 13.282724250000001,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
       ],
       "outputModalities": [
         "text"
@@ -394,8 +394,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.9833999999999999,
-      "outputPerMillion": 2.9502,
+      "inputPerMillion": 0.57948,
+      "outputPerMillion": 1.73844,
       "inputModalities": [
         "text"
       ],
@@ -556,25 +556,6 @@
     },
     {
       "rank": 31,
-      "id": "anthropic/claude-sonnet-4.6",
-      "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
-      "name": "Claude Sonnet 4.6",
-      "provider": "Anthropic",
-      "providerSlug": "anthropic",
-      "contextLength": 1000000,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 32,
       "id": "openai/gpt-5.6-terra",
       "canonicalSlug": "openai/gpt-5.6-terra-20260709",
       "name": "GPT-5.6 Terra",
@@ -587,6 +568,25 @@
         "file",
         "image",
         "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 32,
+      "id": "anthropic/claude-sonnet-4.6",
+      "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "providerSlug": "anthropic",
+      "contextLength": 1000000,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -653,6 +653,24 @@
     },
     {
       "rank": 36,
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
+      "name": "Nex-N2.5-Pro (free)",
+      "provider": "Nex AGI",
+      "providerSlug": "nex-agi",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 37,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -671,7 +689,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "id": "anthropic/claude-fable-5.1",
       "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
       "name": "Claude Fable 5.1",
@@ -690,7 +708,26 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 39,
+      "id": "x-ai/grok-4.6",
+      "canonicalSlug": "x-ai/grok-4.6-20260810",
+      "name": "Grok 4.6",
+      "provider": "SpaceXAI",
+      "providerSlug": "x-ai",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 40,
       "id": "deepseek/deepseek-v4-flash-vision-exp",
       "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -708,25 +745,7 @@
       ]
     },
     {
-      "rank": 39,
-      "id": "nex-agi/nex-n2.5-pro:free",
-      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
-      "name": "Nex-N2.5-Pro (free)",
-      "provider": "Nex AGI",
-      "providerSlug": "nex-agi",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 40,
+      "rank": 41,
       "id": "qwen/qwen3.8-max-0902",
       "canonicalSlug": "qwen/qwen3.8-max-20260902",
       "name": "Qwen3.8 Max (0902)",
@@ -739,25 +758,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 41,
-      "id": "x-ai/grok-4.6",
-      "canonicalSlug": "x-ai/grok-4.6-20260810",
-      "name": "Grok 4.6",
-      "provider": "SpaceXAI",
-      "providerSlug": "x-ai",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
       ],
       "outputModalities": [
         "text"
@@ -820,23 +820,6 @@
     },
     {
       "rank": 45,
-      "id": "inclusionai/ling-3.0-flash-sante:free",
-      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
-      "name": "Ling 3.0 Flash Sante (free)",
-      "provider": "inclusionAI",
-      "providerSlug": "inclusionai",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 46,
       "id": "qwen/qwen3.8-flash",
       "canonicalSlug": "qwen/qwen3.8-flash-20260826",
       "name": "Qwen3.8 Flash",
@@ -849,6 +832,23 @@
         "text",
         "image",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 46,
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
+      "name": "Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionAI",
+      "providerSlug": "inclusionai",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"

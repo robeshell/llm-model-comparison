@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:24:43.520Z",
+  "updatedAt": "2026-09-15T16:42:05.358Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -926,19 +926,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "nex-n2-pro",
-      "name": "Nex-N2-Pro",
-      "provider": "Nex AGI",
-      "creatorLogo": "/img/logos/nex_small.svg",
-      "contextLength": 262000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 28.1990972887912,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "solar-pro4",
       "name": "Solar Pro 4",
       "provider": "Upstage",
@@ -1121,6 +1108,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "ling-3-0-flash-vl",
+      "name": "Ling-3.0-flash-VL",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 24.9673304077875,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "grok-4-3-medium",
       "name": "Grok 4.3 (medium)",
       "provider": "SpaceXAI",
@@ -1130,19 +1130,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 24.7816938151637,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ling-3-0-flash-vl",
-      "name": "Ling-3.0-flash-VL",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 24.7673304077875,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
