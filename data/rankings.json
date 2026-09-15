@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:58:26.237Z",
+  "updatedAt": "2026-09-15T04:24:43.849Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1936,27 +1936,6 @@
     },
     {
       "rank": 93,
-      "name": "Ling 3.0 Flash",
-      "shortName": "Ling 3.0 Flash",
-      "creator": "InclusionAI",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "intelligenceIndex": 24.9392319530441,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.854545454545454,
-      "hle": 0.236793327154773,
-      "scicode": 0.420138888888889,
-      "terminalbench": 0.554307116104869,
-      "lcr": 0.73,
-      "isReasoning": true,
-      "slug": "ling-3-0-flash",
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 94,
       "name": "Grok 4.3 (medium)",
       "shortName": "Grok 4.3 (medium)",
       "creator": "SpaceXAI",
@@ -1977,7 +1956,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 95,
+      "rank": 94,
       "name": "Ling-3.0-flash-VL",
       "shortName": "Ling-3.0-flash-VL",
       "creator": "InclusionAI",
@@ -1998,7 +1977,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 96,
+      "rank": 95,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, Low Effort)",
       "shortName": "Claude Sonnet 5 (low)",
       "creator": "Anthropic",
@@ -2019,7 +1998,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 97,
+      "rank": 96,
       "name": "Solar Open2 250B",
       "shortName": "Solar Open2 250B",
       "creator": "Upstage",
@@ -2040,7 +2019,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 98,
+      "rank": 97,
       "name": "Grok 4.3 (low)",
       "shortName": "Grok 4.3 (low)",
       "creator": "SpaceXAI",
@@ -2061,7 +2040,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 99,
+      "rank": 98,
       "name": "MiMo-V2-Omni",
       "shortName": "MiMo-V2-Omni",
       "creator": "Xiaomi",
@@ -2082,7 +2061,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 100,
+      "rank": 99,
       "name": "Gemini 3.5 Flash (minimal)",
       "shortName": "Gemini 3.5 Flash (minimal)",
       "creator": "Google",
@@ -2103,7 +2082,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 101,
+      "rank": 100,
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "shortName": "Nemotron 3 Ultra",
       "creator": "NVIDIA",
@@ -2124,7 +2103,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 102,
+      "rank": 101,
       "name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
       "shortName": "Claude Sonnet 4.6 (Non-reasoning, low)",
       "creator": "Anthropic",
@@ -2145,7 +2124,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 103,
+      "rank": 102,
       "name": "A.X-K2",
       "shortName": "A.X-K2",
       "creator": "SK Telecom",
@@ -2166,7 +2145,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 104,
+      "rank": 103,
       "name": "Gemini 3.5 Flash-Lite",
       "shortName": "Gemini 3.5 Flash-Lite",
       "creator": "Google",
@@ -2187,7 +2166,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "MiMo-V2-Flash (Feb 2026)",
       "shortName": "MiMo-V2-Flash (Feb 2026)",
       "creator": "Xiaomi",
@@ -2208,7 +2187,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 106,
+      "rank": 105,
       "name": "GLM-5.2 (Non-reasoning)",
       "shortName": "GLM-5.2 (Non-reasoning)",
       "creator": "Z AI",
@@ -2229,7 +2208,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 107,
+      "rank": 106,
       "name": "Qwen3.8 27B (Non-reasoning)",
       "shortName": "Qwen3.8 27B",
       "creator": "Alibaba",
@@ -2250,7 +2229,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 108,
+      "rank": 107,
       "name": "MiMo-V2.5",
       "shortName": "MiMo-V2.5",
       "creator": "Xiaomi",
@@ -2271,7 +2250,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 109,
+      "rank": 108,
       "name": "GPT-5.6 Terra (Non-reasoning)",
       "shortName": "GPT-5.6 Terra (Non-reasoning)",
       "creator": "OpenAI",
@@ -2292,7 +2271,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 110,
+      "rank": 109,
       "name": "Qwen3.6 27B (Reasoning)",
       "shortName": "Qwen3.6 27B",
       "creator": "Alibaba",
@@ -2313,7 +2292,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 111,
+      "rank": 110,
       "name": "G9v3-39A5B",
       "shortName": "G9v3-39A5B",
       "creator": "AI9Stars",
@@ -2334,7 +2313,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 112,
+      "rank": 111,
       "name": "KAT Coder Pro V2",
       "shortName": "KAT-Coder-Pro V2",
       "creator": "KwaiKAT",
@@ -2355,7 +2334,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 113,
+      "rank": 112,
       "name": "GPT-5.6 Luna (low)",
       "shortName": "GPT-5.6 Luna (low)",
       "creator": "OpenAI",
@@ -2376,7 +2355,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 114,
+      "rank": 113,
       "name": "Qwen3.5 397B A17B (Non-reasoning)",
       "shortName": "Qwen3.5 397B A17B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2397,7 +2376,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 115,
+      "rank": 114,
       "name": "K2 Horizon 7B",
       "shortName": "K2 Horizon 7B",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -2418,7 +2397,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 116,
+      "rank": 115,
       "name": "DeepSeek V4 Pro (Non-reasoning)",
       "shortName": "DeepSeek V4 Pro (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2434,6 +2413,27 @@
       "lcr": 0.53,
       "isReasoning": false,
       "slug": "deepseek-v4-pro-0424-non-reasoning",
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 116,
+      "name": "Ling 3.0 Flash",
+      "shortName": "Ling 3.0 Flash",
+      "creator": "InclusionAI",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "intelligenceIndex": 20.6349521865481,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.854545454545454,
+      "hle": 0.236793327154773,
+      "scicode": 0.420138888888889,
+      "terminalbench": 0.554307116104869,
+      "lcr": 0.73,
+      "isReasoning": true,
+      "slug": "ling-3-0-flash",
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:58:25.913Z",
+  "updatedAt": "2026-09-15T04:24:43.520Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1087,8 +1087,8 @@
       "provider": "Tencent",
       "creatorLogo": "/img/logos/tencent_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.136,
-      "outputPerMillion": 0.554,
+      "inputPerMillion": 0.14,
+      "outputPerMillion": 0.58,
       "intelligenceIndex": 25.7716025731571,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1117,19 +1117,6 @@
       "outputPerMillion": 1.2,
       "intelligenceIndex": 25.4773991440784,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ling-3-0-flash",
-      "name": "Ling 3.0 Flash",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.075,
-      "outputPerMillion": 0.22,
-      "intelligenceIndex": 24.9392319530441,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1205,7 +1192,7 @@
       "creatorLogo": "/img/logos/nvidia_small.svg",
       "contextLength": 262144,
       "inputPerMillion": 0.6,
-      "outputPerMillion": 2.6,
+      "outputPerMillion": 2.4,
       "intelligenceIndex": 23.4145123422858,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1363,6 +1350,19 @@
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
       "intelligenceIndex": 20.8344651194768,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "ling-3-0-flash",
+      "name": "Ling 3.0 Flash",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.22,
+      "intelligenceIndex": 20.6349521865481,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null

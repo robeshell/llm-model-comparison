@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T17:58:26.625Z",
+  "updatedAt": "2026-09-15T04:24:44.128Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -41,6 +41,23 @@
     },
     {
       "rank": 3,
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-20260731",
+      "name": "DeepSeek V4 Flash 0731",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1310720,
+      "inputPerMillion": 0.049999999999999996,
+      "outputPerMillion": 0.09999999999999999,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 4,
       "id": "z-ai/glm-5.3-flash",
       "canonicalSlug": "z-ai/glm-5.3-flash-20260826",
       "name": "GLM 5.3 Flash",
@@ -53,23 +70,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "deepseek/deepseek-v4-flash-0731",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-20260731",
-      "name": "DeepSeek V4 Flash 0731",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1310720,
-      "inputPerMillion": 0.06,
-      "outputPerMillion": 0.12,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -121,8 +121,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.08399999999999999,
-      "outputPerMillion": 0.16799999999999998,
+      "inputPerMillion": 0.088606,
+      "outputPerMillion": 0.177212,
       "inputModalities": [
         "text"
       ],
@@ -138,8 +138,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.0825,
-      "outputPerMillion": 0.33,
+      "inputPerMillion": 0.13199999999999998,
+      "outputPerMillion": 0.5279999999999999,
       "inputModalities": [
         "text"
       ],
@@ -225,23 +225,6 @@
     },
     {
       "rank": 13,
-      "id": "z-ai/glm-5.2",
-      "canonicalSlug": "z-ai/glm-5.2-20260616",
-      "name": "GLM 5.2",
-      "provider": "Z.ai",
-      "providerSlug": "z-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.6832,
-      "outputPerMillion": 2.1471999999999998,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 14,
       "id": "upstage/solar-pro4",
       "canonicalSlug": "upstage/solar-pro4-20260810",
       "name": "Solar Pro 4",
@@ -258,7 +241,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 14,
       "id": "openai/gpt-5.6-sol",
       "canonicalSlug": "openai/gpt-5.6-sol-20260709",
       "name": "GPT-5.6 Sol",
@@ -270,6 +253,23 @@
       "inputModalities": [
         "file",
         "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 15,
+      "id": "z-ai/glm-5.2",
+      "canonicalSlug": "z-ai/glm-5.2-20260616",
+      "name": "GLM 5.2",
+      "provider": "Z.ai",
+      "providerSlug": "z-ai",
+      "contextLength": 1048576,
+      "inputPerMillion": 1.4,
+      "outputPerMillion": 4.4,
+      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -352,6 +352,23 @@
     },
     {
       "rank": 20,
+      "id": "poolside/laguna-s-2.1:free",
+      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
+      "name": "Laguna S 2.1 (free)",
+      "provider": "Poolside",
+      "providerSlug": "poolside",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 21,
       "id": "anthropic/claude-opus-5",
       "canonicalSlug": "anthropic/claude-opus-5-20260723",
       "name": "Claude Opus 5",
@@ -370,23 +387,6 @@
       ]
     },
     {
-      "rank": 21,
-      "id": "poolside/laguna-s-2.1:free",
-      "canonicalSlug": "poolside/laguna-s-2.1-20260720",
-      "name": "Laguna S 2.1 (free)",
-      "provider": "Poolside",
-      "providerSlug": "poolside",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
       "rank": 22,
       "id": "deepseek/deepseek-v4-pro-0813",
       "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
@@ -394,8 +394,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.57948,
-      "outputPerMillion": 1.73844,
+      "inputPerMillion": 0.9833999999999999,
+      "outputPerMillion": 2.9502,
       "inputModalities": [
         "text"
       ],
@@ -521,25 +521,6 @@
     },
     {
       "rank": 29,
-      "id": "anthropic/claude-sonnet-4.6",
-      "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
-      "name": "Claude Sonnet 4.6",
-      "provider": "Anthropic",
-      "providerSlug": "anthropic",
-      "contextLength": 1000000,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 30,
       "id": "dots-studio/dots-3-note-preview:free",
       "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
       "name": "Dots3-Note Preview (free)",
@@ -557,7 +538,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 30,
       "id": "openai/gpt-oss-120b",
       "canonicalSlug": "openai/gpt-oss-120b",
       "name": "gpt-oss-120b",
@@ -568,6 +549,25 @@
       "outputPerMillion": 0.16999999999999998,
       "inputModalities": [
         "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 31,
+      "id": "anthropic/claude-sonnet-4.6",
+      "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "providerSlug": "anthropic",
+      "contextLength": 1000000,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
       ],
       "outputModalities": [
         "text"
@@ -636,24 +636,6 @@
     },
     {
       "rank": 35,
-      "id": "deepseek/deepseek-v4-flash-vision-exp",
-      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.22,
-      "outputPerMillion": 0.66,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 36,
       "id": "deepseek/deepseek-v3.2",
       "canonicalSlug": "deepseek/deepseek-v3.2-20251201",
       "name": "DeepSeek V3.2",
@@ -670,26 +652,7 @@
       ]
     },
     {
-      "rank": 37,
-      "id": "qwen/qwen3.8-max-0902",
-      "canonicalSlug": "qwen/qwen3.8-max-20260902",
-      "name": "Qwen3.8 Max (0902)",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 38,
+      "rank": 36,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -708,26 +671,7 @@
       ]
     },
     {
-      "rank": 39,
-      "id": "x-ai/grok-4.6",
-      "canonicalSlug": "x-ai/grok-4.6-20260810",
-      "name": "Grok 4.6",
-      "provider": "SpaceXAI",
-      "providerSlug": "x-ai",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 40,
+      "rank": 37,
       "id": "anthropic/claude-fable-5.1",
       "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
       "name": "Claude Fable 5.1",
@@ -746,7 +690,81 @@
       ]
     },
     {
+      "rank": 38,
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.22,
+      "outputPerMillion": 0.66,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 39,
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
+      "name": "Nex-N2.5-Pro (free)",
+      "provider": "Nex AGI",
+      "providerSlug": "nex-agi",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 40,
+      "id": "qwen/qwen3.8-max-0902",
+      "canonicalSlug": "qwen/qwen3.8-max-20260902",
+      "name": "Qwen3.8 Max (0902)",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
       "rank": 41,
+      "id": "x-ai/grok-4.6",
+      "canonicalSlug": "x-ai/grok-4.6-20260810",
+      "name": "Grok 4.6",
+      "provider": "SpaceXAI",
+      "providerSlug": "x-ai",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 42,
       "id": "thinkingmachines/inkling:free",
       "canonicalSlug": "thinkingmachines/inkling-20260715",
       "name": "Inkling (free)",
@@ -759,24 +777,6 @@
         "text",
         "image",
         "audio"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 42,
-      "id": "nex-agi/nex-n2.5-pro:free",
-      "canonicalSlug": "nex-agi/nex-n2.5-pro-20260907",
-      "name": "Nex-N2.5-Pro (free)",
-      "provider": "Nex AGI",
-      "providerSlug": "nex-agi",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text",
-        "image"
       ],
       "outputModalities": [
         "text"
@@ -820,6 +820,42 @@
     },
     {
       "rank": 45,
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
+      "name": "Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionAI",
+      "providerSlug": "inclusionai",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 46,
+      "id": "qwen/qwen3.8-flash",
+      "canonicalSlug": "qwen/qwen3.8-flash-20260826",
+      "name": "Qwen3.8 Flash",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.47,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 47,
       "id": "openai/gpt-5.6-luna-pro",
       "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
       "name": "GPT-5.6 Luna Pro",
@@ -838,24 +874,7 @@
       ]
     },
     {
-      "rank": 46,
-      "id": "inclusionai/ling-3.0-flash-sante:free",
-      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
-      "name": "Ling 3.0 Flash Sante (free)",
-      "provider": "inclusionAI",
-      "providerSlug": "inclusionai",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 47,
+      "rank": 48,
       "id": "meta/muse-spark-1.3",
       "canonicalSlug": "meta/muse-spark-1.3-20260902",
       "name": "Muse Spark 1.3",
@@ -876,45 +895,7 @@
       ]
     },
     {
-      "rank": 48,
-      "id": "qwen/qwen3.8-flash",
-      "canonicalSlug": "qwen/qwen3.8-flash-20260826",
-      "name": "Qwen3.8 Flash",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.47,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
       "rank": 49,
-      "id": "google/gemma-4-26b-a4b-it",
-      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
-      "name": "Gemma 4 26B A4B",
-      "provider": "Google",
-      "providerSlug": "google",
-      "contextLength": 262144,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.3,
-      "inputModalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 50,
       "id": "qwen/qwen3.7-flash",
       "canonicalSlug": "qwen/qwen3.7-flash-20260727",
       "name": "Qwen3.7 Flash",
@@ -926,6 +907,25 @@
       "inputModalities": [
         "text",
         "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 50,
+      "id": "google/gemma-4-26b-a4b-it",
+      "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
+      "name": "Gemma 4 26B A4B",
+      "provider": "Google",
+      "providerSlug": "google",
+      "contextLength": 262144,
+      "inputPerMillion": 0.09,
+      "outputPerMillion": 0.3,
+      "inputModalities": [
+        "image",
+        "text",
         "video"
       ],
       "outputModalities": [
