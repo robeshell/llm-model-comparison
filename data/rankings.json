@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T16:42:05.715Z",
+  "updatedAt": "2026-09-16T04:20:05.273Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -15,7 +15,7 @@
       "gpqa": 0.937373737373737,
       "hle": 0.591288229842447,
       "scicode": 0.630787037037037,
-      "terminalbench": 0.913857677902622,
+      "terminalbench": null,
       "lcr": 0.853333333333333,
       "isReasoning": true,
       "slug": "claude-fable-5-1",
@@ -36,7 +36,7 @@
       "gpqa": 0.934343434343434,
       "hle": 0.587117701575533,
       "scicode": 0.608796296296296,
-      "terminalbench": 0.910112359550562,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "claude-fable-5-1-xhigh",
@@ -57,7 +57,7 @@
       "gpqa": 0.960606060606061,
       "hle": 0.546802594995366,
       "scicode": 0.564814814814815,
-      "terminalbench": 0.883895131086142,
+      "terminalbench": null,
       "lcr": 0.806666666666667,
       "isReasoning": true,
       "slug": "gpt-6-astra",
@@ -78,7 +78,7 @@
       "gpqa": 0.962626262626263,
       "hle": 0.545875810936052,
       "scicode": 0.556712962962963,
-      "terminalbench": 0.891385767790262,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "gpt-6-astra-xhigh",
@@ -99,7 +99,7 @@
       "gpqa": 0.906060606060606,
       "hle": 0.559314179796108,
       "scicode": 0.586805555555556,
-      "terminalbench": 0.898876404494382,
+      "terminalbench": null,
       "lcr": 0.836666666666667,
       "isReasoning": true,
       "slug": "claude-fable-5-1-high",
@@ -120,7 +120,7 @@
       "gpqa": 0.94949494949495,
       "hle": 0.530583873957368,
       "scicode": 0.554398148148148,
-      "terminalbench": 0.898876404494382,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "gpt-6-astra-high",
@@ -141,7 +141,7 @@
       "gpqa": 0.932323232323232,
       "hle": 0.548656163113994,
       "scicode": 0.563657407407407,
-      "terminalbench": 0.891385767790262,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "claude-opus-5",
@@ -162,7 +162,7 @@
       "gpqa": 0.926262626262626,
       "hle": 0.554680259499537,
       "scicode": 0.609953703703704,
-      "terminalbench": 0.846441947565543,
+      "terminalbench": null,
       "lcr": 0.823333333333333,
       "isReasoning": true,
       "slug": "claude-fable-5",
@@ -183,7 +183,7 @@
       "gpqa": 0.939393939393939,
       "hle": 0.527340129749768,
       "scicode": 0.541666666666667,
-      "terminalbench": 0.895131086142322,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "gpt-6-astra-medium",
@@ -204,7 +204,7 @@
       "gpqa": 0.937373737373737,
       "hle": 0.544022242817424,
       "scicode": 0.556712962962963,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "claude-opus-5-xhigh",
@@ -225,7 +225,7 @@
       "gpqa": 0.885858585858586,
       "hle": 0.537998146431881,
       "scicode": 0.563657407407407,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.846666666666667,
       "isReasoning": true,
       "slug": "claude-fable-5-1-medium",
@@ -246,7 +246,7 @@
       "gpqa": 0.937373737373737,
       "hle": 0.528266913809083,
       "scicode": 0.554398148148148,
-      "terminalbench": 0.876404494382023,
+      "terminalbench": null,
       "lcr": 0.79,
       "isReasoning": true,
       "slug": "claude-opus-5-high",
@@ -267,7 +267,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.487025023169602,
       "scicode": 0.587962962962963,
-      "terminalbench": 0.842696629213483,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "muse-spark-1-3",
@@ -288,7 +288,7 @@
       "gpqa": 0.941414141414141,
       "hle": 0.494902687673772,
       "scicode": 0.570601851851852,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.84,
       "isReasoning": true,
       "slug": "gpt-5-6-sol",
@@ -309,7 +309,7 @@
       "gpqa": 0.880808080808081,
       "hle": 0.48887859128823,
       "scicode": 0.56712962962963,
-      "terminalbench": 0.850187265917603,
+      "terminalbench": null,
       "lcr": 0.823333333333333,
       "isReasoning": true,
       "slug": "claude-fable-5-1-low",
@@ -330,7 +330,7 @@
       "gpqa": 0.931313131313131,
       "hle": 0.492122335495829,
       "scicode": 0.540509259259259,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "gpt-6-astra-low",
@@ -340,6 +340,27 @@
     },
     {
       "rank": 17,
+      "name": "Qwen3.8 Max (0902)",
+      "shortName": "Qwen3.8 Max (0902)",
+      "creator": "Alibaba",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/alibaba_small.svg",
+      "intelligenceIndex": 45.4354834980521,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.928282828282828,
+      "hle": 0.430954587581094,
+      "scicode": 0.520833333333333,
+      "terminalbench": null,
+      "lcr": 0.803333333333333,
+      "isReasoning": true,
+      "slug": "qwen3-8-max",
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 18,
       "name": "Muse Spark 1.3 (xhigh)",
       "shortName": "Muse Spark 1.3 (xhigh)",
       "creator": "Meta",
@@ -351,7 +372,7 @@
       "gpqa": 0.941414141414141,
       "hle": 0.47451343836886,
       "scicode": 0.597222222222222,
-      "terminalbench": 0.853932584269663,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "muse-spark-1-3-xhigh",
@@ -360,7 +381,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Claude Opus 5 (Adaptive Reasoning, Medium Effort)",
       "shortName": "Claude Opus 5 (medium)",
       "creator": "Anthropic",
@@ -372,7 +393,7 @@
       "gpqa": 0.919191919191919,
       "hle": 0.512974976830398,
       "scicode": 0.515046296296296,
-      "terminalbench": 0.861423220973783,
+      "terminalbench": null,
       "lcr": 0.82,
       "isReasoning": true,
       "slug": "claude-opus-5-medium",
@@ -381,7 +402,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "GLM-5.3 (max)",
       "shortName": "GLM-5.3 (max)",
       "creator": "Z AI",
@@ -393,7 +414,7 @@
       "gpqa": 0.917171717171717,
       "hle": 0.422613531047266,
       "scicode": 0.590277777777778,
-      "terminalbench": 0.838951310861423,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "glm-5-3",
@@ -402,7 +423,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "Grok 4.6 (high)",
       "shortName": "Grok 4.6 (high)",
       "creator": "SpaceXAI",
@@ -414,7 +435,7 @@
       "gpqa": 0.94949494949495,
       "hle": 0.429101019462465,
       "scicode": 0.564814814814815,
-      "terminalbench": 0.883895131086142,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "grok-4-6",
@@ -423,7 +444,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "Grok 4.6 (xhigh)",
       "shortName": "Grok 4.6 (xhigh)",
       "creator": "SpaceXAI",
@@ -435,7 +456,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.440685820203893,
       "scicode": 0.530092592592593,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.81,
       "isReasoning": true,
       "slug": "grok-4-6-xhigh",
@@ -444,7 +465,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "GPT-5.6 Sol (xhigh)",
       "shortName": "GPT-5.6 Sol (xhigh)",
       "creator": "OpenAI",
@@ -456,7 +477,7 @@
       "gpqa": 0.931313131313131,
       "hle": 0.473123262279889,
       "scicode": 0.570601851851852,
-      "terminalbench": 0.895131086142322,
+      "terminalbench": null,
       "lcr": 0.823333333333333,
       "isReasoning": true,
       "slug": "gpt-5-6-sol-xhigh",
@@ -465,7 +486,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "Kimi K3 (max)",
       "shortName": "Kimi K3 (max)",
       "creator": "Kimi",
@@ -477,7 +498,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.468952734012975,
       "scicode": 0.594907407407407,
-      "terminalbench": 0.850187265917603,
+      "terminalbench": null,
       "lcr": 0.886666666666667,
       "isReasoning": true,
       "slug": "kimi-k3",
@@ -486,7 +507,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "Grok 4.6 (medium)",
       "shortName": "Grok 4.6 (medium)",
       "creator": "SpaceXAI",
@@ -498,7 +519,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.421223354958295,
       "scicode": 0.559027777777778,
-      "terminalbench": 0.842696629213483,
+      "terminalbench": null,
       "lcr": 0.81,
       "isReasoning": true,
       "slug": "grok-4-6-medium",
@@ -507,7 +528,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 25,
+      "rank": 26,
       "name": "GPT-5.6 Sol (high)",
       "shortName": "GPT-5.6 Sol (high)",
       "creator": "OpenAI",
@@ -519,7 +540,7 @@
       "gpqa": 0.928282828282828,
       "hle": 0.46014828544949,
       "scicode": 0.577546296296296,
-      "terminalbench": 0.872659176029963,
+      "terminalbench": null,
       "lcr": 0.816666666666667,
       "isReasoning": true,
       "slug": "gpt-5-6-sol-high",
@@ -528,7 +549,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "GPT-5.6 Terra (max)",
       "shortName": "GPT-5.6 Terra (max)",
       "creator": "OpenAI",
@@ -540,7 +561,7 @@
       "gpqa": 0.925252525252525,
       "hle": 0.429101019462465,
       "scicode": 0.549768518518518,
-      "terminalbench": 0.880149812734082,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "gpt-5-6-terra",
@@ -549,7 +570,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "GLM-5.3-Flash",
       "shortName": "GLM-5.3-Flash",
       "creator": "Z AI",
@@ -561,7 +582,7 @@
       "gpqa": 0.912121212121212,
       "hle": 0.398517145505097,
       "scicode": 0.516203703703704,
-      "terminalbench": 0.842696629213483,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "glm-5-3-flash",
@@ -570,7 +591,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Gemini 3.8 Flash (high)",
       "shortName": "Gemini 3.8 Flash (high)",
       "creator": "Google",
@@ -582,7 +603,7 @@
       "gpqa": 0.952525252525253,
       "hle": 0.478220574606117,
       "scicode": 0.565972222222222,
-      "terminalbench": 0.876404494382023,
+      "terminalbench": null,
       "lcr": 0.813333333333333,
       "isReasoning": true,
       "slug": "gemini-3-8-flash",
@@ -591,7 +612,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Qwen3.8 Max",
       "shortName": "Qwen3.8 Max",
       "creator": "Alibaba",
@@ -603,16 +624,16 @@
       "gpqa": 0.927272727272727,
       "hle": 0.430491195551437,
       "scicode": 0.532407407407407,
-      "terminalbench": 0.812734082397004,
+      "terminalbench": null,
       "lcr": 0.783333333333333,
       "isReasoning": true,
-      "slug": "qwen3-8-max",
+      "slug": "qwen3-8-max-0803",
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "Qwen3.8 2.4T A95B",
       "shortName": "Qwen3.8 2.4T A95B",
       "creator": "Alibaba",
@@ -624,7 +645,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.424467099165894,
       "scicode": 0.540509259259259,
-      "terminalbench": 0.820224719101124,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "qwen3-8-2-4t-a95b",
@@ -633,7 +654,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 31,
+      "rank": 32,
       "name": "Gemini 3.8 Flash (medium)",
       "shortName": "Gemini 3.8 Flash (medium)",
       "creator": "Google",
@@ -645,7 +666,7 @@
       "gpqa": 0.935353535353535,
       "hle": 0.421223354958295,
       "scicode": 0.550925925925926,
-      "terminalbench": 0.838951310861423,
+      "terminalbench": null,
       "lcr": 0.84,
       "isReasoning": true,
       "slug": "gemini-3-8-flash-medium",
@@ -654,7 +675,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "Qwen3.8-Flash-Next",
       "shortName": "Qwen3.8-Flash-Next",
       "creator": "Alibaba",
@@ -666,7 +687,7 @@
       "gpqa": 0.923232323232323,
       "hle": 0.380444856348471,
       "scicode": 0.505787037037037,
-      "terminalbench": 0.861423220973783,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "qwen3-8-flash-next",
@@ -675,7 +696,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 33,
+      "rank": 34,
       "name": "Muse Spark 1.2 (xhigh)",
       "shortName": "Muse Spark 1.2 (xhigh)",
       "creator": "Meta",
@@ -687,7 +708,7 @@
       "gpqa": 0.904040404040404,
       "hle": 0.454587581093605,
       "scicode": 0.574074074074074,
-      "terminalbench": 0.801498127340824,
+      "terminalbench": null,
       "lcr": 0.79,
       "isReasoning": true,
       "slug": "muse-spark-1-2",
@@ -696,7 +717,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 34,
+      "rank": 35,
       "name": "Claude Opus 5 (Adaptive Reasoning, Low Effort)",
       "shortName": "Claude Opus 5 (low)",
       "creator": "Anthropic",
@@ -708,7 +729,7 @@
       "gpqa": 0.888888888888889,
       "hle": 0.434198331788693,
       "scicode": 0.491898148148148,
-      "terminalbench": 0.764044943820225,
+      "terminalbench": null,
       "lcr": 0.813333333333333,
       "isReasoning": true,
       "slug": "claude-opus-5-low",
@@ -717,7 +738,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "Gemini 3.7 Flash (medium)",
       "shortName": "Gemini 3.7 Flash (medium)",
       "creator": "Google",
@@ -729,7 +750,7 @@
       "gpqa": 0.921212121212121,
       "hle": 0.389712696941613,
       "scicode": 0.59837962962963,
-      "terminalbench": 0.782771535580524,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "gemini-3-7-flash-medium",
@@ -738,7 +759,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "DeepSeek V4.1 Flash (Reasoning, Max Effort)",
       "shortName": "DeepSeek V4.1 Flash (max)",
       "creator": "DeepSeek",
@@ -759,7 +780,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 37,
+      "rank": 38,
       "name": "GPT-5.6 Sol (medium)",
       "shortName": "GPT-5.6 Sol (medium)",
       "creator": "OpenAI",
@@ -771,7 +792,7 @@
       "gpqa": 0.926262626262626,
       "hle": 0.422150139017609,
       "scicode": 0.574074074074074,
-      "terminalbench": 0.861423220973783,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "gpt-5-6-sol-medium",
@@ -780,7 +801,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 38,
+      "rank": 39,
       "name": "Gemini 3.7 Flash (high)",
       "shortName": "Gemini 3.7 Flash (high)",
       "creator": "Google",
@@ -792,7 +813,7 @@
       "gpqa": 0.945454545454545,
       "hle": 0.478683966635774,
       "scicode": 0.571759259259259,
-      "terminalbench": 0.857677902621723,
+      "terminalbench": null,
       "lcr": 0.816666666666667,
       "isReasoning": true,
       "slug": "gemini-3-7-flash",
@@ -801,7 +822,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "Grok 4.5 (high)",
       "shortName": "Grok 4.5 (high)",
       "creator": "SpaceXAI",
@@ -813,7 +834,7 @@
       "gpqa": 0.931313131313131,
       "hle": 0.42678405931418,
       "scicode": 0.549768518518518,
-      "terminalbench": 0.816479400749064,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "grok-4-5",
@@ -822,7 +843,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, Max Effort)",
       "shortName": "Claude Sonnet 5 (max)",
       "creator": "Anthropic",
@@ -834,7 +855,7 @@
       "gpqa": 0.911111111111111,
       "hle": 0.412882298424467,
       "scicode": 0.542824074074074,
-      "terminalbench": 0.805243445692884,
+      "terminalbench": null,
       "lcr": 0.82,
       "isReasoning": true,
       "slug": "claude-sonnet-5",
@@ -843,7 +864,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 41,
+      "rank": 42,
       "name": "GPT-5.6 Terra (xhigh)",
       "shortName": "GPT-5.6 Terra (xhigh)",
       "creator": "OpenAI",
@@ -855,7 +876,7 @@
       "gpqa": 0.908080808080808,
       "hle": 0.418906394810009,
       "scicode": 0.523148148148148,
-      "terminalbench": 0.801498127340824,
+      "terminalbench": null,
       "lcr": 0.79,
       "isReasoning": true,
       "slug": "gpt-5-6-terra-xhigh",
@@ -864,7 +885,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 42,
+      "rank": 43,
       "name": "GPT-5.6 Luna (max)",
       "shortName": "GPT-5.6 Luna (max)",
       "creator": "OpenAI",
@@ -876,7 +897,7 @@
       "gpqa": 0.911111111111111,
       "hle": 0.394810009267841,
       "scicode": 0.53587962962963,
-      "terminalbench": 0.808988764044944,
+      "terminalbench": null,
       "lcr": 0.836666666666667,
       "isReasoning": true,
       "slug": "gpt-5-6-luna",
@@ -885,7 +906,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "Gemini 3.7 Flash (low)",
       "shortName": "Gemini 3.7 Flash (low)",
       "creator": "Google",
@@ -897,7 +918,7 @@
       "gpqa": 0.901010101010101,
       "hle": 0.351251158480074,
       "scicode": 0.556712962962963,
-      "terminalbench": 0.797752808988764,
+      "terminalbench": null,
       "lcr": 0.786666666666667,
       "isReasoning": true,
       "slug": "gemini-3-7-flash-low",
@@ -906,7 +927,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 44,
+      "rank": 45,
       "name": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
       "shortName": "DeepSeek V4 Pro 0813 (max)",
       "creator": "DeepSeek",
@@ -918,7 +939,7 @@
       "gpqa": 0.928282828282828,
       "hle": 0.410101946246525,
       "scicode": 0.510416666666667,
-      "terminalbench": 0.786516853932584,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "deepseek-v4-pro",
@@ -927,7 +948,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "Agnes 3.0 Flash",
       "shortName": "Agnes 3.0 Flash",
       "creator": "Sapiens AI",
@@ -939,7 +960,7 @@
       "gpqa": 0.924242424242424,
       "hle": 0.384615384615385,
       "scicode": 0.516203703703704,
-      "terminalbench": 0.820224719101124,
+      "terminalbench": null,
       "lcr": 0.81,
       "isReasoning": true,
       "slug": "agnes-3-0-flash",
@@ -948,7 +969,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 46,
+      "rank": 47,
       "name": "Grok 4.6 (low)",
       "shortName": "Grok 4.6 (low)",
       "creator": "SpaceXAI",
@@ -960,7 +981,7 @@
       "gpqa": 0.878787878787879,
       "hle": 0.276181649675626,
       "scicode": 0.494212962962963,
-      "terminalbench": 0.752808988764045,
+      "terminalbench": null,
       "lcr": 0.806666666666667,
       "isReasoning": true,
       "slug": "grok-4-6-low",
@@ -969,7 +990,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 47,
+      "rank": 48,
       "name": "Agnes 2.5 Pro Beta",
       "shortName": "Agnes 2.5 Pro Beta",
       "creator": "Sapiens AI",
@@ -981,7 +1002,7 @@
       "gpqa": 0.905050505050505,
       "hle": 0.375347544022243,
       "scicode": 0.488425925925926,
-      "terminalbench": 0.696629213483146,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "agnes-2-5-pro-beta",
@@ -990,7 +1011,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 48,
+      "rank": 49,
       "name": "DeepSeek V4 Flash Vision (Reasoning, Max Effort)",
       "shortName": "DeepSeek V4 Flash Vision (max)",
       "creator": "DeepSeek",
@@ -1002,7 +1023,7 @@
       "gpqa": 0.913131313131313,
       "hle": 0.344763670064875,
       "scicode": 0.496527777777778,
-      "terminalbench": 0.741573033707865,
+      "terminalbench": null,
       "lcr": 0.813333333333333,
       "isReasoning": true,
       "slug": "deepseek-v4-flash-vision",
@@ -1011,7 +1032,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 49,
+      "rank": 50,
       "name": "GPT-5.6 Luna (xhigh)",
       "shortName": "GPT-5.6 Luna (xhigh)",
       "creator": "OpenAI",
@@ -1023,7 +1044,7 @@
       "gpqa": 0.894949494949495,
       "hle": 0.369786839666358,
       "scicode": 0.50462962962963,
-      "terminalbench": 0.779026217228464,
+      "terminalbench": null,
       "lcr": 0.816666666666667,
       "isReasoning": true,
       "slug": "gpt-5-6-luna-xhigh",
@@ -1032,7 +1053,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 50,
+      "rank": 51,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, Xhigh Effort)",
       "shortName": "Claude Sonnet 5 (xhigh)",
       "creator": "Anthropic",
@@ -1053,7 +1074,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 51,
+      "rank": 52,
       "name": "DeepSeek V4 Flash 0731 (Reasoning, Max Effort)",
       "shortName": "DeepSeek V4 Flash 0731 (max)",
       "creator": "DeepSeek",
@@ -1065,7 +1086,7 @@
       "gpqa": 0.908080808080808,
       "hle": 0.385542168674699,
       "scicode": 0.503472222222222,
-      "terminalbench": 0.786516853932584,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "deepseek-v4-flash",
@@ -1074,7 +1095,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "GPT-5.6 Terra (high)",
       "shortName": "GPT-5.6 Terra (high)",
       "creator": "OpenAI",
@@ -1086,7 +1107,7 @@
       "gpqa": 0.895959595959596,
       "hle": 0.385078776645042,
       "scicode": 0.524305555555556,
-      "terminalbench": 0.756554307116105,
+      "terminalbench": null,
       "lcr": 0.776666666666667,
       "isReasoning": true,
       "slug": "gpt-5-6-terra-high",
@@ -1095,7 +1116,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "Gemini 3.6 Flash (high)",
       "shortName": "Gemini 3.6 Flash",
       "creator": "Google",
@@ -1107,7 +1128,7 @@
       "gpqa": 0.928282828282828,
       "hle": 0.408248378127896,
       "scicode": 0.533564814814815,
-      "terminalbench": 0.775280898876405,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "gemini-3-6-flash",
@@ -1116,7 +1137,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "GLM-5.2 (max)",
       "shortName": "GLM-5.2 (max)",
       "creator": "Z AI",
@@ -1128,7 +1149,7 @@
       "gpqa": 0.894949494949495,
       "hle": 0.411492122335496,
       "scicode": 0.511574074074074,
-      "terminalbench": 0.779026217228464,
+      "terminalbench": null,
       "lcr": 0.783333333333333,
       "isReasoning": true,
       "slug": "glm-5-2",
@@ -1137,7 +1158,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "Qwen3.8 27B (xhigh)",
       "shortName": "Qwen3.8 27B (xhigh)",
       "creator": "Alibaba",
@@ -1149,7 +1170,7 @@
       "gpqa": 0.905050505050505,
       "hle": 0.33920296570899,
       "scicode": 0.466435185185185,
-      "terminalbench": 0.797752808988764,
+      "terminalbench": null,
       "lcr": 0.82,
       "isReasoning": true,
       "slug": "qwen3-8-27b",
@@ -1158,7 +1179,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "GPT-5.6 Sol (low)",
       "shortName": "GPT-5.6 Sol (low)",
       "creator": "OpenAI",
@@ -1170,7 +1191,7 @@
       "gpqa": 0.897979797979798,
       "hle": 0.393883225208526,
       "scicode": 0.563657407407407,
-      "terminalbench": 0.767790262172285,
+      "terminalbench": null,
       "lcr": 0.78,
       "isReasoning": true,
       "slug": "gpt-5-6-sol-low",
@@ -1179,7 +1200,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "Gemini 3.8 Flash (low)",
       "shortName": "Gemini 3.8 Flash (low)",
       "creator": "Google",
@@ -1191,7 +1212,7 @@
       "gpqa": 0.92020202020202,
       "hle": 0.370713623725672,
       "scicode": 0.549768518518518,
-      "terminalbench": 0.831460674157303,
+      "terminalbench": null,
       "lcr": 0.806666666666667,
       "isReasoning": true,
       "slug": "gemini-3-8-flash-low",
@@ -1200,7 +1221,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "Gemini 3.5 Flash (medium)",
       "shortName": "Gemini 3.5 Flash (medium)",
       "creator": "Google",
@@ -1221,7 +1242,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "Motif 3",
       "shortName": "Motif 3",
       "creator": "Motif Technologies",
@@ -1233,7 +1254,7 @@
       "gpqa": 0.834343434343434,
       "hle": 0.369786839666358,
       "scicode": 0.422453703703704,
-      "terminalbench": 0.749063670411985,
+      "terminalbench": null,
       "lcr": 0.76,
       "isReasoning": true,
       "slug": "motif-3",
@@ -1242,7 +1263,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 60,
+      "rank": 61,
       "name": "GPT-5.3 Codex (xhigh)",
       "shortName": "GPT-5.3 Codex (xhigh)",
       "creator": "OpenAI",
@@ -1263,7 +1284,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "GPT-5.6 Luna (high)",
       "shortName": "GPT-5.6 Luna (high)",
       "creator": "OpenAI",
@@ -1275,7 +1296,7 @@
       "gpqa": 0.891919191919192,
       "hle": 0.334105653382762,
       "scicode": 0.516203703703704,
-      "terminalbench": 0.696629213483146,
+      "terminalbench": null,
       "lcr": 0.803333333333333,
       "isReasoning": true,
       "slug": "gpt-5-6-luna-high",
@@ -1284,7 +1305,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 62,
+      "rank": 63,
       "name": "Motif 3 (Beta)",
       "shortName": "Motif 3 (Beta)",
       "creator": "Motif Technologies",
@@ -1296,7 +1317,7 @@
       "gpqa": 0.868686868686869,
       "hle": 0.403614457831325,
       "scicode": null,
-      "terminalbench": 0.707865168539326,
+      "terminalbench": null,
       "lcr": 0.746666666666667,
       "isReasoning": true,
       "slug": "motif-0714",
@@ -1305,7 +1326,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 63,
+      "rank": 64,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, High Effort)",
       "shortName": "Claude Sonnet 5 (high)",
       "creator": "Anthropic",
@@ -1326,7 +1347,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 64,
+      "rank": 65,
       "name": "DeepSeek V4 Pro (Reasoning, Max Effort)",
       "shortName": "DeepSeek V4 Pro (max)",
       "creator": "DeepSeek",
@@ -1338,7 +1359,7 @@
       "gpqa": 0.887878787878788,
       "hle": 0.375347544022243,
       "scicode": 0.508101851851852,
-      "terminalbench": 0.640449438202247,
+      "terminalbench": null,
       "lcr": 0.746666666666667,
       "isReasoning": true,
       "slug": "deepseek-v4-pro-0424",
@@ -1347,7 +1368,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 65,
+      "rank": 66,
       "name": "K2 Horizon 375B A23B",
       "shortName": "K2 Horizon 375B A23B",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -1359,7 +1380,7 @@
       "gpqa": 0.872727272727273,
       "hle": 0.319740500463392,
       "scicode": 0.429398148148148,
-      "terminalbench": 0.719101123595506,
+      "terminalbench": null,
       "lcr": 0.8,
       "isReasoning": true,
       "slug": "k2-horizon-375b-a23b",
@@ -1368,7 +1389,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 66,
+      "rank": 67,
       "name": "Kimi K3 (low)",
       "shortName": "Kimi K3 (low)",
       "creator": "Kimi",
@@ -1380,7 +1401,7 @@
       "gpqa": 0.842424242424242,
       "hle": 0.249768303985171,
       "scicode": 0.52662037037037,
-      "terminalbench": 0.823970037453184,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "kimi-k3-low",
@@ -1389,7 +1410,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 67,
+      "rank": 68,
       "name": "GPT-5.6 Terra (medium)",
       "shortName": "GPT-5.6 Terra (medium)",
       "creator": "OpenAI",
@@ -1401,7 +1422,7 @@
       "gpqa": 0.871717171717172,
       "hle": 0.332715477293791,
       "scicode": 0.50462962962963,
-      "terminalbench": 0.722846441947566,
+      "terminalbench": null,
       "lcr": 0.74,
       "isReasoning": true,
       "slug": "gpt-5-6-terra-medium",
@@ -1410,7 +1431,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 68,
+      "rank": 69,
       "name": "Apodex 1.1",
       "shortName": "Apodex 1.1",
       "creator": "Apodex",
@@ -1422,7 +1443,7 @@
       "gpqa": 0.863636363636364,
       "hle": 0.340593141797961,
       "scicode": 0.454861111111111,
-      "terminalbench": 0.696629213483146,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "apodex-1-1",
@@ -1431,7 +1452,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 69,
+      "rank": 70,
       "name": "Gemini 3.1 Pro Preview",
       "shortName": "Gemini 3.1 Pro Preview",
       "creator": "Google",
@@ -1443,7 +1464,7 @@
       "gpqa": 0.941414141414141,
       "hle": 0.470342910101946,
       "scicode": 0.586805555555556,
-      "terminalbench": 0.737827715355805,
+      "terminalbench": null,
       "lcr": 0.82,
       "isReasoning": true,
       "slug": "gemini-3-1-pro-preview",
@@ -1452,7 +1473,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "DeepSeek V4 Pro (Reasoning, High Effort)",
       "shortName": "DeepSeek V4 Pro (high)",
       "creator": "DeepSeek",
@@ -1464,7 +1485,7 @@
       "gpqa": 0.905050505050505,
       "hle": 0.352177942539388,
       "scicode": null,
-      "terminalbench": 0.647940074906367,
+      "terminalbench": null,
       "lcr": 0.703333333333333,
       "isReasoning": true,
       "slug": "deepseek-v4-pro-0424-high",
@@ -1473,7 +1494,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 71,
+      "rank": 72,
       "name": "MiniMax-M3",
       "shortName": "MiniMax-M3",
       "creator": "MiniMax",
@@ -1485,7 +1506,7 @@
       "gpqa": 0.929292929292929,
       "hle": 0.389712696941613,
       "scicode": 0.471064814814815,
-      "terminalbench": 0.651685393258427,
+      "terminalbench": null,
       "lcr": 0.83,
       "isReasoning": true,
       "slug": "minimax-m3",
@@ -1494,7 +1515,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 72,
+      "rank": 73,
       "name": "Claude Sonnet 5 (Non-reasoning, High Effort)",
       "shortName": "Claude Sonnet 5 (Non-reasoning)",
       "creator": "Anthropic",
@@ -1506,7 +1527,7 @@
       "gpqa": 0.8,
       "hle": 0.190454124189064,
       "scicode": null,
-      "terminalbench": 0.752808988764045,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": false,
       "slug": "claude-sonnet-5-non-reasoning",
@@ -1515,7 +1536,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 73,
+      "rank": 74,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, Medium Effort)",
       "shortName": "Claude Sonnet 5 (medium)",
       "creator": "Anthropic",
@@ -1536,7 +1557,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 74,
+      "rank": 75,
       "name": "GPT-5.6 Sol (Non-reasoning)",
       "shortName": "GPT-5.6 Sol (Non-reasoning)",
       "creator": "OpenAI",
@@ -1548,7 +1569,7 @@
       "gpqa": 0.78989898989899,
       "hle": 0.166821130676552,
       "scicode": 0.476851851851852,
-      "terminalbench": 0.741573033707865,
+      "terminalbench": null,
       "lcr": 0.623333333333333,
       "isReasoning": false,
       "slug": "gpt-5-6-sol-non-reasoning",
@@ -1557,7 +1578,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 75,
+      "rank": 76,
       "name": "Nex-N2-Pro",
       "shortName": "Nex-N2-Pro",
       "creator": "Nex AGI",
@@ -1569,7 +1590,7 @@
       "gpqa": 0.891919191919192,
       "hle": 0.337349397590361,
       "scicode": 0.43287037037037,
-      "terminalbench": 0.677902621722846,
+      "terminalbench": null,
       "lcr": 0.816666666666667,
       "isReasoning": true,
       "slug": "nex-n2-pro",
@@ -1578,7 +1599,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 76,
+      "rank": 77,
       "name": "Solar Pro 4",
       "shortName": "Solar Pro 4",
       "creator": "Upstage",
@@ -1590,7 +1611,7 @@
       "gpqa": 0.890909090909091,
       "hle": 0.292400370713624,
       "scicode": 0.445601851851852,
-      "terminalbench": 0.573033707865168,
+      "terminalbench": null,
       "lcr": 0.74,
       "isReasoning": true,
       "slug": "solar-pro4",
@@ -1599,7 +1620,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 77,
+      "rank": 78,
       "name": "GPT-5.6 Terra (low)",
       "shortName": "GPT-5.6 Terra (low)",
       "creator": "OpenAI",
@@ -1611,7 +1632,7 @@
       "gpqa": 0.843434343434343,
       "hle": 0.291936978683967,
       "scicode": 0.498842592592593,
-      "terminalbench": 0.625468164794007,
+      "terminalbench": null,
       "lcr": 0.713333333333333,
       "isReasoning": true,
       "slug": "gpt-5-6-terra-low",
@@ -1620,7 +1641,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 78,
+      "rank": 79,
       "name": "Qwen3.8 27B (medium)",
       "shortName": "Qwen3.8 27B (medium)",
       "creator": "Alibaba",
@@ -1632,7 +1653,7 @@
       "gpqa": 0.845454545454545,
       "hle": 0.140871177015755,
       "scicode": 0.390046296296296,
-      "terminalbench": 0.651685393258427,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "qwen3-8-27b-medium",
@@ -1641,7 +1662,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 79,
+      "rank": 80,
       "name": "Agnes 2.5 Pro Alpha",
       "shortName": "Agnes 2.5 Pro Alpha",
       "creator": "Sapiens AI",
@@ -1653,7 +1674,7 @@
       "gpqa": 0.875757575757576,
       "hle": 0.33595922150139,
       "scicode": 0.429398148148148,
-      "terminalbench": 0.670411985018727,
+      "terminalbench": null,
       "lcr": 0.756666666666667,
       "isReasoning": true,
       "slug": "agnes-2-5-pro-alpha",
@@ -1662,7 +1683,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 80,
+      "rank": 81,
       "name": "JT-4.1 Flash 236B A21B",
       "shortName": "JT-4.1 Flash 236B A21B",
       "creator": "China Mobile",
@@ -1674,7 +1695,7 @@
       "gpqa": 0.845454545454545,
       "hle": 0.177942539388323,
       "scicode": null,
-      "terminalbench": 0.595505617977528,
+      "terminalbench": null,
       "lcr": 0.713333333333333,
       "isReasoning": false,
       "slug": "jt-4-1-flash-236b-a21b",
@@ -1683,7 +1704,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 81,
+      "rank": 82,
       "name": "Quasar 438B (max, based on GLM-5.2)",
       "shortName": "Quasar 438B (max)",
       "creator": "Multiverse Computing",
@@ -1695,7 +1716,7 @@
       "gpqa": 0.732323232323232,
       "hle": 0.186746987951807,
       "scicode": 0.481481481481481,
-      "terminalbench": 0.692883895131086,
+      "terminalbench": null,
       "lcr": 0.763333333333333,
       "isReasoning": true,
       "slug": "quasar-438b",
@@ -1704,7 +1725,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 82,
+      "rank": 83,
       "name": "GPT-5.5 Instant (June 2026)",
       "shortName": "GPT-5.5 Instant (June 2026)",
       "creator": "OpenAI",
@@ -1716,7 +1737,7 @@
       "gpqa": 0.823232323232323,
       "hle": 0.199258572752549,
       "scicode": 0.525462962962963,
-      "terminalbench": 0.348314606741573,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": true,
       "slug": "gpt-5-5-instant-06-26",
@@ -1725,7 +1746,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 83,
+      "rank": 84,
       "name": "Qwen3.8 27B (low)",
       "shortName": "Qwen3.8 27B (low)",
       "creator": "Alibaba",
@@ -1737,7 +1758,7 @@
       "gpqa": 0.845454545454545,
       "hle": 0.140407784986098,
       "scicode": 0.400462962962963,
-      "terminalbench": 0.674157303370786,
+      "terminalbench": null,
       "lcr": 0.773333333333333,
       "isReasoning": true,
       "slug": "qwen3-8-27b-low",
@@ -1746,7 +1767,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 84,
+      "rank": 85,
       "name": "MiMo-V2.5-Pro",
       "shortName": "MiMo-V2.5-Pro",
       "creator": "Xiaomi",
@@ -1758,7 +1779,7 @@
       "gpqa": 0.865656565656566,
       "hle": 0.356811862835959,
       "scicode": 0.505787037037037,
-      "terminalbench": 0.651685393258427,
+      "terminalbench": null,
       "lcr": 0.796666666666667,
       "isReasoning": true,
       "slug": "mimo-v2-5-pro",
@@ -1767,7 +1788,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 85,
+      "rank": 86,
       "name": "Kimi K2.7 Code",
       "shortName": "Kimi K2.7 Code",
       "creator": "Kimi",
@@ -1779,7 +1800,7 @@
       "gpqa": 0.895959595959596,
       "hle": 0.35032437442076,
       "scicode": 0.478009259259259,
-      "terminalbench": 0.674157303370786,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "kimi-k2-7-code",
@@ -1788,7 +1809,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 86,
+      "rank": 87,
       "name": "Inkling Small",
       "shortName": "Inkling Small",
       "creator": "Thinking Machines",
@@ -1800,7 +1821,7 @@
       "gpqa": 0.894949494949495,
       "hle": 0.333178869323448,
       "scicode": 0.496527777777778,
-      "terminalbench": 0.550561797752809,
+      "terminalbench": null,
       "lcr": 0.756666666666667,
       "isReasoning": true,
       "slug": "inkling-small",
@@ -1809,7 +1830,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 87,
+      "rank": 88,
       "name": "Qwen3.7 Plus",
       "shortName": "Qwen3.7 Plus",
       "creator": "Alibaba",
@@ -1821,7 +1842,7 @@
       "gpqa": 0.9,
       "hle": 0.356348470806302,
       "scicode": 0.460648148148148,
-      "terminalbench": 0.610486891385768,
+      "terminalbench": null,
       "lcr": 0.73,
       "isReasoning": true,
       "slug": "qwen3-7-plus",
@@ -1830,7 +1851,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 88,
+      "rank": 89,
       "name": "Hy3",
       "shortName": "Hy3",
       "creator": "Tencent",
@@ -1842,7 +1863,7 @@
       "gpqa": 0.896969696969697,
       "hle": 0.334569045412419,
       "scicode": 0.486111111111111,
-      "terminalbench": 0.644194756554307,
+      "terminalbench": null,
       "lcr": 0.79,
       "isReasoning": true,
       "slug": "hy3",
@@ -1851,7 +1872,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 89,
+      "rank": 90,
       "name": "K2 Horizon MoVA 36B A4B",
       "shortName": "K2 Horizon MoVA 36B A4B",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -1863,7 +1884,7 @@
       "gpqa": 0.822222222222222,
       "hle": 0.234476367006487,
       "scicode": 0.400462962962963,
-      "terminalbench": 0.565543071161049,
+      "terminalbench": null,
       "lcr": 0.716666666666667,
       "isReasoning": true,
       "slug": "k2-mova-36b-mid5",
@@ -1872,7 +1893,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 90,
+      "rank": 91,
       "name": "Inkling (xhigh)",
       "shortName": "Inkling",
       "creator": "Thinking Machines",
@@ -1884,7 +1905,7 @@
       "gpqa": 0.871717171717172,
       "hle": 0.318813716404078,
       "scicode": 0.469907407407407,
-      "terminalbench": 0.550561797752809,
+      "terminalbench": null,
       "lcr": 0.773333333333333,
       "isReasoning": true,
       "slug": "inkling",
@@ -1893,7 +1914,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 91,
+      "rank": 92,
       "name": "GPT-5.6 Luna (medium)",
       "shortName": "GPT-5.6 Luna (medium)",
       "creator": "OpenAI",
@@ -1905,7 +1926,7 @@
       "gpqa": 0.858585858585859,
       "hle": 0.257645968489342,
       "scicode": 0.467592592592593,
-      "terminalbench": 0.531835205992509,
+      "terminalbench": null,
       "lcr": 0.75,
       "isReasoning": true,
       "slug": "gpt-5-6-luna-medium",
@@ -1914,7 +1935,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 92,
+      "rank": 93,
       "name": "MiMo-V2-Omni-0327",
       "shortName": "MiMo-V2-Omni-0327",
       "creator": "Xiaomi",
@@ -1935,7 +1956,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 93,
+      "rank": 94,
       "name": "Ling-3.0-flash-VL",
       "shortName": "Ling-3.0-flash-VL",
       "creator": "InclusionAI",
@@ -1947,7 +1968,7 @@
       "gpqa": 0.861616161616162,
       "hle": 0.219647822057461,
       "scicode": 0.44212962962963,
-      "terminalbench": 0.644194756554307,
+      "terminalbench": null,
       "lcr": 0.783333333333333,
       "isReasoning": true,
       "slug": "ling-3-0-flash-vl",
@@ -1956,7 +1977,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 94,
+      "rank": 95,
       "name": "Grok 4.3 (medium)",
       "shortName": "Grok 4.3 (medium)",
       "creator": "SpaceXAI",
@@ -1977,7 +1998,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "Claude Sonnet 5 (Adaptive Reasoning, Low Effort)",
       "shortName": "Claude Sonnet 5 (low)",
       "creator": "Anthropic",
@@ -1998,7 +2019,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "Solar Open2 250B",
       "shortName": "Solar Open2 250B",
       "creator": "Upstage",
@@ -2010,7 +2031,7 @@
       "gpqa": 0.856565656565657,
       "hle": 0.285449490268767,
       "scicode": 0.480324074074074,
-      "terminalbench": 0.441947565543071,
+      "terminalbench": null,
       "lcr": 0.716666666666667,
       "isReasoning": true,
       "slug": "solar-open2-250b",
@@ -2019,7 +2040,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Grok 4.3 (low)",
       "shortName": "Grok 4.3 (low)",
       "creator": "SpaceXAI",
@@ -2040,7 +2061,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 98,
+      "rank": 99,
       "name": "MiMo-V2-Omni",
       "shortName": "MiMo-V2-Omni",
       "creator": "Xiaomi",
@@ -2061,7 +2082,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "Gemini 3.5 Flash (minimal)",
       "shortName": "Gemini 3.5 Flash (minimal)",
       "creator": "Google",
@@ -2082,7 +2103,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 100,
+      "rank": 101,
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "shortName": "Nemotron 3 Ultra",
       "creator": "NVIDIA",
@@ -2094,7 +2115,7 @@
       "gpqa": 0.866666666666667,
       "hle": 0.284059314179796,
       "scicode": 0.402777777777778,
-      "terminalbench": 0.539325842696629,
+      "terminalbench": null,
       "lcr": 0.793333333333333,
       "isReasoning": true,
       "slug": "nvidia-nemotron-3-ultra-550b-a55b",
@@ -2103,7 +2124,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 101,
+      "rank": 102,
       "name": "Claude Sonnet 4.6 (Non-reasoning, Low Effort)",
       "shortName": "Claude Sonnet 4.6 (Non-reasoning, low)",
       "creator": "Anthropic",
@@ -2124,7 +2145,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 102,
+      "rank": 103,
       "name": "A.X-K2",
       "shortName": "A.X-K2",
       "creator": "SK Telecom",
@@ -2136,7 +2157,7 @@
       "gpqa": 0.856565656565657,
       "hle": 0.295644114921223,
       "scicode": 0.409722222222222,
-      "terminalbench": 0.389513108614232,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": true,
       "slug": "a-x-k2",
@@ -2145,7 +2166,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 103,
+      "rank": 104,
       "name": "Gemini 3.5 Flash-Lite",
       "shortName": "Gemini 3.5 Flash-Lite",
       "creator": "Google",
@@ -2157,7 +2178,7 @@
       "gpqa": 0.838383838383838,
       "hle": 0.188137164040778,
       "scicode": 0.413194444444444,
-      "terminalbench": 0.535580524344569,
+      "terminalbench": null,
       "lcr": 0.76,
       "isReasoning": true,
       "slug": "gemini-3-5-flash-lite",
@@ -2166,7 +2187,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 104,
+      "rank": 105,
       "name": "MiMo-V2-Flash (Feb 2026)",
       "shortName": "MiMo-V2-Flash (Feb 2026)",
       "creator": "Xiaomi",
@@ -2187,7 +2208,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 105,
+      "rank": 106,
       "name": "GLM-5.2 (Non-reasoning)",
       "shortName": "GLM-5.2 (Non-reasoning)",
       "creator": "Z AI",
@@ -2199,7 +2220,7 @@
       "gpqa": 0.685858585858586,
       "hle": 0.097775718257646,
       "scicode": null,
-      "terminalbench": 0.51685393258427,
+      "terminalbench": null,
       "lcr": 0.423333333333333,
       "isReasoning": false,
       "slug": "glm-5-2-non-reasoning",
@@ -2208,7 +2229,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 106,
+      "rank": 107,
       "name": "Qwen3.8 27B (Non-reasoning)",
       "shortName": "Qwen3.8 27B",
       "creator": "Alibaba",
@@ -2220,7 +2241,7 @@
       "gpqa": 0.818181818181818,
       "hle": 0.121408711770158,
       "scicode": 0.362268518518519,
-      "terminalbench": 0.49063670411985,
+      "terminalbench": null,
       "lcr": 0.693333333333333,
       "isReasoning": false,
       "slug": "qwen3-8-27b-non-reasoning",
@@ -2229,7 +2250,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 107,
+      "rank": 108,
       "name": "MiMo-V2.5",
       "shortName": "MiMo-V2.5",
       "creator": "Xiaomi",
@@ -2241,32 +2262,11 @@
       "gpqa": 0.84949494949495,
       "hle": 0.272011121408712,
       "scicode": 0.438657407407407,
-      "terminalbench": 0.636704119850187,
+      "terminalbench": null,
       "lcr": 0.73,
       "isReasoning": true,
       "slug": "mimo-v2-5-0424",
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 108,
-      "name": "GPT-5.6 Terra (Non-reasoning)",
-      "shortName": "GPT-5.6 Terra (Non-reasoning)",
-      "creator": "OpenAI",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "intelligenceIndex": 22.3001011790774,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.746464646464646,
-      "hle": 0.113994439295644,
-      "scicode": 0.451388888888889,
-      "terminalbench": 0.561797752808989,
-      "lcr": 0.586666666666667,
-      "isReasoning": false,
-      "slug": "gpt-5-6-terra-non-reasoning",
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2283,7 +2283,7 @@
       "gpqa": 0.842424242424242,
       "hle": 0.230769230769231,
       "scicode": 0.428240740740741,
-      "terminalbench": 0.606741573033708,
+      "terminalbench": null,
       "lcr": 0.773333333333333,
       "isReasoning": true,
       "slug": "qwen3-6-27b",
@@ -2304,7 +2304,7 @@
       "gpqa": 0.805050505050505,
       "hle": 0.174698795180723,
       "scicode": 0.368055555555556,
-      "terminalbench": 0.325842696629214,
+      "terminalbench": null,
       "lcr": 0.653333333333333,
       "isReasoning": true,
       "slug": "g9v3-39a5b",
@@ -2325,7 +2325,7 @@
       "gpqa": 0.854545454545454,
       "hle": 0.161260426320667,
       "scicode": null,
-      "terminalbench": 0.700374531835206,
+      "terminalbench": null,
       "lcr": 0.73,
       "isReasoning": false,
       "slug": "kat-coder-pro-v2",
@@ -2346,7 +2346,7 @@
       "gpqa": 0.835353535353535,
       "hle": 0.198331788693234,
       "scicode": 0.460648148148148,
-      "terminalbench": 0.434456928838951,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": true,
       "slug": "gpt-5-6-luna-low",
@@ -2377,6 +2377,27 @@
     },
     {
       "rank": 114,
+      "name": "GPT-5.6 Terra (Non-reasoning)",
+      "shortName": "GPT-5.6 Terra (Non-reasoning)",
+      "creator": "OpenAI",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "intelligenceIndex": 21.2083013584503,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.746464646464646,
+      "hle": 0.113994439295644,
+      "scicode": 0.451388888888889,
+      "terminalbench": null,
+      "lcr": 0.586666666666667,
+      "isReasoning": false,
+      "slug": "gpt-5-6-terra-non-reasoning",
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 115,
       "name": "K2 Horizon 7B",
       "shortName": "K2 Horizon 7B",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -2388,7 +2409,7 @@
       "gpqa": 0.752525252525252,
       "hle": 0.182113067655236,
       "scicode": 0.275462962962963,
-      "terminalbench": 0.441947565543071,
+      "terminalbench": null,
       "lcr": 0.696666666666667,
       "isReasoning": true,
       "slug": "k2-7b-ph2",
@@ -2397,7 +2418,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 115,
+      "rank": 116,
       "name": "DeepSeek V4 Pro (Non-reasoning)",
       "shortName": "DeepSeek V4 Pro (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2418,7 +2439,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 116,
+      "rank": 117,
       "name": "Ling 3.0 Flash",
       "shortName": "Ling 3.0 Flash",
       "creator": "InclusionAI",
@@ -2430,7 +2451,7 @@
       "gpqa": 0.854545454545454,
       "hle": 0.236793327154773,
       "scicode": 0.420138888888889,
-      "terminalbench": 0.554307116104869,
+      "terminalbench": null,
       "lcr": 0.73,
       "isReasoning": true,
       "slug": "ling-3-0-flash",
@@ -2439,7 +2460,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 117,
+      "rank": 118,
       "name": "Qwen3.5 Omni Plus",
       "shortName": "Qwen3.5 Omni Plus",
       "creator": "Alibaba",
@@ -2460,7 +2481,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 118,
+      "rank": 119,
       "name": "o3",
       "shortName": "o3",
       "creator": "OpenAI",
@@ -2481,7 +2502,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 119,
+      "rank": 120,
       "name": "Qwen3.6 27B (Non-reasoning)",
       "shortName": "Qwen3.6 27B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2493,7 +2514,7 @@
       "gpqa": 0.829292929292929,
       "hle": 0.150602409638554,
       "scicode": null,
-      "terminalbench": 0.51310861423221,
+      "terminalbench": null,
       "lcr": 0.666666666666667,
       "isReasoning": false,
       "slug": "qwen3-6-27b-non-reasoning",
@@ -2502,7 +2523,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 120,
+      "rank": 121,
       "name": "K-EXAONE 2.0",
       "shortName": "K-EXAONE 2.0",
       "creator": "LG AI Research",
@@ -2514,7 +2535,7 @@
       "gpqa": 0.829292929292929,
       "hle": 0.185820203892493,
       "scicode": 0.420138888888889,
-      "terminalbench": 0.404494382022472,
+      "terminalbench": null,
       "lcr": 0.6,
       "isReasoning": true,
       "slug": "k-exaone-2-0-0803",
@@ -2523,7 +2544,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 121,
+      "rank": 122,
       "name": "LongCat 2.0",
       "shortName": "LongCat 2.0",
       "creator": "LongCat",
@@ -2535,7 +2556,7 @@
       "gpqa": 0.77979797979798,
       "hle": 0.336886005560704,
       "scicode": 0.363425925925926,
-      "terminalbench": 0.50187265917603,
+      "terminalbench": null,
       "lcr": 0.65,
       "isReasoning": true,
       "slug": "longcat-2-0",
@@ -2544,7 +2565,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 122,
+      "rank": 123,
       "name": "Step 3.7 Flash",
       "shortName": "Step 3.7 Flash",
       "creator": "StepFun",
@@ -2556,7 +2577,7 @@
       "gpqa": 0.809090909090909,
       "hle": 0.214087117701576,
       "scicode": 0.438657407407407,
-      "terminalbench": 0.393258426966292,
+      "terminalbench": null,
       "lcr": 0.736666666666667,
       "isReasoning": true,
       "slug": "step-3-7-flash",
@@ -2565,7 +2586,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 123,
+      "rank": 124,
       "name": "Qwen3.5 397B A17B (Reasoning)",
       "shortName": "Qwen3.5 397B A17B",
       "creator": "Alibaba",
@@ -2577,7 +2598,7 @@
       "gpqa": 0.892929292929293,
       "hle": 0.289620018535681,
       "scicode": 0.447916666666667,
-      "terminalbench": 0.51310861423221,
+      "terminalbench": null,
       "lcr": 0.773333333333333,
       "isReasoning": true,
       "slug": "qwen3-5-397b-a17b",
@@ -2586,7 +2607,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "DeepSeek V4 Flash (Non-reasoning)",
       "shortName": "DeepSeek V4 Flash (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2607,7 +2628,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "Qwen3.6 35B A3B (Reasoning)",
       "shortName": "Qwen3.6 35B A3B",
       "creator": "Alibaba",
@@ -2619,7 +2640,7 @@
       "gpqa": 0.841414141414142,
       "hle": 0.222428174235403,
       "scicode": 0.365740740740741,
-      "terminalbench": 0.449438202247191,
+      "terminalbench": null,
       "lcr": 0.716666666666667,
       "isReasoning": true,
       "slug": "qwen3-6-35b-a3b",
@@ -2628,7 +2649,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "JT-35B-Flash",
       "shortName": "JT-35B-Flash",
       "creator": "China Mobile",
@@ -2649,7 +2670,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "MiMo-V2.5-Pro (Non-reasoning)",
       "shortName": "MiMo-V2.5-Pro (Non-reasoning)",
       "creator": "Xiaomi",
@@ -2670,7 +2691,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "Muse Glimmer (high)",
       "shortName": "Muse Glimmer (high)",
       "creator": "Meta",
@@ -2682,7 +2703,7 @@
       "gpqa": 0.835353535353535,
       "hle": 0.219647822057461,
       "scicode": 0.449074074074074,
-      "terminalbench": 0.51685393258427,
+      "terminalbench": null,
       "lcr": 0.833333333333333,
       "isReasoning": true,
       "slug": "muse-glimmer",
@@ -2691,7 +2712,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Qwen3.5 122B A10B (Non-reasoning)",
       "shortName": "Qwen3.5 122B A10B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2703,7 +2724,7 @@
       "gpqa": 0.827272727272727,
       "hle": 0.159406858202039,
       "scicode": null,
-      "terminalbench": 0.471910112359551,
+      "terminalbench": null,
       "lcr": 0.613333333333333,
       "isReasoning": false,
       "slug": "qwen3-5-122b-a10b-non-reasoning",
@@ -2712,7 +2733,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 130,
+      "rank": 131,
       "name": "Claude 4.5 Haiku (Reasoning)",
       "shortName": "Claude 4.5 Haiku",
       "creator": "Anthropic",
@@ -2724,7 +2745,7 @@
       "gpqa": 0.671717171717172,
       "hle": 0.103799814643188,
       "scicode": 0.422453703703704,
-      "terminalbench": 0.441947565543071,
+      "terminalbench": null,
       "lcr": 0.743333333333333,
       "isReasoning": true,
       "slug": "claude-4-5-haiku-reasoning",
@@ -2733,7 +2754,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 131,
+      "rank": 132,
       "name": "Ring-2.6-1T",
       "shortName": "Ring-2.6-1T",
       "creator": "InclusionAI",
@@ -2745,7 +2766,7 @@
       "gpqa": 0.856565656565657,
       "hle": 0.215940685820204,
       "scicode": 0.450231481481481,
-      "terminalbench": 0.430711610486891,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": true,
       "slug": "ring-2-6-1t",
@@ -2754,7 +2775,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 132,
+      "rank": 133,
       "name": "Doubao Seed Code",
       "shortName": "Doubao Seed Code",
       "creator": "ByteDance Seed",
@@ -2775,27 +2796,6 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 133,
-      "name": "GPT-5.6 Luna (Non-reasoning)",
-      "shortName": "GPT-5.6 Luna (Non-reasoning)",
-      "creator": "OpenAI",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "intelligenceIndex": 16.7636573752653,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.645454545454546,
-      "hle": 0.072289156626506,
-      "scicode": null,
-      "terminalbench": 0.389513108614232,
-      "lcr": 0.426666666666667,
-      "isReasoning": false,
-      "slug": "gpt-5-6-luna-non-reasoning",
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "rank": 134,
       "name": "Gemma 4 26B A4B (Reasoning)",
       "shortName": "Gemma 4 26B A4B",
@@ -2807,8 +2807,8 @@
       "agenticIndex": null,
       "gpqa": 0.791919191919192,
       "hle": 0.193234476367006,
-      "scicode": null,
-      "terminalbench": 0.389513108614232,
+      "scicode": 0.400462962962963,
+      "terminalbench": null,
       "lcr": 0.656666666666667,
       "isReasoning": true,
       "slug": "gemma-4-26b-a4b",
@@ -2829,7 +2829,7 @@
       "gpqa": 0.856565656565657,
       "hle": 0.252085264133457,
       "scicode": 0.396990740740741,
-      "terminalbench": 0.47565543071161,
+      "terminalbench": null,
       "lcr": 0.763333333333333,
       "isReasoning": true,
       "slug": "qwen3-5-122b-a10b",
@@ -2850,7 +2850,7 @@
       "gpqa": 0.691919191919192,
       "hle": 0.13855421686747,
       "scicode": 0.219907407407407,
-      "terminalbench": 0.280898876404494,
+      "terminalbench": null,
       "lcr": 0.623333333333333,
       "isReasoning": true,
       "slug": "k2-4b-ph1",
@@ -2860,6 +2860,27 @@
     },
     {
       "rank": 137,
+      "name": "GPT-5.6 Luna (Non-reasoning)",
+      "shortName": "GPT-5.6 Luna (Non-reasoning)",
+      "creator": "OpenAI",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "intelligenceIndex": 16.0500252110259,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.645454545454546,
+      "hle": 0.072289156626506,
+      "scicode": 0.403935185185185,
+      "terminalbench": null,
+      "lcr": 0.426666666666667,
+      "isReasoning": false,
+      "slug": "gpt-5-6-luna-non-reasoning",
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 138,
       "name": "MiMo-V2-Flash (Non-reasoning)",
       "shortName": "MiMo-V2-Flash (Non-reasoning)",
       "creator": "Xiaomi",
@@ -2871,7 +2892,7 @@
       "gpqa": 0.655555555555556,
       "hle": 0.0857275254865616,
       "scicode": null,
-      "terminalbench": 0.617977528089888,
+      "terminalbench": null,
       "lcr": 0.363333333333333,
       "isReasoning": false,
       "slug": "mimo-v2-flash",
@@ -2880,7 +2901,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 138,
+      "rank": 139,
       "name": "Gemma 4 31B (Reasoning)",
       "shortName": "Gemma 4 31B",
       "creator": "Google",
@@ -2892,7 +2913,7 @@
       "gpqa": 0.856565656565657,
       "hle": 0.236329935125116,
       "scicode": 0.454861111111111,
-      "terminalbench": 0.434456928838951,
+      "terminalbench": null,
       "lcr": 0.696666666666667,
       "isReasoning": true,
       "slug": "gemma-4-31b",
@@ -2901,7 +2922,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 139,
+      "rank": 140,
       "name": "Claude 4.5 Haiku (Non-reasoning)",
       "shortName": "Claude 4.5 Haiku (Non-reasoning)",
       "creator": "Anthropic",
@@ -2922,7 +2943,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Qwen3.6 35B A3B (Non-reasoning)",
       "shortName": "Qwen3.6 35B A3B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2934,7 +2955,7 @@
       "gpqa": 0.817171717171717,
       "hle": 0.139017608897127,
       "scicode": null,
-      "terminalbench": 0.415730337078652,
+      "terminalbench": null,
       "lcr": 0.643333333333333,
       "isReasoning": false,
       "slug": "qwen3-6-35b-a3b-non-reasoning",
@@ -2943,7 +2964,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 141,
+      "rank": 142,
       "name": "Qwen3.5 35B A3B (Non-reasoning)",
       "shortName": "Qwen3.5 35B A3B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2955,7 +2976,7 @@
       "gpqa": 0.819191919191919,
       "hle": 0.134383688600556,
       "scicode": null,
-      "terminalbench": 0.408239700374532,
+      "terminalbench": null,
       "lcr": 0.63,
       "isReasoning": false,
       "slug": "qwen3-5-35b-a3b-non-reasoning",
@@ -2964,7 +2985,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 142,
+      "rank": 143,
       "name": "Mistral Medium 3.5",
       "shortName": "Mistral Medium 3.5",
       "creator": "Mistral",
@@ -2976,7 +2997,7 @@
       "gpqa": 0.748484848484849,
       "hle": 0.137627432808156,
       "scicode": 0.40162037037037,
-      "terminalbench": 0.50561797752809,
+      "terminalbench": null,
       "lcr": 0.693333333333333,
       "isReasoning": true,
       "slug": "mistral-medium-3-5",
@@ -2985,7 +3006,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 143,
+      "rank": 144,
       "name": "Granite 4.2 30B",
       "shortName": "Granite 4.2 30B",
       "creator": "IBM",
@@ -2997,7 +3018,7 @@
       "gpqa": 0.644444444444444,
       "hle": 0.111677479147359,
       "scicode": 0.378472222222222,
-      "terminalbench": 0.265917602996255,
+      "terminalbench": null,
       "lcr": 0.49,
       "isReasoning": true,
       "slug": "granite-4-2-30b",
@@ -3006,7 +3027,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 144,
+      "rank": 145,
       "name": "Grok 4.3 (Non-reasoning)",
       "shortName": "Grok 4.3 (Non-reasoning)",
       "creator": "SpaceXAI",
@@ -3018,7 +3039,7 @@
       "gpqa": 0.657575757575758,
       "hle": 0.0676552363299351,
       "scicode": 0.393518518518519,
-      "terminalbench": 0.340823970037453,
+      "terminalbench": null,
       "lcr": 0.323333333333333,
       "isReasoning": false,
       "slug": "grok-4-3-non-reasoning",
@@ -3027,7 +3048,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 145,
+      "rank": 146,
       "name": "K-EXAONE (Reasoning)",
       "shortName": "K-EXAONE",
       "creator": "LG AI Research",
@@ -3039,7 +3060,7 @@
       "gpqa": 0.782828282828283,
       "hle": 0.139481000926784,
       "scicode": null,
-      "terminalbench": 0.303370786516854,
+      "terminalbench": null,
       "lcr": 0.613333333333333,
       "isReasoning": true,
       "slug": "k-exaone",
@@ -3048,7 +3069,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 146,
+      "rank": 147,
       "name": "ERNIE 5.0 Thinking Preview",
       "shortName": "ERNIE 5.0 Thinking Preview",
       "creator": "Baidu",
@@ -3069,7 +3090,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "Gemma 4 12B (Reasoning)",
       "shortName": "Gemma 4 12B",
       "creator": "Google",
@@ -3081,7 +3102,7 @@
       "gpqa": 0.752525252525252,
       "hle": 0.156626506024096,
       "scicode": null,
-      "terminalbench": 0.273408239700375,
+      "terminalbench": null,
       "lcr": 0.636666666666667,
       "isReasoning": true,
       "slug": "gemma-4-12b",
@@ -3090,7 +3111,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 148,
+      "rank": 149,
       "name": "Nova 2.0 Pro Preview (medium)",
       "shortName": "Nova 2.0 Pro Preview (medium)",
       "creator": "Amazon",
@@ -3102,7 +3123,7 @@
       "gpqa": 0.784848484848485,
       "hle": 0.0940685820203892,
       "scicode": null,
-      "terminalbench": 0.295880149812734,
+      "terminalbench": null,
       "lcr": 0.64,
       "isReasoning": true,
       "slug": "nova-2-0-pro-reasoning-medium",
@@ -3111,7 +3132,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 149,
+      "rank": 150,
       "name": "Command A+",
       "shortName": "Command A+",
       "creator": "Cohere",
@@ -3123,7 +3144,7 @@
       "gpqa": 0.760606060606061,
       "hle": 0.119555143651529,
       "scicode": 0.385416666666667,
-      "terminalbench": 0.228464419475655,
+      "terminalbench": null,
       "lcr": 0.526666666666667,
       "isReasoning": true,
       "slug": "command-a-plus",
@@ -3132,7 +3153,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 150,
+      "rank": 151,
       "name": "Gemma 4 31B (Non-reasoning)",
       "shortName": "Gemma 4 31B (Non-reasoning)",
       "creator": "Google",
@@ -3144,7 +3165,7 @@
       "gpqa": 0.762626262626263,
       "hle": 0.118164967562558,
       "scicode": null,
-      "terminalbench": 0.292134831460674,
+      "terminalbench": null,
       "lcr": 0.466666666666667,
       "isReasoning": false,
       "slug": "gemma-4-31b-non-reasoning",
@@ -3153,7 +3174,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 151,
+      "rank": 152,
       "name": "Qwen3.5 9B (Reasoning)",
       "shortName": "Qwen3.5 9B",
       "creator": "Alibaba",
@@ -3165,7 +3186,7 @@
       "gpqa": 0.806060606060606,
       "hle": 0.149212233549583,
       "scicode": null,
-      "terminalbench": 0.292134831460674,
+      "terminalbench": null,
       "lcr": 0.7,
       "isReasoning": true,
       "slug": "qwen3-5-9b",
@@ -3174,7 +3195,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 152,
+      "rank": 153,
       "name": "Nova 2.0 Omni (medium)",
       "shortName": "Nova 2.0 Omni (medium)",
       "creator": "Amazon",
@@ -3195,7 +3216,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 153,
+      "rank": 154,
       "name": "Nemotron 3.5 Lightning",
       "shortName": "Nemotron 3.5 Lightning",
       "creator": "NVIDIA",
@@ -3207,7 +3228,7 @@
       "gpqa": 0.743434343434343,
       "hle": 0.105653382761817,
       "scicode": 0.320601851851852,
-      "terminalbench": 0.243445692883895,
+      "terminalbench": null,
       "lcr": 0.603333333333333,
       "isReasoning": true,
       "slug": "nemotron-3-5-lightning",
@@ -3216,7 +3237,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 154,
+      "rank": 155,
       "name": "Nemotron 3 Super 120B A12B (Reasoning)",
       "shortName": "Nemotron 3 Super",
       "creator": "NVIDIA",
@@ -3228,7 +3249,7 @@
       "gpqa": 0.8,
       "hle": 0.207599629286376,
       "scicode": 0.362268518518519,
-      "terminalbench": 0.385767790262172,
+      "terminalbench": null,
       "lcr": 0.656666666666667,
       "isReasoning": true,
       "slug": "nvidia-nemotron-3-super-120b-a12b",
@@ -3237,7 +3258,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 155,
+      "rank": 156,
       "name": "Apriel-v1.6-15B-Thinker",
       "shortName": "Apriel-v1.6-15B-Thinker",
       "creator": "ServiceNow",
@@ -3258,7 +3279,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 156,
+      "rank": 157,
       "name": "Nova 2.0 Lite (high)",
       "shortName": "Nova 2.0 Lite (high)",
       "creator": "Amazon",
@@ -3270,7 +3291,7 @@
       "gpqa": 0.811111111111111,
       "hle": 0.11631139944393,
       "scicode": null,
-      "terminalbench": 0.161048689138577,
+      "terminalbench": null,
       "lcr": 0.603333333333333,
       "isReasoning": true,
       "slug": "nova-2-0-lite-reasoning",
@@ -3279,7 +3300,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 157,
+      "rank": 158,
       "name": "Qwen3.5 9B (Non-reasoning)",
       "shortName": "Qwen3.5 9B (Non-reasoning)",
       "creator": "Alibaba",
@@ -3291,7 +3312,7 @@
       "gpqa": 0.785858585858586,
       "hle": 0.0936051899907322,
       "scicode": null,
-      "terminalbench": 0.213483146067416,
+      "terminalbench": null,
       "lcr": 0.46,
       "isReasoning": false,
       "slug": "qwen3-5-9b-non-reasoning",
@@ -3300,7 +3321,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 158,
+      "rank": 159,
       "name": "EXAONE 4.5 33B",
       "shortName": "EXAONE 4.5 33B",
       "creator": "LG AI Research",
@@ -3312,7 +3333,7 @@
       "gpqa": 0.793939393939394,
       "hle": 0.128822984244671,
       "scicode": null,
-      "terminalbench": 0.213483146067416,
+      "terminalbench": null,
       "lcr": 0.546666666666667,
       "isReasoning": true,
       "slug": "exaone-4-5-33b",
@@ -3321,7 +3342,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 159,
+      "rank": 160,
       "name": "MiniCPM5-2B",
       "shortName": "MiniCPM5-2B",
       "creator": "OpenBMB",
@@ -3333,7 +3354,7 @@
       "gpqa": 0.702020202020202,
       "hle": 0.0894346617238184,
       "scicode": 0.262731481481481,
-      "terminalbench": 0.0861423220973783,
+      "terminalbench": null,
       "lcr": 0.593333333333333,
       "isReasoning": true,
       "slug": "minicpm5-2b",
@@ -3342,7 +3363,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 160,
+      "rank": 161,
       "name": "Gemma 4 26B A4B (Non-reasoning)",
       "shortName": "Gemma 4 26B A4B (Non-reasoning)",
       "creator": "Google",
@@ -3363,7 +3384,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 161,
+      "rank": 162,
       "name": "Qwen3.5 4B (Reasoning)",
       "shortName": "Qwen3.5 4B",
       "creator": "Alibaba",
@@ -3375,31 +3396,10 @@
       "gpqa": 0.770707070707071,
       "hle": 0.0991658943466172,
       "scicode": null,
-      "terminalbench": 0.258426966292135,
+      "terminalbench": null,
       "lcr": 0.63,
       "isReasoning": true,
       "slug": "qwen3-5-4b",
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 162,
-      "name": "North Mini Code",
-      "shortName": "North Mini Code",
-      "creator": "Cohere",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/cohere_small.svg",
-      "intelligenceIndex": 12.8392957114634,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.756565656565657,
-      "hle": 0.110750695088044,
-      "scicode": 0.387731481481481,
-      "terminalbench": 0.355805243445693,
-      "lcr": 0.373333333333333,
-      "isReasoning": true,
-      "slug": "north-mini-code",
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -3417,7 +3417,7 @@
       "gpqa": 0.750505050505051,
       "hle": 0.0518999073215941,
       "scicode": null,
-      "terminalbench": 0.194756554307116,
+      "terminalbench": null,
       "lcr": 0.646666666666667,
       "isReasoning": true,
       "slug": "nova-2-0-pro-reasoning-low",
@@ -3480,7 +3480,7 @@
       "gpqa": 0.781818181818182,
       "hle": 0.196014828544949,
       "scicode": 0.340277777777778,
-      "terminalbench": 0.262172284644195,
+      "terminalbench": null,
       "lcr": 0.52,
       "isReasoning": true,
       "slug": "gpt-oss-120b",
@@ -3522,7 +3522,7 @@
       "gpqa": 0.734343434343434,
       "hle": 0.0931417979610751,
       "scicode": 0.241898148148148,
-      "terminalbench": 0.277153558052434,
+      "terminalbench": null,
       "lcr": 0.603333333333333,
       "isReasoning": true,
       "slug": "ling-3-0-tiny",
@@ -3543,7 +3543,7 @@
       "gpqa": 0.739393939393939,
       "hle": 0.102873030583874,
       "scicode": null,
-      "terminalbench": 0.123595505617978,
+      "terminalbench": null,
       "lcr": 0.53,
       "isReasoning": true,
       "slug": "magistral-medium-2509",
@@ -3564,7 +3564,7 @@
       "gpqa": 0.631313131313131,
       "hle": 0.0968489341983318,
       "scicode": 0.314814814814815,
-      "terminalbench": 0.183520599250936,
+      "terminalbench": null,
       "lcr": 0.45,
       "isReasoning": true,
       "slug": "granite-4-2-8b",
@@ -3606,7 +3606,7 @@
       "gpqa": 0.733333333333333,
       "hle": 0.166357738646895,
       "scicode": null,
-      "terminalbench": 0.183520599250936,
+      "terminalbench": null,
       "lcr": 0.363333333333333,
       "isReasoning": true,
       "slug": "hypernova-60b",
@@ -3627,7 +3627,7 @@
       "gpqa": 0.757575757575758,
       "hle": 0.120018535681186,
       "scicode": null,
-      "terminalbench": 0.205992509363296,
+      "terminalbench": null,
       "lcr": 0.393333333333333,
       "isReasoning": true,
       "slug": "nemotron-cascade-2-30b-a3b",
@@ -3648,7 +3648,7 @@
       "gpqa": 0.76969696969697,
       "hle": 0.171455050973123,
       "scicode": 0.377314814814815,
-      "terminalbench": 0.273408239700375,
+      "terminalbench": null,
       "lcr": 0.436666666666667,
       "isReasoning": true,
       "slug": "mercury-2",
@@ -3669,7 +3669,7 @@
       "gpqa": 0.713131313131313,
       "hle": 0.101019462465246,
       "scicode": null,
-      "terminalbench": 0.149812734082397,
+      "terminalbench": null,
       "lcr": 0.57,
       "isReasoning": true,
       "slug": "k2-think-v2",
@@ -3711,7 +3711,7 @@
       "gpqa": 0.768686868686869,
       "hle": 0.0987025023169602,
       "scicode": 0.387731481481481,
-      "terminalbench": 0.209737827715356,
+      "terminalbench": null,
       "lcr": 0.496666666666667,
       "isReasoning": true,
       "slug": "mistral-small-4",
@@ -3774,7 +3774,7 @@
       "gpqa": 0.758585858585858,
       "hle": 0.125579240037071,
       "scicode": null,
-      "terminalbench": 0.0674157303370786,
+      "terminalbench": null,
       "lcr": 0.636666666666667,
       "isReasoning": true,
       "slug": "qwen3-next-80b-a3b-reasoning",
@@ -3837,7 +3837,7 @@
       "gpqa": 0.751515151515151,
       "hle": 0.158480074142725,
       "scicode": 0.40625,
-      "terminalbench": 0.205992509363296,
+      "terminalbench": null,
       "lcr": 0.38,
       "isReasoning": true,
       "slug": "trinity-large-thinking",
@@ -3858,7 +3858,7 @@
       "gpqa": 0.438383838383838,
       "hle": 0.0449490268767377,
       "scicode": null,
-      "terminalbench": 0.0599250936329588,
+      "terminalbench": null,
       "lcr": 0.413333333333333,
       "isReasoning": true,
       "slug": "g9v3-3b",
@@ -3879,7 +3879,7 @@
       "gpqa": 0.712121212121212,
       "hle": 0.0797034291010195,
       "scicode": null,
-      "terminalbench": 0.213483146067416,
+      "terminalbench": null,
       "lcr": 0.346666666666667,
       "isReasoning": false,
       "slug": "qwen3-5-4b-non-reasoning",
@@ -3942,7 +3942,7 @@
       "gpqa": 0.468686868686869,
       "hle": 0.0481927710843374,
       "scicode": null,
-      "terminalbench": 0.0674157303370786,
+      "terminalbench": null,
       "lcr": 0.396666666666667,
       "isReasoning": true,
       "slug": "nemotron-3-nano-omni-30b-a3b",
@@ -3963,7 +3963,7 @@
       "gpqa": 0.671717171717172,
       "hle": 0.0588507877664504,
       "scicode": null,
-      "terminalbench": 0.138576779026217,
+      "terminalbench": null,
       "lcr": 0.46,
       "isReasoning": true,
       "slug": "gpt-oss-120b-low",
@@ -3984,7 +3984,7 @@
       "gpqa": 0.737373737373737,
       "hle": 0.101482854494903,
       "scicode": 0.362268518518519,
-      "terminalbench": 0.382022471910112,
+      "terminalbench": null,
       "lcr": 0.47,
       "isReasoning": false,
       "slug": "qwen3-coder-next",
@@ -4005,7 +4005,7 @@
       "gpqa": 0.636363636363636,
       "hle": 0.0393883225208526,
       "scicode": null,
-      "terminalbench": 0.172284644194757,
+      "terminalbench": null,
       "lcr": 0.3,
       "isReasoning": false,
       "slug": "nova-2-0-pro",
@@ -4036,6 +4036,27 @@
     },
     {
       "rank": 193,
+      "name": "North Mini Code",
+      "shortName": "North Mini Code",
+      "creator": "Cohere",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/cohere_small.svg",
+      "intelligenceIndex": 9.91462776590372,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.756565656565657,
+      "hle": 0.110750695088044,
+      "scicode": 0.387731481481481,
+      "terminalbench": null,
+      "lcr": 0.373333333333333,
+      "isReasoning": true,
+      "slug": "north-mini-code",
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 194,
       "name": "K2-V2 (high)",
       "shortName": "K2-V2 (high)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4056,7 +4077,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 194,
+      "rank": 195,
       "name": "Mistral Large 3",
       "shortName": "Mistral Large 3",
       "creator": "Mistral",
@@ -4068,7 +4089,7 @@
       "gpqa": 0.67979797979798,
       "hle": 0.0417052826691381,
       "scicode": 0.365740740740741,
-      "terminalbench": 0.119850187265918,
+      "terminalbench": null,
       "lcr": 0.36,
       "isReasoning": false,
       "slug": "mistral-large-3",
@@ -4077,7 +4098,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 195,
+      "rank": 196,
       "name": "Qwen3 Next 80B A3B Instruct",
       "shortName": "Qwen3 Next 80B A3B",
       "creator": "Alibaba",
@@ -4098,7 +4119,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 196,
+      "rank": 197,
       "name": "DiffusionGemma 26B A4B",
       "shortName": "DiffusionGemma 26B A4B",
       "creator": "Google",
@@ -4110,7 +4131,7 @@
       "gpqa": 0.668686868686869,
       "hle": 0.108433734939759,
       "scicode": null,
-      "terminalbench": 0.123595505617978,
+      "terminalbench": null,
       "lcr": 0.196666666666667,
       "isReasoning": true,
       "slug": "diffusiongemma-26b-a4b",
@@ -4119,7 +4140,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 197,
+      "rank": 198,
       "name": "Devstral 2",
       "shortName": "Devstral 2",
       "creator": "Mistral",
@@ -4131,7 +4152,7 @@
       "gpqa": 0.593939393939394,
       "hle": 0.0356811862835959,
       "scicode": 0.327546296296296,
-      "terminalbench": 0.303370786516854,
+      "terminalbench": null,
       "lcr": 0.323333333333333,
       "isReasoning": false,
       "slug": "devstral-2",
@@ -4140,7 +4161,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 198,
+      "rank": 199,
       "name": "Gemma 4 12B (Non-reasoning)",
       "shortName": "Gemma 4 12B (Non-reasoning)",
       "creator": "Google",
@@ -4161,7 +4182,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 199,
+      "rank": 200,
       "name": "Llama 4 Maverick",
       "shortName": "Llama 4 Maverick",
       "creator": "Meta",
@@ -4173,7 +4194,7 @@
       "gpqa": 0.670707070707071,
       "hle": 0.0491195551436515,
       "scicode": 0.31712962962963,
-      "terminalbench": 0.0786516853932584,
+      "terminalbench": null,
       "lcr": 0.5,
       "isReasoning": false,
       "slug": "llama-4-maverick",
@@ -4182,7 +4203,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 200,
+      "rank": 201,
       "name": "Motif-2-12.7B-Reasoning",
       "shortName": "Motif-2-12.7B",
       "creator": "Motif Technologies",
@@ -4203,7 +4224,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 201,
+      "rank": 202,
       "name": "Nova Premier",
       "shortName": "Nova Premier",
       "creator": "Amazon",
@@ -4224,7 +4245,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 202,
+      "rank": 203,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -4236,7 +4257,7 @@
       "gpqa": 0.558585858585859,
       "hle": 0.0662650602409639,
       "scicode": 0.253472222222222,
-      "terminalbench": 0.138576779026217,
+      "terminalbench": null,
       "lcr": 0.243333333333333,
       "isReasoning": true,
       "slug": "granite-4-2-3b",
@@ -4245,7 +4266,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 203,
+      "rank": 204,
       "name": "gpt-oss-20b (high)",
       "shortName": "gpt-oss-20b (high)",
       "creator": "OpenAI",
@@ -4257,7 +4278,7 @@
       "gpqa": 0.687878787878788,
       "hle": 0.10982391102873,
       "scicode": 0.388888888888889,
-      "terminalbench": 0.138576779026217,
+      "terminalbench": null,
       "lcr": 0.346666666666667,
       "isReasoning": true,
       "slug": "gpt-oss-20b",
@@ -4266,7 +4287,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 204,
+      "rank": 205,
       "name": "K2-V2 (medium)",
       "shortName": "K2-V2 (medium)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4287,7 +4308,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 205,
+      "rank": 206,
       "name": "Llama Nemotron Super 49B v1.5 (Reasoning)",
       "shortName": "Llama Nemotron Super 49B v1.5",
       "creator": "NVIDIA",
@@ -4308,7 +4329,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 206,
+      "rank": 207,
       "name": "Mistral Small 4 (Non-reasoning)",
       "shortName": "Mistral Small 4 (Non-reasoning)",
       "creator": "Mistral",
@@ -4329,7 +4350,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 207,
+      "rank": 208,
       "name": "Tri-21B-Think",
       "shortName": "Tri-21B-Think",
       "creator": "Trillion Labs",
@@ -4350,7 +4371,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 208,
+      "rank": 209,
       "name": "Gemma 4 E4B (Reasoning)",
       "shortName": "Gemma 4 E4B",
       "creator": "Google",
@@ -4362,7 +4383,7 @@
       "gpqa": 0.575757575757576,
       "hle": 0.0375347544022243,
       "scicode": null,
-      "terminalbench": 0.0187265917602996,
+      "terminalbench": null,
       "lcr": 0.32,
       "isReasoning": true,
       "slug": "gemma-4-e4b",
@@ -4371,7 +4392,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 209,
+      "rank": 210,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Reasoning)",
       "shortName": "Nemotron 3 Nano",
       "creator": "NVIDIA",
@@ -4383,7 +4404,7 @@
       "gpqa": 0.756565656565657,
       "hle": 0.113994439295644,
       "scicode": 0.305555555555556,
-      "terminalbench": 0.0674157303370786,
+      "terminalbench": null,
       "lcr": 0.38,
       "isReasoning": true,
       "slug": "nvidia-nemotron-3-nano-30b-a3b-reasoning",
@@ -4392,7 +4413,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 210,
+      "rank": 211,
       "name": "MiniCPM5-1B (Reasoning)",
       "shortName": "MiniCPM5-1B",
       "creator": "OpenBMB",
@@ -4413,7 +4434,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 211,
+      "rank": 212,
       "name": "Sarvam 105B (high)",
       "shortName": "Sarvam 105B (high)",
       "creator": "Sarvam",
@@ -4434,7 +4455,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 212,
+      "rank": 213,
       "name": "Nova 2.0 Lite (Non-reasoning)",
       "shortName": "Nova 2.0 Lite (Non-reasoning)",
       "creator": "Amazon",
@@ -4455,7 +4476,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 213,
+      "rank": 214,
       "name": "MiniCPM5-1B (Non-reasoning)",
       "shortName": "MiniCPM5-1B (Non-reasoning)",
       "creator": "OpenBMB",
@@ -4476,7 +4497,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 214,
+      "rank": 215,
       "name": "Magistral Small 1.2",
       "shortName": "Magistral Small 1.2",
       "creator": "Mistral",
@@ -4488,7 +4509,7 @@
       "gpqa": 0.662626262626263,
       "hle": 0.0644114921223355,
       "scicode": null,
-      "terminalbench": 0.0449438202247191,
+      "terminalbench": null,
       "lcr": 0.193333333333333,
       "isReasoning": true,
       "slug": "magistral-small-2509",
@@ -4497,7 +4518,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 215,
+      "rank": 216,
       "name": "Nanbeige4.1-3B",
       "shortName": "Nanbeige4.1-3B",
       "creator": "Nanbeige",
@@ -4509,7 +4530,7 @@
       "gpqa": 0.84949494949495,
       "hle": 0.108897126969416,
       "scicode": null,
-      "terminalbench": 0.0112359550561798,
+      "terminalbench": null,
       "lcr": 0,
       "isReasoning": true,
       "slug": "nanbeige4-1-3b",
@@ -4518,7 +4539,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 216,
+      "rank": 217,
       "name": "LFM2.5-2.6B",
       "shortName": "LFM2.5-2.6B",
       "creator": "Liquid AI",
@@ -4530,7 +4551,7 @@
       "gpqa": 0.557575757575758,
       "hle": 0.06209453197405,
       "scicode": 0.143518518518519,
-      "terminalbench": 0.0449438202247191,
+      "terminalbench": null,
       "lcr": 0.0566666666666667,
       "isReasoning": true,
       "slug": "lfm2-5-2-6b",
@@ -4539,7 +4560,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 217,
+      "rank": 218,
       "name": "Devstral Small 2",
       "shortName": "Devstral Small 2",
       "creator": "Mistral",
@@ -4551,7 +4572,7 @@
       "gpqa": 0.532323232323232,
       "hle": 0.0347544022242817,
       "scicode": 0.324074074074074,
-      "terminalbench": 0.295880149812734,
+      "terminalbench": null,
       "lcr": 0.28,
       "isReasoning": false,
       "slug": "devstral-small-2",
@@ -4560,7 +4581,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 218,
+      "rank": 219,
       "name": "EXAONE 4.0 32B (Reasoning)",
       "shortName": "EXAONE 4.0 32B",
       "creator": "LG AI Research",
@@ -4581,7 +4602,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 219,
+      "rank": 220,
       "name": "Nova 2.0 Omni (Non-reasoning)",
       "shortName": "Nova 2.0 Omni (Non-reasoning)",
       "creator": "Amazon",
@@ -4602,7 +4623,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 220,
+      "rank": 221,
       "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
       "shortName": "Hermes 4 70B",
       "creator": "Nous Research",
@@ -4623,7 +4644,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 221,
+      "rank": 222,
       "name": "Falcon-H1R-7B",
       "shortName": "Falcon-H1R-7B",
       "creator": "TII UAE",
@@ -4644,7 +4665,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 222,
+      "rank": 223,
       "name": "Solar Pro 3",
       "shortName": "Solar Pro 3",
       "creator": "Upstage",
@@ -4656,7 +4677,7 @@
       "gpqa": 0.724242424242424,
       "hle": 0.102873030583874,
       "scicode": 0.25462962962963,
-      "terminalbench": 0.119850187265918,
+      "terminalbench": null,
       "lcr": 0.323333333333333,
       "isReasoning": true,
       "slug": "solar-pro-3",
@@ -4665,7 +4686,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 223,
+      "rank": 224,
       "name": "Gemma 4 E2B (Reasoning)",
       "shortName": "Gemma 4 E2B",
       "creator": "Google",
@@ -4677,7 +4698,7 @@
       "gpqa": 0.433333333333333,
       "hle": 0.0477293790546803,
       "scicode": null,
-      "terminalbench": 0.00374531835205993,
+      "terminalbench": null,
       "lcr": 0.163333333333333,
       "isReasoning": true,
       "slug": "gemma-4-e2b",
@@ -4686,7 +4707,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 224,
+      "rank": 225,
       "name": "Qwen3 Omni 30B A3B (Reasoning)",
       "shortName": "Qwen3 Omni 30B A3B (Reasoning)",
       "creator": "Alibaba",
@@ -4707,7 +4728,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 225,
+      "rank": 226,
       "name": "Step3 VL 10B",
       "shortName": "Step3 VL 10B",
       "creator": "StepFun",
@@ -4728,7 +4749,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 226,
+      "rank": 227,
       "name": "Llama 3.3 Instruct 70B",
       "shortName": "Llama 3.3 70B",
       "creator": "Meta",
@@ -4740,7 +4761,7 @@
       "gpqa": 0.497979797979798,
       "hle": 0.0356,
       "scicode": null,
-      "terminalbench": 0.048689138576779,
+      "terminalbench": null,
       "lcr": 0.156666666666667,
       "isReasoning": false,
       "slug": "llama-3-3-instruct-70b",
@@ -4749,7 +4770,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 227,
+      "rank": 228,
       "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
       "shortName": "Llama Nemotron Ultra",
       "creator": "NVIDIA",
@@ -4770,7 +4791,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 228,
+      "rank": 229,
       "name": "ERNIE 4.5 300B A47B",
       "shortName": "ERNIE 4.5 300B A47B",
       "creator": "Baidu",
@@ -4791,7 +4812,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 229,
+      "rank": 230,
       "name": "Hermes 4 - Llama-3.1 405B (Reasoning)",
       "shortName": "Hermes 4 405B",
       "creator": "Nous Research",
@@ -4812,7 +4833,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 230,
+      "rank": 231,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 12B v2 VL",
       "creator": "NVIDIA",
@@ -4833,7 +4854,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 231,
+      "rank": 232,
       "name": "Gemma 4 E4B (Non-reasoning)",
       "shortName": "Gemma 4 E4B (Non-reasoning)",
       "creator": "Google",
@@ -4854,7 +4875,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 232,
+      "rank": 233,
       "name": "Granite 4.1 30B",
       "shortName": "Granite 4.1 30B",
       "creator": "IBM",
@@ -4866,7 +4887,7 @@
       "gpqa": 0.480808080808081,
       "hle": 0.041241890639481,
       "scicode": null,
-      "terminalbench": 0.0262172284644195,
+      "terminalbench": null,
       "lcr": 0.236666666666667,
       "isReasoning": false,
       "slug": "granite-4-1-30b",
@@ -4875,7 +4896,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 233,
+      "rank": 234,
       "name": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2",
       "creator": "NVIDIA",
@@ -4896,7 +4917,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 234,
+      "rank": 235,
       "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
       "shortName": "Hermes 4 405B (Non-reasoning)",
       "creator": "Nous Research",
@@ -4917,7 +4938,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 235,
+      "rank": 236,
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "shortName": "Nemotron 3 Nano 4B",
       "creator": "NVIDIA",
@@ -4929,7 +4950,7 @@
       "gpqa": 0.513131313131313,
       "hle": 0.0486561631139944,
       "scicode": null,
-      "terminalbench": 0.0374531835205993,
+      "terminalbench": null,
       "lcr": 0.216666666666667,
       "isReasoning": true,
       "slug": "nvidia-nemotron-3-nano-4b",
@@ -4938,7 +4959,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 236,
+      "rank": 237,
       "name": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "shortName": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
       "creator": "NVIDIA",
@@ -4959,7 +4980,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 237,
+      "rank": 238,
       "name": "K2-V2 (low)",
       "shortName": "K2-V2 (low)",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -4980,7 +5001,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 238,
+      "rank": 239,
       "name": "Kimi Linear 48B A3B Instruct",
       "shortName": "Kimi Linear 48B A3B Instruct",
       "creator": "Kimi",
@@ -5001,7 +5022,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 239,
+      "rank": 240,
       "name": "Llama 3.1 Instruct 405B",
       "shortName": "Llama 3.1 405B",
       "creator": "Meta",
@@ -5022,7 +5043,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 240,
+      "rank": 241,
       "name": "LFM2.5-8B-A1B",
       "shortName": "LFM2.5-8B-A1B",
       "creator": "Liquid AI",
@@ -5043,7 +5064,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 241,
+      "rank": 242,
       "name": "Ring-flash-2.0",
       "shortName": "Ring-flash-2.0",
       "creator": "InclusionAI",
@@ -5064,7 +5085,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 242,
+      "rank": 243,
       "name": "Olmo 3.1 32B Think",
       "shortName": "Olmo 3.1 32B Think",
       "creator": "Allen Institute for AI",
@@ -5085,7 +5106,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 243,
+      "rank": 244,
       "name": "Command A",
       "shortName": "Command A",
       "creator": "Cohere",
@@ -5106,7 +5127,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 244,
+      "rank": 245,
       "name": "Qwen3.5 2B (Reasoning)",
       "shortName": "Qwen3.5 2B",
       "creator": "Alibaba",
@@ -5118,7 +5139,7 @@
       "gpqa": 0.455555555555556,
       "hle": 0.025949953660797,
       "scicode": null,
-      "terminalbench": 0.0299625468164794,
+      "terminalbench": null,
       "lcr": 0.21,
       "isReasoning": true,
       "slug": "qwen3-5-2b",
@@ -5127,7 +5148,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 245,
+      "rank": 246,
       "name": "Llama 3.1 Nemotron Instruct 70B",
       "shortName": "Llama 3.1 Nemotron 70B",
       "creator": "NVIDIA",
@@ -5148,7 +5169,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 246,
+      "rank": 247,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
       "shortName": "Nemotron 3 Nano (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5169,7 +5190,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 247,
+      "rank": 248,
       "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5190,7 +5211,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 248,
+      "rank": 249,
       "name": "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
       "shortName": "Hermes 4 70B (Non-reasoning)",
       "creator": "Nous Research",
@@ -5211,7 +5232,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 249,
+      "rank": 250,
       "name": "Granite 4.1 8B",
       "shortName": "Granite 4.1 8B",
       "creator": "IBM",
@@ -5223,7 +5244,7 @@
       "gpqa": 0.433333333333333,
       "hle": 0.0379981464318814,
       "scicode": null,
-      "terminalbench": 0.0337078651685393,
+      "terminalbench": null,
       "lcr": 0.133333333333333,
       "isReasoning": false,
       "slug": "granite-4-1-8b",
@@ -5232,7 +5253,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 250,
+      "rank": 251,
       "name": "Sarvam 30B (high)",
       "shortName": "Sarvam 30B (high)",
       "creator": "Sarvam",
@@ -5253,7 +5274,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 251,
+      "rank": 252,
       "name": "Olmo 3.1 32B Instruct",
       "shortName": "Olmo 3.1 32B Instruct",
       "creator": "Allen Institute for AI",
@@ -5274,7 +5295,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 252,
+      "rank": 253,
       "name": "Gemma 4 E2B (Non-reasoning)",
       "shortName": "Gemma 4 E2B (Non-reasoning)",
       "creator": "Google",
@@ -5295,7 +5316,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 253,
+      "rank": 254,
       "name": "Llama 4 Scout",
       "shortName": "Llama 4 Scout",
       "creator": "Meta",
@@ -5307,7 +5328,7 @@
       "gpqa": 0.586868686868687,
       "hle": 0.0378,
       "scicode": 0.212962962962963,
-      "terminalbench": 0.0374531835205993,
+      "terminalbench": null,
       "lcr": 0.277,
       "isReasoning": false,
       "slug": "llama-4-scout",
@@ -5316,7 +5337,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 254,
+      "rank": 255,
       "name": "R1 1776",
       "shortName": "R1 1776",
       "creator": "Perplexity",
@@ -5337,7 +5358,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 255,
+      "rank": 256,
       "name": "Llama 3.2 Instruct 90B (Vision)",
       "shortName": "Llama 3.2 90B (Vision)",
       "creator": "Meta",
@@ -5358,7 +5379,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 256,
+      "rank": 257,
       "name": "Celeris-1",
       "shortName": "Celeris-1",
       "creator": "Celeris",
@@ -5370,7 +5391,7 @@
       "gpqa": 0.631313131313131,
       "hle": 0.0681186283595922,
       "scicode": 0.216435185185185,
-      "terminalbench": 0.112359550561798,
+      "terminalbench": null,
       "lcr": 0.38,
       "isReasoning": false,
       "slug": "celeris-1",
@@ -5379,7 +5400,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 257,
+      "rank": 258,
       "name": "Phi-4 Mini Instruct",
       "shortName": "Phi-4 Mini",
       "creator": "Microsoft",
@@ -5391,7 +5412,7 @@
       "gpqa": 0.331313131313131,
       "hle": 0.0445,
       "scicode": null,
-      "terminalbench": 0.00374531835205993,
+      "terminalbench": null,
       "lcr": 0.153333333333333,
       "isReasoning": false,
       "slug": "phi-4-mini",
@@ -5400,7 +5421,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 258,
+      "rank": 259,
       "name": "EXAONE 4.0 32B (Non-reasoning)",
       "shortName": "EXAONE 4.0 32B (Non-reasoning)",
       "creator": "LG AI Research",
@@ -5421,7 +5442,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 259,
+      "rank": 260,
       "name": "Qwen3.5 2B (Non-reasoning)",
       "shortName": "Qwen3.5 2B (Non-reasoning)",
       "creator": "Alibaba",
@@ -5433,7 +5454,7 @@
       "gpqa": 0.438383838383838,
       "hle": 0.0495829471733086,
       "scicode": null,
-      "terminalbench": 0,
+      "terminalbench": null,
       "lcr": 0.14,
       "isReasoning": false,
       "slug": "qwen3-5-2b-non-reasoning",
@@ -5442,7 +5463,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 260,
+      "rank": 261,
       "name": "Qwen3.5 0.8B (Reasoning)",
       "shortName": "Qwen3.5 0.8B",
       "creator": "Alibaba",
@@ -5454,7 +5475,7 @@
       "gpqa": 0.111111111111111,
       "hle": 0.0106580166821131,
       "scicode": null,
-      "terminalbench": 0,
+      "terminalbench": null,
       "lcr": 0.09,
       "isReasoning": true,
       "slug": "qwen3-5-0-8b",
@@ -5463,7 +5484,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 261,
+      "rank": 262,
       "name": "DeepHermes 3 - Mistral 24B Preview (Non-reasoning)",
       "shortName": "DeepHermes 3 - Mistral 24B",
       "creator": "Nous Research",
@@ -5484,7 +5505,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 262,
+      "rank": 263,
       "name": "Jamba 1.7 Large",
       "shortName": "Jamba 1.7 Large",
       "creator": "AI21 Labs",
@@ -5505,7 +5526,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 263,
+      "rank": 264,
       "name": "Granite 4.0 H Small",
       "shortName": "Granite 4.0 H Small",
       "creator": "IBM",
@@ -5526,7 +5547,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 264,
+      "rank": 265,
       "name": "Ministral 3 14B",
       "shortName": "Ministral 3 14B",
       "creator": "Mistral",
@@ -5538,7 +5559,7 @@
       "gpqa": 0.571717171717172,
       "hle": 0.046339202965709,
       "scicode": 0.238425925925926,
-      "terminalbench": 0.0973782771535581,
+      "terminalbench": null,
       "lcr": 0.263333333333333,
       "isReasoning": false,
       "slug": "ministral-3-14b",
@@ -5547,7 +5568,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 265,
+      "rank": 266,
       "name": "Qwen3 Omni 30B A3B Instruct",
       "shortName": "Qwen3 Omni 30B A3B",
       "creator": "Alibaba",
@@ -5568,7 +5589,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 266,
+      "rank": 267,
       "name": "LFM2 24B A2B",
       "shortName": "LFM2 24B A2B",
       "creator": "Liquid AI",
@@ -5589,7 +5610,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 267,
+      "rank": 268,
       "name": "Phi-4",
       "shortName": "Phi-4",
       "creator": "Microsoft",
@@ -5610,7 +5631,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 268,
+      "rank": 269,
       "name": "Nova Micro",
       "shortName": "Nova Micro",
       "creator": "Amazon",
@@ -5631,7 +5652,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 269,
+      "rank": 270,
       "name": "Granite 4.1 3B",
       "shortName": "Granite 4.1 3B",
       "creator": "IBM",
@@ -5643,7 +5664,7 @@
       "gpqa": 0.314141414141414,
       "hle": 0.0342910101946247,
       "scicode": null,
-      "terminalbench": 0.0112359550561798,
+      "terminalbench": null,
       "lcr": 0.06,
       "isReasoning": false,
       "slug": "granite-4-1-3b",
@@ -5652,7 +5673,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 270,
+      "rank": 271,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "shortName": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
       "creator": "NVIDIA",
@@ -5673,7 +5694,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 271,
+      "rank": 272,
       "name": "Phi-4 Multimodal Instruct",
       "shortName": "Phi-4 Multimodal",
       "creator": "Microsoft",
@@ -5694,7 +5715,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 272,
+      "rank": 273,
       "name": "MiniCPM-V 4.6 1.3B",
       "shortName": "MiniCPM-V 4.6 1.3B",
       "creator": "OpenBMB",
@@ -5706,7 +5727,7 @@
       "gpqa": 0.305050505050505,
       "hle": 0.0505097312326228,
       "scicode": null,
-      "terminalbench": 0,
+      "terminalbench": null,
       "lcr": 0.07,
       "isReasoning": false,
       "slug": "minicpm-v4-6-1-3b",
@@ -5715,7 +5736,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 273,
+      "rank": 274,
       "name": "Jamba Reasoning 3B",
       "shortName": "Jamba Reasoning 3B",
       "creator": "AI21 Labs",
@@ -5736,7 +5757,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 274,
+      "rank": 275,
       "name": "Reka Flash 3",
       "shortName": "Reka Flash 3",
       "creator": "Reka AI",
@@ -5757,7 +5778,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 275,
+      "rank": 276,
       "name": "Olmo 3 7B Think",
       "shortName": "Olmo 3 7B Think",
       "creator": "Allen Institute for AI",
@@ -5778,7 +5799,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 276,
+      "rank": 277,
       "name": "Molmo 7B-D",
       "shortName": "Molmo 7B-D",
       "creator": "Allen Institute for AI",
@@ -5799,7 +5820,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 277,
+      "rank": 278,
       "name": "Ministral 3 8B",
       "shortName": "Ministral 3 8B",
       "creator": "Mistral",
@@ -5811,7 +5832,7 @@
       "gpqa": 0.470707070707071,
       "hle": 0.0426320667284523,
       "scicode": 0.207175925925926,
-      "terminalbench": 0.0411985018726592,
+      "terminalbench": null,
       "lcr": 0.256666666666667,
       "isReasoning": false,
       "slug": "ministral-3-8b",
@@ -5820,7 +5841,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 278,
+      "rank": 279,
       "name": "Llama 3.2 Instruct 11B (Vision)",
       "shortName": "Llama 3.2 11B (Vision)",
       "creator": "Meta",
@@ -5841,7 +5862,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 279,
+      "rank": 280,
       "name": "Qwen3.5 0.8B (Non-reasoning)",
       "shortName": "Qwen3.5 0.8B (Non-reasoning)",
       "creator": "Alibaba",
@@ -5853,7 +5874,7 @@
       "gpqa": 0.236363636363636,
       "hle": 0.0509731232622799,
       "scicode": null,
-      "terminalbench": 0.00374531835205993,
+      "terminalbench": null,
       "lcr": 0.08,
       "isReasoning": false,
       "slug": "qwen3-5-0-8b-non-reasoning",
@@ -5862,7 +5883,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 280,
+      "rank": 281,
       "name": "Exaone 4.0 1.2B (Reasoning)",
       "shortName": "Exaone 4.0 1.2B",
       "creator": "LG AI Research",
@@ -5883,7 +5904,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 281,
+      "rank": 282,
       "name": "Olmo 3 7B Instruct",
       "shortName": "Olmo 3 7B",
       "creator": "Allen Institute for AI",
@@ -5904,7 +5925,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 282,
+      "rank": 283,
       "name": "Exaone 4.0 1.2B (Non-reasoning)",
       "shortName": "Exaone 4.0 1.2B (Non-reasoning)",
       "creator": "LG AI Research",
@@ -5925,7 +5946,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 283,
+      "rank": 284,
       "name": "LFM2.5-1.2B-Thinking",
       "shortName": "LFM2.5-1.2B-Thinking",
       "creator": "Liquid AI",
@@ -5946,7 +5967,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 284,
+      "rank": 285,
       "name": "Jamba 1.7 Mini",
       "shortName": "Jamba 1.7 Mini",
       "creator": "AI21 Labs",
@@ -5967,7 +5988,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 285,
+      "rank": 286,
       "name": "LFM2 2.6B",
       "shortName": "LFM2 2.6B",
       "creator": "Liquid AI",
@@ -5988,7 +6009,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 286,
+      "rank": 287,
       "name": "LFM2.5-1.2B-Instruct",
       "shortName": "LFM2.5-1.2B-Instruct",
       "creator": "Liquid AI",
@@ -6009,7 +6030,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 287,
+      "rank": 288,
       "name": "Granite 4.0 H 1B",
       "shortName": "Granite 4.0 H 1B",
       "creator": "IBM",
@@ -6030,7 +6051,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 288,
+      "rank": 289,
       "name": "Gemma 3 270M",
       "shortName": "Gemma 3 270M",
       "creator": "Google",
@@ -6051,7 +6072,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 289,
+      "rank": 290,
       "name": "Apertus 70B Instruct",
       "shortName": "Apertus 70B Instruct",
       "creator": "Swiss AI Initiative",
@@ -6072,7 +6093,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 290,
+      "rank": 291,
       "name": "Granite 4.0 Micro",
       "shortName": "Granite 4.0 Micro",
       "creator": "IBM",
@@ -6093,7 +6114,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 291,
+      "rank": 292,
       "name": "DeepHermes 3 - Llama-3.1 8B Preview (Non-reasoning)",
       "shortName": "DeepHermes 3 - Llama-3.1 8B",
       "creator": "Nous Research",
@@ -6114,7 +6135,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 292,
+      "rank": 293,
       "name": "Granite 4.0 1B",
       "shortName": "Granite 4.0 1B",
       "creator": "IBM",
@@ -6135,7 +6156,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 293,
+      "rank": 294,
       "name": "Molmo2-8B",
       "shortName": "Molmo2-8B",
       "creator": "Allen Institute for AI",
@@ -6156,7 +6177,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 294,
+      "rank": 295,
       "name": "LFM2 8B A1B",
       "shortName": "LFM2 8B A1B",
       "creator": "Liquid AI",
@@ -6177,7 +6198,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 295,
+      "rank": 296,
       "name": "Ministral 3 3B",
       "shortName": "Ministral 3 3B",
       "creator": "Mistral",
@@ -6189,7 +6210,7 @@
       "gpqa": 0.357575757575758,
       "hle": 0.0537534754402224,
       "scicode": 0.152777777777778,
-      "terminalbench": 0,
+      "terminalbench": null,
       "lcr": 0.17,
       "isReasoning": false,
       "slug": "ministral-3-3b",
@@ -6198,7 +6219,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 296,
+      "rank": 297,
       "name": "LFM2.5-VL-1.6B",
       "shortName": "LFM2.5-VL-1.6B",
       "creator": "Liquid AI",
@@ -6219,7 +6240,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 297,
+      "rank": 298,
       "name": "Granite 4.0 350M",
       "shortName": "Granite 4.0 350M",
       "creator": "IBM",
@@ -6240,7 +6261,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 298,
+      "rank": 299,
       "name": "Tiny Aya Global",
       "shortName": "Tiny Aya Global",
       "creator": "Cohere",
@@ -6261,7 +6282,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 299,
+      "rank": 300,
       "name": "Apertus 8B Instruct",
       "shortName": "Apertus 8B Instruct",
       "creator": "Swiss AI Initiative",
@@ -6282,7 +6303,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 300,
+      "rank": 301,
       "name": "Granite 4.0 H 350M",
       "shortName": "Granite 4.0 H 350M",
       "creator": "IBM",
@@ -6303,7 +6324,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 301,
+      "rank": 302,
       "name": "K2 Horizon 0.9B",
       "shortName": "K2 Horizon 0.9B",
       "creator": "MBZUAI Institute of Foundation Models",
@@ -6315,7 +6336,7 @@
       "gpqa": 0.292929292929293,
       "hle": 0.0537534754402224,
       "scicode": 0.0694444444444444,
-      "terminalbench": 0.0112359550561798,
+      "terminalbench": null,
       "lcr": 0.0633333333333333,
       "isReasoning": true,
       "slug": "k2-1b-final",
