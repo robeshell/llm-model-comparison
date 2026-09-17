@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T16:35:25.334Z",
+  "updatedAt": "2026-09-17T04:26:10.749Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -89,19 +89,6 @@
       "inputPerMillion": 5,
       "outputPerMillion": 25,
       "intelligenceIndex": 50.7001865797629,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-fable-5",
-      "name": "Claude Fable 5 (with fallback)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 49.6994452733378,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -380,19 +367,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "qwen3-8-max-0803",
-      "name": "Qwen3.8 Max",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "intelligenceIndex": 40.3048623585941,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-8-2-4t-a95b",
       "name": "Qwen3.8 2.4T A95B",
       "provider": "Alibaba",
@@ -432,19 +406,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "muse-spark-1-2",
-      "name": "Muse Spark 1.2 (xhigh)",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta_small.svg",
-      "contextLength": 1048576,
-      "inputPerMillion": 1.25,
-      "outputPerMillion": 4.25,
-      "intelligenceIndex": 39.8039107970943,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "claude-opus-5-low",
       "name": "Claude Opus 5 (low)",
       "provider": "Anthropic",
@@ -453,19 +414,6 @@
       "inputPerMillion": 5,
       "outputPerMillion": 25,
       "intelligenceIndex": 39.7883357992936,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-7-flash-medium",
-      "name": "Gemini 3.7 Flash (medium)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 3.75,
-      "intelligenceIndex": 39.617751842555,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -492,32 +440,6 @@
       "inputPerMillion": 4,
       "outputPerMillion": 20,
       "intelligenceIndex": 39.4845585889147,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-7-flash",
-      "name": "Gemini 3.7 Flash (high)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 3.75,
-      "intelligenceIndex": 39.4295316404896,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "grok-4-5",
-      "name": "Grok 4.5 (high)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "/img/logos/spacexai.svg",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "intelligenceIndex": 39.0842403240657,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -557,19 +479,6 @@
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 37.5048489690841,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-7-flash-low",
-      "name": "Gemini 3.7 Flash (low)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 3.75,
-      "intelligenceIndex": 36.9459114891198,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -666,19 +575,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash 0731 (max)",
-      "provider": "DeepSeek",
-      "creatorLogo": "/img/logos/deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.44,
-      "outputPerMillion": 1.32,
-      "intelligenceIndex": 34.5281879347816,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-6-terra-high",
       "name": "GPT-5.6 Terra (high)",
       "provider": "OpenAI",
@@ -688,32 +584,6 @@
       "outputPerMillion": 12,
       "intelligenceIndex": 34.4910058067555,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-6-flash",
-      "name": "Gemini 3.6 Flash",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.75,
-      "outputPerMillion": 3.75,
-      "intelligenceIndex": 34.3395678920714,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "glm-5-2",
-      "name": "GLM-5.2 (max)",
-      "provider": "Z AI",
-      "creatorLogo": "/img/logos/zai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.4,
-      "outputPerMillion": 4.4,
-      "intelligenceIndex": 34.0052322377545,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -757,19 +627,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gemini-3-5-flash-medium",
-      "name": "Gemini 3.5 Flash (medium)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.5,
-      "outputPerMillion": 9,
-      "intelligenceIndex": 33.6325871590289,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex (xhigh)",
       "provider": "OpenAI",
@@ -805,19 +662,6 @@
       "outputPerMillion": 10,
       "intelligenceIndex": 32.0283996664651,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "deepseek-v4-pro-0424",
-      "name": "DeepSeek V4 Pro (max)",
-      "provider": "DeepSeek",
-      "creatorLogo": "/img/logos/deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.435,
-      "outputPerMillion": 0.87,
-      "intelligenceIndex": 30.8650601315524,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1134,19 +978,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "grok-4-3-medium",
-      "name": "Grok 4.3 (medium)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "/img/logos/spacexai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.25,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 24.7816938151637,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "claude-sonnet-5-low",
       "name": "Claude Sonnet 5 (low)",
       "provider": "Anthropic",
@@ -1155,32 +986,6 @@
       "inputPerMillion": 2,
       "outputPerMillion": 10,
       "intelligenceIndex": 24.7426143579597,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "grok-4-3-low",
-      "name": "Grok 4.3 (low)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "/img/logos/spacexai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.25,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 24.2958998564863,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-5-flash-minimal",
-      "name": "Gemini 3.5 Flash (minimal)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.5,
-      "outputPerMillion": 9,
-      "intelligenceIndex": 23.848790860577,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1272,19 +1077,6 @@
       "inputPerMillion": 0.14,
       "outputPerMillion": 0.28,
       "intelligenceIndex": 22.3038928794953,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-6-27b",
-      "name": "Qwen3.6 27B",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.6,
-      "outputPerMillion": 3.6,
-      "intelligenceIndex": 21.9050652240782,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1403,19 +1195,6 @@
       "outputPerMillion": 8,
       "intelligenceIndex": 20.200754789201,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-6-27b-non-reasoning",
-      "name": "Qwen3.6 27B (Non-reasoning)",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.6,
-      "outputPerMillion": 3.6,
-      "intelligenceIndex": 19.8288203580036,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1663,19 +1442,6 @@
       "outputPerMillion": 0.65,
       "intelligenceIndex": 14.8312405050789,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "grok-4-3-non-reasoning",
-      "name": "Grok 4.3 (Non-reasoning)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "/img/logos/spacexai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.25,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 14.5407059505055,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1936,19 +1702,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 11.8041280807831,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "hypernova-60b",
-      "name": "HyperNova 60B 2605 (high)",
-      "provider": "Multiverse Computing",
-      "creatorLogo": "/img/logos/multiversecomputing_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.04,
-      "outputPerMillion": 0.14,
-      "intelligenceIndex": 11.7380211033452,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2356,19 +2109,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "solar-pro-3",
-      "name": "Solar Pro 3",
-      "provider": "Upstage",
-      "creatorLogo": "/img/logos/upstage_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "intelligenceIndex": 7.81551744502774,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-omni-30b-a3b-reasoning",
       "name": "Qwen3 Omni 30B A3B (Reasoning)",
       "provider": "Alibaba",
@@ -2387,7 +2127,7 @@
       "provider": "Meta",
       "creatorLogo": "/img/logos/meta_small.svg",
       "contextLength": 128000,
-      "inputPerMillion": 0.655,
+      "inputPerMillion": 0.71,
       "outputPerMillion": 0.72,
       "intelligenceIndex": 7.66380859299009,
       "isOpenWeights": true,
@@ -2572,19 +2312,6 @@
       "inputPerMillion": 0.05,
       "outputPerMillion": 0.195,
       "intelligenceIndex": 6.84412514839364,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "granite-4-1-8b",
-      "name": "Granite 4.1 8B",
-      "provider": "IBM",
-      "creatorLogo": "/img/logos/ibm_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.05,
-      "outputPerMillion": 0.1,
-      "intelligenceIndex": 6.57208916161427,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
