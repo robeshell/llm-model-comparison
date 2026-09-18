@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T04:10:22.320Z",
+  "updatedAt": "2026-09-18T16:11:42.743Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -121,8 +121,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -138,8 +138,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.088606,
-      "outputPerMillion": 0.177212,
+      "inputPerMillion": 0.04984,
+      "outputPerMillion": 0.09968,
       "inputModalities": [
         "text"
       ],
@@ -280,23 +280,6 @@
     },
     {
       "rank": 16,
-      "id": "z-ai/glm-5.2",
-      "canonicalSlug": "z-ai/glm-5.2-20260616",
-      "name": "GLM 5.2",
-      "provider": "Z.ai",
-      "providerSlug": "z-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.4875,
-      "outputPerMillion": 1.56,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 17,
       "id": "openai/gpt-6-astra",
       "canonicalSlug": "openai/gpt-6-astra-20260903",
       "name": "GPT-6 Astra",
@@ -308,6 +291,23 @@
       "inputModalities": [
         "file",
         "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 17,
+      "id": "z-ai/glm-5.2",
+      "canonicalSlug": "z-ai/glm-5.2-20260616",
+      "name": "GLM 5.2",
+      "provider": "Z.ai",
+      "providerSlug": "z-ai",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.5544,
+      "outputPerMillion": 1.7424,
+      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -360,8 +360,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.94336,
-      "outputPerMillion": 1.88672,
+      "inputPerMillion": 1.5999999999999999,
+      "outputPerMillion": 3.1999999999999997,
       "inputModalities": [
         "text"
       ],
@@ -413,8 +413,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.66,
-      "outputPerMillion": 1.9800000000000002,
+      "inputPerMillion": 0.57816,
+      "outputPerMillion": 1.73448,
       "inputModalities": [
         "text"
       ],
@@ -500,23 +500,6 @@
     },
     {
       "rank": 28,
-      "id": "openai/gpt-oss-120b",
-      "canonicalSlug": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 29,
       "id": "dots-studio/dots-3-note-preview:free",
       "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
       "name": "Dots3-Note Preview (free)",
@@ -528,6 +511,23 @@
       "inputModalities": [
         "text",
         "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 29,
+      "id": "openai/gpt-oss-120b",
+      "canonicalSlug": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -654,6 +654,25 @@
     },
     {
       "rank": 36,
+      "id": "qwen/qwen3.8-flash",
+      "canonicalSlug": "qwen/qwen3.8-flash-20260826",
+      "name": "Qwen3.8 Flash",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.47,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 37,
       "id": "anthropic/claude-fable-5.1",
       "canonicalSlug": "anthropic/claude-fable-5.1-20260831",
       "name": "Claude Fable 5.1",
@@ -672,7 +691,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 38,
       "id": "anthropic/claude-opus-4.8",
       "canonicalSlug": "anthropic/claude-4.8-opus-20260528",
       "name": "Claude Opus 4.8",
@@ -685,25 +704,6 @@
         "text",
         "image",
         "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 38,
-      "id": "qwen/qwen3.8-flash",
-      "canonicalSlug": "qwen/qwen3.8-flash-20260826",
-      "name": "Qwen3.8 Flash",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.47,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
       ],
       "outputModalities": [
         "text"
@@ -728,6 +728,23 @@
     },
     {
       "rank": 40,
+      "id": "deepseek/deepseek-v4-flash-0731:free",
+      "canonicalSlug": "deepseek/deepseek-v4-flash-20260731",
+      "name": "DeepSeek V4 Flash 0731 (free)",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 41,
       "id": "anthropic/claude-sonnet-4.6",
       "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
       "name": "Claude Sonnet 4.6",
@@ -746,7 +763,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
       "id": "google/gemma-4-31b-it",
       "canonicalSlug": "google/gemma-4-31b-it-20260402",
       "name": "Gemma 4 31B",
@@ -759,25 +776,6 @@
         "image",
         "text",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 42,
-      "id": "x-ai/grok-4.6",
-      "canonicalSlug": "x-ai/grok-4.6-20260810",
-      "name": "Grok 4.6",
-      "provider": "SpaceXAI",
-      "providerSlug": "x-ai",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
       ],
       "outputModalities": [
         "text"
@@ -804,6 +802,25 @@
     },
     {
       "rank": 44,
+      "id": "x-ai/grok-4.6",
+      "canonicalSlug": "x-ai/grok-4.6-20260810",
+      "name": "Grok 4.6",
+      "provider": "SpaceXAI",
+      "providerSlug": "x-ai",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 45,
       "id": "thinkingmachines/inkling:free",
       "canonicalSlug": "thinkingmachines/inkling-20260715",
       "name": "Inkling (free)",
@@ -822,7 +839,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
       "id": "nvidia/nemotron-3-super-120b-a12b:free",
       "canonicalSlug": "nvidia/nemotron-3-super-120b-a12b-20230311",
       "name": "Nemotron 3 Super (free)",
@@ -839,7 +856,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "id": "qwen/qwen3.8-max-0902",
       "canonicalSlug": "qwen/qwen3.8-max-20260902",
       "name": "Qwen3.8 Max (0902)",
@@ -858,7 +875,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "id": "inclusionai/ling-3.0-flash-sante:free",
       "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
       "name": "Ling 3.0 Flash Sante (free)",
@@ -875,7 +892,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "id": "openai/gpt-5.6-luna-pro",
       "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
       "name": "GPT-5.6 Luna Pro",
@@ -887,23 +904,6 @@
       "inputModalities": [
         "file",
         "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 49,
-      "id": "mistralai/mistral-nemo",
-      "canonicalSlug": "mistralai/mistral-nemo",
-      "name": "Mistral Nemo",
-      "provider": "Mistral",
-      "providerSlug": "mistralai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.019000000000000003,
-      "outputPerMillion": 0.03,
-      "inputModalities": [
         "text"
       ],
       "outputModalities": [
