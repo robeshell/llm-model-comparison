@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T16:41:05.929Z",
+  "updatedAt": "2026-09-18T04:10:21.800Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -718,19 +718,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "deepseek-v4-pro-0424-high",
-      "name": "DeepSeek V4 Pro (high)",
-      "provider": "DeepSeek",
-      "creatorLogo": "/img/logos/deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.435,
-      "outputPerMillion": 0.87,
-      "intelligenceIndex": 30.1054806103209,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "minimax-m3",
       "name": "MiniMax-M3",
       "provider": "MiniMax",
@@ -1004,19 +991,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-sonnet-4-6-non-reasoning-low-effort",
-      "name": "Claude Sonnet 4.6 (Non-reasoning, low)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "intelligenceIndex": 23.3035011715443,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "ling-3-0-flash-fin",
       "name": "Ling-3.0-flash-Fin",
       "provider": "InclusionAI",
@@ -1039,19 +1013,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 22.6606674839812,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "glm-5-2-non-reasoning",
-      "name": "GLM-5.2 (Non-reasoning)",
-      "provider": "Z AI",
-      "creatorLogo": "/img/logos/zai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1.4,
-      "outputPerMillion": 4.4,
-      "intelligenceIndex": 22.4323469590326,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1147,19 +1108,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "deepseek-v4-pro-0424-non-reasoning",
-      "name": "DeepSeek V4 Pro (Non-reasoning)",
-      "provider": "DeepSeek",
-      "creatorLogo": "/img/logos/deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.435,
-      "outputPerMillion": 0.87,
-      "intelligenceIndex": 20.8344651194768,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "ling-3-0-flash",
       "name": "Ling 3.0 Flash",
       "provider": "InclusionAI",
@@ -1233,19 +1181,6 @@
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
       "intelligenceIndex": 19.1073499294815,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "deepseek-v4-flash-0420-non-reasoning",
-      "name": "DeepSeek V4 Flash (Non-reasoning)",
-      "provider": "DeepSeek",
-      "creatorLogo": "/img/logos/deepseek_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.0938,
-      "outputPerMillion": 0.195,
-      "intelligenceIndex": 18.8769056307071,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1402,19 +1337,6 @@
       "inputPerMillion": 0.375,
       "outputPerMillion": 2.25,
       "intelligenceIndex": 15.2320772647744,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-5-35b-a3b-non-reasoning",
-      "name": "Qwen3.5 35B A3B (Non-reasoning)",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 2,
-      "intelligenceIndex": 15.1159818387307,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
