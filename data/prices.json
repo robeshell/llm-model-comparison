@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T16:11:41.045Z",
+  "updatedAt": "2026-09-19T04:07:13.160Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -298,6 +298,19 @@
       "outputPerMillion": 15,
       "intelligenceIndex": 43.7841729518782,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "step-5",
+      "name": "Step 5 Preview",
+      "provider": "StepFun",
+      "creatorLogo": "/img/logos/stepfun_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1,
+      "outputPerMillion": 2.7,
+      "intelligenceIndex": 43.6394799141614,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
