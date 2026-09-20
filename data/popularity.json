@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T04:26:22.589Z",
+  "updatedAt": "2026-09-20T15:49:55.322Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -42,6 +42,23 @@
     },
     {
       "rank": 3,
+      "id": "tencent/hy4-preview",
+      "canonicalSlug": "tencent/hy4-preview-20260827",
+      "name": "Hy4 preview",
+      "provider": "Tencent",
+      "providerSlug": "tencent",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.834,
+      "outputPerMillion": 2.501,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 4,
       "id": "openai/gpt-5.6-luna",
       "canonicalSlug": "openai/gpt-5.6-luna-20260709",
       "name": "GPT-5.6 Luna",
@@ -53,23 +70,6 @@
       "inputModalities": [
         "file",
         "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "tencent/hy4-preview",
-      "canonicalSlug": "tencent/hy4-preview-20260827",
-      "name": "Hy4 preview",
-      "provider": "Tencent",
-      "providerSlug": "tencent",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.834,
-      "outputPerMillion": 2.501,
-      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -155,8 +155,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.036680000000000004,
-      "outputPerMillion": 0.07336000000000001,
+      "inputPerMillion": 0.03556,
+      "outputPerMillion": 0.07112,
       "inputModalities": [
         "text"
       ],
@@ -172,8 +172,8 @@
       "provider": "Z.ai",
       "providerSlug": "z-ai",
       "contextLength": 1310720,
-      "inputPerMillion": 0.896,
-      "outputPerMillion": 2.816,
+      "inputPerMillion": 0.9099999999999999,
+      "outputPerMillion": 2.8600000000000003,
       "inputModalities": [
         "text"
       ],
@@ -371,14 +371,14 @@
     },
     {
       "rank": 21,
-      "id": "deepseek/deepseek-v4-pro",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
-      "name": "DeepSeek V4 Pro 0423",
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
+      "name": "DeepSeek V4 Pro 0813",
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.422298,
-      "outputPerMillion": 0.844596,
+      "inputPerMillion": 0.5451600000000001,
+      "outputPerMillion": 1.6354799999999998,
       "inputModalities": [
         "text"
       ],
@@ -388,23 +388,6 @@
     },
     {
       "rank": 22,
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
-      "name": "DeepSeek V4 Pro 0813",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.66,
-      "outputPerMillion": 1.9800000000000002,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 23,
       "id": "anthropic/claude-opus-5",
       "canonicalSlug": "anthropic/claude-opus-5-20260723",
       "name": "Claude Opus 5",
@@ -417,6 +400,23 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "deepseek/deepseek-v4-pro",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
+      "name": "DeepSeek V4 Pro 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.422298,
+      "outputPerMillion": 0.844596,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -518,23 +518,6 @@
     },
     {
       "rank": 29,
-      "id": "openai/gpt-oss-120b",
-      "canonicalSlug": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 30,
       "id": "inclusionai/ling-3.0-flash-vl:free",
       "canonicalSlug": "inclusionai/ling-3.0-flash-vl-20260910",
       "name": "Ling 3.0 Flash VL (free)",
@@ -547,6 +530,23 @@
         "text",
         "image",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "openai/gpt-oss-120b",
+      "canonicalSlug": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -747,25 +747,6 @@
     },
     {
       "rank": 41,
-      "id": "qwen/qwen3.8-max-0902",
-      "canonicalSlug": "qwen/qwen3.8-max-20260902",
-      "name": "Qwen3.8 Max (0902)",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 42,
       "id": "google/gemma-4-31b-it",
       "canonicalSlug": "google/gemma-4-31b-it-20260402",
       "name": "Gemma 4 31B",
@@ -777,6 +758,25 @@
       "inputModalities": [
         "image",
         "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 42,
+      "id": "qwen/qwen3.8-max-0902",
+      "canonicalSlug": "qwen/qwen3.8-max-20260902",
+      "name": "Qwen3.8 Max (0902)",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
         "video"
       ],
       "outputModalities": [
@@ -859,17 +859,15 @@
     },
     {
       "rank": 47,
-      "id": "openai/gpt-5.6-luna-pro",
-      "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
-      "name": "GPT-5.6 Luna Pro",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 1050000,
-      "inputPerMillion": 0.19999999999999998,
-      "outputPerMillion": 1.2,
+      "id": "mistralai/mistral-nemo",
+      "canonicalSlug": "mistralai/mistral-nemo",
+      "name": "Mistral Nemo",
+      "provider": "Mistral",
+      "providerSlug": "mistralai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.019000000000000003,
+      "outputPerMillion": 0.03,
       "inputModalities": [
-        "file",
-        "image",
         "text"
       ],
       "outputModalities": [
@@ -895,15 +893,17 @@
     },
     {
       "rank": 49,
-      "id": "mistralai/mistral-nemo",
-      "canonicalSlug": "mistralai/mistral-nemo",
-      "name": "Mistral Nemo",
-      "provider": "Mistral",
-      "providerSlug": "mistralai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.019000000000000003,
-      "outputPerMillion": 0.03,
+      "id": "openai/gpt-5.6-luna-pro",
+      "canonicalSlug": "openai/gpt-5.6-luna-pro-20260709",
+      "name": "GPT-5.6 Luna Pro",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 1050000,
+      "inputPerMillion": 0.19999999999999998,
+      "outputPerMillion": 1.2,
       "inputModalities": [
+        "file",
+        "image",
         "text"
       ],
       "outputModalities": [
