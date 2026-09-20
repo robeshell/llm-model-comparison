@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T15:42:55.667Z",
+  "updatedAt": "2026-09-20T04:26:21.161Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -10,7 +10,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 53.3737509623252,
+      "intelligenceIndex": 53.3549259623252,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -23,7 +23,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 53.1840337538944,
+      "intelligenceIndex": 53.2032587538944,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -36,7 +36,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 52.814069395513,
+      "intelligenceIndex": 52.673669395513,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -49,7 +49,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 52.5059027108782,
+      "intelligenceIndex": 52.3863277108782,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -62,7 +62,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 51.2094958852237,
+      "intelligenceIndex": 51.1515708852237,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -75,7 +75,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 51.0480721636152,
+      "intelligenceIndex": 50.9191471636152,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -88,20 +88,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 50.7001865797629,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-astra-medium",
-      "name": "GPT-6 Astra (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 10,
-      "outputPerMillion": 50,
-      "intelligenceIndex": 49.6685363034369,
+      "intelligenceIndex": 50.7771115797629,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -114,7 +101,20 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 49.6514552926939,
+      "intelligenceIndex": 49.6773552926939,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-astra-medium",
+      "name": "GPT-6 Astra (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 10,
+      "outputPerMillion": 50,
+      "intelligenceIndex": 49.5704363034369,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -127,7 +127,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 49.0591662609523,
+      "intelligenceIndex": 48.9206162609523,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -140,7 +140,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 48.2371932595908,
+      "intelligenceIndex": 48.1219182595908,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -153,7 +153,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 4.25,
-      "intelligenceIndex": 48.1690107719685,
+      "intelligenceIndex": 48.0923107719685,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -166,7 +166,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 4,
       "outputPerMillion": 20,
-      "intelligenceIndex": 47.0613568915036,
+      "intelligenceIndex": 46.9727068915036,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -179,7 +179,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 47.0391672014862,
+      "intelligenceIndex": 46.8163422014862,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -192,7 +192,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 10,
       "outputPerMillion": 50,
-      "intelligenceIndex": 45.9944993120341,
+      "intelligenceIndex": 45.7819243120341,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -205,7 +205,7 @@
       "contextLength": 983616,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 45.4354834980521,
+      "intelligenceIndex": 45.4152084980521,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -218,7 +218,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.25,
       "outputPerMillion": 4.25,
-      "intelligenceIndex": 45.1612216922226,
+      "intelligenceIndex": 45.0732966922226,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -231,7 +231,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 5,
       "outputPerMillion": 25,
-      "intelligenceIndex": 45.0575765420613,
+      "intelligenceIndex": 44.8253265420613,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -244,7 +244,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.4,
       "outputPerMillion": 4.4,
-      "intelligenceIndex": 44.855717385614,
+      "intelligenceIndex": 44.777392385614,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -257,7 +257,7 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 44.4050073012592,
+      "intelligenceIndex": 44.3113073012592,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -270,7 +270,7 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 44.270160436996,
+      "intelligenceIndex": 44.199810436996,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -283,7 +283,20 @@
       "contextLength": 1000000,
       "inputPerMillion": 4,
       "outputPerMillion": 20,
-      "intelligenceIndex": 44.138026369169,
+      "intelligenceIndex": 44.008876369169,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "step-5",
+      "name": "Step 5 Preview",
+      "provider": "StepFun",
+      "creatorLogo": "/img/logos/stepfun_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1,
+      "outputPerMillion": 2.7,
+      "intelligenceIndex": 43.7343049141614,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -296,21 +309,8 @@
       "contextLength": 1048576,
       "inputPerMillion": 3,
       "outputPerMillion": 15,
-      "intelligenceIndex": 43.7841729518782,
+      "intelligenceIndex": 43.5938229518782,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "step-5",
-      "name": "Step 5 Preview",
-      "provider": "StepFun",
-      "creatorLogo": "/img/logos/stepfun_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1,
-      "outputPerMillion": 2.7,
-      "intelligenceIndex": 43.6394799141614,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -322,7 +322,7 @@
       "contextLength": 500000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 43.011172654063,
+      "intelligenceIndex": 42.836322654063,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -335,7 +335,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 4,
       "outputPerMillion": 20,
-      "intelligenceIndex": 42.4991760420519,
+      "intelligenceIndex": 42.3461010420519,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -348,7 +348,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 42.2514998239494,
+      "intelligenceIndex": 42.0829248239494,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -361,7 +361,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.5,
-      "intelligenceIndex": 41.907366113455,
+      "intelligenceIndex": 41.807466113455,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -374,7 +374,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 41.1863571765904,
+      "intelligenceIndex": 40.9262321765904,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -387,7 +387,20 @@
       "contextLength": 983616,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 40.0445723105325,
+      "intelligenceIndex": 39.8861723105325,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-8-flash-next",
+      "name": "Qwen3.8-Flash-Next",
+      "provider": "Alibaba",
+      "creatorLogo": "/img/logos/alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.47,
+      "intelligenceIndex": 39.8223021864741,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -400,33 +413,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 39.9993187061926,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-8-flash-next",
-      "name": "Qwen3.8-Flash-Next",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.47,
-      "intelligenceIndex": 39.9140521864741,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-opus-5-low",
-      "name": "Claude Opus 5 (low)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 39.7883357992936,
+      "intelligenceIndex": 39.7740187061926,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -439,8 +426,21 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 39.545442472527,
+      "intelligenceIndex": 39.456167472527,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-opus-5-low",
+      "name": "Claude Opus 5 (low)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 5,
+      "outputPerMillion": 25,
+      "intelligenceIndex": 39.3543357992936,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -452,7 +452,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 4,
       "outputPerMillion": 20,
-      "intelligenceIndex": 39.4845585889147,
+      "intelligenceIndex": 39.2363585889147,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -465,7 +465,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 38.3576962882576,
+      "intelligenceIndex": 38.1638712882576,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -478,7 +478,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 38.1856370742927,
+      "intelligenceIndex": 37.9513370742927,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -491,7 +491,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 37.5048489690841,
+      "intelligenceIndex": 37.3244239690841,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -504,7 +504,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 1.32,
       "outputPerMillion": 3.96,
-      "intelligenceIndex": 36.2828791278402,
+      "intelligenceIndex": 35.9967791278402,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -523,19 +523,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "grok-4-6-low",
-      "name": "Grok 4.6 (low)",
-      "provider": "SpaceXAI",
-      "creatorLogo": "/img/logos/spacexai.svg",
-      "contextLength": 500000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "intelligenceIndex": 35.4148453482174,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "agnes-2-5-pro-beta",
       "name": "Agnes 2.5 Pro Beta",
       "provider": "Sapiens AI",
@@ -549,6 +536,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "grok-4-6-low",
+      "name": "Grok 4.6 (low)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "/img/logos/spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 35.1246953482174,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "deepseek-v4-flash-vision",
       "name": "DeepSeek V4 Flash Vision (max)",
       "provider": "DeepSeek",
@@ -556,7 +556,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.44,
       "outputPerMillion": 1.32,
-      "intelligenceIndex": 35.0122378035969,
+      "intelligenceIndex": 34.8390628035969,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -569,8 +569,21 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 34.772048822309,
+      "intelligenceIndex": 34.555348822309,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "kimi-k3-low",
+      "name": "Kimi K3 (low)",
+      "provider": "Kimi",
+      "creatorLogo": "/img/logos/kimi.jpg",
+      "contextLength": 1048576,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 34.4555282989717,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -582,7 +595,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 34.707236557212,
+      "intelligenceIndex": 34.384211557212,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -595,7 +608,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 34.4910058067555,
+      "intelligenceIndex": 34.2376558067555,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -608,7 +621,7 @@
       "contextLength": 256000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 3,
-      "intelligenceIndex": 33.9015108057476,
+      "intelligenceIndex": 33.6962858057476,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -621,7 +634,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 4,
       "outputPerMillion": 20,
-      "intelligenceIndex": 33.7979387646002,
+      "intelligenceIndex": 33.4731387646002,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -634,7 +647,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.75,
       "outputPerMillion": 3.75,
-      "intelligenceIndex": 33.7857356699132,
+      "intelligenceIndex": 33.4548106699132,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -660,7 +673,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 32.4147953501091,
+      "intelligenceIndex": 32.1196453501091,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -673,33 +686,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 32.0283996664651,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "kimi-k3-low",
-      "name": "Kimi K3 (low)",
-      "provider": "Kimi",
-      "creatorLogo": "/img/logos/kimi.jpg",
-      "contextLength": 1048576,
-      "inputPerMillion": 3,
-      "outputPerMillion": 15,
-      "intelligenceIndex": 30.4810237529068,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-terra-medium",
-      "name": "GPT-5.6 Terra (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 12,
-      "intelligenceIndex": 30.4205773419377,
+      "intelligenceIndex": 31.6623246664651,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -718,6 +705,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-5-6-terra-medium",
+      "name": "GPT-5.6 Terra (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 12,
+      "intelligenceIndex": 30.0938023419377,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemini-3-1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
       "provider": "Google",
@@ -725,7 +725,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 30.3596656132261,
+      "intelligenceIndex": 29.7185656132261,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -738,34 +738,8 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 29.6125932236316,
+      "intelligenceIndex": 29.2202932236316,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-sonnet-5-non-reasoning",
-      "name": "Claude Sonnet 5 (Non-reasoning)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
-      "intelligenceIndex": 28.9377045284576,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-sonnet-5-medium",
-      "name": "Claude Sonnet 5 (medium)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
-      "intelligenceIndex": 28.4376468379456,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -796,15 +770,28 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-terra-low",
-      "name": "GPT-5.6 Terra (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
+      "id": "claude-sonnet-5-medium",
+      "name": "Claude Sonnet 5 (medium)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic_small.svg",
       "contextLength": 1000000,
       "inputPerMillion": 2,
-      "outputPerMillion": 12,
-      "intelligenceIndex": 27.916528401716,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 28.0531468379456,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "inkling-small",
+      "name": "Inkling Small",
+      "provider": "Thinking Machines",
+      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 27.7806153423596,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -816,8 +803,21 @@
       "contextLength": 256000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 3,
-      "intelligenceIndex": 27.8121478231586,
+      "intelligenceIndex": 27.5508228231586,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-5-6-terra-low",
+      "name": "GPT-5.6 Terra (low)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 12,
+      "intelligenceIndex": 27.496203401716,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -829,7 +829,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.45,
       "outputPerMillion": 0.9,
-      "intelligenceIndex": 27.797299318772,
+      "intelligenceIndex": 26.7727524271576,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -842,20 +842,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.6,
       "outputPerMillion": 1.8,
-      "intelligenceIndex": 27.1275286607816,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-5-instant-06-26",
-      "name": "GPT-5.5 Instant (June 2026)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 400000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 30,
-      "intelligenceIndex": 26.8042923401368,
+      "intelligenceIndex": 26.7372536607816,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -868,8 +855,21 @@
       "contextLength": 256000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 3,
-      "intelligenceIndex": 26.4944478189896,
+      "intelligenceIndex": 26.2047978189896,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-5-5-instant-06-26",
+      "name": "GPT-5.5 Instant (June 2026)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 400000,
+      "inputPerMillion": 5,
+      "outputPerMillion": 30,
+      "intelligenceIndex": 26.0135173401368,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -881,7 +881,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.435,
       "outputPerMillion": 0.87,
-      "intelligenceIndex": 26.4078138896511,
+      "intelligenceIndex": 25.9868888896511,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -894,20 +894,33 @@
       "contextLength": 256000,
       "inputPerMillion": 0.95,
       "outputPerMillion": 4,
-      "intelligenceIndex": 26.2686562401836,
+      "intelligenceIndex": 25.8121062401836,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
     {
-      "id": "inkling-small",
-      "name": "Inkling Small",
-      "provider": "Thinking Machines",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "id": "hy3",
+      "name": "Hy3",
+      "provider": "Tencent",
+      "creatorLogo": "/img/logos/tencent_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.14,
+      "outputPerMillion": 0.58,
+      "intelligenceIndex": 25.2972775731571,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mimo-v2-5-0424",
+      "name": "MiMo-V2.5",
+      "provider": "Xiaomi",
+      "creatorLogo": "/img/logos/xiaomi_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 26.0860584411942,
+      "inputPerMillion": 0.14,
+      "outputPerMillion": 0.28,
+      "intelligenceIndex": 25.1743063555572,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -920,34 +933,8 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.4,
       "outputPerMillion": 1.6,
-      "intelligenceIndex": 25.8186965821984,
+      "intelligenceIndex": 25.1622215821984,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "hy3",
-      "name": "Hy3",
-      "provider": "Tencent",
-      "creatorLogo": "/img/logos/tencent_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.58,
-      "intelligenceIndex": 25.7716025731571,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "inkling",
-      "name": "Inkling",
-      "provider": "Thinking Machines",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 1,
-      "outputPerMillion": 4.05,
-      "intelligenceIndex": 25.5423060999384,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -959,8 +946,34 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 25.4773991440784,
+      "intelligenceIndex": 25.0358741440784,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "inkling",
+      "name": "Inkling",
+      "provider": "Thinking Machines",
+      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 1,
+      "outputPerMillion": 4.05,
+      "intelligenceIndex": 24.9847810999384,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "ling-3-0-flash",
+      "name": "Ling 3.0 Flash",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.22,
+      "intelligenceIndex": 24.9392319530441,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -972,7 +985,7 @@
       "contextLength": 262144,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 24.9673304077875,
+      "intelligenceIndex": 24.5693054077875,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -985,7 +998,20 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 24.7426143579597,
+      "intelligenceIndex": 24.2638393579597,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-non-reasoning",
+      "name": "Claude Sonnet 5 (Non-reasoning)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 23.2,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -998,7 +1024,7 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 2.4,
-      "intelligenceIndex": 23.4145123422858,
+      "intelligenceIndex": 22.9279123422858,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1011,21 +1037,8 @@
       "contextLength": 262144,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "intelligenceIndex": 23.0214828940594,
+      "intelligenceIndex": 22.5965828940594,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemini-3-5-flash-lite",
-      "name": "Gemini 3.5 Flash-Lite",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 22.6606674839812,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1043,15 +1056,15 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "mimo-v2-5-0424",
-      "name": "MiMo-V2.5",
-      "provider": "Xiaomi",
-      "creatorLogo": "/img/logos/xiaomi_small.svg",
+      "id": "gemini-3-5-flash-lite",
+      "name": "Gemini 3.5 Flash-Lite",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.28,
-      "intelligenceIndex": 22.3038928794953,
-      "isOpenWeights": true,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 2.5,
+      "intelligenceIndex": 22.1685424839812,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1082,19 +1095,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-low",
-      "name": "GPT-5.6 Luna (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 21.5456033424265,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-5-397b-a17b-non-reasoning",
       "name": "Qwen3.5 397B A17B (Non-reasoning)",
       "provider": "Alibaba",
@@ -1108,6 +1108,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-5-6-luna-low",
+      "name": "GPT-5.6 Luna (low)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 21.0124783424265,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-6-terra-non-reasoning",
       "name": "GPT-5.6 Terra (Non-reasoning)",
       "provider": "OpenAI",
@@ -1115,21 +1128,8 @@
       "contextLength": 1000000,
       "inputPerMillion": 2,
       "outputPerMillion": 12,
-      "intelligenceIndex": 21.2083013584503,
+      "intelligenceIndex": 20.7797013584503,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ling-3-0-flash",
-      "name": "Ling 3.0 Flash",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.075,
-      "outputPerMillion": 0.22,
-      "intelligenceIndex": 20.6349521865481,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1160,19 +1160,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "longcat-2-0",
-      "name": "LongCat 2.0",
-      "provider": "LongCat",
-      "creatorLogo": "/img/logos/longcat_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 19.6877756610623,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "step-3-7-flash",
       "name": "Step 3.7 Flash",
       "provider": "StepFun",
@@ -1186,6 +1173,32 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "longcat-2-0",
+      "name": "LongCat 2.0",
+      "provider": "LongCat",
+      "creatorLogo": "/img/logos/longcat_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 19.1123256610623,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemma-4-31b",
+      "name": "Gemma 4 31B",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 18.9787846720676,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-5-397b-a17b",
       "name": "Qwen3.5 397B A17B",
       "provider": "Alibaba",
@@ -1193,20 +1206,7 @@
       "contextLength": 262144,
       "inputPerMillion": 0.6,
       "outputPerMillion": 3.6,
-      "intelligenceIndex": 19.1073499294815,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "qwen3-6-35b-a3b",
-      "name": "Qwen3.6 35B A3B",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.375,
-      "outputPerMillion": 2.25,
-      "intelligenceIndex": 18.8138400189843,
+      "intelligenceIndex": 18.4204249294815,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1225,14 +1225,14 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "muse-glimmer",
-      "name": "Muse Glimmer (high)",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.35,
-      "outputPerMillion": 1.5,
-      "intelligenceIndex": 18.0678176089465,
+      "id": "qwen3-6-35b-a3b",
+      "name": "Qwen3.6 35B A3B",
+      "provider": "Alibaba",
+      "creatorLogo": "/img/logos/alibaba_small.svg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.375,
+      "outputPerMillion": 2.25,
+      "intelligenceIndex": 18.2289900189843,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1251,6 +1251,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "muse-glimmer",
+      "name": "Muse Glimmer (high)",
+      "provider": "Meta",
+      "creatorLogo": "/img/logos/meta_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.35,
+      "outputPerMillion": 1.5,
+      "intelligenceIndex": 17.4754176089465,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "claude-4-5-haiku-reasoning",
       "name": "Claude 4.5 Haiku",
       "provider": "Anthropic",
@@ -1258,21 +1271,8 @@
       "contextLength": 200000,
       "inputPerMillion": 1,
       "outputPerMillion": 5,
-      "intelligenceIndex": 17.5868602291856,
+      "intelligenceIndex": 16.8822352291856,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ring-2-6-1t",
-      "name": "Ring-2.6-1T",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 2.5,
-      "intelligenceIndex": 17.2770613768618,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1290,6 +1290,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "ring-2-6-1t",
+      "name": "Ring-2.6-1T",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 2.5,
+      "intelligenceIndex": 16.6172363768618,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-5-122b-a10b",
       "name": "Qwen3.5 122B A10B",
       "provider": "Alibaba",
@@ -1297,7 +1310,7 @@
       "contextLength": 262144,
       "inputPerMillion": 0.4,
       "outputPerMillion": 3.2,
-      "intelligenceIndex": 16.1869509312969,
+      "intelligenceIndex": 15.5694009312969,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1310,21 +1323,8 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.2,
       "outputPerMillion": 1.2,
-      "intelligenceIndex": 16.0500252110259,
+      "intelligenceIndex": 15.5270002110259,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemma-4-31b",
-      "name": "Gemma 4 31B",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 15.4156500745828,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1342,6 +1342,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "ling-3-0-tiny",
+      "name": "Ling 3.0 Tiny",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai_small.jpg",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 15.2883181924025,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-6-35b-a3b-non-reasoning",
       "name": "Qwen3.6 35B A3B (Non-reasoning)",
       "provider": "Alibaba",
@@ -1355,19 +1368,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "mistral-medium-3-5",
-      "name": "Mistral Medium 3.5",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 1.5,
-      "outputPerMillion": 7.5,
-      "intelligenceIndex": 14.8946727802691,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "granite-4-2-30b",
       "name": "Granite 4.2 30B",
       "provider": "IBM",
@@ -1376,6 +1376,19 @@
       "inputPerMillion": 0.16,
       "outputPerMillion": 0.65,
       "intelligenceIndex": 14.8312405050789,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "provider": "Mistral",
+      "creatorLogo": "/img/logos/mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 1.5,
+      "outputPerMillion": 7.5,
+      "intelligenceIndex": 14.1889227802691,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1407,19 +1420,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "command-a-plus",
-      "name": "Command A+",
-      "provider": "Cohere",
-      "creatorLogo": "/img/logos/cohere_small.svg",
-      "contextLength": 192000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 13.9235002685349,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gemma-4-31b-non-reasoning",
       "name": "Gemma 4 31B (Non-reasoning)",
       "provider": "Google",
@@ -1429,6 +1429,19 @@
       "outputPerMillion": 0.4,
       "intelligenceIndex": 13.9198819005287,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mercury-2",
+      "name": "Mercury 2",
+      "provider": "Inception",
+      "creatorLogo": "/img/logos/inceptionlabs_small.svg",
+      "contextLength": 128000,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.75,
+      "intelligenceIndex": 13.7691315513812,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1455,32 +1468,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 13.6465213725579,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "nemotron-3-5-lightning",
-      "name": "Nemotron 3.5 Lightning",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.06,
-      "outputPerMillion": 0.2,
-      "intelligenceIndex": 13.6352556217144,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "nvidia-nemotron-3-super-120b-a12b",
-      "name": "Nemotron 3 Super",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1925,
-      "outputPerMillion": 0.65,
-      "intelligenceIndex": 13.5508075290979,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1524,6 +1511,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "command-a-plus",
+      "name": "Command A+",
+      "provider": "Cohere",
+      "creatorLogo": "/img/logos/cohere_small.svg",
+      "contextLength": 192000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 13.1335002685349,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemma-4-26b-a4b-non-reasoning",
       "name": "Gemma 4 26B A4B (Non-reasoning)",
       "provider": "Google",
@@ -1545,6 +1545,32 @@
       "inputPerMillion": 0.03,
       "outputPerMillion": 0.15,
       "intelligenceIndex": 13.1248174602542,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "nemotron-3-5-lightning",
+      "name": "Nemotron 3.5 Lightning",
+      "provider": "NVIDIA",
+      "creatorLogo": "/img/logos/nvidia_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.2,
+      "intelligenceIndex": 12.8572306217144,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "nvidia-nemotron-3-super-120b-a12b",
+      "name": "Nemotron 3 Super",
+      "provider": "NVIDIA",
+      "creatorLogo": "/img/logos/nvidia_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1925,
+      "outputPerMillion": 0.65,
+      "intelligenceIndex": 12.8287575290979,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1589,45 +1615,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-oss-120b",
-      "name": "gpt-oss-120b (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.595,
-      "intelligenceIndex": 12.3483931512592,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ling-3-0-tiny",
-      "name": "Ling 3.0 Tiny",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai_small.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 11.8679233769305,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "granite-4-2-8b",
-      "name": "Granite 4.2 8B",
-      "provider": "IBM",
-      "creatorLogo": "/img/logos/ibm_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.06,
-      "outputPerMillion": 0.25,
-      "intelligenceIndex": 11.8124212267815,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "nova-2-0-lite-reasoning-low",
       "name": "Nova 2.0 Lite (low)",
       "provider": "Amazon",
@@ -1641,15 +1628,15 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "mercury-2",
-      "name": "Mercury 2",
-      "provider": "Inception",
-      "creatorLogo": "/img/logos/inceptionlabs_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.75,
-      "intelligenceIndex": 11.5087340974661,
-      "isOpenWeights": false,
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.595,
+      "intelligenceIndex": 11.6028431512592,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1661,7 +1648,7 @@
       "contextLength": 256000,
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
-      "intelligenceIndex": 11.4511294141469,
+      "intelligenceIndex": 11.2675794141469,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1693,14 +1680,14 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "trinity-large-thinking",
-      "name": "Trinity Large Thinking",
-      "provider": "Arcee AI",
-      "creatorLogo": "/img/logos/arcee_small.svg",
-      "contextLength": 512000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.9,
-      "intelligenceIndex": 10.8821425924218,
+      "id": "granite-4-2-8b",
+      "name": "Granite 4.2 8B",
+      "provider": "IBM",
+      "creatorLogo": "/img/logos/ibm_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.25,
+      "intelligenceIndex": 11.0812712267815,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1714,6 +1701,19 @@
       "inputPerMillion": 0,
       "outputPerMillion": 0,
       "intelligenceIndex": 10.841600440564,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "trinity-large-thinking",
+      "name": "Trinity Large Thinking",
+      "provider": "Arcee AI",
+      "creatorLogo": "/img/logos/arcee_small.svg",
+      "contextLength": 512000,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.9,
+      "intelligenceIndex": 10.8242425924218,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1758,14 +1758,14 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "qwen3-coder-next",
-      "name": "Qwen3 Coder Next",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.35,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 10.0530720321917,
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "creatorLogo": "/img/logos/meta_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.26,
+      "outputPerMillion": 0.9099999999999999,
+      "intelligenceIndex": 9.9905959756501,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1810,19 +1810,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "mistral-large-3",
-      "name": "Mistral Large 3",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 1.5,
-      "intelligenceIndex": 9.70803812860467,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-next-80b-a3b-instruct",
       "name": "Qwen3 Next 80B A3B",
       "provider": "Alibaba",
@@ -1831,19 +1818,6 @@
       "inputPerMillion": 0.15,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 9.64335007559183,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "devstral-2",
-      "name": "Devstral 2",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 9.40586079574885,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1862,14 +1836,27 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "llama-4-maverick",
-      "name": "Llama 4 Maverick",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.26,
-      "outputPerMillion": 0.9099999999999999,
-      "intelligenceIndex": 9.29902687437199,
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "provider": "Mistral",
+      "creatorLogo": "/img/logos/mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 1.5,
+      "intelligenceIndex": 9.26608812860467,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-coder-next",
+      "name": "Qwen3 Coder Next",
+      "provider": "Alibaba",
+      "creatorLogo": "/img/logos/alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.35,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 9.23682203219174,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1901,19 +1888,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-oss-20b",
-      "name": "gpt-oss-20b (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.060000000000000005,
-      "outputPerMillion": 0.19,
-      "intelligenceIndex": 9.0371671856126,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "llama-nemotron-super-49b-v1-5-reasoning",
       "name": "Llama Nemotron Super 49B v1.5",
       "provider": "NVIDIA",
@@ -1935,6 +1909,19 @@
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.6,
       "intelligenceIndex": 8.99008610259603,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "gpt-oss-20b (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai_small.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.060000000000000005,
+      "outputPerMillion": 0.19,
+      "intelligenceIndex": 8.9675171856126,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1992,6 +1979,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "devstral-2",
+      "name": "Devstral 2",
+      "provider": "Mistral",
+      "creatorLogo": "/img/logos/mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 8.61676079574885,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "magistral-small-2509",
       "name": "Magistral Small 1.2",
       "provider": "Mistral",
@@ -2018,19 +2018,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "devstral-small-2",
-      "name": "Devstral Small 2",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 8.3575858990318,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "nova-2-0-omni",
       "name": "Nova 2.0 Omni (Non-reasoning)",
       "provider": "Amazon",
@@ -2040,6 +2027,19 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 8.15087501101863,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "llama-4-scout",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "creatorLogo": "/img/logos/meta_small.svg",
+      "contextLength": 10000000,
+      "inputPerMillion": 0.19,
+      "outputPerMillion": 0.6799999999999999,
+      "intelligenceIndex": 8.07503439053102,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2065,6 +2065,19 @@
       "inputPerMillion": 0.71,
       "outputPerMillion": 0.72,
       "intelligenceIndex": 7.66380859299009,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "devstral-small-2",
+      "name": "Devstral Small 2",
+      "provider": "Mistral",
+      "creatorLogo": "/img/logos/mistral_small.png",
+      "contextLength": 256000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 7.5369358990318,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -2260,19 +2273,6 @@
       "inputPerMillion": 0.026,
       "outputPerMillion": 0.11,
       "intelligenceIndex": 6.55971145066503,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "llama-4-scout",
-      "name": "Llama 4 Scout",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta_small.svg",
-      "contextLength": 10000000,
-      "inputPerMillion": 0.19,
-      "outputPerMillion": 0.6799999999999999,
-      "intelligenceIndex": 6.45126865234633,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
