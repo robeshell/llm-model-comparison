@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T04:24:25.378Z",
+  "updatedAt": "2026-09-21T18:06:23.776Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -983,8 +983,8 @@
       "provider": "InclusionAI",
       "creatorLogo": "/img/logos/inclusionai_small.jpg",
       "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.22,
       "intelligenceIndex": 24.5693054077875,
       "isOpenWeights": true,
       "releaseDate": null,

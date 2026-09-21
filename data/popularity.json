@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T04:24:26.315Z",
+  "updatedAt": "2026-09-21T18:06:24.375Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -29,8 +29,8 @@
       "provider": "Z.ai",
       "providerSlug": "z-ai",
       "contextLength": 1310720,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.3,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.25,
       "inputModalities": [
         "text",
         "image",
@@ -85,7 +85,7 @@
       "providerSlug": "deepseek",
       "contextLength": 1310720,
       "inputPerMillion": 0.04,
-      "outputPerMillion": 0.16,
+      "outputPerMillion": 0.32,
       "inputModalities": [
         "text"
       ],
@@ -121,8 +121,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -155,8 +155,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.088606,
-      "outputPerMillion": 0.177212,
+      "inputPerMillion": 0.055439999999999996,
+      "outputPerMillion": 0.11087999999999999,
       "inputModalities": [
         "text"
       ],
@@ -341,8 +341,8 @@
       "provider": "MoonshotAI",
       "providerSlug": "moonshotai",
       "contextLength": 1048576,
-      "inputPerMillion": 1.7,
-      "outputPerMillion": 8.5,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
       "inputModalities": [
         "text",
         "image",
@@ -371,23 +371,6 @@
     },
     {
       "rank": 21,
-      "id": "deepseek/deepseek-v4-pro-0813",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
-      "name": "DeepSeek V4 Pro 0813",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.66,
-      "outputPerMillion": 1.9800000000000002,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 22,
       "id": "anthropic/claude-opus-5",
       "canonicalSlug": "anthropic/claude-opus-5-20260723",
       "name": "Claude Opus 5",
@@ -400,6 +383,23 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 22,
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260813",
+      "name": "DeepSeek V4 Pro 0813",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.5676,
+      "outputPerMillion": 1.7028,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -430,8 +430,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.9552599999999999,
-      "outputPerMillion": 1.9105199999999998,
+      "inputPerMillion": 0.927768,
+      "outputPerMillion": 1.855536,
       "inputModalities": [
         "text"
       ],
@@ -518,23 +518,6 @@
     },
     {
       "rank": 29,
-      "id": "openai/gpt-oss-120b",
-      "canonicalSlug": "openai/gpt-oss-120b",
-      "name": "gpt-oss-120b",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 30,
       "id": "inclusionai/ling-3.0-flash-vl:free",
       "canonicalSlug": "inclusionai/ling-3.0-flash-vl-20260910",
       "name": "Ling 3.0 Flash VL (free)",
@@ -547,6 +530,23 @@
         "text",
         "image",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 30,
+      "id": "openai/gpt-oss-120b",
+      "canonicalSlug": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 131072,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.6,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -766,25 +766,6 @@
     },
     {
       "rank": 42,
-      "id": "qwen/qwen3.8-max-0902",
-      "canonicalSlug": "qwen/qwen3.8-max-20260902",
-      "name": "Qwen3.8 Max (0902)",
-      "provider": "Qwen",
-      "providerSlug": "qwen",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 6,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 43,
       "id": "anthropic/claude-sonnet-4.6",
       "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
       "name": "Claude Sonnet 4.6",
@@ -797,6 +778,25 @@
         "text",
         "image",
         "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 43,
+      "id": "qwen/qwen3.8-max-0902",
+      "canonicalSlug": "qwen/qwen3.8-max-20260902",
+      "name": "Qwen3.8 Max (0902)",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
       ],
       "outputModalities": [
         "text"
@@ -878,23 +878,6 @@
     },
     {
       "rank": 48,
-      "id": "mistralai/mistral-nemo",
-      "canonicalSlug": "mistralai/mistral-nemo",
-      "name": "Mistral Nemo",
-      "provider": "Mistral",
-      "providerSlug": "mistralai",
-      "contextLength": 131072,
-      "inputPerMillion": 0.019000000000000003,
-      "outputPerMillion": 0.03,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 49,
       "id": "google/gemma-4-26b-a4b-it",
       "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
       "name": "Gemma 4 26B A4B",
@@ -913,7 +896,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 49,
       "id": "inclusionai/ling-3.0-flash-sante:free",
       "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
       "name": "Ling 3.0 Flash Sante (free)",
@@ -924,6 +907,25 @@
       "outputPerMillion": 0,
       "inputModalities": [
         "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 50,
+      "id": "qwen/qwen3.8-27b",
+      "canonicalSlug": "qwen/qwen3.8-27b-20260814",
+      "name": "Qwen3.8 27B",
+      "provider": "Qwen",
+      "providerSlug": "qwen",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.42,
+      "outputPerMillion": 3,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
       ],
       "outputModalities": [
         "text"
