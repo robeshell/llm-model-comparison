@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T18:06:23.776Z",
+  "updatedAt": "2026-09-22T04:20:00.585Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -181,6 +181,45 @@
       "outputPerMillion": 50,
       "intelligenceIndex": 46.8163422014862,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "grok-4-7",
+      "name": "Grok 4.7 (xhigh)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "/img/logos/spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 46.4465506302286,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "grok-4-7-high",
+      "name": "Grok 4.7 (high)",
+      "provider": "SpaceXAI",
+      "creatorLogo": "/img/logos/spacexai.svg",
+      "contextLength": 500000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 6,
+      "intelligenceIndex": 46.3321770885625,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mimo-v2-6-pro",
+      "name": "MiMo-V2.6-Pro",
+      "provider": "Xiaomi",
+      "creatorLogo": "/img/logos/xiaomi_small.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.435,
+      "outputPerMillion": 0.87,
+      "intelligenceIndex": 46.3242065310383,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1043,19 +1082,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "qwen3-8-27b-non-reasoning",
-      "name": "Qwen3.8 27B",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba_small.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 3,
-      "intelligenceIndex": 22.4190392584054,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gemini-3-5-flash-lite",
       "name": "Gemini 3.5 Flash-Lite",
       "provider": "Google",
@@ -1156,6 +1182,19 @@
       "outputPerMillion": 8,
       "intelligenceIndex": 20.200754789201,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-8-27b-non-reasoning",
+      "name": "Qwen3.8 27B",
+      "provider": "Alibaba",
+      "creatorLogo": "/img/logos/alibaba_small.svg",
+      "contextLength": 256000,
+      "inputPerMillion": 0.5,
+      "outputPerMillion": 3,
+      "intelligenceIndex": 20.1502427055595,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1568,8 +1607,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.1925,
-      "outputPerMillion": 0.65,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 0.9,
       "intelligenceIndex": 12.8287575290979,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1737,8 +1776,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.36,
+      "inputPerMillion": 0.195,
+      "outputPerMillion": 1.095,
       "intelligenceIndex": 10.2506761710987,
       "isOpenWeights": true,
       "releaseDate": null,
