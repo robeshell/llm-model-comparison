@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T04:20:00.585Z",
+  "updatedAt": "2026-09-22T16:41:35.828Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1062,7 +1062,7 @@
       "creatorLogo": "/img/logos/nvidia_small.svg",
       "contextLength": 262144,
       "inputPerMillion": 0.6,
-      "outputPerMillion": 2.4,
+      "outputPerMillion": 2.5,
       "intelligenceIndex": 22.9279123422858,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1594,8 +1594,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia_small.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.06,
-      "outputPerMillion": 0.2,
+      "inputPerMillion": 0.07,
+      "outputPerMillion": 0.22,
       "intelligenceIndex": 12.8572306217144,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1829,7 +1829,7 @@
       "creatorLogo": "/img/logos/openai_small.svg",
       "contextLength": 131072,
       "inputPerMillion": 0.07,
-      "outputPerMillion": 0.2,
+      "outputPerMillion": 0.215,
       "intelligenceIndex": 9.95295342568922,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1901,19 +1901,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "nova-premier",
-      "name": "Nova Premier",
-      "provider": "Amazon",
-      "creatorLogo": "/img/logos/aws_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 2.5,
-      "outputPerMillion": 12.5,
-      "intelligenceIndex": 9.15908119897819,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "granite-4-2-3b",
       "name": "Granite 4.2 3B",
       "provider": "IBM",
@@ -1958,8 +1945,8 @@
       "provider": "OpenAI",
       "creatorLogo": "/img/logos/openai_small.svg",
       "contextLength": 131072,
-      "inputPerMillion": 0.060000000000000005,
-      "outputPerMillion": 0.19,
+      "inputPerMillion": 0.07,
+      "outputPerMillion": 0.18,
       "intelligenceIndex": 8.9675171856126,
       "isOpenWeights": true,
       "releaseDate": null,
