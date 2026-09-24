@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T04:12:54.665Z",
+  "updatedAt": "2026-09-24T16:54:49.982Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -549,32 +549,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "agnes-3-0-flash",
-      "name": "Agnes 3.0 Flash",
-      "provider": "Sapiens AI",
-      "creatorLogo": "/img/logos/sapiens.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.05,
-      "outputPerMillion": 0.15,
-      "intelligenceIndex": 35.5,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "agnes-2-5-pro-beta",
-      "name": "Agnes 2.5 Pro Beta",
-      "provider": "Sapiens AI",
-      "creatorLogo": "/img/logos/sapiens.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.3,
-      "intelligenceIndex": 35.2413300369053,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "grok-4-6-low",
       "name": "Grok 4.6 (low)",
       "provider": "SpaceXAI",
@@ -870,19 +844,6 @@
       "outputPerMillion": 12,
       "intelligenceIndex": 27.496203401716,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "agnes-2-5-pro-alpha",
-      "name": "Agnes 2.5 Pro Alpha",
-      "provider": "Sapiens AI",
-      "creatorLogo": "/img/logos/sapiens.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.45,
-      "outputPerMillion": 0.9,
-      "intelligenceIndex": 26.7727524271576,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
