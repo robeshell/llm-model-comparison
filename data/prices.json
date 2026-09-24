@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T16:35:35.982Z",
+  "updatedAt": "2026-09-24T04:12:54.665Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -133,32 +133,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-opus-5",
-      "name": "Claude Opus 5 (max)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 50.7771115797629,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "claude-opus-5-xhigh",
-      "name": "Claude Opus 5 (xhigh)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 49.6773552926939,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-6-astra-medium",
       "name": "GPT-6 Astra (medium)",
       "provider": "OpenAI",
@@ -185,19 +159,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-opus-5-high",
-      "name": "Claude Opus 5 (high)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 48.1219182595908,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "muse-spark-1-3",
       "name": "Muse Spark 1.3 (max)",
       "provider": "Meta",
@@ -219,19 +180,6 @@
       "inputPerMillion": 2,
       "outputPerMillion": 10,
       "intelligenceIndex": 47.5276426437724,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-sol",
-      "name": "GPT-5.6 Sol (max)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 46.9727068915036,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -328,19 +276,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-opus-5-medium",
-      "name": "Claude Opus 5 (medium)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 44.8253265420613,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "glm-5-3",
       "name": "GLM-5.3 (max)",
       "provider": "Z AI",
@@ -393,19 +328,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-sol-xhigh",
-      "name": "GPT-5.6 Sol (xhigh)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 44.008876369169,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "step-5",
       "name": "Step 5 Preview",
       "provider": "StepFun",
@@ -453,19 +375,6 @@
       "inputPerMillion": 2,
       "outputPerMillion": 10,
       "intelligenceIndex": 42.8215513642985,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-sol-high",
-      "name": "GPT-5.6 Sol (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 42.3461010420519,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -588,32 +497,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-opus-5-low",
-      "name": "Claude Opus 5 (low)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 5,
-      "outputPerMillion": 25,
-      "intelligenceIndex": 39.3543357992936,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-sol-medium",
-      "name": "GPT-5.6 Sol (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 39.2363585889147,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "claude-sonnet-5",
       "name": "Claude Sonnet 5 (max)",
       "provider": "Anthropic",
@@ -635,19 +518,6 @@
       "inputPerMillion": 2,
       "outputPerMillion": 12,
       "intelligenceIndex": 37.9513370742927,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-luna",
-      "name": "GPT-5.6 Luna (max)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 37.3244239690841,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -731,19 +601,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-xhigh",
-      "name": "GPT-5.6 Luna (xhigh)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 34.555348822309,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "kimi-k3-low",
       "name": "Kimi K3 (low)",
       "provider": "Kimi",
@@ -822,19 +679,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-sol-low",
-      "name": "GPT-5.6 Sol (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 33.4731387646002,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gemini-3-8-flash-low",
       "name": "Gemini 3.8 Flash (low)",
       "provider": "Google",
@@ -869,19 +713,6 @@
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.5,
       "intelligenceIndex": 32.1482304150837,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-luna-high",
-      "name": "GPT-5.6 Luna (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 32.1196453501091,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -961,19 +792,6 @@
       "outputPerMillion": 1.2,
       "intelligenceIndex": 29.2202932236316,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-sol-non-reasoning",
-      "name": "GPT-5.6 Sol (Non-reasoning)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 4,
-      "outputPerMillion": 20,
-      "intelligenceIndex": 28.3280042499237,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1173,19 +991,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-5-6-luna-medium",
-      "name": "GPT-5.6 Luna (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 25.0358741440784,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "inkling",
       "name": "Inkling",
       "provider": "Thinking Machines",
@@ -1269,8 +1074,8 @@
       "provider": "InclusionAI",
       "creatorLogo": "/img/logos/inclusionai_small.jpg",
       "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.22,
       "intelligenceIndex": 22.5965828940594,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1325,19 +1130,6 @@
       "outputPerMillion": 3.6,
       "intelligenceIndex": 21.4366547759392,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-luna-low",
-      "name": "GPT-5.6 Luna (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 21.0124783424265,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1542,8 +1334,8 @@
       "provider": "Google",
       "creatorLogo": "/img/logos/google_small.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.115,
-      "outputPerMillion": 0.37,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.34,
       "intelligenceIndex": 16.671930040086,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1572,19 +1364,6 @@
       "outputPerMillion": 3.2,
       "intelligenceIndex": 15.5694009312969,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-5-6-luna-non-reasoning",
-      "name": "GPT-5.6 Luna (Non-reasoning)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai_small.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 15.5270002110259,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1689,19 +1468,6 @@
       "outputPerMillion": 0.4,
       "intelligenceIndex": 13.9198819005287,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "mercury-2",
-      "name": "Mercury 2",
-      "provider": "Inception",
-      "creatorLogo": "/img/logos/inceptionlabs_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.75,
-      "intelligenceIndex": 13.7691315513812,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1875,6 +1641,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "mercury-2-5",
+      "name": "Mercury 2.5",
+      "provider": "Inception",
+      "creatorLogo": "/img/logos/inceptionlabs_small.svg",
+      "contextLength": 260000,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.75,
+      "intelligenceIndex": 12.3408453757638,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "nova-2-0-lite-reasoning-low",
       "name": "Nova 2.0 Lite (low)",
       "provider": "Amazon",
@@ -1972,7 +1751,7 @@
       "creatorLogo": "/img/logos/arcee_small.svg",
       "contextLength": 512000,
       "inputPerMillion": 0.25,
-      "outputPerMillion": 0.9,
+      "outputPerMillion": 0.8,
       "intelligenceIndex": 10.8242425924218,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -2135,19 +1914,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "llama-nemotron-super-49b-v1-5-reasoning",
-      "name": "Llama Nemotron Super 49B v1.5",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.4,
-      "outputPerMillion": 0.4,
-      "intelligenceIndex": 9.01435430969758,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "mistral-small-4-non-reasoning",
       "name": "Mistral Small 4 (Non-reasoning)",
       "provider": "Mistral",
@@ -2222,19 +1988,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 8.73661367769335,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "devstral-2",
-      "name": "Devstral 2",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 8.61676079574885,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2317,19 +2070,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "devstral-small-2",
-      "name": "Devstral Small 2",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral_small.png",
-      "contextLength": 256000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 7.5369358990318,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "ernie-4-5-300b-a47b",
       "name": "ERNIE 4.5 300B A47B",
       "provider": "Baidu",
@@ -2351,19 +2091,6 @@
       "inputPerMillion": 1,
       "outputPerMillion": 3,
       "intelligenceIndex": 7.49497809925135,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "nvidia-nemotron-nano-12b-v2-vl-reasoning",
-      "name": "NVIDIA Nemotron Nano 12B v2 VL",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.2,
-      "outputPerMillion": 0.6,
-      "intelligenceIndex": 7.47796854824097,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -2408,32 +2135,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "llama-nemotron-super-49b-v1-5",
-      "name": "Llama Nemotron Super 49B v1.5 (Non-reasoning)",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 0.4,
-      "outputPerMillion": 0.4,
-      "intelligenceIndex": 7.36435496013793,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "lfm2-5-8b-a1b",
-      "name": "LFM2.5-8B-A1B",
-      "provider": "Liquid AI",
-      "creatorLogo": "/img/logos/liquidai_small.svg",
-      "contextLength": 32768,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 7.21643567343487,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "ring-flash-2-0",
       "name": "Ring-flash-2.0",
       "provider": "InclusionAI",
@@ -2468,19 +2169,6 @@
       "inputPerMillion": 2.5,
       "outputPerMillion": 10,
       "intelligenceIndex": 6.9581988704518,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "llama-3-1-nemotron-instruct-70b",
-      "name": "Llama 3.1 Nemotron 70B",
-      "provider": "NVIDIA",
-      "creatorLogo": "/img/logos/nvidia_small.svg",
-      "contextLength": 128000,
-      "inputPerMillion": 1.2,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 6.9438219838506,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -2715,19 +2403,6 @@
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.1,
       "intelligenceIndex": 4.83760020546443,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "lfm2-5-vl-1-6b",
-      "name": "LFM2.5-VL-1.6B",
-      "provider": "Liquid AI",
-      "creatorLogo": "/img/logos/liquidai_small.svg",
-      "contextLength": 32000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 4.83423948,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
