@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T04:48:19.898Z",
+  "updatedAt": "2026-09-27T16:45:53.006Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -519,6 +519,19 @@
       "outputPerMillion": 12,
       "intelligenceIndex": 37.9513370742927,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mimo-v2-6-flash",
+      "name": "MiMo-V2.6-Flash",
+      "provider": "Xiaomi",
+      "creatorLogo": "/img/logos/xiaomi.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.14,
+      "outputPerMillion": 0.28,
+      "intelligenceIndex": 37.8843590141754,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
