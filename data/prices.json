@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T04:50:08.939Z",
+  "updatedAt": "2026-09-28T19:30:57.610Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -24,6 +24,19 @@
       "inputPerMillion": 4,
       "outputPerMillion": 20,
       "intelligenceIndex": 55.9873505840139,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5 (max with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 55.9779549012591,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -89,6 +102,19 @@
       "inputPerMillion": 10,
       "outputPerMillion": 50,
       "intelligenceIndex": 52.3863277108782,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-5-xhigh",
+      "name": "Claude Sonnet 5.5 (xhigh with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 51.8522867021152,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -193,6 +219,19 @@
       "inputPerMillion": 10,
       "outputPerMillion": 50,
       "intelligenceIndex": 46.8163422014862,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-5-high",
+      "name": "Claude Sonnet 5.5 (high with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 46.7356921799024,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -432,6 +471,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-sonnet-5-5-medium",
+      "name": "Claude Sonnet 5.5 (medium with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 40.7386909594307,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-8-2-4t-a95b",
       "name": "Qwen3.8 2.4T A95B",
       "provider": "Alibaba",
@@ -558,6 +610,19 @@
       "outputPerMillion": 3.96,
       "intelligenceIndex": 35.9967791278402,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-sonnet-5-5-low",
+      "name": "Claude Sonnet 5.5 (low with fallback)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 35.8430309275022,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
