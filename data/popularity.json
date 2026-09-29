@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T05:15:48.396Z",
+  "updatedAt": "2026-09-29T17:57:08.249Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -176,8 +176,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.28,
+      "inputPerMillion": 0.0763,
+      "outputPerMillion": 0.1526,
       "inputModalities": [
         "text"
       ],
@@ -210,8 +210,8 @@
       "provider": "Tencent",
       "providerSlug": "tencent",
       "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
       "inputModalities": [
         "text"
       ],
@@ -318,42 +318,6 @@
     },
     {
       "rank": 18,
-      "id": "anthropic/claude-sonnet-5",
-      "canonicalSlug": "anthropic/claude-sonnet-5-20260630",
-      "name": "Claude Sonnet 5",
-      "provider": "Anthropic",
-      "providerSlug": "anthropic",
-      "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
-      "inputModalities": [
-        "text",
-        "image",
-        "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 19,
-      "id": "z-ai/glm-5.2",
-      "canonicalSlug": "z-ai/glm-5.2-20260616",
-      "name": "GLM 5.2",
-      "provider": "Z.ai",
-      "providerSlug": "z-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.3249,
-      "outputPerMillion": 4.4,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 20,
       "id": "anthropic/claude-opus-5.5",
       "canonicalSlug": "anthropic/claude-opus-5.5-20260921",
       "name": "Claude Opus 5.5",
@@ -372,7 +336,26 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 19,
+      "id": "anthropic/claude-sonnet-5",
+      "canonicalSlug": "anthropic/claude-sonnet-5-20260630",
+      "name": "Claude Sonnet 5",
+      "provider": "Anthropic",
+      "providerSlug": "anthropic",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "inputModalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 20,
       "id": "moonshotai/kimi-k3",
       "canonicalSlug": "moonshotai/kimi-k3-20260715",
       "name": "Kimi K3",
@@ -385,6 +368,23 @@
         "text",
         "image",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 21,
+      "id": "z-ai/glm-5.2",
+      "canonicalSlug": "z-ai/glm-5.2-20260616",
+      "name": "GLM 5.2",
+      "provider": "Z.ai",
+      "providerSlug": "z-ai",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.2339,
+      "outputPerMillion": 4.4,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -473,7 +473,7 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.39999999999999997,
+      "inputPerMillion": 0.3999,
       "outputPerMillion": 4.199999999999999,
       "inputModalities": [
         "text"
@@ -549,8 +549,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.9552599999999999,
-      "outputPerMillion": 1.9105199999999998,
+      "inputPerMillion": 0.931074,
+      "outputPerMillion": 1.862148,
       "inputModalities": [
         "text"
       ],
@@ -587,8 +587,8 @@
       "provider": "OpenAI",
       "providerSlug": "openai",
       "contextLength": 131072,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
+      "inputPerMillion": 0.037,
+      "outputPerMillion": 0.16999999999999998,
       "inputModalities": [
         "text"
       ],
@@ -695,6 +695,23 @@
     },
     {
       "rank": 38,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 39,
       "id": "openai/gpt-5.6-terra",
       "canonicalSlug": "openai/gpt-5.6-terra-20260709",
       "name": "GPT-5.6 Terra",
@@ -706,23 +723,6 @@
       "inputModalities": [
         "file",
         "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 39,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
         "text"
       ],
       "outputModalities": [
@@ -836,7 +836,7 @@
       "provider": "Qwen",
       "providerSlug": "qwen",
       "contextLength": 1000000,
-      "inputPerMillion": 0.053899999999999997,
+      "inputPerMillion": 0.024900000000000002,
       "outputPerMillion": 4.4,
       "inputModalities": [
         "text",
@@ -866,14 +866,31 @@
     },
     {
       "rank": 47,
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
+      "name": "Ling 3.0 Flash Sante (free)",
+      "provider": "inclusionAI",
+      "providerSlug": "inclusionai",
+      "contextLength": 262144,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 48,
       "id": "google/gemma-4-26b-a4b-it",
       "canonicalSlug": "google/gemma-4-26b-a4b-it-20260403",
       "name": "Gemma 4 26B A4B",
       "provider": "Google",
       "providerSlug": "google",
       "contextLength": 262144,
-      "inputPerMillion": 0.0765,
-      "outputPerMillion": 0.255,
+      "inputPerMillion": 0.09,
+      "outputPerMillion": 0.3,
       "inputModalities": [
         "image",
         "text",
@@ -884,7 +901,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "id": "anthropic/claude-sonnet-4.6",
       "canonicalSlug": "anthropic/claude-4.6-sonnet-20260217",
       "name": "Claude Sonnet 4.6",
@@ -897,23 +914,6 @@
         "text",
         "image",
         "file"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 49,
-      "id": "inclusionai/ling-3.0-flash-sante:free",
-      "canonicalSlug": "inclusionai/ling-3.0-flash-sante-20260904",
-      "name": "Ling 3.0 Flash Sante (free)",
-      "provider": "inclusionAI",
-      "providerSlug": "inclusionai",
-      "contextLength": 262144,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
