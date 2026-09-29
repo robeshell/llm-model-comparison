@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T19:30:57.610Z",
+  "updatedAt": "2026-09-29T05:15:47.786Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -890,7 +890,7 @@
       "id": "inkling-small",
       "name": "Inkling Small",
       "provider": "Thinking Machines",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
       "contextLength": 1000000,
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
@@ -1009,8 +1009,8 @@
       "provider": "Tencent",
       "creatorLogo": "/img/logos/tencent.svg",
       "contextLength": 256000,
-      "inputPerMillion": 0.14,
-      "outputPerMillion": 0.58,
+      "inputPerMillion": 0.136,
+      "outputPerMillion": 0.5549999999999999,
       "intelligenceIndex": 25.2972775731571,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1046,7 +1046,7 @@
       "id": "inkling",
       "name": "Inkling",
       "provider": "Thinking Machines",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
       "contextLength": 1000000,
       "inputPerMillion": 1,
       "outputPerMillion": 4.05,
@@ -1537,19 +1537,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "qwen3-5-9b",
-      "name": "Qwen3.5 9B",
-      "provider": "Alibaba",
-      "creatorLogo": "/img/logos/alibaba.svg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.135,
-      "outputPerMillion": 0.2,
-      "intelligenceIndex": 13.6541001649716,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "nova-2-0-omni-reasoning-medium",
       "name": "Nova 2.0 Omni (medium)",
       "provider": "Amazon",
@@ -1766,6 +1753,19 @@
       "inputPerMillion": 0.15,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 11.1973684395653,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "qwen3-5-9b",
+      "name": "Qwen3.5 9B",
+      "provider": "Alibaba",
+      "creatorLogo": "/img/logos/alibaba.svg",
+      "contextLength": 262144,
+      "inputPerMillion": 0.135,
+      "outputPerMillion": 0.2,
+      "intelligenceIndex": 11.1961650827156,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null

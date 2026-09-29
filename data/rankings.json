@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T19:30:57.921Z",
+  "updatedAt": "2026-09-29T05:15:48.136Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1520,7 +1520,7 @@
       "shortName": "Inkling Small",
       "creator": "Thinking Machines",
       "creatorSlug": "",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
       "intelligenceIndex": 27.7806153423596,
       "codingIndex": null,
       "agenticIndex": null,
@@ -1583,7 +1583,7 @@
       "shortName": "JT-4.1 Flash 236B A21B",
       "creator": "China Mobile",
       "creatorSlug": "",
-      "creatorLogo": "/img/logos/china_mobile.png",
+      "creatorLogo": "/img/logos/china-mobile.png",
       "intelligenceIndex": 27.2926268381758,
       "codingIndex": null,
       "agenticIndex": null,
@@ -1814,7 +1814,7 @@
       "shortName": "Inkling",
       "creator": "Thinking Machines",
       "creatorSlug": "",
-      "creatorLogo": "/img/logos/thinking_machines.svg",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
       "intelligenceIndex": 24.9847810999384,
       "codingIndex": null,
       "agenticIndex": null,
@@ -2339,7 +2339,7 @@
       "shortName": "JT-35B-Flash",
       "creator": "China Mobile",
       "creatorSlug": "",
-      "creatorLogo": "/img/logos/china_mobile.png",
+      "creatorLogo": "/img/logos/china-mobile.png",
       "intelligenceIndex": 18.6626376411117,
       "codingIndex": null,
       "agenticIndex": null,
@@ -2797,27 +2797,6 @@
     },
     {
       "rank": 134,
-      "name": "Qwen3.5 9B (Reasoning)",
-      "shortName": "Qwen3.5 9B",
-      "creator": "Alibaba",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/alibaba.svg",
-      "intelligenceIndex": 13.6541001649716,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.806060606060606,
-      "hle": 0.149212233549583,
-      "scicode": 0.295138888888889,
-      "terminalbench": null,
-      "lcr": 0.7,
-      "isReasoning": true,
-      "slug": "qwen3-5-9b",
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 135,
       "name": "Nova 2.0 Omni (medium)",
       "shortName": "Nova 2.0 Omni (medium)",
       "creator": "Amazon",
@@ -2838,7 +2817,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 136,
+      "rank": 135,
       "name": "Apriel-v1.6-15B-Thinker",
       "shortName": "Apriel-v1.6-15B-Thinker",
       "creator": "ServiceNow",
@@ -2859,7 +2838,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 137,
+      "rank": 136,
       "name": "Nova 2.0 Lite (high)",
       "shortName": "Nova 2.0 Lite (high)",
       "creator": "Amazon",
@@ -2880,7 +2859,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 138,
+      "rank": 137,
       "name": "Qwen3.5 9B (Non-reasoning)",
       "shortName": "Qwen3.5 9B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2901,7 +2880,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 139,
+      "rank": 138,
       "name": "EXAONE 4.5 33B",
       "shortName": "EXAONE 4.5 33B",
       "creator": "LG AI Research",
@@ -2922,7 +2901,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 140,
+      "rank": 139,
       "name": "Command A+",
       "shortName": "Command A+",
       "creator": "Cohere",
@@ -2943,7 +2922,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 141,
+      "rank": 140,
       "name": "Gemma 4 26B A4B (Non-reasoning)",
       "shortName": "Gemma 4 26B A4B (Non-reasoning)",
       "creator": "Google",
@@ -2964,7 +2943,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "Qwen3.5 4B (Reasoning)",
       "shortName": "Qwen3.5 4B",
       "creator": "Alibaba",
@@ -2985,7 +2964,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 143,
+      "rank": 142,
       "name": "Nemotron 3.5 Lightning",
       "shortName": "Nemotron 3.5 Lightning",
       "creator": "NVIDIA",
@@ -3006,7 +2985,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 144,
+      "rank": 143,
       "name": "Nemotron 3 Super 120B A12B (Reasoning)",
       "shortName": "Nemotron 3 Super",
       "creator": "NVIDIA",
@@ -3027,7 +3006,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 145,
+      "rank": 144,
       "name": "Nova 2.0 Pro Preview (low)",
       "shortName": "Nova 2.0 Pro Preview (low)",
       "creator": "Amazon",
@@ -3048,7 +3027,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 146,
+      "rank": 145,
       "name": "Nova 2.0 Lite (medium)",
       "shortName": "Nova 2.0 Lite (medium)",
       "creator": "Amazon",
@@ -3069,7 +3048,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 147,
+      "rank": 146,
       "name": "Qwen3.5 Omni Flash",
       "shortName": "Qwen3.5 Omni Flash",
       "creator": "Alibaba",
@@ -3090,7 +3069,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 148,
+      "rank": 147,
       "name": "MiniCPM5-2B",
       "shortName": "MiniCPM5-2B",
       "creator": "OpenBMB",
@@ -3111,7 +3090,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 149,
+      "rank": 148,
       "name": "Mercury 2.5",
       "shortName": "Mercury 2.5",
       "creator": "Inception",
@@ -3132,12 +3111,12 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 150,
+      "rank": 149,
       "name": "JT-MINI",
       "shortName": "JT-MINI",
       "creator": "China Mobile",
       "creatorSlug": "",
-      "creatorLogo": "/img/logos/china_mobile.png",
+      "creatorLogo": "/img/logos/china-mobile.png",
       "intelligenceIndex": 12.2117782837313,
       "codingIndex": null,
       "agenticIndex": null,
@@ -3153,7 +3132,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 151,
+      "rank": 150,
       "name": "Magistral Medium 1.2",
       "shortName": "Magistral Medium 1.2",
       "creator": "Mistral",
@@ -3174,7 +3153,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 152,
+      "rank": 151,
       "name": "Nova 2.0 Lite (low)",
       "shortName": "Nova 2.0 Lite (low)",
       "creator": "Amazon",
@@ -3195,7 +3174,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 153,
+      "rank": 152,
       "name": "HyperNova 60B 2605 (high, based on gpt-oss-120b)",
       "shortName": "HyperNova 60B 2605 (high)",
       "creator": "Multiverse Computing",
@@ -3216,7 +3195,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 154,
+      "rank": 153,
       "name": "Nemotron Cascade 2 30B A3B",
       "shortName": "Nemotron Cascade 2 30B A3B",
       "creator": "NVIDIA",
@@ -3237,7 +3216,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 155,
+      "rank": 154,
       "name": "gpt-oss-120b (high)",
       "shortName": "gpt-oss-120b (high)",
       "creator": "OpenAI",
@@ -3258,7 +3237,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 156,
+      "rank": 155,
       "name": "K2 Think V2",
       "shortName": "K2 Think V2",
       "creator": "Institute of Foundation Models",
@@ -3279,7 +3258,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 157,
+      "rank": 156,
       "name": "LongCat Flash Lite",
       "shortName": "LongCat Flash Lite",
       "creator": "LongCat",
@@ -3300,7 +3279,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 158,
+      "rank": 157,
       "name": "HyperCLOVA X SEED Think (32B)",
       "shortName": "HyperCLOVA X SEED Think (32B)",
       "creator": "Naver",
@@ -3321,7 +3300,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 159,
+      "rank": 158,
       "name": "Mistral Small 4 (Reasoning)",
       "shortName": "Mistral Small 4",
       "creator": "Mistral",
@@ -3342,7 +3321,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 160,
+      "rank": 159,
       "name": "Qwen3 Next 80B A3B (Reasoning)",
       "shortName": "Qwen3 Next 80B A3B (Reasoning)",
       "creator": "Alibaba",
@@ -3358,6 +3337,27 @@
       "lcr": 0.636666666666667,
       "isReasoning": true,
       "slug": "qwen3-next-80b-a3b-reasoning",
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 160,
+      "name": "Qwen3.5 9B (Reasoning)",
+      "shortName": "Qwen3.5 9B",
+      "creator": "Alibaba",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/alibaba.svg",
+      "intelligenceIndex": 11.1961650827156,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.806060606060606,
+      "hle": 0.149212233549583,
+      "scicode": 0.295138888888889,
+      "terminalbench": null,
+      "lcr": 0.7,
+      "isReasoning": true,
+      "slug": "qwen3-5-9b",
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
