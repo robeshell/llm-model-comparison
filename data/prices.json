@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T17:52:43.952Z",
+  "updatedAt": "2026-10-01T05:17:24.513Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -89,6 +89,19 @@
       "inputPerMillion": 10,
       "outputPerMillion": 50,
       "intelligenceIndex": 52.673669395513,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon (high)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 52.5605655745982,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -257,7 +270,7 @@
       "contextLength": 872000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 47.5276426437724,
+      "intelligenceIndex": 47.6305176437724,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -387,7 +400,7 @@
       "contextLength": 872000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 44.1009705516407,
+      "intelligenceIndex": 44.2448955516407,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -426,7 +439,7 @@
       "contextLength": 872000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 42.8215513642985,
+      "intelligenceIndex": 42.4004513642985,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -543,7 +556,7 @@
       "contextLength": 872000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 39.7820971749522,
+      "intelligenceIndex": 39.8118971749522,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -575,6 +588,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna (max)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 38.1245186869738,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-6-terra-xhigh",
       "name": "GPT-5.6 Terra (xhigh)",
       "provider": "OpenAI",
@@ -601,19 +627,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-6-luna",
-      "name": "GPT-6 Luna (max)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 37.2559686869738,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro 0813 (max)",
       "provider": "DeepSeek",
@@ -635,6 +648,19 @@
       "inputPerMillion": 0.44,
       "outputPerMillion": 1.32,
       "intelligenceIndex": 34.8390628035969,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-luna-xhigh",
+      "name": "GPT-6 Luna (xhigh)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 34.5587320217785,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -673,20 +699,7 @@
       "contextLength": 872000,
       "inputPerMillion": 2,
       "outputPerMillion": 10,
-      "intelligenceIndex": 33.9008505585733,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-luna-xhigh",
-      "name": "GPT-6 Luna (xhigh)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 33.8845820217785,
+      "intelligenceIndex": 34.1548755585733,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -718,6 +731,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-luna-high",
+      "name": "GPT-6 Luna (high)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 32.9282054150837,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex (xhigh)",
       "provider": "OpenAI",
@@ -726,19 +752,6 @@
       "inputPerMillion": 1.75,
       "outputPerMillion": 14,
       "intelligenceIndex": 32.5028174368983,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-luna-high",
-      "name": "GPT-6 Luna (high)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 32.1482304150837,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -770,6 +783,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-luna-medium",
+      "name": "GPT-6 Luna (medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 29.9251773515762,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gemini-3-1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
       "provider": "Google",
@@ -778,19 +804,6 @@
       "inputPerMillion": 2,
       "outputPerMillion": 12,
       "intelligenceIndex": 29.7185656132261,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-luna-medium",
-      "name": "GPT-6 Luna (medium)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 29.4619523515762,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -809,6 +822,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-sol-non-reasoning",
+      "name": "GPT-6 Sol (non-reasoning)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 872000,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 28.5121413410513,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "solar-pro4",
       "name": "Solar Pro 4",
       "provider": "Upstage",
@@ -817,19 +843,6 @@
       "inputPerMillion": 0.3,
       "outputPerMillion": 1.2,
       "intelligenceIndex": 28.1541333537469,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-sol-non-reasoning",
-      "name": "GPT-6 Sol (Non-reasoning)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 872000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
-      "intelligenceIndex": 28.0921663410513,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -966,7 +979,7 @@
     },
     {
       "id": "inkling",
-      "name": "Inkling",
+      "name": "Inkling (xhigh)",
       "provider": "Thinking Machines",
       "creatorLogo": "/img/logos/thinking-machines.svg",
       "contextLength": 1000000,
@@ -979,7 +992,7 @@
     },
     {
       "id": "deepseek-v4-1-flash-non-reasoning",
-      "name": "DeepSeek V4.1 Flash (Non-reasoning)",
+      "name": "DeepSeek V4.1 Flash (non-reasoning)",
       "provider": "DeepSeek",
       "creatorLogo": "/img/logos/deepseek.svg",
       "contextLength": 1000000,
@@ -1000,6 +1013,19 @@
       "outputPerMillion": 0.22,
       "intelligenceIndex": 24.5693054077875,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "solar-mini4",
+      "name": "Solar Mini 4",
+      "provider": "Upstage",
+      "creatorLogo": "/img/logos/upstage.svg",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.4,
+      "intelligenceIndex": 24.0522018844171,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1069,8 +1095,21 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-luna-low",
+      "name": "GPT-6 Luna (low)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 21.5261980080866,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-5-397b-a17b-non-reasoning",
-      "name": "Qwen3.5 397B A17B (Non-reasoning)",
+      "name": "Qwen3.5 397B A17B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1082,21 +1121,8 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "gpt-6-luna-low",
-      "name": "GPT-6 Luna (low)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 20.9225480080866,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-6-terra-non-reasoning",
-      "name": "GPT-5.6 Terra (Non-reasoning)",
+      "name": "GPT-5.6 Terra (non-reasoning)",
       "provider": "OpenAI",
       "creatorLogo": "/img/logos/openai.svg",
       "contextLength": 1000000,
@@ -1122,7 +1148,7 @@
     },
     {
       "id": "deepseek-v4-pro-non-reasoning",
-      "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
+      "name": "DeepSeek V4 Pro 0813 (non-reasoning)",
       "provider": "DeepSeek",
       "creatorLogo": "/img/logos/deepseek.svg",
       "contextLength": 1000000,
@@ -1148,7 +1174,7 @@
     },
     {
       "id": "qwen3-8-27b-non-reasoning",
-      "name": "Qwen3.8 27B",
+      "name": "Qwen3.8 27B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 256000,
@@ -1186,6 +1212,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-luna-non-reasoning",
+      "name": "GPT-6 Luna (non-reasoning)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 18.4678465935701,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-5-397b-a17b",
       "name": "Qwen3.5 397B A17B",
       "provider": "Alibaba",
@@ -1195,19 +1234,6 @@
       "outputPerMillion": 3.6,
       "intelligenceIndex": 18.4204249294815,
       "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gpt-6-luna-non-reasoning",
-      "name": "GPT-6 Luna (Non-reasoning)",
-      "provider": "OpenAI",
-      "creatorLogo": "/img/logos/openai.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.1,
-      "outputPerMillion": 0.5,
-      "intelligenceIndex": 18.2617465935701,
-      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -1226,7 +1252,7 @@
     },
     {
       "id": "qwen3-5-122b-a10b-non-reasoning",
-      "name": "Qwen3.5 122B A10B (Non-reasoning)",
+      "name": "Qwen3.5 122B A10B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1304,7 +1330,7 @@
     },
     {
       "id": "claude-4-5-haiku",
-      "name": "Claude 4.5 Haiku (Non-reasoning)",
+      "name": "Claude 4.5 Haiku (non-reasoning)",
       "provider": "Anthropic",
       "creatorLogo": "/img/logos/anthropic.svg",
       "contextLength": 200000,
@@ -1317,7 +1343,7 @@
     },
     {
       "id": "qwen3-6-35b-a3b-non-reasoning",
-      "name": "Qwen3.6 35B A3B (Non-reasoning)",
+      "name": "Qwen3.6 35B A3B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1395,7 +1421,7 @@
     },
     {
       "id": "gemma-4-31b-non-reasoning",
-      "name": "Gemma 4 31B (Non-reasoning)",
+      "name": "Gemma 4 31B (non-reasoning)",
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": 256000,
@@ -1447,7 +1473,7 @@
     },
     {
       "id": "qwen3-5-9b-non-reasoning",
-      "name": "Qwen3.5 9B (Non-reasoning)",
+      "name": "Qwen3.5 9B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1473,7 +1499,7 @@
     },
     {
       "id": "gemma-4-26b-a4b-non-reasoning",
-      "name": "Gemma 4 26B A4B (Non-reasoning)",
+      "name": "Gemma 4 26B A4B (non-reasoning)",
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": 256000,
@@ -1503,8 +1529,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.07,
-      "outputPerMillion": 0.22,
+      "inputPerMillion": 0.06,
+      "outputPerMillion": 0.2,
       "intelligenceIndex": 12.8572306217144,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1616,7 +1642,7 @@
     },
     {
       "id": "qwen3-next-80b-a3b-reasoning",
-      "name": "Qwen3 Next 80B A3B (Reasoning)",
+      "name": "Qwen3 Next 80B A3B",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1707,7 +1733,7 @@
     },
     {
       "id": "qwen3-5-4b-non-reasoning",
-      "name": "Qwen3.5 4B (Non-reasoning)",
+      "name": "Qwen3.5 4B (non-reasoning)",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 262144,
@@ -1759,7 +1785,7 @@
     },
     {
       "id": "nova-2-0-pro",
-      "name": "Nova 2.0 Pro Preview (Non-reasoning)",
+      "name": "Nova 2.0 Pro Preview (non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "/img/logos/aws.svg",
       "contextLength": 256000,
@@ -1811,7 +1837,7 @@
     },
     {
       "id": "gemma-4-12b-non-reasoning",
-      "name": "Gemma 4 12B (Non-reasoning)",
+      "name": "Gemma 4 12B (non-reasoning)",
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": 262144,
@@ -1863,7 +1889,7 @@
     },
     {
       "id": "mistral-small-4-non-reasoning",
-      "name": "Mistral Small 4 (Non-reasoning)",
+      "name": "Mistral Small 4 (non-reasoning)",
       "provider": "Mistral",
       "creatorLogo": "/img/logos/mistral.png",
       "contextLength": 256000,
@@ -1928,7 +1954,7 @@
     },
     {
       "id": "nova-2-0-lite",
-      "name": "Nova 2.0 Lite (Non-reasoning)",
+      "name": "Nova 2.0 Lite (non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "/img/logos/aws.svg",
       "contextLength": 1000000,
@@ -1967,7 +1993,7 @@
     },
     {
       "id": "nova-2-0-omni",
-      "name": "Nova 2.0 Omni (Non-reasoning)",
+      "name": "Nova 2.0 Omni (non-reasoning)",
       "provider": "Amazon",
       "creatorLogo": "/img/logos/aws.svg",
       "contextLength": 1000000,
@@ -1993,7 +2019,7 @@
     },
     {
       "id": "qwen3-omni-30b-a3b-reasoning",
-      "name": "Qwen3 Omni 30B A3B (Reasoning)",
+      "name": "Qwen3 Omni 30B A3B",
       "provider": "Alibaba",
       "creatorLogo": "/img/logos/alibaba.svg",
       "contextLength": 65536,
@@ -2045,7 +2071,7 @@
     },
     {
       "id": "gemma-4-e4b-non-reasoning",
-      "name": "Gemma 4 E4B (Non-reasoning)",
+      "name": "Gemma 4 E4B (non-reasoning)",
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": 128000,
@@ -2071,7 +2097,7 @@
     },
     {
       "id": "hermes-4-llama-3-1-405b",
-      "name": "Hermes 4 405B (Non-reasoning)",
+      "name": "Hermes 4 405B (non-reasoning)",
       "provider": "Nous Research",
       "creatorLogo": "/img/logos/nousresearch.jpg",
       "contextLength": 128000,
@@ -2123,7 +2149,7 @@
     },
     {
       "id": "nvidia-nemotron-3-nano-30b-a3b",
-      "name": "Nemotron 3 Nano (Non-reasoning)",
+      "name": "Nemotron 3 Nano (non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 1000000,
@@ -2136,7 +2162,7 @@
     },
     {
       "id": "nvidia-nemotron-nano-9b-v2",
-      "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
+      "name": "NVIDIA Nemotron Nano 9B V2 (non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 131072,
@@ -2253,7 +2279,7 @@
     },
     {
       "id": "nvidia-nemotron-nano-12b-v2-vl",
-      "name": "NVIDIA Nemotron Nano 12B v2 VL (Non-reasoning)",
+      "name": "NVIDIA Nemotron Nano 12B v2 VL (non-reasoning)",
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 128000,
