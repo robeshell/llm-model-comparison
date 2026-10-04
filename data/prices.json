@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T16:02:29.474Z",
+  "updatedAt": "2026-10-04T05:21:26.684Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -466,6 +466,19 @@
       "inputPerMillion": 0.15,
       "outputPerMillion": 0.5,
       "intelligenceIndex": 41.807466113455,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "ling-3-1-flash",
+      "name": "Ling 3.1 Flash",
+      "provider": "InclusionAI",
+      "creatorLogo": "/img/logos/inclusionai.jpg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 0.9,
+      "intelligenceIndex": 41.0906200397391,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1113,8 +1126,8 @@
       "provider": "DeepSeek",
       "creatorLogo": "/img/logos/deepseek.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 1.32,
-      "outputPerMillion": 3.96,
+      "inputPerMillion": 0.91,
+      "outputPerMillion": 2.98,
       "intelligenceIndex": 20.3605101726847,
       "isOpenWeights": true,
       "releaseDate": null,
@@ -1359,7 +1372,7 @@
       "name": "Gemma 4 12B",
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
-      "contextLength": 256000,
+      "contextLength": 262144,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.3,
       "intelligenceIndex": 14.1847516647736,
