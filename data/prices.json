@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T05:51:33.633Z",
+  "updatedAt": "2026-10-06T18:11:01.992Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -558,6 +558,19 @@
       "outputPerMillion": 1.2,
       "intelligenceIndex": 39.456167472527,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4 Preview",
+      "provider": "Mistral",
+      "creatorLogo": "/img/logos/mistral.svg",
+      "contextLength": 524288,
+      "inputPerMillion": 1.36,
+      "outputPerMillion": 4.18,
+      "intelligenceIndex": 38.3770408917494,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
