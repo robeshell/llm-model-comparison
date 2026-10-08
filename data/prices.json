@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T18:45:15.494Z",
+  "updatedAt": "2026-10-08T05:32:38.567Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -406,6 +406,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5 (max)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 43.3950199670746,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "claude-opus-5-5-low",
       "name": "Claude Opus 5.5 (low with fallback)",
       "provider": "Anthropic",
@@ -467,6 +480,19 @@
       "outputPerMillion": 0.5,
       "intelligenceIndex": 41.807466113455,
       "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-haiku-5-5-xhigh",
+      "name": "Claude Haiku 5.5 (xhigh)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 41.2489304677024,
+      "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -614,6 +640,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "claude-haiku-5-5-high",
+      "name": "Claude Haiku 5.5 (high)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 37.8240211671094,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro 0813 (max)",
       "provider": "DeepSeek",
@@ -661,6 +700,19 @@
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.5,
       "intelligenceIndex": 34.5587320217785,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-haiku-5-5-medium",
+      "name": "Claude Haiku 5.5 (medium)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 34.4646519474657,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -804,6 +856,19 @@
       "inputPerMillion": 2,
       "outputPerMillion": 12,
       "intelligenceIndex": 29.7185656132261,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "claude-haiku-5-5-low",
+      "name": "Claude Haiku 5.5 (low)",
+      "provider": "Anthropic",
+      "creatorLogo": "/img/logos/anthropic.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 29.4494981304947,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1168,19 +1233,6 @@
       "inputPerMillion": 0.5,
       "outputPerMillion": 3,
       "intelligenceIndex": 20.1502427055595,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "ling-3-0-flash",
-      "name": "Ling 3.0 Flash",
-      "provider": "InclusionAI",
-      "creatorLogo": "/img/logos/inclusionai.jpg",
-      "contextLength": 262144,
-      "inputPerMillion": 0.075,
-      "outputPerMillion": 0.22,
-      "intelligenceIndex": 20.1332521865481,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1831,19 +1883,6 @@
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.3,
       "intelligenceIndex": 9.37989472421056,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "mistral-large-3",
-      "name": "Mistral Large 3",
-      "provider": "Mistral",
-      "creatorLogo": "/img/logos/mistral.svg",
-      "contextLength": 256000,
-      "inputPerMillion": 0.5,
-      "outputPerMillion": 1.5,
-      "intelligenceIndex": 9.26608812860467,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
