@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:36:41.607Z",
+  "updatedAt": "2026-10-09T18:13:34.359Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -868,7 +868,7 @@
       "contextLength": 1000000,
       "inputPerMillion": 0.1,
       "outputPerMillion": 0.5,
-      "intelligenceIndex": 29.4494981304947,
+      "intelligenceIndex": 29.4523685891139,
       "isOpenWeights": false,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1316,19 +1316,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-4-5-haiku-reasoning",
-      "name": "Claude 4.5 Haiku",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic.svg",
-      "contextLength": 200000,
-      "inputPerMillion": 1,
-      "outputPerMillion": 5,
-      "intelligenceIndex": 16.8822352291856,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gemma-4-26b-a4b",
       "name": "Gemma 4 26B A4B",
       "provider": "Google",
@@ -1368,19 +1355,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "claude-4-5-haiku",
-      "name": "Claude 4.5 Haiku (non-reasoning)",
-      "provider": "Anthropic",
-      "creatorLogo": "/img/logos/anthropic.svg",
-      "contextLength": 200000,
-      "inputPerMillion": 1,
-      "outputPerMillion": 5,
-      "intelligenceIndex": 15.410949885381,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-6-35b-a3b-non-reasoning",
       "name": "Qwen3.6 35B A3B (non-reasoning)",
       "provider": "Alibaba",
@@ -1389,19 +1363,6 @@
       "inputPerMillion": 0.375,
       "outputPerMillion": 2.25,
       "intelligenceIndex": 15.2320772647744,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "granite-4-2-30b",
-      "name": "Granite 4.2 30B",
-      "provider": "IBM",
-      "creatorLogo": "/img/logos/ibm.svg",
-      "contextLength": 131072,
-      "inputPerMillion": 0.16,
-      "outputPerMillion": 0.65,
-      "intelligenceIndex": 14.8312405050789,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1598,6 +1559,19 @@
       "outputPerMillion": 10,
       "intelligenceIndex": 12.7754507441167,
       "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "granite-4-2-30b",
+      "name": "Granite 4.2 30B",
+      "provider": "IBM",
+      "creatorLogo": "/img/logos/ibm.svg",
+      "contextLength": 131072,
+      "inputPerMillion": 0.16,
+      "outputPerMillion": 0.65,
+      "intelligenceIndex": 12.68315341158,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
