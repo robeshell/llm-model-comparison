@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T18:13:34.359Z",
+  "updatedAt": "2026-10-10T05:20:49.276Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1243,8 +1243,8 @@
       "provider": "LongCat",
       "creatorLogo": "/img/logos/longcat.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
+      "inputPerMillion": 0.75,
+      "outputPerMillion": 2.95,
       "intelligenceIndex": 19.1123256610623,
       "isOpenWeights": true,
       "releaseDate": null,
