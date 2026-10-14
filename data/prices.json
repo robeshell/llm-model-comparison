@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T19:07:29.726Z",
+  "updatedAt": "2026-10-14T04:24:46.705Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -692,6 +692,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "agnes-2-5-pro-beta",
+      "name": "Agnes 2.5 Pro Beta",
+      "provider": "Sapiens AI",
+      "creatorLogo": "/img/logos/sapiens.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.3,
+      "intelligenceIndex": 35.2413300369053,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "deepseek-v4-flash-vision",
       "name": "DeepSeek V4 Flash Vision (max)",
       "provider": "DeepSeek",
@@ -764,7 +777,7 @@
       "contextLength": 256000,
       "inputPerMillion": 0.5,
       "outputPerMillion": 3,
-      "intelligenceIndex": 33.6962858057476,
+      "intelligenceIndex": 33.6762858057476,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1308,8 +1321,8 @@
       "provider": "Meta",
       "creatorLogo": "/img/logos/meta.svg",
       "contextLength": 131072,
-      "inputPerMillion": 0.32499999999999996,
-      "outputPerMillion": 1.35,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
       "intelligenceIndex": 17.4754176089465,
       "isOpenWeights": true,
       "releaseDate": null,
