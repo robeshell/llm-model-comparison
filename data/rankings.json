@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T16:56:18.597Z",
+  "updatedAt": "2026-10-15T04:07:24.711Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -912,7 +912,7 @@
       "creator": "Alibaba",
       "creatorSlug": "",
       "creatorLogo": "/img/logos/alibaba.svg",
-      "intelligenceIndex": 39.8861723105325,
+      "intelligenceIndex": 39.9461723105325,
       "codingIndex": null,
       "agenticIndex": null,
       "gpqa": 0.935353535353535,
@@ -3469,27 +3469,6 @@
     },
     {
       "rank": 166,
-      "name": "Llama 4 Maverick",
-      "shortName": "Llama 4 Maverick",
-      "creator": "Meta",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/meta.svg",
-      "intelligenceIndex": 9.9905959756501,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.670707070707071,
-      "hle": 0.0491195551436515,
-      "scicode": 0.31712962962963,
-      "terminalbench": null,
-      "lcr": 0.5,
-      "isReasoning": false,
-      "slug": "llama-4-maverick",
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 167,
       "name": "Nova 2.0 Pro Preview (Non-reasoning)",
       "shortName": "Nova 2.0 Pro Preview (non-reasoning)",
       "creator": "Amazon",
@@ -3510,7 +3489,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 168,
+      "rank": 167,
       "name": "gpt-oss-20b (Low)",
       "shortName": "gpt-oss-20b (low)",
       "creator": "OpenAI",
@@ -3531,7 +3510,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "North Mini Code",
       "shortName": "North Mini Code",
       "creator": "Cohere",
@@ -3552,7 +3531,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 170,
+      "rank": 169,
       "name": "K2-V2 (High)",
       "shortName": "K2-V2 (high)",
       "creator": "Institute of Foundation Models",
@@ -3573,7 +3552,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 171,
+      "rank": 170,
       "name": "Qwen3 Next 80B A3B Instruct",
       "shortName": "Qwen3 Next 80B A3B",
       "creator": "Alibaba",
@@ -3594,7 +3573,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 172,
+      "rank": 171,
       "name": "DiffusionGemma 26B A4B",
       "shortName": "DiffusionGemma 26B A4B",
       "creator": "Google",
@@ -3615,7 +3594,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 173,
+      "rank": 172,
       "name": "Gemma 4 12B (Non-reasoning)",
       "shortName": "Gemma 4 12B (non-reasoning)",
       "creator": "Google",
@@ -3631,6 +3610,27 @@
       "lcr": 0.35,
       "isReasoning": false,
       "slug": "gemma-4-12b-non-reasoning",
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 173,
+      "name": "Llama 4 Maverick",
+      "shortName": "Llama 4 Maverick",
+      "creator": "Meta",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/meta.svg",
+      "intelligenceIndex": 9.29902687437199,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.670707070707071,
+      "hle": 0.0491195551436515,
+      "scicode": 0.31712962962963,
+      "terminalbench": null,
+      "lcr": 0.5,
+      "isReasoning": false,
+      "slug": "llama-4-maverick",
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -3810,7 +3810,7 @@
       "creator": "Google",
       "creatorSlug": "",
       "creatorLogo": "/img/logos/google.svg",
-      "intelligenceIndex": 8.91477392266452,
+      "intelligenceIndex": 8.90908441839731,
       "codingIndex": null,
       "agenticIndex": null,
       "gpqa": 0.575757575757576,
@@ -4036,27 +4036,6 @@
     },
     {
       "rank": 193,
-      "name": "Llama 4 Scout",
-      "shortName": "Llama 4 Scout",
-      "creator": "Meta",
-      "creatorSlug": "",
-      "creatorLogo": "/img/logos/meta.svg",
-      "intelligenceIndex": 8.07503439053102,
-      "codingIndex": null,
-      "agenticIndex": null,
-      "gpqa": 0.586868686868687,
-      "hle": 0.0378,
-      "scicode": 0.212962962962963,
-      "terminalbench": null,
-      "lcr": 0.277,
-      "isReasoning": false,
-      "slug": "llama-4-scout",
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "rank": 194,
       "name": "Hermes 4 - Llama-3.1 70B (Reasoning)",
       "shortName": "Hermes 4 70B",
       "creator": "Nous Research",
@@ -4077,7 +4056,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 195,
+      "rank": 194,
       "name": "Falcon-H1R-7B",
       "shortName": "Falcon-H1R-7B",
       "creator": "TII UAE",
@@ -4098,7 +4077,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 196,
+      "rank": 195,
       "name": "Gemma 4 E2B (Reasoning)",
       "shortName": "Gemma 4 E2B",
       "creator": "Google",
@@ -4119,7 +4098,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 197,
+      "rank": 196,
       "name": "Qwen3 Omni 30B A3B (Reasoning)",
       "shortName": "Qwen3 Omni 30B A3B",
       "creator": "Alibaba",
@@ -4140,7 +4119,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 198,
+      "rank": 197,
       "name": "Step3 VL 10B",
       "shortName": "Step3 VL 10B",
       "creator": "StepFun",
@@ -4161,7 +4140,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 199,
+      "rank": 198,
       "name": "Llama 3.3 Instruct 70B",
       "shortName": "Llama 3.3 70B",
       "creator": "Meta",
@@ -4182,7 +4161,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 200,
+      "rank": 199,
       "name": "Llama 3.1 Nemotron Ultra 253B v1 (Reasoning)",
       "shortName": "Llama Nemotron Ultra",
       "creator": "NVIDIA",
@@ -4203,7 +4182,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 201,
+      "rank": 200,
       "name": "ERNIE 4.5 300B A47B",
       "shortName": "ERNIE 4.5 300B A47B",
       "creator": "Baidu",
@@ -4224,7 +4203,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 202,
+      "rank": 201,
       "name": "Hermes 4 - Llama-3.1 405B (Reasoning)",
       "shortName": "Hermes 4 405B",
       "creator": "Nous Research",
@@ -4245,7 +4224,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 203,
+      "rank": 202,
       "name": "NVIDIA Nemotron Nano 12B v2 VL (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 12B v2 VL",
       "creator": "NVIDIA",
@@ -4266,7 +4245,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 204,
+      "rank": 203,
       "name": "Gemma 4 E4B (Non-reasoning)",
       "shortName": "Gemma 4 E4B (non-reasoning)",
       "creator": "Google",
@@ -4287,7 +4266,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 205,
+      "rank": 204,
       "name": "NVIDIA Nemotron Nano 9B V2 (Reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2",
       "creator": "NVIDIA",
@@ -4308,7 +4287,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 206,
+      "rank": 205,
       "name": "Hermes 4 - Llama-3.1 405B (Non-reasoning)",
       "shortName": "Hermes 4 405B (non-reasoning)",
       "creator": "Nous Research",
@@ -4329,7 +4308,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 207,
+      "rank": 206,
       "name": "K2-V2 (Low)",
       "shortName": "K2-V2 (low)",
       "creator": "Institute of Foundation Models",
@@ -4350,7 +4329,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 208,
+      "rank": 207,
       "name": "Kimi Linear 48B A3B Instruct",
       "shortName": "Kimi Linear 48B A3B Instruct",
       "creator": "Kimi",
@@ -4371,7 +4350,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 209,
+      "rank": 208,
       "name": "Llama 3.1 Instruct 405B",
       "shortName": "Llama 3.1 405B",
       "creator": "Meta",
@@ -4392,7 +4371,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 210,
+      "rank": 209,
       "name": "LFM2.5-8B-A1B",
       "shortName": "LFM2.5-8B-A1B",
       "creator": "Liquid AI",
@@ -4413,7 +4392,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 211,
+      "rank": 210,
       "name": "Ring-flash-2.0",
       "shortName": "Ring-flash-2.0",
       "creator": "InclusionAI",
@@ -4434,7 +4413,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 212,
+      "rank": 211,
       "name": "Olmo 3.1 32B Think",
       "shortName": "Olmo 3.1 32B Think",
       "creator": "Allen Institute for AI",
@@ -4455,7 +4434,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 213,
+      "rank": 212,
       "name": "Command A",
       "shortName": "Command A",
       "creator": "Cohere",
@@ -4476,7 +4455,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 214,
+      "rank": 213,
       "name": "Qwen3.5 2B (Reasoning)",
       "shortName": "Qwen3.5 2B",
       "creator": "Alibaba",
@@ -4497,7 +4476,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 215,
+      "rank": 214,
       "name": "NVIDIA Nemotron 3 Nano 30B A3B (Non-reasoning)",
       "shortName": "Nemotron 3 Nano (non-reasoning)",
       "creator": "NVIDIA",
@@ -4518,7 +4497,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 216,
+      "rank": 215,
       "name": "NVIDIA Nemotron Nano 9B V2 (Non-reasoning)",
       "shortName": "NVIDIA Nemotron Nano 9B V2 (non-reasoning)",
       "creator": "NVIDIA",
@@ -4539,7 +4518,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 217,
+      "rank": 216,
       "name": "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
       "shortName": "Hermes 4 70B (non-reasoning)",
       "creator": "Nous Research",
@@ -4560,7 +4539,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 218,
+      "rank": 217,
       "name": "Sarvam 30B (High)",
       "shortName": "Sarvam 30B (high)",
       "creator": "Sarvam",
@@ -4581,7 +4560,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 219,
+      "rank": 218,
       "name": "Olmo 3.1 32B Instruct",
       "shortName": "Olmo 3.1 32B Instruct",
       "creator": "Allen Institute for AI",
@@ -4602,7 +4581,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 220,
+      "rank": 219,
       "name": "Gemma 4 E2B (Non-reasoning)",
       "shortName": "Gemma 4 E2B (non-reasoning)",
       "creator": "Google",
@@ -4618,6 +4597,27 @@
       "lcr": 0.163333333333333,
       "isReasoning": false,
       "slug": "gemma-4-e2b-non-reasoning",
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 220,
+      "name": "Llama 4 Scout",
+      "shortName": "Llama 4 Scout",
+      "creator": "Meta",
+      "creatorSlug": "",
+      "creatorLogo": "/img/logos/meta.svg",
+      "intelligenceIndex": 6.45126865234633,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": 0.586868686868687,
+      "hle": 0.0378,
+      "scicode": 0.212962962962963,
+      "terminalbench": null,
+      "lcr": 0.277,
+      "isReasoning": false,
+      "slug": "llama-4-scout",
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null

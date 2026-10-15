@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T16:56:17.874Z",
+  "updatedAt": "2026-10-15T04:07:24.454Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -556,7 +556,7 @@
       "contextLength": 262000,
       "inputPerMillion": 2,
       "outputPerMillion": 6,
-      "intelligenceIndex": 39.8861723105325,
+      "intelligenceIndex": 39.9461723105325,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -1797,19 +1797,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "llama-4-maverick",
-      "name": "Llama 4 Maverick",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta.svg",
-      "contextLength": 1000000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.87,
-      "intelligenceIndex": 9.9905959756501,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "nova-2-0-pro",
       "name": "Nova 2.0 Pro Preview (non-reasoning)",
       "provider": "Amazon",
@@ -1875,6 +1862,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "provider": "Meta",
+      "creatorLogo": "/img/logos/meta.svg",
+      "contextLength": 1000000,
+      "inputPerMillion": 0.25,
+      "outputPerMillion": 0.87,
+      "intelligenceIndex": 9.29902687437199,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-coder-next",
       "name": "Qwen3 Coder Next",
       "provider": "Alibaba",
@@ -1934,7 +1934,7 @@
       "contextLength": 128000,
       "inputPerMillion": 0.02,
       "outputPerMillion": 0.1,
-      "intelligenceIndex": 8.91477392266452,
+      "intelligenceIndex": 8.90908441839731,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
@@ -2001,19 +2001,6 @@
       "outputPerMillion": 2.5,
       "intelligenceIndex": 8.15087501101863,
       "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "llama-4-scout",
-      "name": "Llama 4 Scout",
-      "provider": "Meta",
-      "creatorLogo": "/img/logos/meta.svg",
-      "contextLength": 10000000,
-      "inputPerMillion": 0.18,
-      "outputPerMillion": 0.66,
-      "intelligenceIndex": 8.07503439053102,
-      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -2182,6 +2169,19 @@
       "inputPerMillion": 0.026,
       "outputPerMillion": 0.11,
       "intelligenceIndex": 6.55971145066503,
+      "isOpenWeights": true,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "llama-4-scout",
+      "name": "Llama 4 Scout",
+      "provider": "Meta",
+      "creatorLogo": "/img/logos/meta.svg",
+      "contextLength": 10000000,
+      "inputPerMillion": 0.18,
+      "outputPerMillion": 0.66,
+      "intelligenceIndex": 6.45126865234633,
       "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
