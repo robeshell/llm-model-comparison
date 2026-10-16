@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T04:03:04.783Z",
+  "updatedAt": "2026-10-16T16:25:25.887Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -518,7 +518,7 @@
       "inputPerMillion": 0.3,
       "outputPerMillion": 0.9,
       "intelligenceIndex": 41.0906200397391,
-      "isOpenWeights": false,
+      "isOpenWeights": true,
       "releaseDate": null,
       "huggingFaceUrl": null
     },
@@ -835,19 +835,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "k2-horizon-375b-a23b",
-      "name": "K2 Horizon 375B A23B",
-      "provider": "Institute of Foundation Models",
-      "creatorLogo": "/img/logos/ifm.svg",
-      "contextLength": 524288,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 30.5015302696723,
-      "isOpenWeights": true,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-5-6-terra-medium",
       "name": "GPT-5.6 Terra (medium)",
       "provider": "OpenAI",
@@ -926,19 +913,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "solar-pro4",
-      "name": "Solar Pro 4",
-      "provider": "Upstage",
-      "creatorLogo": "/img/logos/upstage.svg",
-      "contextLength": 512000,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
-      "intelligenceIndex": 28.1541333537469,
-      "isOpenWeights": false,
-      "releaseDate": null,
-      "huggingFaceUrl": null
-    },
-    {
       "id": "qwen3-8-27b-medium",
       "name": "Qwen3.8 27B (medium)",
       "provider": "Alibaba",
@@ -978,13 +952,26 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "solar-pro4",
+      "name": "Solar Pro 4",
+      "provider": "Upstage",
+      "creatorLogo": "/img/logos/upstage.svg",
+      "contextLength": 512000,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 26.5600314812231,
+      "isOpenWeights": false,
+      "releaseDate": null,
+      "huggingFaceUrl": null
+    },
+    {
       "id": "nemotron-3-5-super-vl",
       "name": "Nemotron 3.5 Super VL",
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.25,
-      "outputPerMillion": 0.65,
+      "inputPerMillion": 0.2,
+      "outputPerMillion": 0.575,
       "intelligenceIndex": 26.4910658661689,
       "isOpenWeights": true,
       "releaseDate": null,
