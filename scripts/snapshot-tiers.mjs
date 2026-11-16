@@ -1,7 +1,7 @@
 // Builds the tier board from data/*.json, keeps a history file whenever the
 // tier membership changes, and writes data/tier-changes.json (what moved
 // between the last two different boards). Runs after the fetch scripts.
-import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -81,6 +81,15 @@ async function main() {
     path.join(dataDir, "tier-changes.json"),
     JSON.stringify(changes, null, 2),
   );
+  // The post summary is for the site owner, not visitors: keep it in the repo
+  // and on the Actions run page, never on the site.
+  await writeFile(path.join(dataDir, "tier-post.txt"), `${changes.summary}\n`);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await appendFile(
+      process.env.GITHUB_STEP_SUMMARY,
+      `## 梯队榜发帖摘要\n\n\`\`\`text\n${changes.summary}\n\`\`\`\n`,
+    );
+  }
   console.log(
     `Changes: ${changes.newEntries.length} new, ${changes.promoted.length} up, ${changes.demoted.length} down`,
   );

@@ -4,7 +4,6 @@ import { formatNumber } from "@/lib/format";
 import { formatPricePerMillion } from "@/lib/currency";
 import { logoForCreator } from "@/lib/vendors";
 import { VendorBadge } from "@/components/VendorBadge";
-import { CopyButton } from "@/components/CopyButton";
 
 function rangeLabel(tier: Tier): string {
   const [min, max] = tier.range;
@@ -119,11 +118,6 @@ function ChangesPanel({
             />
           </div>
         )}
-        <details className="tier-summary">
-          <summary>可直接发帖的摘要</summary>
-          <pre className="tier-summary-text">{changes.summary}</pre>
-          <CopyButton text={changes.summary} label="复制摘要" />
-        </details>
       </div>
       <a className="tier-share-preview" href={shareImage} target="_blank" rel="noreferrer">
         {/* eslint-disable-next-line @next/next/no-img-element */}

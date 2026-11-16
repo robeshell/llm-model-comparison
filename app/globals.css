@@ -2070,41 +2070,10 @@ table {
   color: var(--color-muted-foreground);
 }
 
-.tier-summary summary {
-  cursor: pointer;
-  font-size: 0.875rem;
-  color: var(--color-muted-foreground);
-}
 
-.tier-summary[open] summary {
-  margin-bottom: 0.5rem;
-}
 
-.tier-summary-text {
-  white-space: pre-wrap;
-  font-family: inherit;
-  font-size: 0.8125rem;
-  line-height: 1.6;
-  padding: 0.75rem;
-  margin-bottom: 0.5rem;
-  background: var(--color-muted);
-  border: 1px solid var(--color-border);
-}
 
-.tier-copy-button {
-  height: 2.25rem;
-  padding: 0 0.875rem;
-  border: 1px solid var(--color-border);
-  background: var(--color-background);
-  font-size: 0.8125rem;
-  color: var(--color-foreground);
-  cursor: pointer;
-  transition: border-color 180ms ease;
-}
 
-.tier-copy-button:hover {
-  border-color: var(--color-foreground);
-}
 
 .tier-share-preview {
   display: flex;
