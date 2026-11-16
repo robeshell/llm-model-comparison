@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:00:05.278Z",
+  "updatedAt": "2026-11-16T21:52:03.223Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -11,8 +11,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
+      "inputPerMillion": 0.036,
+      "outputPerMillion": 0.5,
       "inputModalities": [
         "text",
         "image"
@@ -467,6 +467,24 @@
     },
     {
       "rank": 26,
+      "id": "tencent/hy4-flash",
+      "canonicalSlug": "tencent/hy4-flash-20261116",
+      "name": "Hy4 flash",
+      "provider": "Tencent",
+      "providerSlug": "tencent",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.035,
+      "outputPerMillion": 0.14049999999999999,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 27,
       "id": "moonshotai/kimi-k3",
       "canonicalSlug": "moonshotai/kimi-k3-20260715",
       "name": "Kimi K3",
@@ -485,7 +503,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "id": "openai/gpt-6.1-terra",
       "canonicalSlug": "openai/gpt-6.1-terra-20261026",
       "name": "GPT-6.1 Terra",
@@ -504,7 +522,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "id": "nvidia/nemotron-3.5-lightning:free",
       "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
       "name": "Nemotron 3.5 Lightning (free)",
@@ -521,7 +539,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "id": "thinkingmachines/inkling-2-small:free",
       "canonicalSlug": "thinkingmachines/inkling-2-small-20261107",
       "name": "Inkling 2 Small (free)",
@@ -530,24 +548,6 @@
       "contextLength": 1048576,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 30,
-      "id": "tencent/hy4-flash",
-      "canonicalSlug": "tencent/hy4-flash-20261116",
-      "name": "Hy4 flash",
-      "provider": "Tencent",
-      "providerSlug": "tencent",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.04375,
-      "outputPerMillion": 0.175625,
       "inputModalities": [
         "text",
         "image"
@@ -750,25 +750,6 @@
     },
     {
       "rank": 41,
-      "id": "minimax/minimax-m3",
-      "canonicalSlug": "minimax/minimax-m3-20260531",
-      "name": "MiniMax M3",
-      "provider": "MiniMax",
-      "providerSlug": "minimax",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 42,
       "id": "meta/muse-ember",
       "canonicalSlug": "meta/muse-ember-20261109",
       "name": "Muse Ember",
@@ -783,6 +764,25 @@
         "video",
         "file",
         "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 42,
+      "id": "minimax/minimax-m3",
+      "canonicalSlug": "minimax/minimax-m3-20260531",
+      "name": "MiniMax M3",
+      "provider": "MiniMax",
+      "providerSlug": "minimax",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
       ],
       "outputModalities": [
         "text"
