@@ -71,10 +71,57 @@ function ChangeList({
   );
 }
 
+function cheapest(models: TierModel[]): TierModel | null {
+  const priced = models.filter((m) => m.blendedPerMillion !== null);
+  if (priced.length === 0) return null;
+  return priced.reduce((a, b) =>
+    (b.blendedPerMillion as number) < (a.blendedPerMillion as number) ||
+    ((b.blendedPerMillion as number) === (a.blendedPerMillion as number) && b.score > a.score)
+      ? b
+      : a,
+  );
+}
+
+function Fact({ label, value, note }: { label: string; value: string; note?: string }) {
+  return (
+    <div className="tier-fact">
+      <dt>{label}</dt>
+      <dd>
+        <span className="tier-fact-value">{value}</span>
+        {note ? <span className="tier-fact-note num">{note}</span> : null}
+      </dd>
+    </div>
+  );
+}
+
+function Overview({ board }: { board: TierBoardData }) {
+  const tiers = board.tiers.filter((t) => t.key !== "rest");
+  const top = tiers.flatMap((t) => t.models);
+  const leader = [...top].sort((a, b) => b.score - a.score)[0];
+  const frontRow = cheapest(tiers.slice(0, 2).flatMap((t) => t.models));
+  const value = cheapest(tiers.slice(0, 3).flatMap((t) => t.models));
+  const total = board.tiers.reduce((n, t) => n + t.models.length, 0);
+  const price = (m: TierModel) => formatPricePerMillion(m.blendedPerMillion as number);
+  return (
+    <dl className="tier-facts">
+      {leader ? <Fact label="榜首" value={leader.family} note={formatNumber(leader.score)} /> : null}
+      {frontRow ? (
+        <Fact label="前两档最便宜" value={frontRow.family} note={price(frontRow)} />
+      ) : null}
+      {value && value.familyKey !== frontRow?.familyKey ? (
+        <Fact label="前三档最便宜" value={value.family} note={price(value)} />
+      ) : null}
+      <Fact label="收录" value={`${total} 个模型家族`} note={`${top.length} 个进入前五档`} />
+    </dl>
+  );
+}
+
 function ChangesPanel({
+  board,
   changes,
   shareImage,
 }: {
+  board: TierBoardData;
   changes: TierChanges;
   shareImage: string;
 }) {
@@ -87,12 +134,13 @@ function ChangesPanel({
   return (
     <section className="tier-changes" aria-labelledby="tier-changes-title">
       <div className="tier-changes-body">
+        <Overview board={board} />
         <h2 id="tier-changes-title" className="tier-section-title">
           本期变化
         </h2>
         {changes.from === null ? (
           <p className="tier-changes-note">
-            这是第一期梯队榜。之后每次数据刷新，如果有模型新上榜或换了梯队，会列在这里。
+            这是第一期。之后每次数据刷新，新上榜和换了梯队的模型会列在这里。
           </p>
         ) : nothing && !changes.leader.isNew ? (
           <p className="tier-changes-note">本期梯队没有变化。</p>
@@ -142,7 +190,9 @@ export function TierBoard({
 
   return (
     <div className="tier-board">
-      {changes ? <ChangesPanel changes={changes} shareImage={shareImage} /> : null}
+      {changes ? <ChangesPanel board={board} changes={changes} shareImage={shareImage} /> : null}
+
+      <p className="tier-board-hint">同一梯队内按价格从低到高排列。</p>
 
       {ranked.map((tier) =>
         tier.models.length === 0 ? null : (
@@ -152,7 +202,8 @@ export function TierBoard({
                 <span className="tier-key">{tier.key}</span>
                 {tier.label}
               </h2>
-              <p className="tier-row-range">{rangeLabel(tier)} · 同档按价格从低到高</p>
+              <p className="tier-row-range">{rangeLabel(tier)}</p>
+              <p className="tier-row-count">{tier.models.length} 个模型</p>
             </header>
             <ul className="tier-cards">
               {tier.models.map((model) => (

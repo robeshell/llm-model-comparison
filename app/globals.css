@@ -2028,16 +2028,62 @@ table {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
-  padding: 1.25rem 0;
+  padding-top: 1.25rem;
   border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
 }
 
 @media (min-width: 768px) {
   .tier-changes {
-    grid-template-columns: minmax(0, 1fr) 20rem;
+    grid-template-columns: minmax(0, 1fr) 24rem;
     align-items: start;
+    gap: 2.5rem;
   }
+}
+
+.tier-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.tier-fact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 0.875rem;
+  border: 1px solid var(--color-border);
+  min-width: 0;
+}
+
+.tier-fact dt {
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-fact dd {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.tier-fact-value {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-foreground);
+  overflow-wrap: anywhere;
+}
+
+.tier-fact-note {
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-board-hint {
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
+  margin-top: 0.5rem;
+  margin-bottom: -1.25rem;
 }
 
 .tier-changes-body {
@@ -2093,16 +2139,29 @@ table {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
 }
 
 .tier-row-head {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  justify-content: space-between;
   gap: 0.25rem 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--color-border);
+}
+
+@media (min-width: 768px) {
+  .tier-row {
+    display: grid;
+    grid-template-columns: 10rem minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .tier-row-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.375rem;
+  }
 }
 
 .tier-row-title {
@@ -2121,7 +2180,8 @@ table {
   color: var(--color-background);
 }
 
-.tier-row-range {
+.tier-row-range,
+.tier-row-count {
   font-size: 0.8125rem;
   color: var(--color-muted-foreground);
 }
