@@ -5,6 +5,7 @@ import type {
   PriceSnapshot,
   RankingSnapshot,
 } from "./types";
+import type { TierChanges } from "./tiers";
 
 export {
   formatNumber,
@@ -33,4 +34,8 @@ export function loadRankings() {
 
 export function loadPopularity() {
   return readJson<PopularSnapshot>("popularity.json");
+}
+
+export function loadTierChanges() {
+  return readJson<TierChanges>("tier-changes.json");
 }

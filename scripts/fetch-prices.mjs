@@ -1,7 +1,13 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchAaModels, loadPrevious, logosByCreator, pick } from "./aa.mjs";
+import {
+  assertNoShrink,
+  fetchAaModels,
+  loadPrevious,
+  logosByCreator,
+  pick,
+} from "./aa.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -44,6 +50,8 @@ async function main() {
       const bi = b.inputPerMillion ?? Number.POSITIVE_INFINITY;
       return ai - bi;
     });
+
+  assertNoShrink("prices", previous.size, items.length);
 
   const snapshot = {
     updatedAt: new Date().toISOString(),

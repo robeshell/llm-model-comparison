@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_SITE_URL: process.env.SITE_URL || "",
   },
   ...(basePath
     ? {

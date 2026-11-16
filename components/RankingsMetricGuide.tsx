@@ -1,6 +1,9 @@
-import { BENCHMARK_GUIDE } from "@/lib/benchmarks";
+import { BENCHMARK_GUIDE, type BenchmarkKey } from "@/lib/benchmarks";
 
-export function RankingsMetricGuide() {
+export function RankingsMetricGuide({ keys }: { keys?: BenchmarkKey[] }) {
+  const items = keys
+    ? BENCHMARK_GUIDE.filter((item) => keys.includes(item.key))
+    : BENCHMARK_GUIDE;
   return (
     <details className="metric-guide">
       <summary>综合分和指标说明</summary>
@@ -16,7 +19,7 @@ export function RankingsMetricGuide() {
           </a>
         </p>
         <dl className="metric-guide-list">
-          {BENCHMARK_GUIDE.map((item) => (
+          {items.map((item) => (
             <div key={item.key} className="metric-guide-item">
               <dt>{item.label}</dt>
               <dd>{item.summary}</dd>

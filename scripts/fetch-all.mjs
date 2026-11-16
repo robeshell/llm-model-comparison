@@ -33,6 +33,15 @@ for (const script of [
   }
 }
 
+// Rebuild the tier board from whatever data is on disk now, including the
+// last good snapshot of a source that failed above.
+try {
+  await run("snapshot-tiers.mjs");
+} catch (err) {
+  failed.push("snapshot-tiers.mjs");
+  console.log(`::error title=snapshot-tiers.mjs failed::${err.message}`);
+}
+
 if (failed.length > 0) {
   console.error(`Failed: ${failed.join(", ")}`);
   process.exit(1);

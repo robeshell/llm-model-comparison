@@ -74,9 +74,12 @@ function readSavedRanking(): SavedRanking | null {
 export function CustomRankingBuilder({
   models,
   updatedAt,
+  defaultTierSlugs,
 }: {
   models: CatalogModel[];
   updatedAt: string;
+  /** Model slugs for S, A, B, C, D, used when nothing is saved yet. */
+  defaultTierSlugs?: string[][];
 }) {
   const validSlugs = useMemo(() => new Set(models.map((model) => model.slug)), [models]);
   const modelBySlug = useMemo(
@@ -98,11 +101,22 @@ export function CustomRankingBuilder({
         if (typeof saved.title === "string") setTitle(saved.title);
         if (typeof saved.author === "string") setAuthor(saved.author);
         setTiers(normalizeTiers(saved.tiers, validSlugs));
+      } else if (defaultTierSlugs) {
+        // Start from this period's tier board so people tweak, not build.
+        setTiers(
+          normalizeTiers(
+            DEFAULT_TIERS.map((tier, index) => ({
+              key: tier.key,
+              modelSlugs: defaultTierSlugs[index] ?? [],
+            })),
+            validSlugs,
+          ),
+        );
       }
       setHydrated(true);
     }, 0);
     return () => window.clearTimeout(timer);
-  }, [validSlugs]);
+  }, [defaultTierSlugs, validSlugs]);
 
   useEffect(() => {
     if (!hydrated) return;

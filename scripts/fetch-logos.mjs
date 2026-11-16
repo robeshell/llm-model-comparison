@@ -8,8 +8,10 @@ const logosDir = path.join(root, "public", "logos");
 const AA_LOGO_BASE = "https://artificialanalysis.ai/img/logos";
 
 function safeLogoName(name) {
-  const base = path.basename(String(name || ""));
-  if (!base || base !== name || base.includes("..")) return null;
+  // The API gives "/img/logos/openai.svg"; older snapshots gave "openai.svg".
+  const value = String(name || "").replace(/^\/img\/logos\//, "");
+  const base = path.basename(value);
+  if (!base || base !== value || base.includes("..")) return null;
   if (!/^[a-zA-Z0-9._-]+$/.test(base)) return null;
   return base;
 }

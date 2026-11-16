@@ -114,3 +114,20 @@ export function pick(...values) {
   for (const v of values) if (v !== null && v !== undefined && v !== "") return v;
   return null;
 }
+
+// Refuse to publish a snapshot that lost a big share of its models since the
+// last run: that is almost always a broken source, not the market shrinking.
+// Throwing keeps the previous JSON on disk, so the site and the share image
+// stay on the last good data. Set ALLOW_SHRINK=1 to accept a real drop once.
+export const SHRINK_LIMIT = 0.3;
+
+export function assertNoShrink(label, previousCount, nextCount) {
+  if (process.env.ALLOW_SHRINK === "1") return;
+  if (!previousCount) return;
+  if (nextCount >= previousCount * (1 - SHRINK_LIMIT)) return;
+  throw new Error(
+    `${label}: ${nextCount} models vs ${previousCount} last time (more than ${
+      SHRINK_LIMIT * 100
+    }% fewer). Keeping the previous data. Re-run with ALLOW_SHRINK=1 if the drop is real.`,
+  );
+}

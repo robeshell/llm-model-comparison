@@ -26,18 +26,6 @@ const COMPARISON_ROWS: ComparisonRow[] = [
     getNumeric: (model) => model.intelligenceIndex,
   },
   {
-    label: "编程",
-    getValue: (model) => formatNumber(model.codingIndex),
-    numeric: true,
-    getNumeric: (model) => model.codingIndex,
-  },
-  {
-    label: "Agent",
-    getValue: (model) => formatNumber(model.agenticIndex),
-    numeric: true,
-    getNumeric: (model) => model.agenticIndex,
-  },
-  {
     label: "输入价格",
     getValue: (model) => formatPricePerMillion(model.inputPerMillion),
     numeric: true,

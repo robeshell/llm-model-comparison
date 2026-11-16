@@ -1648,7 +1648,7 @@ table {
 
 .ranking-detail-grid {
   display: grid;
-  grid-template-columns: repeat(8, minmax(4.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
   gap: 0.75rem;
 }
 
@@ -2008,4 +2008,254 @@ table {
     margin-left: auto;
   }
 
+}
+
+/* ---------- 梯队榜 ---------- */
+
+.tier-board {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tier-section-title {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-foreground);
+}
+
+.tier-changes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media (min-width: 768px) {
+  .tier-changes {
+    grid-template-columns: minmax(0, 1fr) 20rem;
+    align-items: start;
+  }
+}
+
+.tier-changes-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.tier-changes-note {
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-change-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  font-size: 0.875rem;
+}
+
+.tier-change-group {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.tier-change-label {
+  flex-shrink: 0;
+  width: 3.5rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-summary summary {
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-summary[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.tier-summary-text {
+  white-space: pre-wrap;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: var(--color-muted);
+  border: 1px solid var(--color-border);
+}
+
+.tier-copy-button {
+  height: 2.25rem;
+  padding: 0 0.875rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-background);
+  font-size: 0.8125rem;
+  color: var(--color-foreground);
+  cursor: pointer;
+  transition: border-color 180ms ease;
+}
+
+.tier-copy-button:hover {
+  border-color: var(--color-foreground);
+}
+
+.tier-share-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-share-preview img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+}
+
+.tier-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tier-row-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tier-row-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.625rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tier-key {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-size: 0.8125rem;
+  padding: 0.0625rem 0.375rem;
+  background: var(--color-foreground);
+  color: var(--color-background);
+}
+
+.tier-row-range {
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  gap: 0.75rem;
+}
+
+.tier-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.875rem;
+  border: 1px solid var(--color-border);
+  min-width: 0;
+}
+
+.tier-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem;
+}
+
+.tier-card-name {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  overflow-wrap: anywhere;
+}
+
+.tier-chip {
+  font-size: 0.6875rem;
+  line-height: 1;
+  padding: 0.25rem 0.375rem;
+  border: 1px solid var(--color-border);
+  color: var(--color-muted-foreground);
+  white-space: nowrap;
+}
+
+.tier-chip-hot {
+  border-color: var(--color-foreground);
+  color: var(--color-foreground);
+}
+
+.tier-card-vendor {
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-card-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.tier-card-stats dt {
+  font-size: 0.6875rem;
+  color: var(--color-muted-foreground);
+}
+
+.tier-card-stats dd {
+  font-size: 0.9375rem;
+  color: var(--color-foreground);
+}
+
+.tier-rest summary {
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--color-muted-foreground);
+  padding: 0.5rem 0;
+}
+
+.tier-rest-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  gap: 0.25rem 1.5rem;
+  font-size: 0.8125rem;
+}
+
+.tier-rest-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ranking-detail-note {
+  grid-column: 1 / -1;
+  font-size: 0.75rem;
+  color: var(--color-muted-foreground);
+}
+
+.model-name-line .tier-chip {
+  margin-left: 0.375rem;
+}
+
+.site-nav {
+  scrollbar-width: none;
+}
+.site-nav::-webkit-scrollbar {
+  display: none;
 }

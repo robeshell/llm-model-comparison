@@ -103,6 +103,7 @@ export function logoForCreator(
   creator: string,
   logoFile?: string | null,
 ): string | null {
-  if (logoFile) return vendorLogoUrl(logoFile);
-  return vendorLogoUrl(CREATOR_NAME_LOGO[creator] ?? null);
+  // Prefer the curated file: it is known to be in public/logos. The API's
+  // "/img/logos/<name>" paths only resolve once fetch-logos has saved them.
+  return vendorLogoUrl(CREATOR_NAME_LOGO[creator] ?? logoFile ?? null);
 }

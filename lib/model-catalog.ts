@@ -1,4 +1,5 @@
 import type { PriceRecord, RankingRecord } from "./types";
+import { familyLabelFromName } from "./tiers";
 
 export type CatalogView = "featured" | "mainstream" | "open" | "all";
 export type CatalogType = "all" | "vision" | "multimodal";
@@ -65,13 +66,6 @@ function familyKeyFromSlug(slug: string): string {
     .replace(/-\d{4}$/g, "");
 }
 
-function familyLabelFromName(name: string): string {
-  return name
-    .replace(/\s*\((?:max|xhigh|high|medium|low|reasoning|non-reasoning)\)/gi, "")
-    .replace(/\s*\(with fallback\)/gi, "")
-    .replace(/\s+(?:max|xhigh|high|medium|low|reasoning|non-reasoning)$/i, "")
-    .trim();
-}
 
 export function variantLabelFromName(name: string, family: string): string {
   const normalizedName = name.trim();
@@ -134,9 +128,6 @@ function modelTags(model: {
   else if (model.isVision) tags.push("视觉");
   if (model.intelligenceIndex !== null && model.intelligenceIndex >= 50) {
     tags.push("高性能");
-  }
-  if (model.codingIndex !== null && model.codingIndex >= 40) {
-    tags.push("适合编程");
   }
   if (model.contextLength !== null && model.contextLength >= 200_000) {
     tags.push("长上下文");
@@ -207,7 +198,6 @@ function selectFeaturedFamilies(models: CatalogModel[]): Set<string> {
     20,
   );
   const recent = recentFamilyKeys(priced, 8);
-  const topCoding = topFamilyKeys(priced, (model) => model.codingIndex, 5);
   const topContext = topFamilyKeys(priced, (model) => model.contextLength, 5);
   const topValue = topFamilyKeys(
     priced.filter(
@@ -225,7 +215,6 @@ function selectFeaturedFamilies(models: CatalogModel[]): Set<string> {
   for (const key of [
     ...recent,
     ...topScore,
-    ...topCoding,
     ...topContext,
     ...topValue,
   ]) {
@@ -250,7 +239,6 @@ function selectMainstreamFamilies(
   const candidates = [
     ...recentFamilyKeys(priced, 12),
     ...topFamilyKeys(priced, (model) => model.intelligenceIndex, 60),
-    ...topFamilyKeys(priced, (model) => model.codingIndex, 12),
     ...topFamilyKeys(priced, (model) => model.contextLength, 12),
   ];
   for (const key of candidates) {

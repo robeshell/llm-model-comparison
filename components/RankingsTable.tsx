@@ -77,6 +77,23 @@ const DETAIL_KEYS: BenchmarkKey[] = [
   "lcr",
 ];
 
+// A metric only becomes a sort dimension when most models have it; AA's free
+// API stopped publishing coding / agentic indexes, so those would sort a
+// column of blanks. Single benchmarks are kept from older snapshots.
+const DIMENSION_MIN_COVERAGE = 0.7;
+
+function coverage(items: RankingRecord[], key: BenchmarkKey): number {
+  if (items.length === 0) return 0;
+  return items.filter((item) => item[key] !== null).length / items.length;
+}
+
+function effortOf(name: string): string | null {
+  const match = name.match(/\(([^)]+)\)\s*$/);
+  if (!match) return null;
+  const first = match[1].split(",")[0].trim();
+  return /^(max|xhigh|high|medium|low|minimal)$/i.test(first) ? first : null;
+}
+
 function scoreOf(
   entry: RankingEntry,
   dimension: RankingDimension,
@@ -168,10 +185,16 @@ function valueForSort(
   return entry.ranking.intelligenceIndex;
 }
 
-function DetailMetrics({ entry }: { entry: RankingEntry }) {
+function DetailMetrics({
+  entry,
+  detailKeys,
+}: {
+  entry: RankingEntry;
+  detailKeys: BenchmarkKey[];
+}) {
   return (
     <div className="ranking-detail-grid">
-      {DETAIL_KEYS.map((key) => {
+      {detailKeys.map((key) => {
         const value = entry.ranking[key];
         const formatted =
           key === "intelligenceIndex" ||
@@ -186,6 +209,9 @@ function DetailMetrics({ entry }: { entry: RankingEntry }) {
           </div>
         );
       })}
+      <p className="ranking-detail-note">
+        单项分沿用 2026-10-16 之前抓取的数值，之后新出的模型暂无。
+      </p>
     </div>
   );
 }
@@ -198,6 +224,7 @@ function RankingEntryRow({
   variant,
   detailsOpen,
   onToggleDetails,
+  detailKeys,
 }: {
   entry: RankingEntry;
   family: RankingFamily;
@@ -206,6 +233,7 @@ function RankingEntryRow({
   variant: boolean;
   detailsOpen: boolean;
   onToggleDetails: () => void;
+  detailKeys: BenchmarkKey[];
 }) {
   const showOverallColumn = dimension !== "intelligenceIndex";
 
@@ -263,7 +291,7 @@ function RankingEntryRow({
       {detailsOpen ? (
         <tr className="ranking-detail-row">
           <td colSpan={showOverallColumn ? 7 : 6}>
-            <DetailMetrics entry={entry} />
+            <DetailMetrics entry={entry} detailKeys={detailKeys} />
           </td>
         </tr>
       ) : null}
@@ -279,6 +307,7 @@ function FamilyRankingRows({
   detailsOpen,
   onToggleFamily,
   onToggleDetails,
+  detailKeys,
 }: {
   family: RankingFamily;
   index: number;
@@ -287,6 +316,7 @@ function FamilyRankingRows({
   detailsOpen: Set<string>;
   onToggleFamily: () => void;
   onToggleDetails: (slug: string) => void;
+  detailKeys: BenchmarkKey[];
 }) {
   const representative = family.representative;
   const hasVariants = family.variants.length > 1;
@@ -315,6 +345,11 @@ function FamilyRankingRows({
               <span className="family-toggle-placeholder" aria-hidden />
             )}
             <span className="cell-name text-foreground">{family.label}</span>
+            {effortOf(representative.ranking.shortName) ? (
+              <span className="tier-chip" title="分数对应的推理强度">
+                {effortOf(representative.ranking.shortName)}
+              </span>
+            ) : null}
           </div>
           <span className="model-family-slug">
             {hasVariants ? `${family.variants.length} 个版本` : "单一版本"}
@@ -360,7 +395,7 @@ function FamilyRankingRows({
       {representativeDetailsOpen ? (
         <tr className="ranking-detail-row">
           <td colSpan={showOverallColumn ? 7 : 6}>
-            <DetailMetrics entry={representative} />
+            <DetailMetrics entry={representative} detailKeys={detailKeys} />
           </td>
         </tr>
       ) : null}
@@ -375,6 +410,7 @@ function FamilyRankingRows({
               variant
               detailsOpen={detailsOpen.has(entry.ranking.slug)}
               onToggleDetails={() => onToggleDetails(entry.ranking.slug)}
+              detailKeys={detailKeys}
             />
           ))
         : null}
@@ -410,6 +446,20 @@ export function RankingsTable({
   );
 
   const entries = useMemo(() => buildEntries(items, catalog), [items, catalog]);
+
+  const dimensionOptions = useMemo(
+    () =>
+      DIMENSION_OPTIONS.filter(
+        (option) =>
+          option.key === "intelligenceIndex" ||
+          coverage(items, option.key) >= DIMENSION_MIN_COVERAGE,
+      ),
+    [items],
+  );
+  const detailKeys = useMemo(
+    () => DETAIL_KEYS.filter((key) => coverage(items, key) > 0),
+    [items],
+  );
 
   const providerOptions = useMemo(() => {
     const providers = [
@@ -457,7 +507,7 @@ export function RankingsTable({
     [dimension, entries, scope],
   );
 
-  const activeDimension = DIMENSION_OPTIONS.find(
+  const activeDimension = dimensionOptions.find(
     (option) => option.key === dimension,
   );
 
@@ -570,8 +620,9 @@ export function RankingsTable({
           })}
         </div>
 
+        {dimensionOptions.length > 1 ? (
         <div className="filter-group" role="tablist" aria-label="能力维度">
-          {DIMENSION_OPTIONS.map((option) => {
+          {dimensionOptions.map((option) => {
             const active = option.key === dimension;
             return (
               <button
@@ -587,6 +638,7 @@ export function RankingsTable({
             );
           })}
         </div>
+        ) : null}
 
         <div className="filter-group" role="tablist" aria-label="模型类型">
           {CATALOG_TYPE_OPTIONS.map((option) => {
@@ -606,7 +658,7 @@ export function RankingsTable({
             );
           })}
         </div>
-        <RankingsMetricGuide />
+        <RankingsMetricGuide keys={detailKeys} />
       </div>
 
       <div className="directory-toolbar">
@@ -688,6 +740,7 @@ export function RankingsTable({
                 detailsOpen={expandedDetails}
                 onToggleFamily={() => toggleSet(setExpandedFamilies, group.key)}
                 onToggleDetails={(slug) => toggleSet(setExpandedDetails, slug)}
+                detailKeys={detailKeys}
               />
             ))}
             {groups.length === 0 ? (

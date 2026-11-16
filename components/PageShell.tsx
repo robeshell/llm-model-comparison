@@ -7,7 +7,7 @@ export function PageShell({
   showCompareTray = true,
   children,
 }: {
-  active?: "models" | "prices" | "rankings" | "popularity" | "custom-ranking";
+  active?: "tiers" | "models" | "prices" | "rankings" | "popularity" | "custom-ranking";
   showCompareTray?: boolean;
   children: React.ReactNode;
 }) {

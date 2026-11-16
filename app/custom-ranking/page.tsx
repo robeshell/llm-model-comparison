@@ -2,6 +2,7 @@ import { CustomRankingBuilder } from "@/components/CustomRankingBuilder";
 import { PageHeading, PageShell } from "@/components/PageShell";
 import { buildCatalog } from "@/lib/model-catalog";
 import { loadPrices, loadRankings } from "@/lib/data";
+import { buildTiers } from "@/lib/tiers";
 import { formatUpdatedAt } from "@/lib/format";
 
 export default async function CustomRankingPage() {
@@ -13,6 +14,14 @@ export default async function CustomRankingPage() {
     pricesSnapshot?.items ?? [],
     rankingsSnapshot?.items ?? [],
   );
+  const board = buildTiers(
+    rankingsSnapshot?.items ?? [],
+    pricesSnapshot?.items ?? [],
+  );
+  // Prefill S–D with T1–T5 of the current tier board.
+  const defaultTierSlugs = board.tiers
+    .filter((tier) => tier.key !== "rest")
+    .map((tier) => tier.models.map((model) => model.slug));
   const timestamps = [pricesSnapshot?.updatedAt, rankingsSnapshot?.updatedAt]
     .filter(Boolean)
     .map((value) => new Date(value!).getTime())
@@ -29,7 +38,11 @@ export default async function CustomRankingPage() {
         meta={latest ? `拖拽模型 · 数据更新至 ${formatUpdatedAt(latest)}` : "拖拽模型，生成你的榜单图片"}
       />
       {models.length > 0 ? (
-        <CustomRankingBuilder models={models} updatedAt={latest} />
+        <CustomRankingBuilder
+          models={models}
+          updatedAt={latest}
+          defaultTierSlugs={defaultTierSlugs}
+        />
       ) : (
         <p className="text-sm text-muted-foreground">
           暂无模型数据。可在项目目录运行 <code className="font-mono text-foreground">npm run fetch</code> 后刷新。
