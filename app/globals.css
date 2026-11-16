@@ -2012,14 +2012,14 @@ table {
 
 /* ---------- 梯队榜 ---------- */
 
-/* One accent hue, strongest at T1 and fading by tier. */
+/* One accent hue (orange), strongest at T1 and fading by tier. */
 .tier-board {
-  --tier-accent: #d7261e;
-  --tier-1: #d7261e;
-  --tier-2: #e0564e;
-  --tier-3: #eb8a83;
-  --tier-4: #f3b8b3;
-  --tier-5: #f9dcd9;
+  --tier-accent: #ec5b13;
+  --tier-1: #ec5b13;
+  --tier-2: #f07f45;
+  --tier-3: #f5a77a;
+  --tier-4: #f9c9ac;
+  --tier-5: #fde4d4;
   display: flex;
   flex-direction: column;
   gap: 2rem;

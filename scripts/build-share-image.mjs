@@ -133,11 +133,11 @@ let CHIP_FONT = 20;
 
 // Same accent as the site's tier badges (app/globals.css).
 const TIER_COLORS = {
-  T1: ["#d7261e", "#ffffff"],
-  T2: ["#e0564e", "#ffffff"],
-  T3: ["#eb8a83", "#171717"],
-  T4: ["#f3b8b3", "#171717"],
-  T5: ["#f9dcd9", "#171717"],
+  T1: ["#ec5b13", "#ffffff"],
+  T2: ["#f07f45", "#ffffff"],
+  T3: ["#f5a77a", "#171717"],
+  T4: ["#f9c9ac", "#171717"],
+  T5: ["#fde4d4", "#171717"],
 };
 
 function chip(model, logo) {
