@@ -131,6 +131,15 @@ function beijingDate(iso) {
 
 let CHIP_FONT = 20;
 
+// Same accent as the site's tier badges (app/globals.css).
+const TIER_COLORS = {
+  T1: ["#d7261e", "#ffffff"],
+  T2: ["#e0564e", "#ffffff"],
+  T3: ["#eb8a83", "#171717"],
+  T4: ["#f3b8b3", "#171717"],
+  T5: ["#f9dcd9", "#171717"],
+};
+
 function chip(model, logo) {
   return h(
     "div",
@@ -190,7 +199,7 @@ async function main() {
         h("div", { display: "flex", flexDirection: "column", width: 120, flexShrink: 0, paddingTop: 4 }, [
           h(
             "div",
-            { display: "flex", alignSelf: "flex-start", background: "#171717", color: "#ffffff", fontSize: 22, fontWeight: 700, padding: "2px 10px" },
+            { display: "flex", alignSelf: "flex-start", background: (TIER_COLORS[tier.key] ?? ["#171717"])[0], color: (TIER_COLORS[tier.key] ?? [null, "#ffffff"])[1], fontSize: 22, fontWeight: 700, padding: "2px 10px" },
             tier.key,
           ),
           h("div", { display: "flex", fontSize: 16, color: "#737373", marginTop: 6 }, tier.label),
@@ -219,7 +228,10 @@ async function main() {
     },
     [
       h("div", { display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 26 }, [
-        h("div", { display: "flex", fontSize: 40, fontWeight: 700, color: "#171717" }, title),
+        h("div", { display: "flex", alignItems: "center", gap: 16 }, [
+          h("div", { display: "flex", width: 10, height: 40, background: TIER_COLORS.T1[0] }, ""),
+          h("div", { display: "flex", fontSize: 40, fontWeight: 700, color: "#171717" }, title),
+        ]),
         h("div", { display: "flex", fontSize: 22, color: "#737373" }, date),
       ]),
       h("div", { display: "flex", flexDirection: "column", gap: 18, flexGrow: 1 }, rows),

@@ -2012,7 +2012,14 @@ table {
 
 /* ---------- 梯队榜 ---------- */
 
+/* One accent hue, strongest at T1 and fading by tier. */
 .tier-board {
+  --tier-accent: #d7261e;
+  --tier-1: #d7261e;
+  --tier-2: #e0564e;
+  --tier-3: #eb8a83;
+  --tier-4: #f3b8b3;
+  --tier-5: #f9dcd9;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -2176,8 +2183,22 @@ table {
   font-family: var(--font-plex-mono), ui-monospace, monospace;
   font-size: 0.8125rem;
   padding: 0.0625rem 0.375rem;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--tier-color, var(--color-foreground));
+  color: var(--tier-ink, var(--color-background));
+}
+
+.tier-row[data-tier="T1"] { --tier-color: var(--tier-1); --tier-ink: #ffffff; }
+.tier-row[data-tier="T2"] { --tier-color: var(--tier-2); --tier-ink: #ffffff; }
+.tier-row[data-tier="T3"] { --tier-color: var(--tier-3); --tier-ink: #171717; }
+.tier-row[data-tier="T4"] { --tier-color: var(--tier-4); --tier-ink: #171717; }
+.tier-row[data-tier="T5"] { --tier-color: var(--tier-5); --tier-ink: #171717; }
+
+.tier-row[data-tier] {
+  border-top: 2px solid var(--tier-color);
+}
+
+.tier-fact:first-child {
+  border-top: 2px solid var(--tier-accent);
 }
 
 .tier-row-range,

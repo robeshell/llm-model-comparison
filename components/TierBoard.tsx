@@ -196,7 +196,7 @@ export function TierBoard({
 
       {ranked.map((tier) =>
         tier.models.length === 0 ? null : (
-          <section key={tier.key} className="tier-row" aria-labelledby={`tier-${tier.key}`}>
+          <section key={tier.key} className="tier-row" data-tier={tier.key} aria-labelledby={`tier-${tier.key}`}>
             <header className="tier-row-head">
               <h2 id={`tier-${tier.key}`} className="tier-row-title">
                 <span className="tier-key">{tier.key}</span>
