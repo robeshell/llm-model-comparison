@@ -16,7 +16,24 @@ function run(script) {
   });
 }
 
-await run("fetch-prices.mjs");
-await run("fetch-rankings.mjs");
-await run("fetch-popularity.mjs");
-await run("fetch-logos.mjs");
+// Run every source even if one fails, so a broken source doesn't block the
+// others. A failed script leaves its old JSON untouched.
+const failed = [];
+for (const script of [
+  "fetch-prices.mjs",
+  "fetch-rankings.mjs",
+  "fetch-popularity.mjs",
+  "fetch-logos.mjs",
+]) {
+  try {
+    await run(script);
+  } catch (err) {
+    failed.push(script);
+    console.log(`::error title=${script} failed::${err.message}`);
+  }
+}
+
+if (failed.length > 0) {
+  console.error(`Failed: ${failed.join(", ")}`);
+  process.exit(1);
+}
