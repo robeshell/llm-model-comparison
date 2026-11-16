@@ -33,6 +33,8 @@ jobs:
 
       - name: Fetch prices and rankings
         run: npm run fetch
+        env:
+          AA_API_KEY: ${{ secrets.AA_API_KEY }}
 
       - name: Commit and push if changed
         if: ${{ !cancelled() }}

@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { fetchAaModels, num } from "./aa.mjs";
+import { fetchAaModels, loadPrevious, logosByCreator, pick } from "./aa.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -9,22 +9,30 @@ const outFile = path.join(root, "data", "prices.json");
 
 async function main() {
   const models = await fetchAaModels();
+  const previous = await loadPrevious(outFile, (item) => item.id);
+  const logos = logosByCreator(previous.values(), (item) => item.provider);
 
   const items = models
     .filter((m) => typeof m.intelligenceIndex === "number" && !m.deprecated)
-    .map((m) => ({
-      id: m.slug || m.id,
-      name: m.shortName || m.name,
-      provider: m.modelCreatorName || "—",
-      creatorLogo: m.modelCreatorLogo || "",
-      contextLength: num(m.contextWindowTokens),
-      inputPerMillion: num(m.price1mInputTokens),
-      outputPerMillion: num(m.price1mOutputTokens),
-      intelligenceIndex: m.intelligenceIndex,
-      isOpenWeights: typeof m.isOpenWeights === "boolean" ? m.isOpenWeights : null,
-      releaseDate: m.releaseDate || null,
-      huggingFaceUrl: m.huggingfaceUrl || null,
-    }))
+    .map((m) => {
+      const id = m.slug || m.id;
+      const old = previous.get(id) ?? {};
+      const provider = m.modelCreatorName || old.provider || "—";
+      return {
+        id,
+        name: m.shortName || m.name,
+        provider,
+        creatorLogo: pick(m.modelCreatorLogo, old.creatorLogo, logos.get(provider)) ?? "",
+        // The free API has no context window: keep the last known value.
+        contextLength: pick(m.contextWindowTokens, old.contextLength),
+        inputPerMillion: m.price1mInputTokens,
+        outputPerMillion: m.price1mOutputTokens,
+        intelligenceIndex: m.intelligenceIndex,
+        isOpenWeights: pick(old.isOpenWeights),
+        releaseDate: pick(m.releaseDate, old.releaseDate),
+        huggingFaceUrl: pick(old.huggingFaceUrl),
+      };
+    })
     .filter(
       (row) =>
         row.inputPerMillion !== null || row.outputPerMillion !== null,

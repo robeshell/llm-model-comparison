@@ -11,6 +11,7 @@
 
 ```bash
 npm install
+export AA_API_KEY=你的key   # Artificial Analysis 官方 API key（价格与评测需要）
 npm run fetch      # 抓取价格、评测与使用排行 → data/*.json
 npm run dev        # http://localhost:3000
 ```
@@ -83,7 +84,9 @@ on:
 
 - 免费仓库的 schedule 可能有延迟，属 GitHub 正常行为  
 - Actions 必须保持启用；长期无仓库活动时，schedule 有时会被暂停，偶尔手动 Run 一下即可  
-- 抓取依赖外网访问 Artificial Analysis；若某次失败，可看 Actions 日志并手动重跑  
+- 价格与评测来自 Artificial Analysis 官方免费 API（每天 100 次请求），需在仓库 **Settings → Secrets and variables → Actions** 添加 `AA_API_KEY`
+- 免费 API 不含上下文长度和单项基准分（GPQA、HLE 等），已有模型沿用上次的值，新模型这些列为空
+- 若某次失败，可看 Actions 日志并手动重跑  
 
 本机也可用 cron（可选）：
 
