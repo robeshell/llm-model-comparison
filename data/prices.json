@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:52:01.799Z",
+  "updatedAt": "2026-11-17T07:28:48.940Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1534,6 +1534,19 @@
       "intelligenceIndex": 5.1,
       "isOpenWeights": true,
       "releaseDate": "2026-08-25",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemma-4-e4b",
+      "name": "Gemma 4 E4B (Reasoning)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": null,
+      "inputPerMillion": 0.02,
+      "outputPerMillion": 0.1,
+      "intelligenceIndex": 4.8,
+      "isOpenWeights": null,
+      "releaseDate": "2026-04-03",
       "huggingFaceUrl": null
     },
     {

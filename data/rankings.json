@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T21:52:02.285Z",
+  "updatedAt": "2026-11-17T07:28:49.841Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -2566,6 +2566,27 @@
     },
     {
       "rank": 123,
+      "name": "Gemma 4 E4B (Reasoning)",
+      "shortName": "Gemma 4 E4B (Reasoning)",
+      "creator": "Google",
+      "creatorSlug": "google",
+      "creatorLogo": "/img/logos/google.svg",
+      "intelligenceIndex": 4.8,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gemma-4-e4b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-04-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 124,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -2586,7 +2607,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 124,
+      "rank": 125,
       "name": "Mistral Medium 3.5",
       "shortName": "Mistral Medium 3.5",
       "creator": "Mistral",
@@ -2607,7 +2628,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 125,
+      "rank": 126,
       "name": "Gemma 4 31B (Reasoning)",
       "shortName": "Gemma 4 31B (Reasoning)",
       "creator": "Google",
@@ -2628,7 +2649,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 126,
+      "rank": 127,
       "name": "Mistral Small 4 (Reasoning)",
       "shortName": "Mistral Small 4 (Reasoning)",
       "creator": "Mistral",
@@ -2649,7 +2670,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 127,
+      "rank": 128,
       "name": "gpt-oss-120b (High)",
       "shortName": "gpt-oss-120b (High)",
       "creator": "OpenAI",
@@ -2670,7 +2691,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 128,
+      "rank": 129,
       "name": "North Mini Code",
       "shortName": "North Mini Code",
       "creator": "Cohere",
@@ -2691,7 +2712,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "shortName": "NVIDIA Nemotron 3 Nano 4B",
       "creator": "NVIDIA",

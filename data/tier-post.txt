@@ -1,7 +1,6 @@
 大模型梯队榜更新（11月17日）
 
 第一梯队：Claude Fable 5.2、Gemini 4 Carbon
-
-首期榜单：按与榜首的差距每 5 分一档，同档内按价格从低到高排。
+本期梯队没有变化。
 
 数据：Artificial Analysis Intelligence Index

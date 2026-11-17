@@ -1,6 +1,6 @@
 {
-  "from": null,
-  "to": "2026-11-16T20:00:05.169Z",
+  "from": "2026-11-16T20:00:05.169Z",
+  "to": "2026-11-17T07:28:49.841Z",
   "leader": {
     "family": "Claude Fable 5.2",
     "score": 64.6,
@@ -9,5 +9,5 @@
   "newEntries": [],
   "promoted": [],
   "demoted": [],
-  "summary": "大模型梯队榜更新（11月17日）\n\n第一梯队：Claude Fable 5.2、Gemini 4 Carbon\n\n首期榜单：按与榜首的差距每 5 分一档，同档内按价格从低到高排。\n\n数据：Artificial Analysis Intelligence Index"
+  "summary": "大模型梯队榜更新（11月17日）\n\n第一梯队：Claude Fable 5.2、Gemini 4 Carbon\n本期梯队没有变化。\n\n数据：Artificial Analysis Intelligence Index"
 }
