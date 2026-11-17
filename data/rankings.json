@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:28:49.841Z",
+  "updatedAt": "2026-11-17T20:42:24.890Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -46,6 +46,27 @@
     },
     {
       "rank": 3,
+      "name": "GPT-6.2 Astra (Max)",
+      "shortName": "GPT-6.2 Astra (Max)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 62.1,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-astra",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 4,
       "name": "Claude Fable 5.2 (High, Default Fallback)",
       "shortName": "Claude Fable 5.2 (High, Default Fallback)",
       "creator": "Anthropic",
@@ -66,7 +87,49 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "name": "GPT-6.2 Astra (Xhigh)",
+      "shortName": "GPT-6.2 Astra (Xhigh)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 61.6,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-astra-xhigh",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 6,
+      "name": "GPT-6.2 Astra (High)",
+      "shortName": "GPT-6.2 Astra (High)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 60.1,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-astra-high",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 7,
       "name": "Gemini 4 Carbon (High)",
       "shortName": "Gemini 4 Carbon (High)",
       "creator": "Google",
@@ -87,7 +150,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 5,
+      "rank": 8,
       "name": "Claude Opus 5.5 (Max, Default Fallback)",
       "shortName": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
@@ -108,7 +171,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 6,
+      "rank": 9,
       "name": "Gemini 4 Carbon (Medium)",
       "shortName": "Gemini 4 Carbon (Medium)",
       "creator": "Google",
@@ -129,7 +192,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 7,
+      "rank": 10,
       "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "shortName": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
@@ -150,7 +213,49 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 8,
+      "rank": 11,
+      "name": "GPT-6.2 Sol (Max)",
+      "shortName": "GPT-6.2 Sol (Max)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 57.3,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-sol",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 12,
+      "name": "GPT-6.2 Astra (Medium)",
+      "shortName": "GPT-6.2 Astra (Medium)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 57,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-astra-medium",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 13,
       "name": "GPT-6 Astra (Max)",
       "shortName": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
@@ -171,7 +276,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 9,
+      "rank": 14,
       "name": "Claude Fable 5.2 (Medium, Default Fallback)",
       "shortName": "Claude Fable 5.2 (Medium, Default Fallback)",
       "creator": "Anthropic",
@@ -192,7 +297,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 10,
+      "rank": 15,
+      "name": "GPT-6.2 Sol (Xhigh)",
+      "shortName": "GPT-6.2 Sol (Xhigh)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 55.7,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-sol-xhigh",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 16,
       "name": "GPT-6 Astra (Xhigh)",
       "shortName": "GPT-6 Astra (Xhigh)",
       "creator": "OpenAI",
@@ -213,7 +339,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 11,
+      "rank": 17,
+      "name": "GPT-6.2 Sol (High)",
+      "shortName": "GPT-6.2 Sol (High)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 54.9,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-sol-high",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 18,
       "name": "GPT-6 Astra (High)",
       "shortName": "GPT-6 Astra (High)",
       "creator": "OpenAI",
@@ -234,7 +381,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 12,
+      "rank": 19,
       "name": "GPT-6.1 Sol (Max)",
       "shortName": "GPT-6.1 Sol (Max)",
       "creator": "OpenAI",
@@ -255,7 +402,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 13,
+      "rank": 20,
       "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "shortName": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
@@ -276,7 +423,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 14,
+      "rank": 21,
       "name": "Gemini 4 Carbon (Low)",
       "shortName": "Gemini 4 Carbon (Low)",
       "creator": "Google",
@@ -297,7 +444,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 15,
+      "rank": 22,
       "name": "Claude Fable 5.2 (Low, Default Fallback)",
       "shortName": "Claude Fable 5.2 (Low, Default Fallback)",
       "creator": "Anthropic",
@@ -318,7 +465,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 16,
+      "rank": 23,
       "name": "Gemini 4 Hydrogen (Xhigh)",
       "shortName": "Gemini 4 Hydrogen (Xhigh)",
       "creator": "Google",
@@ -339,7 +486,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 17,
+      "rank": 24,
+      "name": "GPT-6.2 Sol (Medium)",
+      "shortName": "GPT-6.2 Sol (Medium)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 52.7,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-sol-medium",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 25,
       "name": "GPT-6.1 Sol (Xhigh)",
       "shortName": "GPT-6.1 Sol (Xhigh)",
       "creator": "OpenAI",
@@ -360,7 +528,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 18,
+      "rank": 26,
       "name": "Claude Opus 5.5 (High, Default Fallback)",
       "shortName": "Claude Opus 5.5 (High, Default Fallback)",
       "creator": "Anthropic",
@@ -381,7 +549,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 19,
+      "rank": 27,
       "name": "GPT-6 Astra (Medium)",
       "shortName": "GPT-6 Astra (Medium)",
       "creator": "OpenAI",
@@ -402,7 +570,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 20,
+      "rank": 28,
       "name": "GPT-6.1 Terra (Max)",
       "shortName": "GPT-6.1 Terra (Max)",
       "creator": "OpenAI",
@@ -423,7 +591,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 21,
+      "rank": 29,
       "name": "Gemini 4 Hydrogen (High)",
       "shortName": "Gemini 4 Hydrogen (High)",
       "creator": "Google",
@@ -444,7 +612,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 22,
+      "rank": 30,
       "name": "Gemini 4 Argon (High)",
       "shortName": "Gemini 4 Argon (High)",
       "creator": "Google",
@@ -465,7 +633,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 23,
+      "rank": 31,
       "name": "GPT-6.1 Sol (High)",
       "shortName": "GPT-6.1 Sol (High)",
       "creator": "OpenAI",
@@ -486,7 +654,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 24,
+      "rank": 32,
       "name": "Muse Wonder Full (Max)",
       "shortName": "Muse Wonder Full (Max)",
       "creator": "Meta",
@@ -507,7 +675,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 25,
+      "rank": 33,
       "name": "Claude Fable 5.1 (Xhigh, Default Fallback)",
       "shortName": "Claude Fable 5.1 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
@@ -528,7 +696,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 26,
+      "rank": 34,
       "name": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
       "shortName": "Claude Sonnet 5.5 (Xhigh, Default Fallback)",
       "creator": "Anthropic",
@@ -549,7 +717,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 27,
+      "rank": 35,
       "name": "Claude Fable 5.1 (Max, Default Fallback)",
       "shortName": "Claude Fable 5.1 (Max, Default Fallback)",
       "creator": "Anthropic",
@@ -570,7 +738,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 28,
+      "rank": 36,
       "name": "Claude Opus 5.5 (Medium, Default Fallback)",
       "shortName": "Claude Opus 5.5 (Medium, Default Fallback)",
       "creator": "Anthropic",
@@ -591,7 +759,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 29,
+      "rank": 37,
       "name": "Gemini 4 Argon (Medium)",
       "shortName": "Gemini 4 Argon (Medium)",
       "creator": "Google",
@@ -612,7 +780,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 30,
+      "rank": 38,
       "name": "Claude Fable 5.1 (High, Default Fallback)",
       "shortName": "Claude Fable 5.1 (High, Default Fallback)",
       "creator": "Anthropic",
@@ -633,7 +801,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 31,
+      "rank": 39,
       "name": "Kimi K3.1 Pro",
       "shortName": "Kimi K3.1 Pro",
       "creator": "Kimi",
@@ -654,7 +822,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 32,
+      "rank": 40,
       "name": "GPT-6.1 Sol (Medium)",
       "shortName": "GPT-6.1 Sol (Medium)",
       "creator": "OpenAI",
@@ -675,7 +843,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 33,
+      "rank": 41,
+      "name": "GPT-6.2 Astra (Low)",
+      "shortName": "GPT-6.2 Astra (Low)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 45.7,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-astra-low",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 42,
       "name": "GPT-6.1 Terra (Xhigh)",
       "shortName": "GPT-6.1 Terra (Xhigh)",
       "creator": "OpenAI",
@@ -696,7 +885,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 34,
+      "rank": 43,
       "name": "Claude Opus 5 (Max)",
       "shortName": "Claude Opus 5 (Max)",
       "creator": "Anthropic",
@@ -717,7 +906,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 35,
+      "rank": 44,
       "name": "GPT-6 Sol (Max)",
       "shortName": "GPT-6 Sol (Max)",
       "creator": "OpenAI",
@@ -738,7 +927,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 36,
+      "rank": 45,
       "name": "Muse Wonder (Max)",
       "shortName": "Muse Wonder (Max)",
       "creator": "Meta",
@@ -759,7 +948,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 37,
+      "rank": 46,
       "name": "GPT-6 Astra (Low)",
       "shortName": "GPT-6 Astra (Low)",
       "creator": "OpenAI",
@@ -780,7 +969,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 38,
+      "rank": 47,
       "name": "Claude Fable 5.1 (Medium, Default Fallback)",
       "shortName": "Claude Fable 5.1 (Medium, Default Fallback)",
       "creator": "Anthropic",
@@ -801,7 +990,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 39,
+      "rank": 48,
       "name": "Qwen4 Max",
       "shortName": "Qwen4 Max",
       "creator": "Alibaba",
@@ -822,7 +1011,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 40,
+      "rank": 49,
       "name": "GPT-6.1 Terra (High)",
       "shortName": "GPT-6.1 Terra (High)",
       "creator": "OpenAI",
@@ -843,7 +1032,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 41,
+      "rank": 50,
       "name": "Claude Sonnet 5.5 (High, Default Fallback)",
       "shortName": "Claude Sonnet 5.5 (High, Default Fallback)",
       "creator": "Anthropic",
@@ -864,7 +1053,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 42,
+      "rank": 51,
       "name": "Gemini 4 Hydrogen (Medium)",
       "shortName": "Gemini 4 Hydrogen (Medium)",
       "creator": "Google",
@@ -885,7 +1074,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 43,
+      "rank": 52,
+      "name": "GPT-6.2 Sol (Low)",
+      "shortName": "GPT-6.2 Sol (Low)",
+      "creator": "OpenAI",
+      "creatorSlug": "openai",
+      "creatorLogo": "/img/logos/openai.svg",
+      "intelligenceIndex": 40.6,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "gpt-6-2-sol-low",
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 53,
       "name": "Muse Wonder (High)",
       "shortName": "Muse Wonder (High)",
       "creator": "Meta",
@@ -906,7 +1116,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 44,
+      "rank": 54,
       "name": "Claude Fable 5.1 (Low, Default Fallback)",
       "shortName": "Claude Fable 5.1 (Low, Default Fallback)",
       "creator": "Anthropic",
@@ -927,7 +1137,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 45,
+      "rank": 55,
       "name": "GPT-6.1 Terra (Medium)",
       "shortName": "GPT-6.1 Terra (Medium)",
       "creator": "OpenAI",
@@ -948,7 +1158,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 46,
+      "rank": 56,
       "name": "Muse Spark 1.3 (Max)",
       "shortName": "Muse Spark 1.3 (Max)",
       "creator": "Meta",
@@ -969,7 +1179,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 47,
+      "rank": 57,
       "name": "Claude Haiku 5.5 (Max)",
       "shortName": "Claude Haiku 5.5 (Max)",
       "creator": "Anthropic",
@@ -990,7 +1200,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 48,
+      "rank": 58,
       "name": "Muse Ember (Max)",
       "shortName": "Muse Ember (Max)",
       "creator": "Meta",
@@ -1011,7 +1221,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 49,
+      "rank": 59,
       "name": "Grok 4.7 (Xhigh)",
       "shortName": "Grok 4.7 (Xhigh)",
       "creator": "SpaceXAI",
@@ -1032,7 +1242,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 50,
+      "rank": 60,
       "name": "Grok 4.7 (High)",
       "shortName": "Grok 4.7 (High)",
       "creator": "SpaceXAI",
@@ -1053,7 +1263,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 51,
+      "rank": 61,
       "name": "Claude Opus 5.5 (Low, Default Fallback)",
       "shortName": "Claude Opus 5.5 (Low, Default Fallback)",
       "creator": "Anthropic",
@@ -1074,7 +1284,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 52,
+      "rank": 62,
       "name": "GPT-6.1 Sol (Low)",
       "shortName": "GPT-6.1 Sol (Low)",
       "creator": "OpenAI",
@@ -1095,7 +1305,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 53,
+      "rank": 63,
       "name": "Claude Haiku 5.5 (Xhigh)",
       "shortName": "Claude Haiku 5.5 (Xhigh)",
       "creator": "Anthropic",
@@ -1116,7 +1326,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 54,
+      "rank": 64,
       "name": "Tencent Hy4",
       "shortName": "Tencent Hy4",
       "creator": "Tencent",
@@ -1137,7 +1347,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 55,
+      "rank": 65,
       "name": "Muse Ember (Xhigh)",
       "shortName": "Muse Ember (Xhigh)",
       "creator": "Meta",
@@ -1158,7 +1368,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 56,
+      "rank": 66,
       "name": "Qwen3.8 Max (0902)",
       "shortName": "Qwen3.8 Max (0902)",
       "creator": "Alibaba",
@@ -1179,7 +1389,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 57,
+      "rank": 67,
       "name": "DeepSeek V4.1 Flash 1017 (Max)",
       "shortName": "DeepSeek V4.1 Flash 1017 (Max)",
       "creator": "DeepSeek",
@@ -1200,7 +1410,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 58,
+      "rank": 68,
       "name": "GPT-5.6 Terra (Max)",
       "shortName": "GPT-5.6 Terra (Max)",
       "creator": "OpenAI",
@@ -1221,7 +1431,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 59,
+      "rank": 69,
       "name": "GLM-5.3 (Max)",
       "shortName": "GLM-5.3 (Max)",
       "creator": "Z AI",
@@ -1242,7 +1452,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 60,
+      "rank": 70,
       "name": "Grok 4.7 (Low)",
       "shortName": "Grok 4.7 (Low)",
       "creator": "SpaceXAI",
@@ -1263,7 +1473,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 61,
+      "rank": 71,
       "name": "Grok 4.6 (Xhigh)",
       "shortName": "Grok 4.6 (Xhigh)",
       "creator": "SpaceXAI",
@@ -1284,7 +1494,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 62,
+      "rank": 72,
       "name": "Claude Sonnet 5.5 (Medium, Default Fallback)",
       "shortName": "Claude Sonnet 5.5 (Medium, Default Fallback)",
       "creator": "Anthropic",
@@ -1305,7 +1515,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 63,
+      "rank": 73,
       "name": "Gemini 3.8 Flash (High)",
       "shortName": "Gemini 3.8 Flash (High)",
       "creator": "Google",
@@ -1326,7 +1536,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 64,
+      "rank": 74,
       "name": "Inkling 2 Small",
       "shortName": "Inkling 2 Small",
       "creator": "Thinking Machines",
@@ -1347,7 +1557,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 65,
+      "rank": 75,
       "name": "GPT-6.1 Terra (Non-reasoning)",
       "shortName": "GPT-6.1 Terra (Non-reasoning)",
       "creator": "OpenAI",
@@ -1368,7 +1578,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 66,
+      "rank": 76,
       "name": "Gemini 3.8 Flash (Medium)",
       "shortName": "Gemini 3.8 Flash (Medium)",
       "creator": "Google",
@@ -1389,7 +1599,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 67,
+      "rank": 77,
       "name": "Claude Haiku 5.5 (High)",
       "shortName": "Claude Haiku 5.5 (High)",
       "creator": "Anthropic",
@@ -1410,7 +1620,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 68,
+      "rank": 78,
       "name": "MiMo-V2.6-Pro",
       "shortName": "MiMo-V2.6-Pro",
       "creator": "Xiaomi",
@@ -1431,7 +1641,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 69,
+      "rank": 79,
       "name": "Ling 3.1 Flash 1019",
       "shortName": "Ling 3.1 Flash 1019",
       "creator": "InclusionAI",
@@ -1452,7 +1662,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 70,
+      "rank": 80,
       "name": "GPT-6.1 Terra (Low)",
       "shortName": "GPT-6.1 Terra (Low)",
       "creator": "OpenAI",
@@ -1473,7 +1683,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 71,
+      "rank": 81,
       "name": "MiniMax-M3.1-Flash",
       "shortName": "MiniMax-M3.1-Flash",
       "creator": "MiniMax",
@@ -1494,7 +1704,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 72,
+      "rank": 82,
       "name": "Qwen3.8-Flash-Next",
       "shortName": "Qwen3.8-Flash-Next",
       "creator": "Alibaba",
@@ -1515,7 +1725,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 73,
+      "rank": 83,
       "name": "DeepSeek V4.1 Flash 1017 (High)",
       "shortName": "DeepSeek V4.1 Flash 1017 (High)",
       "creator": "DeepSeek",
@@ -1536,7 +1746,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 74,
+      "rank": 84,
       "name": "Step 5 Preview",
       "shortName": "Step 5 Preview",
       "creator": "StepFun",
@@ -1557,7 +1767,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 75,
+      "rank": 85,
       "name": "GPT-6 Luna (Max)",
       "shortName": "GPT-6 Luna (Max)",
       "creator": "OpenAI",
@@ -1578,7 +1788,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 76,
+      "rank": 86,
       "name": "GLM-5.3-Flash",
       "shortName": "GLM-5.3-Flash",
       "creator": "Z AI",
@@ -1599,7 +1809,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 77,
+      "rank": 87,
       "name": "Gemini 4 Hydrogen (Low)",
       "shortName": "Gemini 4 Hydrogen (Low)",
       "creator": "Google",
@@ -1620,7 +1830,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 78,
+      "rank": 88,
       "name": "MiMo-V2.6-Flash",
       "shortName": "MiMo-V2.6-Flash",
       "creator": "Xiaomi",
@@ -1641,7 +1851,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 79,
+      "rank": 89,
       "name": "Mistral Large 4 (High)",
       "shortName": "Mistral Large 4 (High)",
       "creator": "Mistral",
@@ -1662,7 +1872,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 80,
+      "rank": 90,
       "name": "Claude Sonnet 5.5 (Low, Default Fallback)",
       "shortName": "Claude Sonnet 5.5 (Low, Default Fallback)",
       "creator": "Anthropic",
@@ -1683,7 +1893,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 81,
+      "rank": 91,
       "name": "Mistral Large 4 Preview",
       "shortName": "Mistral Large 4 Preview",
       "creator": "Mistral",
@@ -1704,7 +1914,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 82,
+      "rank": 92,
       "name": "Muse Spark Open (Xhigh)",
       "shortName": "Muse Spark Open (Xhigh)",
       "creator": "Meta",
@@ -1725,7 +1935,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 83,
+      "rank": 93,
       "name": "Claude Haiku 5.5 (Medium)",
       "shortName": "Claude Haiku 5.5 (Medium)",
       "creator": "Anthropic",
@@ -1746,7 +1956,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 84,
+      "rank": 94,
       "name": "Agnes 2.5 Pro Theta",
       "shortName": "Agnes 2.5 Pro Theta",
       "creator": "Sapiens AI",
@@ -1767,7 +1977,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 85,
+      "rank": 95,
       "name": "GPT-5.6 Luna (Max)",
       "shortName": "GPT-5.6 Luna (Max)",
       "creator": "OpenAI",
@@ -1788,7 +1998,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 86,
+      "rank": 96,
       "name": "GPT-6 Luna (Xhigh)",
       "shortName": "GPT-6 Luna (Xhigh)",
       "creator": "OpenAI",
@@ -1809,7 +2019,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 87,
+      "rank": 97,
       "name": "Mistral Large 4 (Medium)",
       "shortName": "Mistral Large 4 (Medium)",
       "creator": "Mistral",
@@ -1830,7 +2040,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 88,
+      "rank": 98,
       "name": "DeepSeek V4 Pro 0813 (Max)",
       "shortName": "DeepSeek V4 Pro 0813 (Max)",
       "creator": "DeepSeek",
@@ -1851,7 +2061,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 89,
+      "rank": 99,
       "name": "GLM-5.3 (Low)",
       "shortName": "GLM-5.3 (Low)",
       "creator": "Z AI",
@@ -1872,7 +2082,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 90,
+      "rank": 100,
       "name": "Gemini 3.8 Flash (Low)",
       "shortName": "Gemini 3.8 Flash (Low)",
       "creator": "Google",
@@ -1893,7 +2103,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 91,
+      "rank": 101,
       "name": "GPT-6 Luna (High)",
       "shortName": "GPT-6 Luna (High)",
       "creator": "OpenAI",
@@ -1914,7 +2124,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 92,
+      "rank": 102,
       "name": "DeepSeek V4 Pro 0813 (High)",
       "shortName": "DeepSeek V4 Pro 0813 (High)",
       "creator": "DeepSeek",
@@ -1935,7 +2145,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 93,
+      "rank": 103,
       "name": "Nanbeige4.3-33B",
       "shortName": "Nanbeige4.3-33B",
       "creator": "Nanbeige",
@@ -1956,7 +2166,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 94,
+      "rank": 104,
       "name": "Qwen3.8 27B (Xhigh)",
       "shortName": "Qwen3.8 27B (Xhigh)",
       "creator": "Alibaba",
@@ -1977,7 +2187,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 95,
+      "rank": 105,
       "name": "JT-4.1 Flash 236B A21B",
       "shortName": "JT-4.1 Flash 236B A21B",
       "creator": "China Mobile",
@@ -1998,7 +2208,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 96,
+      "rank": 106,
       "name": "MiniMax-M3",
       "shortName": "MiniMax-M3",
       "creator": "MiniMax",
@@ -2019,7 +2229,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 97,
+      "rank": 107,
       "name": "Claude Haiku 5.5 (Low)",
       "shortName": "Claude Haiku 5.5 (Low)",
       "creator": "Anthropic",
@@ -2040,7 +2250,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 98,
+      "rank": 108,
       "name": "GPT-6 Luna (Medium)",
       "shortName": "GPT-6 Luna (Medium)",
       "creator": "OpenAI",
@@ -2061,7 +2271,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 99,
+      "rank": 109,
       "name": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
       "shortName": "DeepSeek V4.1 Flash 1017 (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2082,7 +2292,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 100,
+      "rank": 110,
       "name": "K2 Horizon 375B A23B",
       "shortName": "K2 Horizon 375B A23B",
       "creator": "Institute of Foundation Models",
@@ -2103,7 +2313,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 101,
+      "rank": 111,
       "name": "Beam 1.0",
       "shortName": "Beam 1.0",
       "creator": "Reflection",
@@ -2124,7 +2334,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 102,
+      "rank": 112,
       "name": "Qwen3.8 27B (Medium)",
       "shortName": "Qwen3.8 27B (Medium)",
       "creator": "Alibaba",
@@ -2145,7 +2355,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 103,
+      "rank": 113,
       "name": "Kimi K3 (Low)",
       "shortName": "Kimi K3 (Low)",
       "creator": "Kimi",
@@ -2166,7 +2376,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 104,
+      "rank": 114,
       "name": "Qwen3.8 27B (Low)",
       "shortName": "Qwen3.8 27B (Low)",
       "creator": "Alibaba",
@@ -2187,7 +2397,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 105,
+      "rank": 115,
       "name": "Solar Pro 4",
       "shortName": "Solar Pro 4",
       "creator": "Upstage",
@@ -2208,7 +2418,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 106,
+      "rank": 116,
       "name": "Apodex 1.1",
       "shortName": "Apodex 1.1",
       "creator": "Apodex",
@@ -2229,7 +2439,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 107,
+      "rank": 117,
       "name": "Nemotron 3.5 Super VL",
       "shortName": "Nemotron 3.5 Super VL",
       "creator": "NVIDIA",
@@ -2250,7 +2460,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 108,
+      "rank": 118,
       "name": "Inkling Small",
       "shortName": "Inkling Small",
       "creator": "Thinking Machines",
@@ -2271,7 +2481,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 109,
+      "rank": 119,
       "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
       "shortName": "DeepSeek V4 Pro 0813 (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2292,7 +2502,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 110,
+      "rank": 120,
       "name": "Inkling (Xhigh)",
       "shortName": "Inkling (Xhigh)",
       "creator": "Thinking Machines",
@@ -2313,7 +2523,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 111,
+      "rank": 121,
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "shortName": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "creator": "NVIDIA",
@@ -2334,7 +2544,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 112,
+      "rank": 122,
       "name": "Gemini 3.5 Flash-Lite",
       "shortName": "Gemini 3.5 Flash-Lite",
       "creator": "Google",
@@ -2355,7 +2565,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 113,
+      "rank": 123,
       "name": "Qwen3.8 27B (Non-reasoning)",
       "shortName": "Qwen3.8 27B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2376,7 +2586,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 114,
+      "rank": 124,
       "name": "GPT-6 Luna (Low)",
       "shortName": "GPT-6 Luna (Low)",
       "creator": "OpenAI",
@@ -2397,7 +2607,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 115,
+      "rank": 125,
       "name": "GPT-6 Luna (Non-reasoning)",
       "shortName": "GPT-6 Luna (Non-reasoning)",
       "creator": "OpenAI",
@@ -2418,7 +2628,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 116,
+      "rank": 126,
+      "name": "A.X-K2",
+      "shortName": "A.X-K2",
+      "creator": "SK Telecom",
+      "creatorSlug": "sk-telecom",
+      "creatorLogo": "",
+      "intelligenceIndex": 9,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "a-x-k2",
+      "isOpenWeights": null,
+      "releaseDate": "2026-08-12",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 127,
       "name": "K-EXAONE 2.0",
       "shortName": "K-EXAONE 2.0",
       "creator": "LG AI Research",
@@ -2439,7 +2670,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 117,
+      "rank": 128,
       "name": "Claude 4.5 Haiku (Reasoning)",
       "shortName": "Claude 4.5 Haiku (Reasoning)",
       "creator": "Anthropic",
@@ -2460,7 +2691,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 118,
+      "rank": 129,
       "name": "Muse Glimmer (High)",
       "shortName": "Muse Glimmer (High)",
       "creator": "Meta",
@@ -2481,7 +2712,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 119,
+      "rank": 130,
       "name": "Command A+",
       "shortName": "Command A+",
       "creator": "Cohere",
@@ -2502,7 +2733,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 120,
+      "rank": 131,
       "name": "Gemini 3.1 Flash-Lite",
       "shortName": "Gemini 3.1 Flash-Lite",
       "creator": "Google",
@@ -2523,7 +2754,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 121,
+      "rank": 132,
       "name": "Nemotron 3.5 Lightning",
       "shortName": "Nemotron 3.5 Lightning",
       "creator": "NVIDIA",
@@ -2544,7 +2775,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 122,
+      "rank": 133,
       "name": "Granite 4.2 8B",
       "shortName": "Granite 4.2 8B",
       "creator": "IBM",
@@ -2565,7 +2796,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 123,
+      "rank": 134,
       "name": "Gemma 4 E4B (Reasoning)",
       "shortName": "Gemma 4 E4B (Reasoning)",
       "creator": "Google",
@@ -2586,7 +2817,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 124,
+      "rank": 135,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -2607,7 +2838,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 125,
+      "rank": 136,
       "name": "Mistral Medium 3.5",
       "shortName": "Mistral Medium 3.5",
       "creator": "Mistral",
@@ -2628,7 +2859,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 126,
+      "rank": 137,
       "name": "Gemma 4 31B (Reasoning)",
       "shortName": "Gemma 4 31B (Reasoning)",
       "creator": "Google",
@@ -2649,7 +2880,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 127,
+      "rank": 138,
       "name": "Mistral Small 4 (Reasoning)",
       "shortName": "Mistral Small 4 (Reasoning)",
       "creator": "Mistral",
@@ -2670,7 +2901,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 128,
+      "rank": 139,
       "name": "gpt-oss-120b (High)",
       "shortName": "gpt-oss-120b (High)",
       "creator": "OpenAI",
@@ -2691,7 +2922,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 129,
+      "rank": 140,
       "name": "North Mini Code",
       "shortName": "North Mini Code",
       "creator": "Cohere",
@@ -2712,7 +2943,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 130,
+      "rank": 141,
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "shortName": "NVIDIA Nemotron 3 Nano 4B",
       "creator": "NVIDIA",

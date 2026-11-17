@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:28:48.940Z",
+  "updatedAt": "2026-11-17T20:42:24.171Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -29,6 +29,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-2-astra",
+      "name": "GPT-6.2 Astra (Max)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 8,
+      "outputPerMillion": 40,
+      "intelligenceIndex": 62.1,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "claude-fable-5-2-high",
       "name": "Claude Fable 5.2 (High, Default Fallback)",
       "provider": "Anthropic",
@@ -39,6 +52,32 @@
       "intelligenceIndex": 61.8,
       "isOpenWeights": null,
       "releaseDate": "2026-11-09",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-astra-xhigh",
+      "name": "GPT-6.2 Astra (Xhigh)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 8,
+      "outputPerMillion": 40,
+      "intelligenceIndex": 61.6,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-astra-high",
+      "name": "GPT-6.2 Astra (High)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 8,
+      "outputPerMillion": 40,
+      "intelligenceIndex": 60.1,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
       "huggingFaceUrl": null
     },
     {
@@ -94,6 +133,32 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-2-sol",
+      "name": "GPT-6.2 Sol (Max)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 57.3,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-astra-medium",
+      "name": "GPT-6.2 Astra (Medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 8,
+      "outputPerMillion": 40,
+      "intelligenceIndex": 57,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra (Max)",
       "provider": "OpenAI",
@@ -120,6 +185,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-2-sol-xhigh",
+      "name": "GPT-6.2 Sol (Xhigh)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 55.7,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-astra-xhigh",
       "name": "GPT-6 Astra (Xhigh)",
       "provider": "OpenAI",
@@ -130,6 +208,19 @@
       "intelligenceIndex": 55.3,
       "isOpenWeights": false,
       "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-sol-high",
+      "name": "GPT-6.2 Sol (High)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 54.9,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
       "huggingFaceUrl": null
     },
     {
@@ -208,6 +299,19 @@
       "intelligenceIndex": 53.9,
       "isOpenWeights": null,
       "releaseDate": "2026-11-09",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-sol-medium",
+      "name": "GPT-6.2 Sol (Medium)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 52.7,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
       "huggingFaceUrl": null
     },
     {
@@ -406,6 +510,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gpt-6-2-astra-low",
+      "name": "GPT-6.2 Astra (Low)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 8,
+      "outputPerMillion": 40,
+      "intelligenceIndex": 45.7,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-1-terra-xhigh",
       "name": "GPT-6.1 Terra (Xhigh)",
       "provider": "OpenAI",
@@ -533,6 +650,19 @@
       "intelligenceIndex": 41.2,
       "isOpenWeights": null,
       "releaseDate": "2026-11-12",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gpt-6-2-sol-low",
+      "name": "GPT-6.2 Sol (Low)",
+      "provider": "OpenAI",
+      "creatorLogo": "/img/logos/openai.svg",
+      "contextLength": null,
+      "inputPerMillion": 2,
+      "outputPerMillion": 10,
+      "intelligenceIndex": 40.6,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
       "huggingFaceUrl": null
     },
     {
