@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T06:53:19.317Z",
+  "updatedAt": "2026-11-18T20:16:45.738Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -2440,6 +2440,48 @@
     },
     {
       "rank": 117,
+      "name": "K2 Horizon 32B",
+      "shortName": "K2 Horizon 32B",
+      "creator": "Institute of Foundation Models",
+      "creatorSlug": "institute-of-foundation-models",
+      "creatorLogo": "/img/logos/ifm.svg",
+      "intelligenceIndex": 13.9,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "k2-horizon-32b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 118,
+      "name": "K2 Horizon MoVA 36B A4B",
+      "shortName": "K2 Horizon MoVA 36B A4B",
+      "creator": "Institute of Foundation Models",
+      "creatorSlug": "institute-of-foundation-models",
+      "creatorLogo": "/img/logos/ifm.svg",
+      "intelligenceIndex": 13.8,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "k2-horizon-mova-36b-a4b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 119,
       "name": "Apodex 1.1",
       "shortName": "Apodex 1.1",
       "creator": "Apodex",
@@ -2460,7 +2502,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 118,
+      "rank": 120,
       "name": "Nemotron 3.5 Super VL",
       "shortName": "Nemotron 3.5 Super VL",
       "creator": "NVIDIA",
@@ -2481,7 +2523,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 119,
+      "rank": 121,
       "name": "Inkling Small",
       "shortName": "Inkling Small",
       "creator": "Thinking Machines",
@@ -2502,7 +2544,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 120,
+      "rank": 122,
       "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
       "shortName": "DeepSeek V4 Pro 0813 (Non-reasoning)",
       "creator": "DeepSeek",
@@ -2523,7 +2565,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 121,
+      "rank": 123,
       "name": "Inkling (Xhigh)",
       "shortName": "Inkling (Xhigh)",
       "creator": "Thinking Machines",
@@ -2544,7 +2586,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 122,
+      "rank": 124,
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "shortName": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "creator": "NVIDIA",
@@ -2565,7 +2607,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 123,
+      "rank": 125,
       "name": "Gemini 3.5 Flash-Lite",
       "shortName": "Gemini 3.5 Flash-Lite",
       "creator": "Google",
@@ -2586,7 +2628,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 124,
+      "rank": 126,
       "name": "Inkling (High)",
       "shortName": "Inkling (High)",
       "creator": "Thinking Machines",
@@ -2607,7 +2649,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 125,
+      "rank": 127,
+      "name": "K2 Horizon 7B",
+      "shortName": "K2 Horizon 7B",
+      "creator": "Institute of Foundation Models",
+      "creatorSlug": "institute-of-foundation-models",
+      "creatorLogo": "/img/logos/ifm.svg",
+      "intelligenceIndex": 10.6,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "k2-horizon-7b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 128,
       "name": "Qwen3.8 27B (Non-reasoning)",
       "shortName": "Qwen3.8 27B (Non-reasoning)",
       "creator": "Alibaba",
@@ -2628,7 +2691,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 126,
+      "rank": 129,
       "name": "GPT-6 Luna (Low)",
       "shortName": "GPT-6 Luna (Low)",
       "creator": "OpenAI",
@@ -2649,7 +2712,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 127,
+      "rank": 130,
       "name": "Inkling Small (High)",
       "shortName": "Inkling Small (High)",
       "creator": "Thinking Machines",
@@ -2670,7 +2733,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 128,
+      "rank": 131,
       "name": "GPT-6 Luna (Non-reasoning)",
       "shortName": "GPT-6 Luna (Non-reasoning)",
       "creator": "OpenAI",
@@ -2691,7 +2754,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 129,
+      "rank": 132,
       "name": "A.X-K2",
       "shortName": "A.X-K2",
       "creator": "SK Telecom",
@@ -2712,7 +2775,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 130,
+      "rank": 133,
+      "name": "K2 Horizon 3.7B",
+      "shortName": "K2 Horizon 3.7B",
+      "creator": "Institute of Foundation Models",
+      "creatorSlug": "institute-of-foundation-models",
+      "creatorLogo": "/img/logos/ifm.svg",
+      "intelligenceIndex": 8,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "k2-horizon-3-7b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 134,
       "name": "K-EXAONE 2.0",
       "shortName": "K-EXAONE 2.0",
       "creator": "LG AI Research",
@@ -2733,7 +2817,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 131,
+      "rank": 135,
       "name": "Claude 4.5 Haiku (Reasoning)",
       "shortName": "Claude 4.5 Haiku (Reasoning)",
       "creator": "Anthropic",
@@ -2754,7 +2838,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 132,
+      "rank": 136,
       "name": "Muse Glimmer (High)",
       "shortName": "Muse Glimmer (High)",
       "creator": "Meta",
@@ -2775,7 +2859,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 133,
+      "rank": 137,
       "name": "Command A+",
       "shortName": "Command A+",
       "creator": "Cohere",
@@ -2796,7 +2880,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 134,
+      "rank": 138,
       "name": "Gemini 3.1 Flash-Lite",
       "shortName": "Gemini 3.1 Flash-Lite",
       "creator": "Google",
@@ -2817,7 +2901,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 135,
+      "rank": 139,
       "name": "LFM3-1.7B",
       "shortName": "LFM3-1.7B",
       "creator": "Liquid AI",
@@ -2838,7 +2922,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 136,
+      "rank": 140,
       "name": "Nemotron 3.5 Lightning",
       "shortName": "Nemotron 3.5 Lightning",
       "creator": "NVIDIA",
@@ -2859,7 +2943,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 137,
+      "rank": 141,
       "name": "Granite 4.2 8B",
       "shortName": "Granite 4.2 8B",
       "creator": "IBM",
@@ -2880,7 +2964,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 138,
+      "rank": 142,
       "name": "Gemma 4 E4B (Reasoning)",
       "shortName": "Gemma 4 E4B (Reasoning)",
       "creator": "Google",
@@ -2901,7 +2985,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 139,
+      "rank": 143,
       "name": "Granite 4.2 3B",
       "shortName": "Granite 4.2 3B",
       "creator": "IBM",
@@ -2922,7 +3006,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 140,
+      "rank": 144,
       "name": "Mistral Medium 3.5",
       "shortName": "Mistral Medium 3.5",
       "creator": "Mistral",
@@ -2943,7 +3027,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 141,
+      "rank": 145,
       "name": "Gemma 4 31B (Reasoning)",
       "shortName": "Gemma 4 31B (Reasoning)",
       "creator": "Google",
@@ -2964,7 +3048,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 142,
+      "rank": 146,
       "name": "Mistral Small 4 (Reasoning)",
       "shortName": "Mistral Small 4 (Reasoning)",
       "creator": "Mistral",
@@ -2985,7 +3069,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 143,
+      "rank": 147,
       "name": "gpt-oss-120b (High)",
       "shortName": "gpt-oss-120b (High)",
       "creator": "OpenAI",
@@ -3006,7 +3090,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 144,
+      "rank": 148,
       "name": "North Mini Code",
       "shortName": "North Mini Code",
       "creator": "Cohere",
@@ -3027,7 +3111,28 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 145,
+      "rank": 149,
+      "name": "K2 Horizon 0.9B",
+      "shortName": "K2 Horizon 0.9B",
+      "creator": "Institute of Foundation Models",
+      "creatorSlug": "institute-of-foundation-models",
+      "creatorLogo": "/img/logos/ifm.svg",
+      "intelligenceIndex": 2.7,
+      "codingIndex": null,
+      "agenticIndex": null,
+      "gpqa": null,
+      "hle": null,
+      "scicode": null,
+      "terminalbench": null,
+      "lcr": null,
+      "isReasoning": false,
+      "slug": "k2-horizon-0-9b",
+      "isOpenWeights": null,
+      "releaseDate": "2026-09-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "rank": 150,
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "shortName": "NVIDIA Nemotron 3 Nano 4B",
       "creator": "NVIDIA",
@@ -3048,7 +3153,7 @@
       "huggingFaceUrl": null
     },
     {
-      "rank": 146,
+      "rank": 151,
       "name": "LFM3-VL-2B",
       "shortName": "LFM3-VL-2B",
       "creator": "Liquid AI",

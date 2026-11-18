@@ -1,0 +1,498 @@
+{
+  "updatedAt": "2026-11-18T20:16:45.738Z",
+  "leaderScore": 64.6,
+  "entries": [
+    {
+      "familyKey": "gemini-4-carbon",
+      "family": "Gemini 4 Carbon",
+      "score": 60,
+      "tier": "T1"
+    },
+    {
+      "familyKey": "claude-fable-5-2",
+      "family": "Claude Fable 5.2",
+      "score": 64.6,
+      "tier": "T1"
+    },
+    {
+      "familyKey": "gpt-6-2-astra",
+      "family": "GPT-6.2 Astra",
+      "score": 62.1,
+      "tier": "T1"
+    },
+    {
+      "familyKey": "gpt-6-2-sol",
+      "family": "GPT-6.2 Sol",
+      "score": 57.3,
+      "tier": "T2"
+    },
+    {
+      "familyKey": "claude-opus-5-5",
+      "family": "Claude Opus 5.5",
+      "score": 59.1,
+      "tier": "T2"
+    },
+    {
+      "familyKey": "gpt-6-astra",
+      "family": "GPT-6 Astra",
+      "score": 56.9,
+      "tier": "T2"
+    },
+    {
+      "familyKey": "gpt-6-1-terra",
+      "family": "GPT-6.1 Terra",
+      "score": 51.3,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "gemini-4-hydrogen",
+      "family": "Gemini 4 Hydrogen",
+      "score": 53.9,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "gpt-6-1-sol",
+      "family": "GPT-6.1 Sol",
+      "score": 54.6,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "claude-sonnet-5-5",
+      "family": "Claude Sonnet 5.5",
+      "score": 54.5,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "gemini-4-argon",
+      "family": "Gemini 4 Argon",
+      "score": 50.4,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "claude-fable-5-1",
+      "family": "Claude Fable 5.1",
+      "score": 50,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "muse-wonder-full",
+      "family": "Muse Wonder Full",
+      "score": 50.1,
+      "tier": "T3"
+    },
+    {
+      "familyKey": "kimi-k3-1-pro",
+      "family": "Kimi K3.1 Pro",
+      "score": 46.5,
+      "tier": "T4"
+    },
+    {
+      "familyKey": "qwen4",
+      "family": "Qwen4 Max",
+      "score": 42.9,
+      "tier": "T5"
+    },
+    {
+      "familyKey": "gpt-6-sol",
+      "family": "GPT-6 Sol",
+      "score": 44.2,
+      "tier": "T5"
+    },
+    {
+      "familyKey": "muse-wonder",
+      "family": "Muse Wonder",
+      "score": 43.6,
+      "tier": "T5"
+    },
+    {
+      "familyKey": "claude-opus-5",
+      "family": "Claude Opus 5",
+      "score": 44.2,
+      "tier": "T5"
+    },
+    {
+      "familyKey": "muse-spark-1-3",
+      "family": "Muse Spark 1.3",
+      "score": 36.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "claude-haiku-5-5",
+      "family": "Claude Haiku 5.5",
+      "score": 36.5,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "muse-ember",
+      "family": "Muse Ember",
+      "score": 36,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "grok-4-7",
+      "family": "Grok 4.7",
+      "score": 35.5,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "tencent-hy4",
+      "family": "Tencent Hy4",
+      "score": 34.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "qwen3-8",
+      "family": "Qwen3.8 Max (0902)",
+      "score": 33.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "deepseek-v4-1-flash",
+      "family": "DeepSeek V4.1 Flash 1017",
+      "score": 32.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gpt-5-6-terra",
+      "family": "GPT-5.6 Terra",
+      "score": 32.3,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "glm-5-3",
+      "family": "GLM-5.3",
+      "score": 31.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "grok-4-6",
+      "family": "Grok 4.6",
+      "score": 31,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gemini-3-8-flash",
+      "family": "Gemini 3.8 Flash",
+      "score": 30.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "inkling-2-small",
+      "family": "Inkling 2 Small",
+      "score": 30.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mimo-v2-6-pro",
+      "family": "MiMo-V2.6-Pro",
+      "score": 29.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "ling-3-1-flash",
+      "family": "Ling 3.1 Flash 1019",
+      "score": 29.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "minimax-m3-1-flash",
+      "family": "MiniMax-M3.1-Flash",
+      "score": 29.1,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "qwen3-8-flash-next",
+      "family": "Qwen3.8-Flash-Next",
+      "score": 28.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "step-5",
+      "family": "Step 5 Preview",
+      "score": 28.5,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "joyai-vl",
+      "family": "JoyAI-VL-Preview",
+      "score": 28,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gpt-6-luna",
+      "family": "GPT-6 Luna",
+      "score": 27.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "glm-5-3-flash",
+      "family": "GLM-5.3-Flash",
+      "score": 27.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mimo-v2-6-flash",
+      "family": "MiMo-V2.6-Flash",
+      "score": 26.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mistral-large-4",
+      "family": "Mistral Large 4",
+      "score": 26.1,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mistral-large-4-preview",
+      "family": "Mistral Large 4 Preview",
+      "score": 25.3,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "muse-spark-open",
+      "family": "Muse Spark Open",
+      "score": 24.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "agnes-2-5-pro-theta",
+      "family": "Agnes 2.5 Pro Theta",
+      "score": 24,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gpt-5-6-luna",
+      "family": "GPT-5.6 Luna",
+      "score": 23.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "deepseek-v4-pro",
+      "family": "DeepSeek V4 Pro 0813",
+      "score": 23.1,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "nanbeige4-3-33b",
+      "family": "Nanbeige4.3-33B",
+      "score": 20.4,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "qwen3-8-27b",
+      "family": "Qwen3.8 27B",
+      "score": 20.1,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "jt-4-1-flash-236b-a21b",
+      "family": "JT-4.1 Flash 236B A21B",
+      "score": 19,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "minimax-m3",
+      "family": "MiniMax-M3",
+      "score": 18.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-375b-a23b",
+      "family": "K2 Horizon 375B A23B",
+      "score": 17.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "reflection-beam",
+      "family": "Beam 1.0",
+      "score": 17.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "kimi-k3",
+      "family": "Kimi K3",
+      "score": 17.4,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "solar-pro4",
+      "family": "Solar Pro 4",
+      "score": 14.2,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-32b",
+      "family": "K2 Horizon 32B",
+      "score": 13.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-mova-36b-a4b",
+      "family": "K2 Horizon MoVA 36B A4B",
+      "score": 13.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "apodex-1-1",
+      "family": "Apodex 1.1",
+      "score": 13.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "nemotron-3-5-super-vl",
+      "family": "Nemotron 3.5 Super VL",
+      "score": 13.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "inkling-small",
+      "family": "Inkling Small",
+      "score": 12.9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "inkling",
+      "family": "Inkling",
+      "score": 12.5,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "nvidia-nemotron-3-ultra-550b-a55b",
+      "family": "Nemotron 3 Ultra 550B A55B",
+      "score": 11.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gemini-3-5-flash-lite",
+      "family": "Gemini 3.5 Flash-Lite",
+      "score": 11.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-7b",
+      "family": "K2 Horizon 7B",
+      "score": 10.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "a-x-k2",
+      "family": "A.X-K2",
+      "score": 9,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-3-7b",
+      "family": "K2 Horizon 3.7B",
+      "score": 8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k-exaone-2-0",
+      "family": "K-EXAONE 2.0",
+      "score": 7.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "claude-4-5-haiku",
+      "family": "Claude 4.5 Haiku",
+      "score": 7.4,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "muse-glimmer",
+      "family": "Muse Glimmer",
+      "score": 6.3,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "command-a-plus",
+      "family": "Command A+",
+      "score": 6.2,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gemini-3-1-flash-lite-preview",
+      "family": "Gemini 3.1 Flash-Lite",
+      "score": 6.2,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "lfm3-1-7b",
+      "family": "LFM3-1.7B",
+      "score": 6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "nemotron-3-5-lightning",
+      "family": "Nemotron 3.5 Lightning",
+      "score": 5.5,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "granite-4-2-8b",
+      "family": "Granite 4.2 8B",
+      "score": 5.1,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gemma-4-e4b",
+      "family": "Gemma 4 E4B",
+      "score": 4.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "granite-4-2-3b",
+      "family": "Granite 4.2 3B",
+      "score": 4.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mistral-medium-3-5",
+      "family": "Mistral Medium 3.5",
+      "score": 4.6,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gemma-4-31b",
+      "family": "Gemma 4 31B",
+      "score": 4.4,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "mistral-small-4",
+      "family": "Mistral Small 4",
+      "score": 4.3,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "gpt-oss-120b",
+      "family": "gpt-oss-120b",
+      "score": 3.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "north-mini-code",
+      "family": "North Mini Code",
+      "score": 3.4,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "k2-horizon-0-9b",
+      "family": "K2 Horizon 0.9B",
+      "score": 2.7,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "nvidia-nemotron-3-nano-4b",
+      "family": "NVIDIA Nemotron 3 Nano 4B",
+      "score": 1.8,
+      "tier": "rest"
+    },
+    {
+      "familyKey": "lfm3-vl-2b",
+      "family": "LFM3-VL-2B",
+      "score": 1.7,
+      "tier": "rest"
+    }
+  ]
+}
