@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T20:42:24.171Z",
+  "updatedAt": "2026-11-18T06:53:18.425Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1082,6 +1082,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "joyai-vl",
+      "name": "JoyAI-VL-Preview",
+      "provider": "Joy Future Academy",
+      "creatorLogo": "",
+      "contextLength": null,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "intelligenceIndex": 28,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-luna",
       "name": "GPT-6 Luna (Max)",
       "provider": "OpenAI",
@@ -1477,7 +1490,7 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 0.2,
+      "inputPerMillion": 0.15,
       "outputPerMillion": 0.5,
       "intelligenceIndex": 13.6,
       "isOpenWeights": true,
@@ -1550,6 +1563,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "inkling-high",
+      "name": "Inkling (High)",
+      "provider": "Thinking Machines",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
+      "contextLength": null,
+      "inputPerMillion": 1,
+      "outputPerMillion": 4.05,
+      "intelligenceIndex": 11,
+      "isOpenWeights": null,
+      "releaseDate": "2026-07-15",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "qwen3-8-27b-non-reasoning",
       "name": "Qwen3.8 27B (Non-reasoning)",
       "provider": "Alibaba",
@@ -1573,6 +1599,19 @@
       "intelligenceIndex": 9.7,
       "isOpenWeights": false,
       "releaseDate": "2026-09-22",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "inkling-small-high",
+      "name": "Inkling Small (High)",
+      "provider": "Thinking Machines",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
+      "contextLength": null,
+      "inputPerMillion": 0.3,
+      "outputPerMillion": 1.2,
+      "intelligenceIndex": 9.6,
+      "isOpenWeights": null,
+      "releaseDate": "2026-07-30",
       "huggingFaceUrl": null
     },
     {
@@ -1638,6 +1677,19 @@
       "intelligenceIndex": 6.2,
       "isOpenWeights": null,
       "releaseDate": "2026-03-03",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "lfm3-1-7b",
+      "name": "LFM3-1.7B",
+      "provider": "Liquid AI",
+      "creatorLogo": "",
+      "contextLength": null,
+      "inputPerMillion": 0.08,
+      "outputPerMillion": 0.2,
+      "intelligenceIndex": 6,
+      "isOpenWeights": null,
+      "releaseDate": "2026-10-27",
       "huggingFaceUrl": null
     },
     {
@@ -1742,6 +1794,19 @@
       "intelligenceIndex": 3.4,
       "isOpenWeights": true,
       "releaseDate": "2026-06-09",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "lfm3-vl-2b",
+      "name": "LFM3-VL-2B",
+      "provider": "Liquid AI",
+      "creatorLogo": "",
+      "contextLength": null,
+      "inputPerMillion": 0.1,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 1.7,
+      "isOpenWeights": null,
+      "releaseDate": "2026-10-27",
       "huggingFaceUrl": null
     }
   ]

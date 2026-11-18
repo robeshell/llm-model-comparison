@@ -1,6 +1,6 @@
 大模型梯队榜更新（11月18日）
 
 第一梯队：Claude Fable 5.2、GPT-6.2 Astra、Gemini 4 Carbon
-新上榜：GPT-6.2 Astra（第一梯队）、GPT-6.2 Sol（第二梯队）
+本期梯队没有变化。
 
 数据：Artificial Analysis Intelligence Index
