@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:16:44.641Z",
+  "updatedAt": "2026-11-19T06:53:57.838Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -68,6 +68,19 @@
       "huggingFaceUrl": null
     },
     {
+      "id": "gemini-4-neon",
+      "name": "Gemini 4 Neon (Xhigh)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": null,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 61.4,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-18",
+      "huggingFaceUrl": null
+    },
+    {
       "id": "gpt-6-2-astra-high",
       "name": "GPT-6.2 Astra (High)",
       "provider": "OpenAI",
@@ -91,6 +104,19 @@
       "intelligenceIndex": 60,
       "isOpenWeights": null,
       "releaseDate": "2026-10-28",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemini-4-neon-high",
+      "name": "Gemini 4 Neon (High)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": null,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 59.6,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-18",
       "huggingFaceUrl": null
     },
     {
@@ -221,6 +247,19 @@
       "intelligenceIndex": 54.9,
       "isOpenWeights": null,
       "releaseDate": "2026-11-17",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemini-4-neon-medium",
+      "name": "Gemini 4 Neon (Medium)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": null,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 54.9,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-18",
       "huggingFaceUrl": null
     },
     {
@@ -559,6 +598,19 @@
       "intelligenceIndex": 44.2,
       "isOpenWeights": null,
       "releaseDate": "2026-07-24",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "gemini-4-neon-low",
+      "name": "Gemini 4 Neon (Low)",
+      "provider": "Google",
+      "creatorLogo": "/img/logos/google.svg",
+      "contextLength": null,
+      "inputPerMillion": 3,
+      "outputPerMillion": 15,
+      "intelligenceIndex": 44.1,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-18",
       "huggingFaceUrl": null
     },
     {
