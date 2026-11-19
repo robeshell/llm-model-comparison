@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:53:57.838Z",
+  "updatedAt": "2026-11-19T20:20:58.830Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -1594,8 +1594,8 @@
       "provider": "NVIDIA",
       "creatorLogo": "/img/logos/nvidia.svg",
       "contextLength": 262144,
-      "inputPerMillion": 0.6,
-      "outputPerMillion": 2.4,
+      "inputPerMillion": 0.55,
+      "outputPerMillion": 2.3,
       "intelligenceIndex": 11.8,
       "isOpenWeights": true,
       "releaseDate": "2026-06-04",
@@ -1768,19 +1768,6 @@
       "intelligenceIndex": 5.1,
       "isOpenWeights": true,
       "releaseDate": "2026-08-25",
-      "huggingFaceUrl": null
-    },
-    {
-      "id": "gemma-4-e4b",
-      "name": "Gemma 4 E4B (Reasoning)",
-      "provider": "Google",
-      "creatorLogo": "/img/logos/google.svg",
-      "contextLength": null,
-      "inputPerMillion": 0.02,
-      "outputPerMillion": 0.1,
-      "intelligenceIndex": 4.8,
-      "isOpenWeights": null,
-      "releaseDate": "2026-04-03",
       "huggingFaceUrl": null
     },
     {
