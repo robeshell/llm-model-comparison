@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:44:30.892Z",
+  "updatedAt": "2026-11-20T19:52:11.072Z",
   "source": "OpenRouter",
   "window": "top-weekly",
   "items": [
@@ -29,8 +29,8 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.3,
-      "outputPerMillion": 1.2,
+      "inputPerMillion": 0.036,
+      "outputPerMillion": 0.5,
       "inputModalities": [
         "text",
         "image"
@@ -153,6 +153,25 @@
     },
     {
       "rank": 9,
+      "id": "minimax/minimax-m3.1-flash",
+      "canonicalSlug": "minimax/minimax-m3.1-flash-20261019",
+      "name": "MiniMax M3.1 Flash",
+      "provider": "MiniMax",
+      "providerSlug": "minimax",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.075,
+      "outputPerMillion": 0.3,
+      "inputModalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 10,
       "id": "xiaomi/mimo-v2.6-flash",
       "canonicalSlug": "xiaomi/mimo-v2.6-flash-20260921",
       "name": "MiMo-V2.6-Flash",
@@ -166,25 +185,6 @@
         "image",
         "video",
         "audio"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 10,
-      "id": "minimax/minimax-m3.1-flash",
-      "canonicalSlug": "minimax/minimax-m3.1-flash-20261019",
-      "name": "MiniMax M3.1 Flash",
-      "provider": "MiniMax",
-      "providerSlug": "minimax",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.15,
-      "outputPerMillion": 0.6,
-      "inputModalities": [
-        "text",
-        "image",
-        "video"
       ],
       "outputModalities": [
         "text"
@@ -364,7 +364,7 @@
       "provider": "DeepSeek",
       "providerSlug": "deepseek",
       "contextLength": 1048576,
-      "inputPerMillion": 0.047,
+      "inputPerMillion": 0.0443,
       "outputPerMillion": 0.3,
       "inputModalities": [
         "text"
@@ -392,25 +392,6 @@
     },
     {
       "rank": 22,
-      "id": "openai/gpt-5.6-luna",
-      "canonicalSlug": "openai/gpt-5.6-luna-20260709",
-      "name": "GPT-5.6 Luna",
-      "provider": "OpenAI",
-      "providerSlug": "openai",
-      "contextLength": 1050000,
-      "inputPerMillion": 0.19999999999999998,
-      "outputPerMillion": 1.2,
-      "inputModalities": [
-        "file",
-        "image",
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 23,
       "id": "google/gemini-4-carbon",
       "canonicalSlug": "google/gemini-4-carbon-20261110",
       "name": "Gemini 4 Carbon",
@@ -425,6 +406,25 @@
         "image",
         "text",
         "video"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 23,
+      "id": "openai/gpt-5.6-luna",
+      "canonicalSlug": "openai/gpt-5.6-luna-20260709",
+      "name": "GPT-5.6 Luna",
+      "provider": "OpenAI",
+      "providerSlug": "openai",
+      "contextLength": 1050000,
+      "inputPerMillion": 0.19999999999999998,
+      "outputPerMillion": 1.2,
+      "inputModalities": [
+        "file",
+        "image",
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -489,6 +489,23 @@
     },
     {
       "rank": 27,
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
+      "name": "Nemotron 3.5 Lightning (free)",
+      "provider": "NVIDIA",
+      "providerSlug": "nvidia",
+      "contextLength": 1000000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 28,
       "id": "moonshotai/kimi-k3",
       "canonicalSlug": "moonshotai/kimi-k3-20260715",
       "name": "Kimi K3",
@@ -501,23 +518,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 28,
-      "id": "nvidia/nemotron-3.5-lightning:free",
-      "canonicalSlug": "nvidia/nemotron-3.5-lightning-20260807",
-      "name": "Nemotron 3.5 Lightning (free)",
-      "provider": "NVIDIA",
-      "providerSlug": "nvidia",
-      "contextLength": 1000000,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
@@ -563,41 +563,6 @@
     },
     {
       "rank": 31,
-      "id": "z-ai/glm-5.2",
-      "canonicalSlug": "z-ai/glm-5.2-20260616",
-      "name": "GLM 5.2",
-      "provider": "Z.ai",
-      "providerSlug": "z-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.62,
-      "outputPerMillion": 2.42,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 32,
-      "id": "particle-ai/particle-1:free",
-      "canonicalSlug": "particle-ai/particle-1-20261027",
-      "name": "Particle-1 (free)",
-      "provider": "Particle AI",
-      "providerSlug": "particle-ai",
-      "contextLength": 1048576,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "inputModalities": [
-        "text",
-        "image"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 33,
       "id": "meta/muse-ember",
       "canonicalSlug": "meta/muse-ember-20261109",
       "name": "Muse Ember",
@@ -618,13 +583,48 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 32,
+      "id": "z-ai/glm-5.2",
+      "canonicalSlug": "z-ai/glm-5.2-20260616",
+      "name": "GLM 5.2",
+      "provider": "Z.ai",
+      "providerSlug": "z-ai",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.62,
+      "outputPerMillion": 2.42,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 33,
       "id": "dots-studio/dots-3-note-preview:free",
       "canonicalSlug": "dots-studio/dots-3-note-preview-20260813",
       "name": "Dots3-Note Preview (free)",
       "provider": "Dots Studio",
       "providerSlug": "dots-studio",
       "contextLength": 512000,
+      "inputPerMillion": 0,
+      "outputPerMillion": 0,
+      "inputModalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 34,
+      "id": "particle-ai/particle-1:free",
+      "canonicalSlug": "particle-ai/particle-1-20261027",
+      "name": "Particle-1 (free)",
+      "provider": "Particle AI",
+      "providerSlug": "particle-ai",
+      "contextLength": 1048576,
       "inputPerMillion": 0,
       "outputPerMillion": 0,
       "inputModalities": [
@@ -683,7 +683,7 @@
       "providerSlug": "qwen",
       "contextLength": 1024000,
       "inputPerMillion": 0.06,
-      "outputPerMillion": 2.2,
+      "outputPerMillion": 1.96,
       "inputModalities": [
         "text",
         "image",
@@ -733,23 +733,6 @@
     },
     {
       "rank": 40,
-      "id": "tencent/hy3",
-      "canonicalSlug": "tencent/hy3-20260706",
-      "name": "Hy3",
-      "provider": "Tencent",
-      "providerSlug": "tencent",
-      "contextLength": 262144,
-      "inputPerMillion": 0.13199999999999998,
-      "outputPerMillion": 0.5279999999999999,
-      "inputModalities": [
-        "text"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 41,
       "id": "thinkingmachines/inkling-2-small",
       "canonicalSlug": "thinkingmachines/inkling-2-small-20261107",
       "name": "Inkling 2 Small",
@@ -761,6 +744,23 @@
       "inputModalities": [
         "text",
         "image"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 41,
+      "id": "tencent/hy3",
+      "canonicalSlug": "tencent/hy3-20260706",
+      "name": "Hy3",
+      "provider": "Tencent",
+      "providerSlug": "tencent",
+      "contextLength": 262144,
+      "inputPerMillion": 0.0825,
+      "outputPerMillion": 0.33,
+      "inputModalities": [
+        "text"
       ],
       "outputModalities": [
         "text"
@@ -795,8 +795,8 @@
       "provider": "Google",
       "providerSlug": "google",
       "contextLength": 262144,
-      "inputPerMillion": 0.09,
-      "outputPerMillion": 0.3,
+      "inputPerMillion": 0.0675,
+      "outputPerMillion": 0.22499999999999998,
       "inputModalities": [
         "image",
         "text",
@@ -827,6 +827,23 @@
     },
     {
       "rank": 45,
+      "id": "deepseek/deepseek-v4-pro",
+      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
+      "name": "DeepSeek V4 Pro 0423",
+      "provider": "DeepSeek",
+      "providerSlug": "deepseek",
+      "contextLength": 1048576,
+      "inputPerMillion": 0.8999999999999999,
+      "outputPerMillion": 1.5,
+      "inputModalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ]
+    },
+    {
+      "rank": 46,
       "id": "nvidia/nemotron-3.5-super-vl",
       "canonicalSlug": "nvidia/nemotron-3.5-super-vl-20261015",
       "name": "Nemotron 3.5 Super VL",
@@ -839,23 +856,6 @@
         "text",
         "image",
         "video"
-      ],
-      "outputModalities": [
-        "text"
-      ]
-    },
-    {
-      "rank": 46,
-      "id": "deepseek/deepseek-v4-pro",
-      "canonicalSlug": "deepseek/deepseek-v4-pro-20260423",
-      "name": "DeepSeek V4 Pro 0423",
-      "provider": "DeepSeek",
-      "providerSlug": "deepseek",
-      "contextLength": 1048576,
-      "inputPerMillion": 0.8999999999999999,
-      "outputPerMillion": 1.5,
-      "inputModalities": [
-        "text"
       ],
       "outputModalities": [
         "text"
