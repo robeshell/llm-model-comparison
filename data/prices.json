@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:52:10.064Z",
+  "updatedAt": "2026-11-21T06:37:19.933Z",
   "source": "Artificial Analysis",
   "items": [
     {
@@ -424,8 +424,8 @@
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": 1000000,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 50.4,
       "isOpenWeights": false,
       "releaseDate": "2026-09-30",
@@ -502,8 +502,8 @@
       "provider": "Google",
       "creatorLogo": "/img/logos/google.svg",
       "contextLength": null,
-      "inputPerMillion": 2,
-      "outputPerMillion": 10,
+      "inputPerMillion": 4,
+      "outputPerMillion": 20,
       "intelligenceIndex": 47.6,
       "isOpenWeights": null,
       "releaseDate": "2026-09-30",
@@ -1134,19 +1134,6 @@
       "huggingFaceUrl": null
     },
     {
-      "id": "joyai-vl",
-      "name": "JoyAI-VL-Preview",
-      "provider": "Joy Future Academy",
-      "creatorLogo": "",
-      "contextLength": null,
-      "inputPerMillion": 0,
-      "outputPerMillion": 0,
-      "intelligenceIndex": 28,
-      "isOpenWeights": null,
-      "releaseDate": "2026-11-17",
-      "huggingFaceUrl": null
-    },
-    {
       "id": "gpt-6-luna",
       "name": "GPT-6 Luna (Max)",
       "provider": "OpenAI",
@@ -1378,6 +1365,19 @@
       "intelligenceIndex": 20.8,
       "isOpenWeights": null,
       "releaseDate": "2026-08-13",
+      "huggingFaceUrl": null
+    },
+    {
+      "id": "inkling-2-mini",
+      "name": "Inkling 2 Mini",
+      "provider": "Thinking Machines",
+      "creatorLogo": "/img/logos/thinking-machines.svg",
+      "contextLength": null,
+      "inputPerMillion": 0.15,
+      "outputPerMillion": 0.5,
+      "intelligenceIndex": 20.1,
+      "isOpenWeights": null,
+      "releaseDate": "2026-11-20",
       "huggingFaceUrl": null
     },
     {
